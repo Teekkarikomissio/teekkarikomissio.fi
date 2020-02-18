@@ -1,0 +1,32 @@
+{
+  "name": "teekkarikomissio.fi",
+  "version": "1.0.0",
+  "description": "Base is from https://html5up.net/alpha",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miipel/teekkarikomissio.fi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miipel/teekkarikomissio.fi/issues"
+  },
+  "homepage": "https://github.com/miipel/teekkarikomissio.fi#readme",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0"
+  }
+}
