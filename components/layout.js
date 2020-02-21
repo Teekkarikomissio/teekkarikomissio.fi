@@ -1,79 +1,118 @@
 import Head from 'next/head';
-import styled from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Header from './header/header';
+import Footer from './footer';
 
 export default ({ children }) => {
   const size = {
-    mobileS: '320px',
-    mobileM: '375px',
-    mobileL: '425px',
-    tablet: '768px',
-    laptop: '1024px',
-    laptopL: '1440px',
-    desktop: '2560px',
+    small: '48em', // 768px
+    medium: '64em', // 1024px
+    large: '85.375em', // 1366px
+    xlarge: '120em', // 1920px
+    xxlarge: '160em', // 2560px
   };
 
   const device = {
-    mobileS: `(min-width: ${size.mobileS})`,
-    mobileM: `(min-width: ${size.mobileM})`,
-    mobileL: `(min-width: ${size.mobileL})`,
-    tablet: `(min-width: ${size.tablet})`,
-    laptop: `(min-width: ${size.laptop})`,
-    laptopL: `(min-width: ${size.laptopL})`,
-    desktop: `(min-width: ${size.desktop})`,
-    desktopL: `(min-width: ${size.desktop})`,
+    small: `(min-width: ${size.small})`,
+    medium: `(min-width: ${size.medium})`,
+    large: `(min-width: ${size.large})`,
+    xlarge: `(min-width: ${size.xlarge})`,
+    xxlarge: `(min-width: ${size.xxlarge})`,
+    retina: `(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)`,
   };
 
-  const Layout = styled.div`
-    margin: auto;
-    text-align: center;
+  const themeColors = {
+    tkblue: '#313186',
+    tkred: '#a11c31',
+    tkyellow: '#FDEF12',
+    tkgold: '#FBCC7A',
+  };
 
-    @media ${device.laptop} {
-      max-width: 800px;
+  const typography = {
+    fontFamily: 'roboto',
+    baseFontSize: '0.8em',
+    baseLineHeight: '1.5',
+    headerLineHeight: '1.25',
+  };
+
+  const GlobalStyle = createGlobalStyle`
+    body {
+      font-size: ${typography.baseFontSize};
+      line-height: ${typography.baseLineHeight};
+      font-family: ${typography.fontFamily};
+
+      h1, h2, h3, h4, h5, h6 {
+        line-height: ${typography.headerLineHeight};
+      }
+
+      margin: 0;
+
+      @media ${device.medium} {
+        font-size: ${typography.baseFontSize} * 1.2;
+        line-height: ${typography.baseLineHeight} * 1.2;
+    
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          line-height: ${typography.headerLineHeight} * 1.2;
+        }
+      }
+    
+      @media ${device.large} {
+        font-size: ${typography.baseFontSize} * 1.3;
+      }
+    
+      @media ${device.xlarge} {
+        font-size: ${typography.baseFontSize} * 1.4;
+      }
+    
+      @media ${device.xxlarge} {
+        font-size: ${typography.baseFontSize} * 1.6;
+      }
     }
 
-    @media ${device.desktop} {
-      max-width: 1400px;
+    ul {
+      list-style-type: none;
+    }
+    
+    p {
+      font-weight: 300;
     }
   `;
 
-  const CardWrapper = styled.div`
+  const Layout = styled.div`
     display: flex;
     flex-direction: column;
-
-    border: 1px solid gray;
-    box-shadow: 5px 5px #ccc;
-    padding: 10px;
-    margin: 10px;
-
-    // Switch to rows on large devices
-    @media ${device.laptop} {
-      flex-direction: row;
-    }
+    text-align: center;
   `;
 
   return (
-    <Layout>
-      <Head>
-        <title>Teekkarikomissio - Teknologkommission</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta
-          name="description"
-          content="Teekkarikomissio (TK) on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille."
-        />
-        <meta name="keywords" content="teekkari, turku" />
-        <meta name="author" content="Teekkarikomissio - Teknologkommission" />
-        <meta name="theme-color" content="#A11C31" />
-        <meta property="og:image" content="/tk-hero.jpg" />
-        <link rel="shortcut icon" sizes="32x32" href="/favicon.png" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" />
-      </Head>
-      <Header />
-      <CardWrapper>{children}</CardWrapper>
-      <Footer />
-    </Layout>
+    <>
+      <GlobalStyle />
+      <Layout>
+        <Head>
+          <title>Teekkarikomissio - Teknologkommission</title>
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <meta
+            name="description"
+            content="Teekkarikomissio (TK) on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille."
+          />
+          <meta name="keywords" content="teekkari, turku" />
+          <meta name="author" content="Teekkarikomissio - Teknologkommission" />
+          <meta name="theme-color" content="#A11C31" />
+          <meta property="og:image" content="/tk-hero.jpg" />
+          <link rel="shortcut icon" sizes="32x32" href="/favicon.png" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" />
+        </Head>
+        <Header theme={themeColors} />
+        {children}
+        <Footer theme={themeColors} />
+      </Layout>
+    </>
   );
 };

@@ -4,7 +4,9 @@ import { ThemeProvider } from 'styled-components';
 
 const theme = {
   colors: {
-    primary: '#0070f3',
+    tkred: '#A11C31',
+    tkblue: '#313186',
+    tkyellow: '#FBCC7A',
   },
 };
 
