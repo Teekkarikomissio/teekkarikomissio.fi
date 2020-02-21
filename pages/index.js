@@ -8,16 +8,9 @@ const Title = styled.h1`
   color: ${({ theme }) => theme.colors.primary};
 `;
 
-const Hero = styled.img`
-  max-width: 100%;
-  display: block;
-  margin: auto;
-`;
-
 export default () => {
   return (
     <Layout>
-      <Hero src="/tk-hero.jpg" />
       <Title>Heipä hei!</Title>
       <p>
         Teekkarikomissio (TK) on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille. TK on

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styled, { createGlobalStyle } from 'styled-components';
 
 import Header from './header/header';
+import Navigation from './header/navigation';
 import Footer from './footer';
 
 export default ({ children }) => {
@@ -109,9 +110,10 @@ export default ({ children }) => {
           <link rel="shortcut icon" sizes="32x32" href="/favicon.png" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" />
         </Head>
-        <Header theme={themeColors} />
+        <Navigation theme={themeColors} device={device} />
+        <Header theme={themeColors} device={device} />
         {children}
-        <Footer theme={themeColors} />
+        <Footer theme={themeColors} device={device} />
       </Layout>
     </>
   );

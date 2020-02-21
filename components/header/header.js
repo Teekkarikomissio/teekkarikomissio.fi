@@ -1,12 +1,10 @@
-import Link from 'next/link';
 import styled from 'styled-components';
+
+import Container from '../container';
 
 const Header = props => {
   const StyledHeader = styled.header`
-    background: ${props.theme.tkblue};
-    color: #fff;
     position: relative;
-    padding: 2em 1em;
     display: flex;
     flex-direction: row;
   `;
@@ -19,47 +17,25 @@ const Header = props => {
       max-width: 80%;
       display: block;
       margin: 0 auto;
+
+      @media ${props.device.medium} {
+        max-width: 70%;
+      }
     }
   `;
 
-  const Bottom = styled.div`
-    overflow: hidden;
-    left: 0;
-    width: 100%;
-    line-height: 0;
-    direction: ltr;
-  `;
-
-  const Logo = styled.img`
-    width: 100px;
-    height: 100px;
+  const Hero = styled.img`
+    max-width: 100%;
     display: block;
-    position: relative;
-  `;
-
-  const a = styled.a`
-    color: #fff;
+    margin: auto;
   `;
 
   return (
     <StyledHeader>
-      <Bottom>
-        <Logo src="./tklogo.svg" />
-      </Bottom>
-      <h2>Teekkarikomissio / Teknologkomission</h2>
-      <nav>
-        <Link href="/">
-          <a>Home</a>
-        </Link>{' '}
-        |
-        <Link href="/about">
-          <a>About</a>
-        </Link>{' '}
-        |
-        <Link href="/contact">
-          <a>Contact</a>
-        </Link>
-      </nav>
+      <Hero src="/tk-hero.jpg" />
+      <Container>
+        <ChildrenContainer>{props.children}</ChildrenContainer>
+      </Container>
     </StyledHeader>
   );
 };
