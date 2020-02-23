@@ -3,15 +3,53 @@ import React from 'react';
 import Layout from '../components/layout';
 
 export default () => {
+  const guildInfo = [
+    {
+      img: '/logo-date.png',
+      href: 'https://date.abo.fi/',
+      heading: 'Datateknologerna vid Åbo Akademi rf',
+      text: 'est. 1999',
+    },
+    {
+      img: '/logo-digit.png',
+      href: 'https://digit.fi/',
+      heading: 'Digit ry',
+      text: 'est. 1999',
+    },
+    {
+      img: '/logo-kk.png',
+      href: 'https://kemistklubben.abo.fi/',
+      heading: 'Kemistklubben vid Åbo Akademi rf',
+      text: 'est. 1923',
+    },
+    {
+      img: '/logo-nucleus.png',
+      href: 'https://nucleus.fi/',
+      heading: 'Nucleus ry',
+      text: 'est. 2008',
+    },
+  ];
+
+  const GuildCard = ({ img, href, heading, text }) => {
+    return (
+      <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 lg:w-1/4 ml-4 mr-4 p-4 shadow-xl">
+        <a href={href}>
+          <div className="items-center justify-center">
+            <img src={img} alt={heading} />
+          </div>
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">{heading}</div>
+            <p className="text-gray-700 text-base">{text}</p>
+          </div>
+        </a>
+      </div>
+    );
+  };
+
   return (
     <Layout>
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
-        <img
-          className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          src="/logo-date.png"
-          title="Date logo"
-        />
-        <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none  p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
             <div className="text-gray-900 font-bold text-xl mb-2">Mikä on TK?</div>
             <p className="text-gray-700 text-base">
@@ -25,61 +63,21 @@ export default () => {
         </div>
       </div>
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
-        <img
-          className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          src="/logo-kk.png"
-          title="Date logo"
-        />
-        <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none  p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
-            <div className="text-gray-900 font-bold text-xl mb-2">Mitä TK oikeastaan tekee?</div>
+            <div className="text-gray-900 font-bold text-xl mb-2">Jäsenyhdistykset</div>
             <p className="text-gray-700 text-base">
-              Teekkarikomissio hoitaa jäsenyhdistyksilleen yhteisiä asioita, edustaa Turun teekkareita
-              ylioppilaskunta-tasolla ja vastaa heidän korkeakoulupoliittisista kannanotoista. Lisäksi Komissio on
-              tärkeä yhdyskanava Turussa toimiville teekkariyhdistyksille. Käytännössä Teekkarikomission järjestämään
-              toimintaan kuuluu hallituksen ja yhdistyksen kokouksia, edustusmatkoja sekä enemmän tai vähemmän
-              säännöllisiä tapahtumia.
+              Teekkarikomissiolla on neljä jäsentä - Turussa toimivat teekkariyhdistykset. Jokainen Digit ry:n, Nucleus
+              ry:n, Datateknologerna vid Åbo Akademi rf:n tai Kemistklubben vid Åbo Akademi rf:n äänioikeutettu jäsen on
+              siis automaagisesti oikeutettu osallistumaan TK:n toimintaan!
             </p>
           </div>
         </div>
       </div>
-      <div className="max-w-sm w-full lg:max-w-full lg:flex">
-        <img
-          className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          src="/logo-nucleus.png"
-          title="Date logo"
-        />
-        <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-          <div className="mb-8">
-            <div className="text-gray-900 font-bold text-xl mb-2">Mitä TK oikeastaan tekee?</div>
-            <p className="text-gray-700 text-base">
-              Teekkarikomissio hoitaa jäsenyhdistyksilleen yhteisiä asioita, edustaa Turun teekkareita
-              ylioppilaskunta-tasolla ja vastaa heidän korkeakoulupoliittisista kannanotoista. Lisäksi Komissio on
-              tärkeä yhdyskanava Turussa toimiville teekkariyhdistyksille. Käytännössä Teekkarikomission järjestämään
-              toimintaan kuuluu hallituksen ja yhdistyksen kokouksia, edustusmatkoja sekä enemmän tai vähemmän
-              säännöllisiä tapahtumia.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="max-w-sm w-full lg:max-w-full lg:flex">
-        <img
-          className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          src="/logo-digit.png"
-          title="Date logo"
-        />
-        <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-          <div className="mb-8">
-            <div className="text-gray-900 font-bold text-xl mb-2">Mitä TK oikeastaan tekee?</div>
-            <p className="text-gray-700 text-base">
-              Teekkarikomissio hoitaa jäsenyhdistyksilleen yhteisiä asioita, edustaa Turun teekkareita
-              ylioppilaskunta-tasolla ja vastaa heidän korkeakoulupoliittisista kannanotoista. Lisäksi Komissio on
-              tärkeä yhdyskanava Turussa toimiville teekkariyhdistyksille. Käytännössä Teekkarikomission järjestämään
-              toimintaan kuuluu hallituksen ja yhdistyksen kokouksia, edustusmatkoja sekä enemmän tai vähemmän
-              säännöllisiä tapahtumia.
-            </p>
-          </div>
-        </div>
+      <div className="lg:flex lg:flex-row lg:p-8 md:block md:w-full">
+        {guildInfo.map(({ img, href, heading, text }) => (
+          <GuildCard img={img} href={href} heading={heading} text={text} />
+        ))}
       </div>
     </Layout>
   );

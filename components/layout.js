@@ -15,7 +15,7 @@ export default ({ children }) => {
           name="description"
           content="Teekkarikomissio (TK) on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille."
         />
-        <meta name="keywords" content="teekkari, turku" />
+        <meta name="keywords" content="teekkari, turku, tekniikka, opiskelu, yliopisto" />
         <meta name="author" content="Teekkarikomissio - Teknologkommission" />
         <meta name="theme-color" content="#A11C31" />
         <meta property="og:image" content="/tk-hero.jpg" />
@@ -24,7 +24,7 @@ export default ({ children }) => {
       </Head>
       <Navigation />
       <Header />
-      <div className="container mx-auto px-4"> {children}</div>
+      <div className="container mx-auto px-16">{children}</div>
       <Footer />
     </div>
   );

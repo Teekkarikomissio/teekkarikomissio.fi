@@ -23,7 +23,9 @@ const Navigation = () => {
     <nav className="sticky top-0 z-10 flex items-center justify-between flex-wrap bg-red-800 p-6">
       <a className="flex items-center flex-shrink-0 text-white mr-6" href="/">
         <img className="fill-current h-8 w-8 mr-2" src="./tklogo.svg" width="54" height="54" />
-        <span className="font-semibold text-xl tracking-tight">Teekkarikomissio / Teknologkommission</span>
+        <span className="font-semibold lg:text-xl md:text-sm tracking-tight">
+          Teekkarikomissio / Teknologkommission
+        </span>
       </a>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow">

@@ -11,7 +11,7 @@ const Footer = () => {
         <Link href="/">
           <img className="h-24 w-24" src="/tklogo.svg" alt="TK" />
         </Link>
-        <div className="flex flex-row items-center justify-between">
+        <div className="lg:flex lg:flex-row md:block items-center justify-between">
           <a
             className="flex flex-col items-center m-2 hover:text-yellow-400"
             href="mailto:teekkarikomissio@lists.utu.fi"
@@ -27,7 +27,7 @@ const Footer = () => {
             <span>Piispankatu 8, 20500 Turku</span>
           </a>
         </div>
-        <div className="flex flex-row items-center justify-between">
+        <div className="lg:flex lg:flex-row md:block items-center justify-between">
           <a
             className="flex flex-col items-center m-8 hover:text-yellow-400"
             href="https://instagram.com/turunteekkari"
