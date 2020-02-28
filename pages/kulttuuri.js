@@ -1,6 +1,8 @@
+import { withTranslation } from '../i18n';
+
 import Layout from '../components/layout';
 
-export default () => {
+const Culture = ({ t }) => {
   const eventInfo = [
     {
       img: '/event-excu.jpg',
@@ -51,13 +53,19 @@ export default () => {
 
   return (
     <Layout title="Kulttuuri">
-      <div className="font-bold text-xl mb-2">Tapahtumat</div>
+      <div className="font-bold text-xl mb-2">{t('culture:heading')}</div>
       <div className="md:grid md:grid-flow-col md:grid-cols-3 md:grid-rows-3 sm:block ">
         {eventInfo.map(({ img, heading }) => (
-          <EventCard img={img} heading={heading} />
+          <EventCard key={`${heading}`} img={img} heading={heading} />
         ))}
       </div>
       <h2></h2>
     </Layout>
   );
 };
+
+Culture.getInitialProps = async () => ({
+  namespacesRequired: ['culture', 'nav'],
+});
+
+export default withTranslation('culture')(Culture);

@@ -1,8 +1,10 @@
-const Header = props => {
+const Header = () => {
   return (
-    <div>
-      <img className="w-full block flex-grow lg:flex lg:items-center lg:w-auto" src="/tk-hero-3.jpg" />
-    </div>
+    <div
+      className="h-64 w-screen bg-cover text-center overflow-hidden"
+      style={{ backgroundImage: 'url("/tk-hero-3.jpg")' }}
+      title="TK hero"
+    ></div>
   );
 };
 

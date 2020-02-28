@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
@@ -26,23 +26,25 @@ const Footer = () => {
             <FontAwesomeIcon icon={faMapMarkerAlt} width="54" height="54" />
             <span>Piispankatu 8, 20500 Turku</span>
           </a>
-        </div>
-        <div className="lg:flex lg:flex-row md:block items-center justify-between">
+
           <a
             className="flex flex-col items-center m-8 hover:text-yellow-400"
             href="https://instagram.com/turunteekkari"
           >
             <FontAwesomeIcon icon={faInstagram} width="54" height="54" />
-            <span>Instagram</span>
+            <span>@turunteekkari</span>
           </a>
           <a
             className="flex flex-col items-center m-8 hover:text-yellow-400"
             href="https://www.facebook.com/teekkarikomissio/"
           >
-            <FontAwesomeIcon icon={faFacebook} width="54" height="54" />
-            <span>Facebook</span>
+            <FontAwesomeIcon icon={faFacebookSquare} width="54" height="54" />
+            <span>@teekkarikomissio</span>
           </a>
         </div>
+      </div>
+      <div>
+        <p>&copy; {new Date().getFullYear()} Teekkarikomissioyhdistys ry</p>
       </div>
     </div>
   );
