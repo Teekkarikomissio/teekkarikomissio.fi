@@ -26,6 +26,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.8",
     "@fullhuman/postcss-purgecss": "^2.0.6",
+    "autoprefixer": "^9.7.4",
     "next": "^9.2.3-canary.17",
     "postcss-import": "^12.0.1",
     "prettier": "^1.19.1",
