@@ -1,8 +1,12 @@
-import { i18n, Link, withTranslation } from '../i18n';
+import React from 'react';
+import withLocale from '../../hocs/withLocale';
 
-import Layout from '../components/layout';
+import Layout from '../../components/Layout';
+import useTranslation from '../../hooks/useTranslation';
 
-const BeingTechStudent = ({ t }) => {
+const BeingTechStudent: React.FC = () => {
+  const { t } = useTranslation();
+
   const guildInfo = [
     {
       img: '/logo-date.png',
@@ -30,7 +34,14 @@ const BeingTechStudent = ({ t }) => {
     },
   ];
 
-  const GuildCard = ({ img, href, heading, text }) => {
+  interface GuildCardProps {
+    img: string;
+    href: string;
+    heading: string;
+    text: string;
+  }
+
+  const GuildCard: React.FC<GuildCardProps> = ({ img, href, heading, text }) => {
     return (
       <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 lg:w-1/4 ml-4 mr-4 p-4 shadow-xl">
         <a href={href}>
@@ -47,12 +58,12 @@ const BeingTechStudent = ({ t }) => {
   };
 
   return (
-    <Layout>
+    <Layout titleKey="Teekkarius">
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none  p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
-            <div className="text-gray-900 font-bold text-xl mb-2">{t('beingTechStudent:h1')}</div>
-            <p className="text-left text-gray-700 text-base mb-2">{t('beingTechStudent:p')}</p>
+            <div className="text-gray-900 font-bold text-xl mb-2">{t('techStudentHeading')}</div>
+            <p className="text-left text-gray-700 text-base mb-2">{t('techStudentBody')}</p>
           </div>
         </div>
       </div>
@@ -65,8 +76,4 @@ const BeingTechStudent = ({ t }) => {
   );
 };
 
-BeingTechStudent.getInitialProps = async () => ({
-  namespacesRequired: ['beingTechStudent', 'nav'],
-});
-
-export default withTranslation('beingTechStudent')(BeingTechStudent);
+export default withLocale(BeingTechStudent);

@@ -1,8 +1,12 @@
-import { withTranslation } from '../i18n';
+import React from 'react';
+import withLocale from '../../hocs/withLocale';
 
-import Layout from '../components/layout';
+import Layout from '../../components/Layout';
+import useTranslation from '../../hooks/useTranslation';
 
-const Culture = ({ t }) => {
+const Kulttuuri: React.FC = () => {
+  const { t } = useTranslation();
+
   const eventInfo = [
     {
       img: '/event-excu.jpg',
@@ -38,11 +42,11 @@ const Culture = ({ t }) => {
     },
   ];
 
-  const EventCard = ({ img, heading }) => {
+  const EventCard = ({ imgUrl = '/', heading = 'TK' }) => {
     return (
       <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ml-4 mr-4 p-4 shadow-xl">
         <div className="items-center justify-center">
-          <img src={img} alt={heading} />
+          <img src={imgUrl} alt={heading} />
         </div>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{heading}</div>
@@ -52,20 +56,15 @@ const Culture = ({ t }) => {
   };
 
   return (
-    <Layout title="Kulttuuri">
-      <div className="font-bold text-xl mb-2">{t('culture:heading')}</div>
-      <div className="md:grid md:grid-flow-col md:grid-cols-3 md:grid-rows-3 sm:block ">
+    <Layout titleKey="Kulttuuri">
+      <div className="font-bold text-xl mb-2">{t('cultureHeading')}</div>
+      <div className="md:grid md:grid-flow-col md:grid-cols-3 md:grid-rows-3 sm:block">
         {eventInfo.map(({ img, heading }) => (
-          <EventCard key={`${heading}`} img={img} heading={heading} />
+          <EventCard key={`${heading}`} imgUrl={img} heading={heading} />
         ))}
       </div>
-      <h2></h2>
     </Layout>
   );
 };
 
-Culture.getInitialProps = async () => ({
-  namespacesRequired: ['culture', 'nav'],
-});
-
-export default withTranslation('culture')(Culture);
+export default withLocale(Kulttuuri);

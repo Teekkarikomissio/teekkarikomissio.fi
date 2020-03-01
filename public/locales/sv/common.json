@@ -1,4 +1,0 @@
-{
-  "error-with-status": "Ett {{errorCode}}-fel inträffade på servern",
-  "error-without-status": "Ett fel inträffade på servern."
-}
