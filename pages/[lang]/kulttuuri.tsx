@@ -57,6 +57,8 @@ const Kulttuuri: React.FC = () => {
 
   return (
     <Layout titleKey="Kulttuuri">
+      <img src="/event-header.png" alt="Wappu" className="rounded-b" />
+
       <div className="font-bold text-xl mb-2">{t('cultureHeading')}</div>
       <div className="md:grid md:grid-flow-col md:grid-cols-3 md:grid-rows-3 sm:block">
         {eventInfo.map(({ img, heading }) => (
