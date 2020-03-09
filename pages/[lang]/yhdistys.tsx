@@ -8,7 +8,7 @@ const Yhdistys: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <Layout titleKey="Yhdistys">
+    <Layout titleKey="Yhdistys" imageSrc="">
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none  p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">

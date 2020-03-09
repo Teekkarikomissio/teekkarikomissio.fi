@@ -8,8 +8,8 @@ const Homepage: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <Layout titleKey="homeTitle">
-      <img src="/tk-hero-3.jpg" alt="TK kuva" className="rounded-b" />
+    <Layout titleKey="homeTitle" imageSrc="/tk-banner.png">
+      <img className="rounded-lg mt-16 mb-8" src="/tk-banner.png" alt="Paavon lakitus" />
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none  p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">

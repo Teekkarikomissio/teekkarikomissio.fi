@@ -44,7 +44,7 @@ const Kulttuuri: React.FC = () => {
 
   const EventCard = ({ imgUrl = '/', heading = 'TK' }) => {
     return (
-      <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ml-4 mr-4 p-4 shadow-xl">
+      <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 m-8 p-4 shadow-xl rounded-lg">
         <div className="items-center justify-center">
           <img src={imgUrl} alt={heading} />
         </div>
@@ -55,11 +55,39 @@ const Kulttuuri: React.FC = () => {
     );
   };
 
-  return (
-    <Layout titleKey="Kulttuuri">
-      <img src="/event-header.png" alt="Wappu" className="rounded-b" />
+  const TextBox = ({ heading = '', body = '' }) => {
+    return (
+      <div className="bg-white p-4 flex flex-col justify-between leading-normal">
+        <div className="mb-8">
+          <h1 className="text-gray-900 font-bold text-xl mb-2">{heading}</h1>
+          <p className="text-left text-gray-700 text-base mb-2">{body}</p>
+        </div>
+      </div>
+    );
+  };
 
-      <div className="font-bold text-xl mb-2">{t('cultureHeading')}</div>
+  return (
+    <Layout titleKey="Kulttuuri" imageSrc="/event-header.png">
+      <img className="rounded-lg mt-16 mb-8" src="/event-header.png" alt="Teekkariwappu" />
+      <TextBox heading={t('cultureHeading')} body={t('cultureBody')} />
+      <TextBox
+        heading={'Jäynäkulttuuri'}
+        body={
+          'Turussa jäynistä vastaa Hermann Group, joka muodostuu Digitin ja Nucleuksen jäsenistä. Heidän jäynänsä ovat menestyneet erittäin hyvin viime vuosien jäynäkisoissa.'
+        }
+      />
+      <div className="w-full">
+        <iframe
+          className="w-full min-h-iFrameHeight"
+          src="https://www.youtube.com/embed/GB0Lkq7Om24"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="Valtakunnalliset jäynäkilpailut 2018"
+        ></iframe>
+      </div>
+      <TextBox heading={'Teekkariwappu'} body={'https://www.teekkariwappu.fi/'} />
+      <TextBox heading={'Teekkarikomission tapahtumat'} body={''} />
       <div className="md:grid md:grid-flow-col md:grid-cols-3 md:grid-rows-3 sm:block">
         {eventInfo.map(({ img, heading }) => (
           <EventCard key={`${heading}`} imgUrl={img} heading={heading} />

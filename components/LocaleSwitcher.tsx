@@ -10,28 +10,22 @@ const LocaleSwitcher: React.FC = () => {
   const { locale } = React.useContext(LocaleContext);
 
   const handleLocaleChange = React.useCallback(
-    (e: React.ChangeEvent<HTMLSelectElement>) => {
+    (e: React.MouseEvent<HTMLButtonElement>) => {
       const regex = new RegExp(`^/(${locales.join('|')})`);
-      router.push(router.pathname, router.asPath.replace(regex, `/${e.target.value}`));
+      router.push(router.pathname, router.asPath.replace(regex, `/${e.currentTarget.value}`));
     },
     [router]
   );
 
   return (
-    <div className="flex flex-row bg-transparent text-yellow-400 font-semibold py-2 px-3 border border-yellow-400 rounded   hover:text-black">
-      <FontAwesomeIcon className="mr-2 h-8" icon={faLanguage} />
-      <select
-        className="bg-red-800 hover:border-transparent hover:text-black"
-        value={locale}
-        onChange={handleLocaleChange}
-      >
-        {locales.map(locale => (
-          <option key={locale} value={locale}>
-            {languageNames[locale]}
-          </option>
-        ))}
-      </select>
-    </div>
+    <button
+      value={locale === 'sv' ? 'fi' : 'sv'}
+      onClick={handleLocaleChange}
+      className="inline-block text-sm px-4 py-2 leading-none border rounded text-yellow-400 border-yellow-400 hover:border-transparent hover:text-yellow-400 hover:bg-white lg:mt-0"
+    >
+      <FontAwesomeIcon className="mr-2" icon={faLanguage} />
+      {languageNames[locale === 'sv' ? 'fi' : 'sv']}
+    </button>
   );
 };
 

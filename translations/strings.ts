@@ -5,7 +5,7 @@ const strings: Strings = {
     // Nav
     changeLocale: 'Vaihda kieli',
     yhdistys: 'Yhdistys',
-    teekkarius: 'Teekkarius',
+    fukseille: 'Fukseille',
     teekkarilakki: 'Teekkarilakki',
     kulttuuri: 'Kulttuuri',
     yrityksille: 'Yrityksille',
@@ -19,34 +19,38 @@ const strings: Strings = {
     associationContent:
       'Teekkarikomissio hoitaa jäsenyhdistyksilleen yhteisiä asioita, edustaa Turun teekkareita ylioppilaskunta-tasolla ja vastaa heidän korkeakoulupoliittisista kannanotoista. Lisäksi Komissio on tärkeä yhdyskanava Turussa toimiville teekkariyhdistyksille. Käytännössä Teekkarikomission järjestämään toimintaan kuuluu hallituksen ja yhdistyksen kokouksia, edustusmatkoja sekä enemmän tai vähemmän säännöllisiä tapahtumia.',
     // Culture
-    cultureHeading: 'Tapahtumat',
+    cultureHeading: 'Mikä ihmeen teekkarikulttuuri?',
+    cultureBody: 'Teekkarikulttuuri pitää sisällään jos jonkinmoista häppeninkiä',
     // Cap
-    capHeadingOne: 'Teekkarilakki ja sen käyttö',
-    capBodyOne: `Teekkarilakki on teekkarin tunnus. Turun yliopiston ja Åbo Akademin teekkarilakki on tupsulakki, jossa on
-    valkoinen pyöreä samettipäällys, musta samettireuna ja musta lippa sekä musta silkkitupsu. Lakin mustaan
-    samettireunukseen lipan keskikohdalle on kiinnitetty Turun yliopiston tai Åbo Akademin ylioppilaskunnan
-    kultainen kokardi riippuen minkä yliopiston al la lakkia käytetään. Turun yliopiston lakin vuori on
-    sinivalkoinen ja Åbo Akademin lakin vuori keltamusta. Lakit tilaa Teekkarikomission hallitus yhdessä
-    kiltojen kanssa.`,
-    capBodyTwo: `Turkulaista teekkarilakkia ovat oikeutettuja käyttämään Turun yli opistosta tai Åbo Akademista diplomi -
-    insinööriksi valmistuneet henkilöt sekä Turun yliopistossa tai Åbo Akademissa opiskelevat tekniikan
-    ylioppilaat, tai ne, joille lakki on kertaalleen myönnetty.`,
+    capHeadingOne: '§1 Teekkarilakki',
+    capBodyOne: `Teekkarilakki on teekkarin tunnus.
+    Turun yliopiston ja Åbo Akademin teekkarilakki on tupsulakki, jossa on valkoinen pyöreä samettipäällys, musta samettireuna ja musta lippa sekä musta silkkitupsu. Lakin mustaan samettireunukseen lipan keskikohdalle on kiinnitetty Turun yliopiston tai Åbo Akademin ylioppilaskunnan kultainen kokardi riippuen minkä yliopiston alla lakkia käytetään. Turun yliopiston lakin vuori on sinivalkoinen ja Åbo Akademin lakin vuori keltamusta. Lakit tilaa Teekkarikomission hallitus yhdessä kiltojen kanssa. `,
+    capHeadingTwo: '§2 Käyttöoikeus',
+    capBodyTwo: `Turkulaista teekkarilakkia ovat oikeutettuja käyttämään Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuneet henkilöt sekä Turun yliopistossa tai Åbo Akademissa opiskelevat tekniikan ylioppilaat, tai ne, joille lakki on kertaalleen myönnetty.`,
+    capHeadingThree: `§3 Lakin myöntäminen`,
     capBodyThree: `Teekkarikomissio myöntää lakinkäyttöoikeuden ja lakki voidaan myöntää aikaisintaan ensimmäisen
     opiskeluvuoden vappuaattona. Jokainen kilta luovuttaa lakin aikaisintaan 30.4. omien kriteereidensä
     mukaan.`,
-    capBodyFour: `Lakkia ei saa luovuttaa henkilölle, jolla ei ole turkulaisen teekkar ilakin kanto - oikeutta. 30.4. klo
-    18.00 – 30.9. klo 23.59 välisenä aikana lakkia voi käyttää vapaasti. Muina aikoina Teekkarikomission
+    capHeadingFour: '§4 Lakin käyttö',
+    capBodyFour: `Lakkia ei saa luovuttaa henkilölle, jolla ei ole turkulaisen teekkar ilakin kanto - oikeutta.
+    
+    30.4. klo 18.00 – 30.9. klo 23.59 välisenä aikana lakkia voi käyttää vapaasti. Muina aikoina Teekkarikomission
     hallituksen päätöksellä voidaan myöntää lupa käyttöön tai hallitus voi säätää pysyväisohjesäännön
     vuosittaisia tapahtumia varten. Lakin käyttöoikeutta haetaan kirjallisesti. Hallitus merkitsee myönnetyt
-    ja evätyt käyttöoikeudet hallituksen kokouksen pöytäkirjoihin. Lakin kanssa vaatetuksen ja käytöksen tulee
-    olla lakin arvolle sopivaa ja riittävää. Liiallisessa päihtymistilassa lakki tulisi piilottaa sen maineen
-    säilyttämiseksi.`,
-    capHeadingTwo: 'Pysyväisohjesääntö',
-    capBodyFive: `Myönnetään pysyvä lakinkäyttöoikeus seuraaviin tilaisuuksiin: - Lippuairueessa toimiville ja kulkueissa,
-    joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki - Virallinen Wappulehden myyntitapahtuma -
-    Valtakunnallinen jäynäkilpailu - Tietoteekkarien taistot - RekomBIOnaatio - ATK - YTP - Lukioesittelyt -
-    Kuoro - ja orkesteriesiintymiset, joihin kaikille kuuluu asusteena ylioppilaslakki - TEKin tapahtumat,
-    joissa asusteeseen kuuluu teekkarilakki`,
+    ja evätyt käyttöoikeudet hallituksen kokouksen pöytäkirjoihin.
+    
+    Lakin kanssa vaatetuksen ja käytöksen tulee olla lakin arvolle sopivaa ja riittävää. Liiallisessa päihtymistilassa lakki tulisi piilottaa sen maineen säilyttämiseksi.`,
+    capHeadingFive: '§5 Pysyväisohjesääntö',
+    capBodyFive: `Myönnetään pysyvä lakinkäyttöoikeus seuraaviin tilaisuuksiin: 
+    - Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki
+    - Virallinen Wappulehden myyntitapahtuma 
+    - Valtakunnallinen jäynäkilpailu 
+    - Tietoteekkarien taistot 
+    - RekomBIOnaatio 
+    - ATK-YTP 
+    - Lukioesittelyt 
+    - Kuoro - ja orkesteriesiintymiset, joihin kaikille kuuluu asusteena ylioppilaslakki 
+    - TEKin tapahtumat, joissa asusteeseen kuuluu teekkarilakki`,
     // Being Tech Student
     techStudentHeading: 'Jäsenyhdistykset',
     techStudentBody:
@@ -62,7 +66,7 @@ const strings: Strings = {
     // Nav
     changeLocale: 'Ändra språket',
     yhdistys: 'Föreningen',
-    teekkarius: 'Teknologbyn',
+    fukseille: 'Gulis',
     teekkarilakki: 'Mössa',
     kulttuuri: 'Kultur',
     yrityksille: 'Till Företag',
@@ -77,6 +81,7 @@ const strings: Strings = {
       'Teknologkommissionen sköter om gemensamma ärenden för medlemsföreningarna, representerar Åbos teknologer på studentkårs nivå samt svarar för deras högskolepolitiska ställningstaganden. Dessutom är Kommissionen en viktig förbindelsekanal mellan de teknologföreningar som är verksamma inom Åbo. I praktiken hör styrelsens samt föreningens möten, representationsresor samt mer eller mindre regelbundna evenemang till Teknologkommissionens verksamhet.',
     // Culture
     cultureHeading: 'Evenemang',
+    cultureBody: 'Käännös kesken',
     // Cap
     capHeadingOne: 'Käännös kesken',
     capBodyOne: 'Käännös kesken',
