@@ -4,6 +4,7 @@ const strings: Strings = {
   fi: {
     // Nav
     changeLocale: 'Vaihda kieli',
+    indexTitle: 'Teekkarikomissio',
     yhdistys: 'Yhdistys',
     fukseille: 'Fukseille',
     teekkarilakki: 'Teekkarilakki',
@@ -65,13 +66,14 @@ const strings: Strings = {
   sv: {
     // Nav
     changeLocale: 'Ändra språket',
+    indexTitle: 'Teknologkommissionen',
     yhdistys: 'Föreningen',
     fukseille: 'Gulis',
     teekkarilakki: 'Mössa',
     kulttuuri: 'Kultur',
     yrityksille: 'Till Företag',
     // Homepage
-    homeTitle: 'Teekkarikomissio - Teknologkommission',
+    homeTitle: 'Teekkarikomissio - Teknologkommissionen',
     homeHeading: 'Vad är Teknologkomission?',
     homeContent:
       'Teknologkommissionen (TK) är ett sammanbindande organ för de olika teknologföreningarna i Åbo. Teknologkommissionen är en tvåspråkig förening inom vilken ordförandes modersmål samtidigt är kommissionens arbetsspråk. I föreningsregistret är TK registrerat som Teekkarikomissioyhdistys(Teknologkommissionsföreningen). Inom dagligt bruk skulle detta namn dock vara för långt och klumpigt, så vanligtvis talar man om Teknologkommissionen, eller helt kort endast TK.',

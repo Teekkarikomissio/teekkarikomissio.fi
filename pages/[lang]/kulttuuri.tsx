@@ -67,7 +67,7 @@ const Kulttuuri: React.FC = () => {
   };
 
   return (
-    <Layout titleKey="Kulttuuri" imageSrc="/event-header.png">
+    <Layout titleKey="kulttuuri">
       <img className="rounded-lg mt-16 mb-8" src="/event-header.png" alt="Teekkariwappu" />
       <TextBox heading={t('cultureHeading')} body={t('cultureBody')} />
       <TextBox

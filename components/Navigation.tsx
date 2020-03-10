@@ -40,7 +40,7 @@ const Navigation = () => {
           })}
         </div>
       </div>
-      <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+      <div className="w-full block lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow">
           <LocaleSwitcher />
         </div>

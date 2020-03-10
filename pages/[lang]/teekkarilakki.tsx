@@ -19,7 +19,7 @@ const Cap: React.FC = () => {
   };
 
   return (
-    <Layout titleKey="Teekkarilakki" imageSrc="">
+    <Layout titleKey="teekkarilakki">
       <img className="rounded-lg mt-16 mb-8" src="/teekkarihattu.jpg" alt="Teekkarilakki" />
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none  p-4 flex flex-col justify-between leading-normal">

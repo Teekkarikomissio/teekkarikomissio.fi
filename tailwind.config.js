@@ -1,5 +1,5 @@
 module.exports = {
-  // important: true,
+  important: true,
   theme: {
     fontFamily: {
       display: ['Open Sans', 'sans-serif'],
