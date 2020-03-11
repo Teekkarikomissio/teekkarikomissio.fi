@@ -34,7 +34,7 @@ const Layout: React.FC<Props> = ({ titleKey, children }) => {
             'Helvetica Neue', sans-serif;
         }
       `}</style>
-      <div className="container mx-auto px-8">{children}</div>
+      <div className="lg:container mx-auto lg:px-8">{children}</div>
       <Footer />
     </div>
   );

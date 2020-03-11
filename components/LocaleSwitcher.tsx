@@ -21,9 +21,9 @@ const LocaleSwitcher: React.FC = () => {
     <button
       value={locale === 'sv' ? 'fi' : 'sv'}
       onClick={handleLocaleChange}
-      className="inline-block text-sm px-4 py-2 leading-none border rounded text-yellow-400 border-yellow-400 hover:border-transparent hover:text-yellow-400 hover:bg-white lg:mt-0"
+      className="mt-4 inline-flex text-sm px-4 py-2 leading-none border rounded text-yellow-400 border-yellow-400 hover:border-transparent hover:text-yellow-400 hover:bg-white lg:mt-0"
     >
-      <FontAwesomeIcon className="mr-2" icon={faLanguage} />
+      <FontAwesomeIcon className="mr-2 h-4" icon={faLanguage} />
       {languageNames[locale === 'sv' ? 'fi' : 'sv']}
     </button>
   );

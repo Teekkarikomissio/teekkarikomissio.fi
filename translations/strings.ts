@@ -14,7 +14,7 @@ const strings: Strings = {
     homeTitle: 'Teekkarikomissio - Teknologkommission',
     homeHeading: 'Mikä on TK?',
     homeContent:
-      'Teekkarikomissio (TK) on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille. TK on kaksikielinen yhdistys, ja puheenjohtajan äidinkieli on samalla Komission työkieli. Yhdistysrekisterissä TK on rekisteröity nimellä Teekkarikomissioyhdistys (Teknologkommissionsföreningen). Arkikäytössä tämä nimi kuitenkin olisi liian pitkä, joten yleensä puhutaan Teekkarikomissiosta tai lyhyesti ja ytimekkäästi TK:sta.',
+      'Teekkarikomissio (TK) on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille. TK on kaksikielinen yhdistys, ja puheenjohtajan äidinkieli on samalla Komission työkieli. Yhdistysrekisterissä TK on rekisteröity nimellä Teekkarikomissioyhdistys. Arkikäytössä tämä nimi kuitenkin olisi liian pitkä, joten yleensä puhutaan Teekkarikomissiosta tai lyhyesti ja ytimekkäästi TK:sta.',
     // Association
     associationHeading: 'Mitä TK oikeastaan tekee?',
     associationContent:
@@ -76,7 +76,7 @@ const strings: Strings = {
     homeTitle: 'Teekkarikomissio - Teknologkommissionen',
     homeHeading: 'Vad är Teknologkomission?',
     homeContent:
-      'Teknologkommissionen (TK) är ett sammanbindande organ för de olika teknologföreningarna i Åbo. Teknologkommissionen är en tvåspråkig förening inom vilken ordförandes modersmål samtidigt är kommissionens arbetsspråk. I föreningsregistret är TK registrerat som Teekkarikomissioyhdistys(Teknologkommissionsföreningen). Inom dagligt bruk skulle detta namn dock vara för långt och klumpigt, så vanligtvis talar man om Teknologkommissionen, eller helt kort endast TK.',
+      'Teknologkommissionen (TK) är ett sammanbindande organ för de olika teknologföreningarna i Åbo. Teknologkommissionen är en tvåspråkig förening inom vilken ordförandes modersmål samtidigt är kommissionens arbetsspråk. I föreningsregistret är TK registrerat som Teknologkommissionsföreningen. Inom dagligt bruk skulle detta namn dock vara för långt och klumpigt, så vanligtvis talar man om Teknologkommissionen, eller helt kort endast TK.',
     // Association
     associationHeading: 'Vad gör TK egentligen?',
     associationContent:

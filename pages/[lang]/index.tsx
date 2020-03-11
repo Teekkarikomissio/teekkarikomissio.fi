@@ -1,9 +1,10 @@
 import React from 'react';
 import withLocale from '../../hocs/withLocale';
 
-import '../../styles/tailwind.css';
+import '../../styles.css';
 
 import Layout from '../../components/Layout';
+import HeaderPicture from '../../components/HeaderPicture';
 import useTranslation from '../../hooks/useTranslation';
 
 const Homepage: React.FC = () => {
@@ -11,7 +12,7 @@ const Homepage: React.FC = () => {
 
   return (
     <Layout titleKey="indexTitle">
-      <img className="rounded-lg mt-16 mb-8" src="/tk-banner.jpg" alt="Paavon lakitus" />
+      <HeaderPicture img="/tk-banner.jpg" alt="Paavon lakitus" />
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none  p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
