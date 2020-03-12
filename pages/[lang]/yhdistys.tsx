@@ -12,7 +12,7 @@ const Yhdistys: React.FC = () => {
       img: '/tklogo.svg',
       name: 'Jeremi Nyyssönen',
       position: 'Puheenjohtaja',
-      responsibilities: 'Puheenjohtaja',
+      responsibilities: 'Puheenjohtaja, Paavo Nurmen patsaan lakitus',
     },
     {
       img: '/tklogo.svg',
@@ -36,19 +36,25 @@ const Yhdistys: React.FC = () => {
       img: '/tklogo.svg',
       name: 'Niklas Luomala',
       position: 'Kulttuurikomissaari',
-      responsibilities: 'Paavo Nurmen patsaan lakittaminen, fuksiasiat, nuorten valiokunta',
+      responsibilities: 'Paavo Nurmen patsaan lakitus, fuksiasiat, nuorten valiokunta, jäynäkisat',
     },
     {
       img: '/tklogo.svg',
       name: 'Ilona Kairinen',
       position: 'Tapahtumakomissaari,',
-      responsibilities: 'Nuorten valiokunta(vara)',
+      responsibilities: 'Tapahtumat, Nuorten valiokunta(vara)',
     },
     {
       img: '/tklogo.svg',
       name: 'William Lindroos',
-      position: 'Viestintäkomissaari,',
-      responsibilities: 'Kalenteriasiat, viestintä-kv forum:',
+      position: 'Viestintäkomissaari',
+      responsibilities: 'Kalenteriasiat, viestintä- ja kv-forum',
+    },
+    {
+      img: '/tklogo.svg',
+      name: 'Hektor Dahlberg',
+      position: 'Sihteeri',
+      responsibilities: 'Teekkarikulttuuriforum',
     },
   ];
 
@@ -79,18 +85,21 @@ const Yhdistys: React.FC = () => {
   return (
     <Layout titleKey="yhdistys">
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
-        <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none  p-4 flex flex-col justify-between leading-normal">
+        <div className="bg-white p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
             <div className="text-gray-900 font-bold text-xl mb-2">{t('associationHeading')}</div>
             <p className="text-left text-gray-700 text-base mb-2">{t('associationContent')}</p>
           </div>
         </div>
       </div>
+      <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 my-4" />
       <div>
         <h1 className="text-gray-900 font-bold text-xl mb-2">Vuoden 2020 hallitus</h1>
-        {boardMembers.map(({ img, name, position, responsibilities }) => (
-          <BoardCard key={`${name}`} img={img} name={name} position={position} responsibilities={responsibilities} />
-        ))}
+        <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
+          {boardMembers.map(({ img, name, position, responsibilities }) => (
+            <BoardCard key={`${name}`} img={img} name={name} position={position} responsibilities={responsibilities} />
+          ))}
+        </div>
       </div>
     </Layout>
   );

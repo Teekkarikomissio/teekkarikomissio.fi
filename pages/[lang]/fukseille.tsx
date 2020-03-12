@@ -43,7 +43,7 @@ const NewStudents: React.FC = () => {
       img: '/logo-dikerho.jpg',
       href: 'https://turkudi.tek.fi/',
       heading: 'Turun DI-kerho',
-      description: 'JATKOAIKA TEEKKARIELÄMÄLLE',
+      description: 'Turun DI-kerhon tarkoituksena on toimia TEKin alueellisten jäsenten yhdyssiteenä.',
       founded: 'est. 1933',
     },
     {
@@ -51,7 +51,7 @@ const NewStudents: React.FC = () => {
       href: 'https://digit.fi/alumneille',
       heading: '0-kerho',
       description:
-        '0-kerho on Digit ry:n vanhempien opiskelijoiden klubi, jonka tarkoituksena järjestää puuhaa opinnoissaan edenneille ja toimia linkkinä koulutusohjelmasta valmistuneiden ja vielä opiskelevien kesken.',
+        '0-kerho on Digit ry:n alumnikerho, jonka tarkoitus on toimia linkkinä uusien ja vanhojen opiskelijoiden välillä.',
       founded: '',
     },
     {
@@ -101,8 +101,8 @@ const NewStudents: React.FC = () => {
 
   return (
     <Layout titleKey="fukseille">
-      <TextBox heading="Fuksipassit" body="Asiaa fuksipasseista." />
-      <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 rounded" />
+      {/* <TextBox heading="Fuksipassit" body="Asiaa fuksipasseista." /> */}
+      {/* <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 rounded" /> */}
       <TextBox heading={t('techStudentHeading')} body={t('techStudentBody')} />
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block">
         {guildInfo.map(({ img, href, heading, description, founded }) => (
@@ -117,7 +117,7 @@ const NewStudents: React.FC = () => {
         ))}
       </div>
       <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700" />
-      <TextBox heading="Alumnikerhot" body="Turussa on alumnitoimintaa." />
+      <TextBox heading="Alumnikerhot" body="" />
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block">
         {alumniInfo.map(({ img, href, heading, description, founded }) => (
           <GuildCard

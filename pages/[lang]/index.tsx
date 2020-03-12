@@ -1,8 +1,6 @@
 import React from 'react';
 import withLocale from '../../hocs/withLocale';
 
-import '../../styles.css';
-
 import Layout from '../../components/Layout';
 import HeaderPicture from '../../components/HeaderPicture';
 import useTranslation from '../../hooks/useTranslation';
@@ -12,7 +10,7 @@ const Homepage: React.FC = () => {
 
   return (
     <Layout titleKey="indexTitle">
-      <HeaderPicture img="/tk-banner.jpg" alt="Paavon lakitus" />
+      <HeaderPicture img="/banner-index.jpg" alt="Teekkarikomissio" />
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none  p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">

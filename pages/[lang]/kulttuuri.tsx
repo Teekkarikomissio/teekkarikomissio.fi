@@ -2,20 +2,12 @@ import React from 'react';
 import withLocale from '../../hocs/withLocale';
 
 import Layout from '../../components/Layout';
-import useTranslation from '../../hooks/useTranslation';
+// import useTranslation from '../../hooks/useTranslation';
 
 const Kulttuuri: React.FC = () => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   const eventInfo = [
-    {
-      img: '/event-excu.jpg',
-      heading: 'Tukholman excursio',
-    },
-    {
-      img: '/event-fia.jpg',
-      heading: 'TK fiacup',
-    },
     {
       img: '/event-jaynastartti.jpg',
       heading: 'Paikallisten jäynäkilpailuiden starttaaminen',
@@ -29,16 +21,20 @@ const Kulttuuri: React.FC = () => {
       heading: 'Eldprowet',
     },
     {
-      img: '/event-sitz.jpg',
-      heading: 'TK:n kiltojen väliset sitsit',
-    },
-    {
       img: '/event-paavo.jpg',
       heading: 'Paavo Nurmen patsaan lakitus',
     },
     {
       img: '/event-sommar.jpg',
       heading: 'Sommarträff',
+    },
+    {
+      img: '/event-sitz.jpg',
+      heading: 'TK:n kiltojen väliset sitsit',
+    },
+    {
+      img: '/event-fia.jpg',
+      heading: 'TK fiacup',
     },
   ];
 
@@ -68,7 +64,7 @@ const Kulttuuri: React.FC = () => {
 
   return (
     <Layout titleKey="kulttuuri">
-      <TextBox heading={t('cultureHeading')} body={t('cultureBody')} />
+      {/* <TextBox heading={t('cultureHeading')} body={t('cultureBody')} /> */}
       <TextBox
         heading={'Jäynäkulttuuri'}
         body={
@@ -85,9 +81,9 @@ const Kulttuuri: React.FC = () => {
           title="Valtakunnalliset jäynäkilpailut 2018"
         ></iframe>
       </div>
-      <TextBox heading={'Teekkariwappu'} body={'https://www.teekkariwappu.fi/'} />
+      {/* <TextBox heading={'Teekkariwappu'} body={'https://www.teekkariwappu.fi/'} /> */}
       <TextBox heading={'Teekkarikomission tapahtumat'} body={''} />
-      <div className="md:grid md:grid-flow-col md:grid-cols-3 md:grid-rows-3 sm:block">
+      <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
         {eventInfo.map(({ img, heading }) => (
           <EventCard key={`${heading}`} imgUrl={img} heading={heading} />
         ))}
