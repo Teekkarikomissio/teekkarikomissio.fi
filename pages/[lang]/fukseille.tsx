@@ -74,13 +74,11 @@ const NewStudents: React.FC = () => {
 
   const GuildCard: React.FC<GuildCardProps> = ({ img, href, heading, description, founded }) => {
     return (
-      <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 m-8 p-4 shadow-xl rounded-lg">
-        <a className="flex flex-row flex-grow items-center justify-center " href={href}>
-          <div className="w-1/3 h-auto items-center justify-center">
-            <img src={img} alt={heading} />
-          </div>
-          <div className="w-1/2 h-auto">
-            <div className="font-bold text-xl mb-2">{heading}</div>
+      <div className="max-w-full items-center justify-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 shadow-xl rounded-lg m-8">
+        <a className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4" href={href}>
+          <img className="h-32" src={img} alt={heading} />
+          <div className="w-2/3 flex flex-col items-center justify-center h-auto lg:ml-4">
+            <div className="font-bold text-xl lg:w-1/2 my-2">{heading}</div>
             <p className="text-gray-700 text-base">{founded}</p>
             <p className="text-gray-700 text-base">{description}</p>
           </div>

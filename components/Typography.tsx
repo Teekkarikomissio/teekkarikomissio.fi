@@ -15,3 +15,7 @@ export const LongText: React.FC = ({ children }) => {
 export const ShortText: React.FC = ({ children }) => {
   return <p className="lg:text-center text-left text-gray-700 text-lg mb-8">{children}</p>;
 };
+
+export const ListItem: React.FC = ({ children }) => {
+  return <li className="text-left text-gray-700 text-lg">{children}</li>;
+};
