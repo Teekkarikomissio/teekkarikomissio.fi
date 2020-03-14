@@ -8,7 +8,7 @@ const Index: React.FC = () => {
   });
   return (
     <Head>
-      <meta name="robots" content="noindex, nofollow" />
+      <meta name="robots" content="none" />
     </Head>
   );
 };

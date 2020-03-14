@@ -29,7 +29,7 @@ const Layout: React.FC<Props> = ({ titleKey, children }) => {
       </Head>
       <Navigation />
       <div className="flex flex-col items-center">
-        <div className="container mx-4 ">{children}</div>
+        <div className="container mx-auto">{children}</div>
       </div>
       <Footer />
     </div>
