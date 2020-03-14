@@ -2,6 +2,7 @@ import React from 'react';
 import withLocale from '../../hocs/withLocale';
 
 import Layout from '../../components/Layout';
+import { H1, H2, LongText } from '../../components/Typography';
 import useTranslation from '../../hooks/useTranslation';
 
 const Yhdistys: React.FC = () => {
@@ -70,7 +71,7 @@ const Yhdistys: React.FC = () => {
       <div className="m-8 p-4 shadow-xl rounded-lg">
         <div className="flex flex-row flex-grow items-center justify-center ">
           <div className="w-1/3 h-auto items-center justify-center">
-            <img className="  " src={img} alt={name} />
+            <img src={img} alt={name} />
           </div>
           <div className="w-1/2 h-auto">
             <div className="font-bold text-xl mb-2">{name}</div>
@@ -87,14 +88,14 @@ const Yhdistys: React.FC = () => {
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="bg-white p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
-            <div className="text-gray-900 font-bold text-xl mb-2">{t('associationHeading')}</div>
-            <p className="text-left text-gray-700 text-base mb-2">{t('associationContent')}</p>
+            <H1>{t('associationHeading')}</H1>
+            <LongText>{t('associationContent')}</LongText>
           </div>
         </div>
       </div>
       <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 my-4" />
       <div>
-        <h1 className="text-gray-900 font-bold text-xl mb-2">Vuoden 2020 hallitus</h1>
+        <H2>Vuoden 2020 hallitus</H2>
         <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
           {boardMembers.map(({ img, name, position, responsibilities }) => (
             <BoardCard key={`${name}`} img={img} name={name} position={position} responsibilities={responsibilities} />

@@ -2,6 +2,8 @@ import React from 'react';
 import withLocale from '../../hocs/withLocale';
 
 import Layout from '../../components/Layout';
+import { H1, H2, ShortText } from '../../components/Typography';
+
 // import useTranslation from '../../hooks/useTranslation';
 
 const Kulttuuri: React.FC = () => {
@@ -51,38 +53,24 @@ const Kulttuuri: React.FC = () => {
     );
   };
 
-  const TextBox = ({ heading = '', body = '' }) => {
-    return (
-      <div className="bg-white p-4 flex flex-col justify-between leading-normal">
-        <div className="mb-8">
-          <h1 className="text-gray-900 font-bold text-xl mb-2">{heading}</h1>
-          <p className="text-left text-gray-700 text-base mb-2">{body}</p>
-        </div>
-      </div>
-    );
-  };
-
   return (
     <Layout titleKey="kulttuuri">
       {/* <TextBox heading={t('cultureHeading')} body={t('cultureBody')} /> */}
-      <TextBox
-        heading={'Jäynäkulttuuri'}
-        body={
-          'Turussa jäynistä vastaa Hermann Group, joka muodostuu Digitin ja Nucleuksen jäsenistä. Heidän jäynänsä ovat menestyneet erittäin hyvin viime vuosien jäynäkisoissa.'
-        }
-      />
-      <div className="w-full">
-        <iframe
-          className="w-full min-h-iFrameHeight"
-          src="https://www.youtube.com/embed/GB0Lkq7Om24"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          title="Valtakunnalliset jäynäkilpailut 2018"
-        ></iframe>
-      </div>
+      <iframe
+        className="w-full min-h-iFrameHeight lg:rounded-lg lg:mt-16"
+        src="https://www.youtube.com/embed/GB0Lkq7Om24"
+        frameBorder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        title="Valtakunnalliset jäynäkilpailut 2018"
+      ></iframe>
+      <H1>Jäynäkulttuuri</H1>
+      <ShortText>
+        Turussa jäynistä vastaa Hermann Group, joka muodostuu Digitin ja Nucleuksen jäsenistä. Heidän jäynänsä ovat
+        menestyneet erittäin hyvin viime vuosien jäynäkisoissa.
+      </ShortText>
       {/* <TextBox heading={'Teekkariwappu'} body={'https://www.teekkariwappu.fi/'} /> */}
-      <TextBox heading={'Teekkarikomission tapahtumat'} body={''} />
+      <H2>Teekkarikomission tapahtumat</H2>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
         {eventInfo.map(({ img, heading }) => (
           <EventCard key={`${heading}`} imgUrl={img} heading={heading} />

@@ -2,6 +2,7 @@ import React from 'react';
 import withLocale from '../../hocs/withLocale';
 
 import Layout from '../../components/Layout';
+import { H1, H2, ShortText } from '../../components/Typography';
 import useTranslation from '../../hooks/useTranslation';
 
 const NewStudents: React.FC = () => {
@@ -76,7 +77,7 @@ const NewStudents: React.FC = () => {
       <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 m-8 p-4 shadow-xl rounded-lg">
         <a className="flex flex-row flex-grow items-center justify-center " href={href}>
           <div className="w-1/3 h-auto items-center justify-center">
-            <img className="  " src={img} alt={heading} />
+            <img src={img} alt={heading} />
           </div>
           <div className="w-1/2 h-auto">
             <div className="font-bold text-xl mb-2">{heading}</div>
@@ -88,22 +89,14 @@ const NewStudents: React.FC = () => {
     );
   };
 
-  const TextBox = ({ heading = '', body = '' }) => {
-    return (
-      <div className="bg-white p-4 flex flex-col justify-between leading-normal">
-        <div className="mb-8">
-          <h1 className="text-gray-900 font-bold text-xl mb-2">{heading}</h1>
-          <p className="text-left text-gray-700 text-base mb-2">{body}</p>
-        </div>
-      </div>
-    );
-  };
-
   return (
     <Layout titleKey="fukseille">
       {/* <TextBox heading="Fuksipassit" body="Asiaa fuksipasseista." /> */}
       {/* <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 rounded" /> */}
-      <TextBox heading={t('techStudentHeading')} body={t('techStudentBody')} />
+      <H1>{t('techStudentHeading')}</H1>
+      <div className="p-4">
+        <ShortText>{t('techStudentBody')}</ShortText>
+      </div>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block">
         {guildInfo.map(({ img, href, heading, description, founded }) => (
           <GuildCard
@@ -117,7 +110,7 @@ const NewStudents: React.FC = () => {
         ))}
       </div>
       <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700" />
-      <TextBox heading="Alumnikerhot" body="" />
+      <H2>Alumnikerhot</H2>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block">
         {alumniInfo.map(({ img, href, heading, description, founded }) => (
           <GuildCard
