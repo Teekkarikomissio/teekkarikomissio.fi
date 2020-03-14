@@ -2,7 +2,7 @@ import React from 'react';
 import withLocale from '../../hocs/withLocale';
 
 import Layout from '../../components/Layout';
-import { H1, H2, ShortText } from '../../components/Typography';
+import { H1, H2, LongText } from '../../components/Typography';
 
 // import useTranslation from '../../hooks/useTranslation';
 
@@ -55,7 +55,6 @@ const Kulttuuri: React.FC = () => {
 
   return (
     <Layout titleKey="kulttuuri">
-      {/* <TextBox heading={t('cultureHeading')} body={t('cultureBody')} /> */}
       <iframe
         className="w-full min-h-iFrameHeight lg:rounded-lg lg:mt-16"
         src="https://www.youtube.com/embed/GB0Lkq7Om24"
@@ -65,10 +64,15 @@ const Kulttuuri: React.FC = () => {
         title="Valtakunnalliset jäynäkilpailut 2018"
       ></iframe>
       <H1>Jäynäkulttuuri</H1>
-      <ShortText>
-        Turussa jäynistä vastaa Hermann Group, joka muodostuu Digitin ja Nucleuksen jäsenistä. Heidän jäynänsä ovat
-        menestyneet erittäin hyvin viime vuosien jäynäkisoissa.
-      </ShortText>
+      <LongText>
+        Jäynäkilpailun tarkoituksena on vaalia jäynäperinteitä, edistää teekkarikulttuuria, kohottaa teekkarihenkeä ja
+        edistää teekkaribrändin näkyvyyttä Turussa sekä tuottaa hyvää mieltä jäynän kaikilla vaikutusalueilla. Jäynän
+        tarkoituksena on tuottaa hyväntahtoisesti riemua itselle, jäynän kohteelle ja suurelle yleisölle. Jäynä ei
+        tosimielellä ota kantaa uskontoon tai politiikkaan. Se on luonteeltaan yllätyksellinen, tekniikan keinoja
+        hyväksikäyttävä ja epäsovinnainen. Jäynä voi olla kestoltaan lyhyt tai pitkä. Jäynä ei solvaa, rienaa, turmele,
+        varasta tai tuhoa. Jäynä ei aiheuta kenellekään taloudellisia, henkisiä tai fyysisiä vaikeuksia. Jäynä ei saa
+        kohdistua millään muotoa poliisi- tai pelastusviranomaisiin eikä tuomariston jäseneen.
+      </LongText>
       {/* <TextBox heading={'Teekkariwappu'} body={'https://www.teekkariwappu.fi/'} /> */}
       <H2>Teekkarikomission tapahtumat</H2>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">

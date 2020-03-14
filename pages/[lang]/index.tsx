@@ -43,8 +43,8 @@ const Homepage: React.FC = () => {
       <HeaderPicture img="/index-banner.jpg" alt="Teekkarikomissio" />
 
       <div className="flex lg:flex-row flex-col items-center justify-center">
-        <img className="max-h-full object-contain" src="/logo-utu.png" alt="Utu logo" />
-        <img className="max-h-full object-contain" src="/logo-AboAkademi.png" alt="Åbo akademi logo" />
+        <img className="lg:h-56 w-auto" src="/logo-utu.png" alt="Utu logo" />
+        <img className="h-56 w-auto" src="/logo-AboAkademi.png" alt="Åbo akademi logo" />
       </div>
 
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
@@ -62,7 +62,7 @@ const Homepage: React.FC = () => {
         />
         <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
-            <H2>Turun teekkarien yhteisiä tapahtumia</H2>
+            <H2>Turun teekkareiden yhteisiä tapahtumia</H2>
             <ShortText>
               Järjestämme vuoden aikana teekkariyhteisölle perinteikkäitä ja verkostoa yhdistäviä tapahtumia.
             </ShortText>

@@ -109,8 +109,8 @@ const NewStudents: React.FC = () => {
           />
         ))}
       </div>
-      <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700" />
       <H2>Alumnikerhot</H2>
+      <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700" />
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block">
         {alumniInfo.map(({ img, href, heading, description, founded }) => (
           <GuildCard
