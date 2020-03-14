@@ -33,25 +33,14 @@ const strings: Strings = {
     opiskeluvuoden vappuaattona. Jokainen kilta luovuttaa lakin aikaisintaan 30.4. omien kriteereidensä
     mukaan.`,
     capHeadingFour: '§4 Lakin käyttö',
-    capBodyFour: `Lakkia ei saa luovuttaa henkilölle, jolla ei ole turkulaisen teekkar ilakin kanto - oikeutta.
-    
+    capBodyFour: `Lakkia ei saa luovuttaa henkilölle, jolla ei ole turkulaisen teekkarilakin kanto-oikeutta.
     30.4. klo 18.00 – 30.9. klo 23.59 välisenä aikana lakkia voi käyttää vapaasti. Muina aikoina Teekkarikomission
     hallituksen päätöksellä voidaan myöntää lupa käyttöön tai hallitus voi säätää pysyväisohjesäännön
     vuosittaisia tapahtumia varten. Lakin käyttöoikeutta haetaan kirjallisesti. Hallitus merkitsee myönnetyt
-    ja evätyt käyttöoikeudet hallituksen kokouksen pöytäkirjoihin.
-    
-    Lakin kanssa vaatetuksen ja käytöksen tulee olla lakin arvolle sopivaa ja riittävää. Liiallisessa päihtymistilassa lakki tulisi piilottaa sen maineen säilyttämiseksi.`,
+    ja evätyt käyttöoikeudet hallituksen kokouksen pöytäkirjoihin. Lakin kanssa vaatetuksen ja käytöksen tulee olla lakin arvolle sopivaa ja riittävää.
+    Liiallisessa päihtymistilassa lakki tulisi piilottaa sen maineen säilyttämiseksi.`,
     capHeadingFive: '§5 Pysyväisohjesääntö',
-    capBodyFive: `Myönnetään pysyvä lakinkäyttöoikeus seuraaviin tilaisuuksiin: 
-    - Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki
-    - Virallinen Wappulehden myyntitapahtuma 
-    - Valtakunnallinen jäynäkilpailu 
-    - Tietoteekkarien taistot 
-    - RekomBIOnaatio 
-    - ATK-YTP 
-    - Lukioesittelyt 
-    - Kuoro - ja orkesteriesiintymiset, joihin kaikille kuuluu asusteena ylioppilaslakki 
-    - TEKin tapahtumat, joissa asusteeseen kuuluu teekkarilakki`,
+    capBodyFive: `Myönnetään pysyvä lakinkäyttöoikeus seuraaviin tilaisuuksiin:`,
     // Being Tech Student
     techStudentHeading: 'Jäsenyhdistykset',
     techStudentBody:
