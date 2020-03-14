@@ -94,7 +94,7 @@ const NewStudents: React.FC = () => {
       {/* <TextBox heading="Fuksipassit" body="Asiaa fuksipasseista." /> */}
       {/* <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 rounded" /> */}
       <H1>{t('techStudentHeading')}</H1>
-      <div className="p-4">
+      <div className="mx-4">
         <ShortText>{t('techStudentBody')}</ShortText>
       </div>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block">
