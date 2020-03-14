@@ -1,18 +1,14 @@
 import React from 'react';
 import Head from 'next/head';
 import { getInitialLocale } from '../translations/getInitialLocale';
-import { useRouter } from 'next/dist/client/router';
-
-import '../styles/tailwind.css';
 
 const Index: React.FC = () => {
-  const router = useRouter();
   React.useEffect(() => {
-    router.replace('/[lang]', `/${getInitialLocale()}`);
+    window.location.replace(`/${getInitialLocale()}`);
   });
   return (
     <Head>
-      <meta name="robots" content="noindex, nofollow" />
+      <meta name="robots" content="none" />
     </Head>
   );
 };

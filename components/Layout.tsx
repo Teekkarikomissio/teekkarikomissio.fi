@@ -28,13 +28,9 @@ const Layout: React.FC<Props> = ({ titleKey, children }) => {
         <link rel="shortcut icon" sizes="32x32" href="/tklogo.svg" />
       </Head>
       <Navigation />
-      <style jsx global>{`
-        * {
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-            'Helvetica Neue', sans-serif;
-        }
-      `}</style>
-      <div className="container mx-auto px-8">{children}</div>
+      <div className="flex flex-col items-center">
+        <div className="container mx-auto">{children}</div>
+      </div>
       <Footer />
     </div>
   );
