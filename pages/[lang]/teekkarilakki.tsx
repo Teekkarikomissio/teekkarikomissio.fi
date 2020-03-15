@@ -14,7 +14,7 @@ const Cap: React.FC = () => {
       <HeaderPicture img="/teekkarihattu.jpg" alt="Turun teekkarilakki" />
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none flex flex-col justify-between leading-normal">
-          <div className="mb-8 mx-4 p-4">
+          <div className="mb-8">
             <H2>{t('capHeadingOne')}</H2>
             <LongText>{t('capBodyOne')}</LongText>
             <H2>{t('capHeadingTwo')}</H2>
@@ -25,7 +25,7 @@ const Cap: React.FC = () => {
             <LongText>{t('capBodyFour')}</LongText>
             <H2>{t('capHeadingFive')}</H2>
             <LongText>{t('capBodyFive')}</LongText>
-            <ul className="list-disc text-left ">
+            <ul className="list-disc text-justify mx-16">
               <ListItem>
                 Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki
               </ListItem>

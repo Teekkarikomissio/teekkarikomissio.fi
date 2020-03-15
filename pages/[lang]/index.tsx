@@ -42,17 +42,17 @@ const Homepage: React.FC = () => {
     <Layout titleKey="indexTitle">
       <HeaderPicture img="/index-banner.jpg" alt="Teekkarikomissio" />
 
-      <div className="flex lg:flex-row flex-col items-center justify-center">
-        <img className="lg:h-56 w-auto" src="/logo-utu.png" alt="Utu logo" />
-        <img className="h-56 w-auto" src="/logo-AboAkademi.png" alt="Åbo akademi logo" />
-      </div>
-
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="bg-white rounded-b lg:rounded-b-none p-4 flex flex-col justify-between leading-normal">
           <H1>{t('homeHeading')}</H1>
           <ShortText>{t('homeContent')}</ShortText>
         </div>
       </div>
+
+      {/* <div className="flex lg:flex-row flex-col items-center justify-center">
+        <img className="lg:h-56 w-auto" src="/logo-utu.png" alt="Utu logo" />
+        <img className="h-56 w-auto" src="/logo-AboAkademi.png" alt="Åbo akademi logo" />
+      </div> */}
 
       <div className="my-16 lg:flex lg:flex-row justify-between items-center">
         <img

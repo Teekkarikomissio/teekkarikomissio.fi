@@ -13,37 +13,37 @@ const Yhdistys: React.FC = () => {
       img: '/tklogo.svg',
       name: 'Jeremi Nyyssönen',
       position: 'Puheenjohtaja',
-      responsibilities: 'Puheenjohtaja, Paavo Nurmen patsaan lakitus',
+      responsibilities: 'Paavo Nurmen patsaan lakitus',
     },
     {
       img: '/tklogo.svg',
       name: 'Miika Peltotalo',
       position: 'Koulutuspoliittinen komissaari',
-      responsibilities: 'Koulutuspolitiikka, nettisivut, vuosijuhlat',
+      responsibilities: 'Nettisivut, vuosijuhlat',
     },
     {
       img: '/tklogo.svg',
       name: 'Casimir Ruohomaa',
       position: 'Varapääkomissaari',
-      responsibilities: 'Valtuusto(vara), teekkarijohtajaforum',
+      responsibilities: 'TEK valtuusto, teekkarijohtajaforum',
     },
     {
       img: '/tklogo.svg',
       name: 'Juhani Kalske',
       position: 'Talouskomissaari',
-      responsibilities: 'Valtuusto',
+      responsibilities: 'TEK valtuusto',
     },
     {
       img: '/tklogo.svg',
       name: 'Niklas Luomala',
       position: 'Kulttuurikomissaari',
-      responsibilities: 'Paavo Nurmen patsaan lakitus, fuksiasiat, nuorten valiokunta, jäynäkisat',
+      responsibilities: 'Paavo Nurmen patsaan lakitus, fuksiasiat, TEK nuorten valiokunta, jäynäkisat',
     },
     {
       img: '/tklogo.svg',
       name: 'Ilona Kairinen',
       position: 'Tapahtumakomissaari,',
-      responsibilities: 'Tapahtumat, Nuorten valiokunta(vara)',
+      responsibilities: 'Tapahtumat, TEK nuorten valiokunta',
     },
     {
       img: '/tklogo.svg',
@@ -68,15 +68,13 @@ const Yhdistys: React.FC = () => {
 
   const BoardCard: React.FC<BoardCardProps> = ({ img, name, position, responsibilities }) => {
     return (
-      <div className="m-8 p-4 shadow-xl rounded-lg">
-        <div className="flex flex-row flex-grow items-center justify-center ">
-          <div className="w-1/3 h-auto items-center justify-center">
-            <img src={img} alt={name} />
-          </div>
-          <div className="w-1/2 h-auto">
-            <div className="font-bold text-xl mb-2">{name}</div>
-            <p className="text-gray-700 text-base">{position}</p>
-            <p className="text-gray-700 text-base">{responsibilities}</p>
+      <div className="max-w-full items-center justify-center rounded-lg shadow-xl m-8">
+        <div className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4">
+          <img className="w-64" src={img} alt={name} />
+          <div className="w-2/3 flex flex-col items-center justify-center h-auto lg:ml-4 mb-4">
+            <H2>{name}</H2>
+            <p className="text-gray-700 text-lg my-4">{position}</p>
+            <p className="text-gray-700 text-base">Muut vastuualueet: {responsibilities}</p>
           </div>
         </div>
       </div>
@@ -86,11 +84,9 @@ const Yhdistys: React.FC = () => {
   return (
     <Layout titleKey="yhdistys">
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
-        <div className="bg-white p-4 flex flex-col justify-between leading-normal">
-          <div className="mb-8">
-            <H1>{t('associationHeading')}</H1>
-            <LongText>{t('associationContent')}</LongText>
-          </div>
+        <div className="bg-white flex flex-col justify-between leading-normal">
+          <H1>{t('associationHeading')}</H1>
+          <LongText>{t('associationContent')}</LongText>
         </div>
       </div>
       <div>

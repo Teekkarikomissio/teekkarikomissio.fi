@@ -28,7 +28,7 @@ const Navigation = () => {
           <div className="flex items-center flex-shrink-0 text-white mr-6">
             <img className="fill-current h-8 w-8 mr-2" src="/tklogo.svg" alt="TK logo" width="54" height="54" />
             <Link href="/[lang]" as={`/${locale}`}>
-              <a className="font-semibold lg:text-xl md:text-sm tracking-tight">Teekkarikomissio</a>
+              <a className="font-semibold lg:text-xl md:text-sm tracking-tight">{t('indexTitle')}</a>
             </Link>
           </div>
           <button

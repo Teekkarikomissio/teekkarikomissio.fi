@@ -2,7 +2,8 @@ import React from 'react';
 import withLocale from '../../hocs/withLocale';
 
 import Layout from '../../components/Layout';
-import { H1, H2, ShortText } from '../../components/Typography';
+import HeaderPicture from '../../components/HeaderPicture';
+import { H1, H2, ShortText, LongText } from '../../components/Typography';
 import useTranslation from '../../hooks/useTranslation';
 
 const NewStudents: React.FC = () => {
@@ -89,12 +90,23 @@ const NewStudents: React.FC = () => {
 
   return (
     <Layout titleKey="fukseille">
-      {/* <TextBox heading="Fuksipassit" body="Asiaa fuksipasseista." /> */}
-      {/* <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 rounded" /> */}
-      <H1>{t('techStudentHeading')}</H1>
-      <div className="mx-4">
-        <ShortText>{t('techStudentBody')}</ShortText>
+      <HeaderPicture img="/fukseille-passit.jpg" alt="Fuksipassit" />
+      <H1>Fuksipassit</H1>
+      <LongText>
+        Uusien opiskelijoiden orientointiin kuuluu keskeisenä osana fuksipassit. Näiden passien sivuilta löytyy jokaisen
+        uuden opiskelijan lista siitä, mitä kaikkea yhteisömme toimintaan kuuluu. Passien tehtävät vaihtelevat
+        killoittain mutta pääosin niiden tarkoitus on perehdyttää toimintaan ja kannustaa osallistumaan tapahtumiin ja
+        tilaisuuksiin, joita järjestetään vuoden mittaan. Passin suoritettuaan fuksista tulee teekkari, joka saa
+        lakkinsa vapun aattona.
+      </LongText>
+      <div className="lg:flex lg:flex-row items-center justify-center">
+        {/* <img className="h-64" src={'/fukseille-date.jpg'} alt="Passi Date" />
+        <img className="h-64" src={'/fukseille-digit.jpg'} alt="Passi Digit" />
+        <img className="h-64" src={'/fukseille-nucleus.jpg'} alt="Passi Nucleus" />
+        <img className="h-64" src={'/fukseille-kk.jpg'} alt="Passi KK" /> */}
       </div>
+      <H1>{t('techStudentHeading')}</H1>
+      <ShortText>{t('techStudentBody')}</ShortText>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block">
         {guildInfo.map(({ img, href, heading, description, founded }) => (
           <GuildCard
