@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://teekkarikomissio.fi/fi</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv"/>
+  </url>
+  <url>
+    <loc>https://teekkarikomissio.fi/sv</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv"/>
+  </url>
+  <url>
+    <loc>https://teekkarikomissio.fi/fi/yhdistys</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/yhdistys"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/yhdistys"/>
+  </url>
+  <url>
+    <loc>https://teekkarikomissio.fi/sv/yhdistys</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/yhdistys"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/yhdistys"/>
+  </url>
+  <url>
+    <loc>https://teekkarikomissio.fi/fi/fukseille</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/fukseille"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/fukseille"/>
+  </url>
+  <url>
+    <loc>https://teekkarikomissio.fi/sv/fukseille</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/fukseille"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/fukseille"/>
+  </url>
+  <url>
+    <loc>https://teekkarikomissio.fi/fi/teekkarilakki</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/teekkarilakki"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/teekkarilakki"/>
+  </url>
+  <url>
+    <loc>https://teekkarikomissio.fi/sv/teekkarilakki</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/teekkarilakki"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/teekkarilakki"/>
+  </url>
+  <url>
+    <loc>https://teekkarikomissio.fi/fi/kulttuuri</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/kulttuuri"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/kulttuuri"/>
+  </url>
+  <url>
+    <loc>https://teekkarikomissio.fi/sv/kulttuuri</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/kulttuuri"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/kulttuuri"/>
+  </url>
+  <url>
+    <loc>https://teekkarikomissio.fi/fi/yrityksille</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/yrityksille"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/yrityksille"/>
+  </url>
+  <url>
+    <loc>https://teekkarikomissio.fi/sv/yrityksille</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/yrityksille"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/yrityksille"/>
+  </url>
+</urlset>
