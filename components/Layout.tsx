@@ -22,9 +22,12 @@ const Layout: React.FC<Props> = ({ titleKey, children }) => {
           name="description"
           content="Teekkarikomissio (TK) on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille."
         />
-        <meta name="keywords" content="teekkari, turku, tekniikka, opiskelu, yliopisto" />
-        <meta name="author" content="Teekkarikomissio - Teknologkommission" />
-        <meta property="og:image" content="/tk-hero.jpg" />
+        <meta
+          name="keywords"
+          content="teekkarikomissio, teknologkommissionen, teekkari, turku, tekniikka, opiskelu, yliopisto, tietotekniikka, biotekniikka, materiaalitekniikka, konetekniikka"
+        />
+        <meta name="author" content="Teekkarikomissio - Teknologkommissionen" />
+        <meta property="og:image" content="/index-banner.jpg" />
         <link rel="shortcut icon" sizes="32x32" href="/tklogo.svg" />
       </Head>
       <Navigation />
