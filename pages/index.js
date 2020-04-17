@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import Head from 'next/head';
+import { useEffect } from 'react';
 import Router, { useRouter } from 'next/router';
 import getInitialLocale from '../static-translations/getInitialLocale';
 
@@ -9,12 +8,6 @@ const Index = () => {
   useEffect(() => {
     Router.push(`/${getInitialLocale()}${asPath}`);
   }, [asPath]);
-
-  return (
-    <Head>
-      <meta name="robots" content="noindex, nofollow" />
-    </Head>
-  );
 };
 
 export default Index;

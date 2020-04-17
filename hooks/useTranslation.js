@@ -2,12 +2,8 @@ import { useContext } from 'react';
 import { LocaleContext } from '../static-translations/LocaleContext';
 
 export default function useTranslation(namespace) {
-  console.log('namespace', namespace);
-
   const { locale } = useContext(LocaleContext);
   const stringsForNamespace = locale.translations.find(translation => translation.namespace === namespace);
-
-  console.log('locale', locale);
 
   function t(key) {
     if (!stringsForNamespace) {
