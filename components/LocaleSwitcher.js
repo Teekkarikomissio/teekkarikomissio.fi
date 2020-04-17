@@ -25,7 +25,7 @@ export default function LocaleSwitcher() {
       className="mt-4 inline-flex text-sm px-4 py-2 leading-none border rounded text-yellow-400 border-yellow-400 hover:border-transparent hover:text-yellow-400 hover:bg-white lg:mt-0"
     >
       <FontAwesomeIcon className="mr-2 h-4" icon={faLanguage} />
-      {t(locale)}
+      {t(locale === 'sv' ? 'fi' : 'sv')}
     </button>
   );
 }
