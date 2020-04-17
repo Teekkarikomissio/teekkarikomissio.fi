@@ -3,19 +3,12 @@ import Head from 'next/head';
 
 import Navigation from './Navigation';
 import Footer from './footer';
-import useTranslation from '../hooks/useTranslation';
 
-interface Props {
-  titleKey: string;
-}
-
-const Layout: React.FC<Props> = ({ titleKey, children }) => {
-  const { t } = useTranslation();
-
+const Layout = ({ titleKey, children }) => {
   return (
     <div className="flex flex-col text-center">
       <Head>
-        <title>{t(titleKey)}</title>
+        <title>{titleKey}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta

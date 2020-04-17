@@ -1,5 +1,6 @@
 .next
 .now
+.env
 
 # Project dependencies
 node_modules

@@ -1,12 +1,13 @@
 import React from 'react';
-import withLocale from '../../hocs/withLocale';
+import TranslationStrings from '../../static-translations/locales';
+import withLocalization from '../../hocs/withLocalization';
+import useTranslation from '../../hooks/useTranslation';
 
 import Layout from '../../components/Layout';
 import { H1, H2, LongText } from '../../components/Typography';
-import useTranslation from '../../hooks/useTranslation';
 
-const Yhdistys: React.FC = () => {
-  const { t } = useTranslation();
+const Yhdistys = () => {
+  const { t } = useTranslation('association');
 
   const boardMembers = [
     {
@@ -59,14 +60,7 @@ const Yhdistys: React.FC = () => {
     },
   ];
 
-  interface BoardCardProps {
-    img: string;
-    name: string;
-    position: string;
-    responsibilities: string;
-  }
-
-  const BoardCard: React.FC<BoardCardProps> = ({ img, name, position, responsibilities }) => {
+  const BoardCard = ({ img, name, position, responsibilities }) => {
     return (
       <div className="max-w-full items-center justify-center rounded-lg shadow-xl m-8">
         <div className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4">
@@ -82,7 +76,7 @@ const Yhdistys: React.FC = () => {
   };
 
   return (
-    <Layout titleKey="yhdistys">
+    <Layout titleKey={t('metaTitle')}>
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="bg-white flex flex-col justify-between leading-normal">
           <H1>{t('associationHeading')}</H1>
@@ -102,4 +96,26 @@ const Yhdistys: React.FC = () => {
   );
 };
 
-export default withLocale(Yhdistys);
+export async function getStaticProps({ params: { lang } }) {
+  const namespaces = ['association', 'common', 'nav'];
+
+  return {
+    props: {
+      lang,
+      namespaces,
+      translations: namespaces.map(namespace => ({
+        namespace,
+        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+      })),
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [{ params: { lang: 'fi' } }, { params: { lang: 'sv' } }],
+    fallback: false,
+  };
+}
+
+export default withLocalization(Yhdistys);

@@ -1,16 +1,17 @@
 import React from 'react';
-import withLocale from '../../hocs/withLocale';
+import TranslationStrings from '../../static-translations/locales';
+import withLocalization from '../../hocs/withLocalization';
+import useTranslation from '../../hooks/useTranslation';
 
 import Layout from '../../components/Layout';
 import { H2, LongText, ListItem } from '../../components/Typography';
 import HeaderPicture from '../../components/HeaderPicture';
-import useTranslation from '../../hooks/useTranslation';
 
-const Cap: React.FC = () => {
-  const { t } = useTranslation();
+const Cap = () => {
+  const { t } = useTranslation('cap');
 
   return (
-    <Layout titleKey="teekkarilakki">
+    <Layout titleKey={t('metaTitle')}>
       <HeaderPicture img="/teekkarihattu.jpg" alt="Turun teekkarilakki" />
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none flex flex-col justify-between leading-normal">
@@ -45,4 +46,26 @@ const Cap: React.FC = () => {
   );
 };
 
-export default withLocale(Cap);
+export async function getStaticProps({ params: { lang } }) {
+  const namespaces = ['cap', 'common', 'nav'];
+
+  return {
+    props: {
+      lang,
+      namespaces,
+      translations: namespaces.map(namespace => ({
+        namespace,
+        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+      })),
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [{ params: { lang: 'fi' } }, { params: { lang: 'sv' } }],
+    fallback: false,
+  };
+}
+
+export default withLocalization(Cap);

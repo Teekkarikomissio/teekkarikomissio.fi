@@ -1,11 +1,6 @@
 import React from 'react';
 
-interface Props {
-  img: string;
-  alt: string;
-}
-
-const HeaderPicture: React.FC<Props> = ({ img, alt }) => {
+const HeaderPicture = ({ img, alt }) => {
   return <img className="lg:rounded-lg lg:mt-16" src={img} alt={alt} />;
 };
 

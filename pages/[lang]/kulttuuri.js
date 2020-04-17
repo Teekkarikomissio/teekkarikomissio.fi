@@ -1,13 +1,13 @@
 import React from 'react';
-import withLocale from '../../hocs/withLocale';
+import TranslationStrings from '../../static-translations/locales';
+import withLocalization from '../../hocs/withLocalization';
+import useTranslation from '../../hooks/useTranslation';
 
 import Layout from '../../components/Layout';
 import { H1, H2, LongText } from '../../components/Typography';
 
-// import useTranslation from '../../hooks/useTranslation';
-
-const Kulttuuri: React.FC = () => {
-  // const { t } = useTranslation();
+const Kulttuuri = () => {
+  const { t } = useTranslation('culture');
 
   const eventInfo = [
     {
@@ -54,7 +54,7 @@ const Kulttuuri: React.FC = () => {
   };
 
   return (
-    <Layout titleKey="kulttuuri">
+    <Layout titleKey={t('metaTitle')}>
       <iframe
         className="w-full min-h-iFrameHeight lg:rounded-lg lg:mt-16"
         src="https://www.youtube.com/embed/GB0Lkq7Om24"
@@ -89,4 +89,26 @@ const Kulttuuri: React.FC = () => {
   );
 };
 
-export default withLocale(Kulttuuri);
+export async function getStaticProps({ params: { lang } }) {
+  const namespaces = ['culture', 'common', 'nav'];
+
+  return {
+    props: {
+      lang,
+      namespaces,
+      translations: namespaces.map(namespace => ({
+        namespace,
+        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+      })),
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [{ params: { lang: 'fi' } }, { params: { lang: 'sv' } }],
+    fallback: false,
+  };
+}
+
+export default withLocalization(Kulttuuri);
