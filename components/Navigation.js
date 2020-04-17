@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
+import useTranslation from '../hooks/useTranslation';
 
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import useTranslation from '../hooks/useTranslation';
 
 import LocaleSwitcher from './LocaleSwitcher';
 
 const Navigation = () => {
-  const { locale, t } = useTranslation();
+  const { locale, t } = useTranslation('nav');
   const [isOpen, toggleOpen] = useState(false);
 
   const links = ['yhdistys', 'fukseille', 'teekkarilakki', 'kulttuuri', 'yrityksille'];
@@ -16,7 +16,7 @@ const Navigation = () => {
   const NavLink = ({ NavName = '' }) => (
     <div className="block mt-4 lg:inline-block lg:mt-0 text-lg text-yellow-400 hover:text-white lg:mr-4">
       <Link href={`/[lang]/${NavName}`} as={`/${locale}/${NavName}`}>
-        <a>{t(`${NavName}`)}</a>
+        <a>{t(NavName)}</a>
       </Link>
     </div>
   );

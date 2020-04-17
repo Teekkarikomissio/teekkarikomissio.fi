@@ -1,13 +1,13 @@
 import React from 'react';
-import withLocale from '../../hocs/withLocale';
-
+import TranslationStrings from '../../static-translations/locales';
+import withLocalization from '../../hocs/withLocalization';
+import useTranslation from '../../hooks/useTranslation';
 import Layout from '../../components/Layout';
 import HeaderPicture from '../../components/HeaderPicture';
 import { H1, H2, ShortText } from '../../components/Typography';
-import useTranslation from '../../hooks/useTranslation';
 
-const Homepage: React.FC = () => {
-  const { t } = useTranslation();
+function Homepage() {
+  const { t } = useTranslation('home');
 
   const partners = [
     {
@@ -22,13 +22,7 @@ const Homepage: React.FC = () => {
     },
   ];
 
-  interface PartnerCardProps {
-    img: string;
-    href: string;
-    alt: string;
-  }
-
-  const PartnerCard: React.FC<PartnerCardProps> = ({ img, href, alt }) => {
+  const PartnerCard = ({ img, href, alt }) => {
     return (
       <div className="flex items-center justify-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 m-8 p-4">
         <a href={href}>
@@ -39,7 +33,7 @@ const Homepage: React.FC = () => {
   };
 
   return (
-    <Layout titleKey="indexTitle">
+    <Layout titleKey={t('metaTitle')}>
       <HeaderPicture img="/index-banner.jpg" alt="Teekkarikomissio" />
 
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
@@ -112,6 +106,28 @@ const Homepage: React.FC = () => {
       </div>
     </Layout>
   );
-};
+}
 
-export default withLocale(Homepage);
+export async function getStaticProps({ params: { lang } }) {
+  const namespaces = ['home', 'common', 'nav'];
+
+  return {
+    props: {
+      lang,
+      namespaces,
+      translations: namespaces.map(namespace => ({
+        namespace,
+        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+      })),
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [{ params: { lang: 'fi' } }, { params: { lang: 'sv' } }],
+    fallback: false,
+  };
+}
+
+export default withLocalization(Homepage);

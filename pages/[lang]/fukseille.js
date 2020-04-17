@@ -1,13 +1,14 @@
 import React from 'react';
-import withLocale from '../../hocs/withLocale';
+import TranslationStrings from '../../static-translations/locales';
+import withLocalization from '../../hocs/withLocalization';
+import useTranslation from '../../hooks/useTranslation';
 
 import Layout from '../../components/Layout';
 import HeaderPicture from '../../components/HeaderPicture';
 import { H1, H2, ShortText, LongText } from '../../components/Typography';
-import useTranslation from '../../hooks/useTranslation';
 
-const NewStudents: React.FC = () => {
-  const { t } = useTranslation();
+const NewStudents = () => {
+  const { t } = useTranslation('techStudent');
 
   const guildInfo = [
     {
@@ -65,15 +66,7 @@ const NewStudents: React.FC = () => {
     },
   ];
 
-  interface GuildCardProps {
-    img: string;
-    href: string;
-    heading: string;
-    description: string;
-    founded: string;
-  }
-
-  const GuildCard: React.FC<GuildCardProps> = ({ img, href, heading, description, founded }) => {
+  const GuildCard = ({ img, href, heading, description, founded }) => {
     return (
       <div className="max-w-full items-center justify-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 shadow-xl rounded-lg m-8">
         <a className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4" href={href}>
@@ -89,7 +82,7 @@ const NewStudents: React.FC = () => {
   };
 
   return (
-    <Layout titleKey="fukseille">
+    <Layout titleKey={t('metaTitle')}>
       <HeaderPicture img="/fukseille-passit.jpg" alt="Fuksipassit" />
       <H1>Fuksipassit</H1>
       <LongText>
@@ -137,4 +130,26 @@ const NewStudents: React.FC = () => {
   );
 };
 
-export default withLocale(NewStudents);
+export async function getStaticProps({ params: { lang } }) {
+  const namespaces = ['techStudent', 'common', 'nav'];
+
+  return {
+    props: {
+      lang,
+      namespaces,
+      translations: namespaces.map(namespace => ({
+        namespace,
+        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+      })),
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [{ params: { lang: 'fi' } }, { params: { lang: 'sv' } }],
+    fallback: false,
+  };
+}
+
+export default withLocalization(NewStudents);

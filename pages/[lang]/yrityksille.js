@@ -1,16 +1,17 @@
 import React from 'react';
-import withLocale from '../../hocs/withLocale';
+import TranslationStrings from '../../static-translations/locales';
+import withLocalization from '../../hocs/withLocalization';
+import useTranslation from '../../hooks/useTranslation';
 
 import Layout from '../../components/Layout';
 import HeaderPicture from '../../components/HeaderPicture';
 import { H1, LongText, ListItem } from '../../components/Typography';
-import useTranslation from '../../hooks/useTranslation';
 
 const ForCompanies = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('forCompanies');
 
   return (
-    <Layout titleKey="yrityksille">
+    <Layout titleKey={t('metaTitle')}>
       <HeaderPicture img="/yrityksille-paavo.jpg" alt="Paavon lakitus" />
       <H1>{t('forCompaniesHeading')}</H1>
       <LongText>{t('forCompaniesBody')} </LongText>
@@ -30,4 +31,26 @@ const ForCompanies = () => {
   );
 };
 
-export default withLocale(ForCompanies);
+export async function getStaticProps({ params: { lang } }) {
+  const namespaces = ['forCompanies', 'common', 'nav'];
+
+  return {
+    props: {
+      lang,
+      namespaces,
+      translations: namespaces.map(namespace => ({
+        namespace,
+        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+      })),
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [{ params: { lang: 'fi' } }, { params: { lang: 'sv' } }],
+    fallback: false,
+  };
+}
+
+export default withLocalization(ForCompanies);
