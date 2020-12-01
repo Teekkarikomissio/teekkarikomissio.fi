@@ -1,4 +1,4 @@
 export default {
   metaTitle: 'Kannanotto',
-  commitmentHeading: 'Kannanotto teekkarikulttuurin puolesta'
+  commitmentHeading: 'Häirinnälle ei ole paikkaa teekkarikulttuurissa'
 }
