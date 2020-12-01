@@ -9,7 +9,7 @@ export const H2 = ({ children }) => {
 };
 
 export const LongText = ({ children }) => {
-  return <p className="text-justify text-gray-700 text-lg mb-8 mx-8">{children}</p>;
+  return <p className="break-words lg:text-justify md:text-center text-gray-700 text-lg mb-8 mx-8">{children}</p>;
 };
 
 export const ShortText = ({ children }) => {
