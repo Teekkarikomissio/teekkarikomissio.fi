@@ -6,6 +6,7 @@ import forCompanies from './forCompanies';
 import home from './home';
 import nav from './nav';
 import techStudent from './techStudent';
+import commitment from "./commitment";
 
 export default {
   association,
@@ -16,4 +17,5 @@ export default {
   home,
   nav,
   techStudent,
+  commitment,
 };
