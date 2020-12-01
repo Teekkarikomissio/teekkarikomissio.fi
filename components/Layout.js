@@ -24,8 +24,8 @@ const Layout = ({ titleKey, children }) => {
         <link rel="shortcut icon" sizes="32x32" href="/tklogo.svg" />
       </Head>
       <Navigation />
-      <div className="flex flex-col items-center">
-        <div className="container mx-auto">{children}</div>
+      <div className="flex-expand flex-col items-center max-h-full">
+        <div className="container mx-auto max-w-prose max-h-full">{children}</div>
       </div>
       <Footer />
     </div>

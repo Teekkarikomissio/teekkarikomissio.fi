@@ -5,4 +5,5 @@ export default {
   teekkarilakki: 'Teekkarilakki',
   kulttuuri: 'Kulttuuri',
   yrityksille: 'Yrityksille',
+  kannanotto: 'Kannanotto'
 };

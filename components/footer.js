@@ -5,8 +5,8 @@ import { faEnvelopeSquare, faMapMarkerAlt } from '@fortawesome/free-solid-svg-ic
 
 const Footer = () => {
   return (
-    <div className="bg-red-800 text-white p-6 border-b-8 border-blue-700">
-      <div className="flex flex-col items-center justify-center">
+    <div className="flex-shrink bg-red-800 text-white p-6 border-b-8 border-blue-700">
+      <div className="flex flex-shrink flex-col items-center justify-center">
         <img className="h-24 w-24 items-center justify-center" src="/tklogo.svg" alt="TK" />
         <div className="lg:flex lg:flex-row md:block items-center justify-between">
           <a
