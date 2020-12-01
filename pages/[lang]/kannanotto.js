@@ -4,14 +4,14 @@ import withLocalization from '../../hocs/withLocalization';
 import useTranslation from '../../hooks/useTranslation';
 
 import Layout from '../../components/Layout';
-import { H1, LongText } from '../../components/Typography';
+import { H1, H2, LongText } from '../../components/Typography';
 
 const Commitment = () => {
   const { t } = useTranslation('commitment');
 
   return (
     <Layout titleKey={t('metaTitle')}>
-      <H1>{t('commitmentHeading')}</H1>
+      <H2>{t('commitmentHeading')}</H2>
       <br></br>
       <LongText className="max-w-prose">Sosiaalisessa mediassa on noussut viikonlopun aikana esille viime vuosien varrelta tapauksia, joissa teekkariyhteisössä on koettu häirintää, painostusta alkoholin käyttöön ja alastomuuteen sekä auktoriteettiaseman väärinkäyttöä.</LongText>
       <LongText>Teekkarikulttuuriin ei kuulu minkäänlainen häirintä, kiusaaminen tai epäasiallinen toiminta, eikä niitä tule katsoa läpi sormien. Tunnustamme kuitenkin tällaista tapahtuneen ja siksi pyydämme vilpittömästi teekkariyhteisönä anteeksi kaikilta huonon kohtelun uhreiksi joutuneilta.Teekkarikulttuurilla on vahvat ja vanhat perinteet, joista osa on hyviä ja osa huonoja. Hyvistä perinteistä pidetään kiinni, kun taas huonoja perinteitä muutetaan ja poistetaan. Teekkarikulttuuria kehitetään jatkuvasti yhdenvertaisemmaksi, avoimemmaksi ja saavutettavammaksi.</LongText>
