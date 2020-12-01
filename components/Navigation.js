@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useTranslation from '../hooks/useTranslation';
+import useTranslation from '../hooks/use-i18n';
 
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

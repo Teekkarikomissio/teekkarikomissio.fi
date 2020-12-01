@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import Router, { useRouter } from 'next/router';
 import { locales } from '../static-translations/config';
-import useTranslation from '../hooks/useTranslation';
+import useTranslation from '../hooks/use-i18n';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLanguage } from '@fortawesome/free-solid-svg-icons';

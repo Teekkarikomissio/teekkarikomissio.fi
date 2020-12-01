@@ -3,9 +3,9 @@ module.exports = {
     redirects() {
       return [
         {
-          source: '/:lang((?!fi|sv))/:path*',
-          destination: '/fi/:path*',
+          source: '/',
           permanent: true,
+          destination: '/fi',
         },
       ];
     },

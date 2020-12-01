@@ -33,6 +33,7 @@
     "prettier": "^1.19.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "rosetta": "^1.0.0",
     "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
