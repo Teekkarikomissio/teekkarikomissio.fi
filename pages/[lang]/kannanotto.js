@@ -12,7 +12,6 @@ const Commitment = () => {
   return (
     <Layout titleKey={t('metaTitle')}>
       <H1>{t('commitmentHeading')}</H1>
-      <H1>Kannanotto teekkarikulttuurin puolesta</H1>
       <br></br>
       <LongText className="max-w-prose">Sosiaalisessa mediassa on noussut viikonlopun aikana esille viime vuosien varrelta tapauksia, joissa teekkariyhteisössä on koettu häirintää, painostusta alkoholin käyttöön ja alastomuuteen sekä auktoriteettiaseman väärinkäyttöä.
       </LongText>
@@ -22,12 +21,13 @@ const Commitment = () => {
       </LongText>
       <LongText>Teekkariyhteisömme on valtavan laaja joukko erilaisia ihmisiä, joita yhdistää erityisesti kiinnostus tekniikkaan ja tupsulakki. Me haluamme, että jokainen yhteisön jäsen tuntee olonsa turvalliseksi ja tervetulleeksi.
       </LongText>
+      <br></br>
     </Layout>
   );
 };
 
 export async function getStaticProps({ params: { lang } }) {
-  const namespaces = ['kannanotto', 'common', 'nav'];
+  const namespaces = ['commitment', 'common', 'nav'];
 
   return {
     props: {
