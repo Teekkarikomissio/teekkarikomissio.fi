@@ -72,7 +72,7 @@ const Yhdistys = () => {
         </div>
       </div>
       <div>
-        <H2>Vuoden 2020 hallitus</H2>
+        <H2>Vuoden {new Date().getFullYear()} hallitus</H2>
         <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 my-4" />
         <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
           {boardMembers.map(({ img, name, position, responsibilities }) => (
