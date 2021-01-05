@@ -13,7 +13,13 @@ const Yhdistys = () => {
     {
       img: '/tklogo.svg',
       name: 'Juhani Kalske',
-      position: 'Puheenjohtaja',
+      position: 'Pääkomissaari',
+      responsibilities: 'Paavo Nurmen patsaan lakitus',
+    },
+    {
+      img: '/tklogo.svg',
+      name: 'Casimir Ruohomaa',
+      position: 'Varapääkomissaari',
       responsibilities: 'Paavo Nurmen patsaan lakitus',
     },
     {
@@ -21,12 +27,6 @@ const Yhdistys = () => {
       name: 'Robert Kantero',
       position: 'Sihteeri ja viestintäkomissaari',
       responsibilities: 'Nettisivut, kalenteriasiat',
-    },
-    {
-      img: '/tklogo.svg',
-      name: 'Casimir Ruohomaa',
-      position: 'Varapääkomissaari',
-      responsibilities: 'Paavo Nurmen patsaan lakitus',
     },
     {
       img: '/tklogo.svg',
@@ -43,7 +43,7 @@ const Yhdistys = () => {
     {
       img: '/tklogo.svg',
       name: 'Niklas Luomala',
-      position: 'Kulttuurikomissaari,',
+      position: 'Kulttuurikomissaari',
       responsibilities: 'Fuksiasiat',
     },
   ];
