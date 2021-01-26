@@ -11,37 +11,37 @@ const Yhdistys = () => {
 
   const boardMembers = [
     {
-      img: '/tklogo.svg',
+      img: '/juhani.jpg',
       name: 'Juhani Kalske',
       position: 'Pääkomissaari',
       responsibilities: 'Paavo Nurmen patsaan lakitus',
     },
     {
-      img: '/tklogo.svg',
+      img: '/casimir.jpg',
       name: 'Casimir Ruohomaa',
       position: 'Varapääkomissaari',
       responsibilities: 'Paavo Nurmen patsaan lakitus',
     },
     {
-      img: '/tklogo.svg',
+      img: '/robert.jpg',
       name: 'Robert Kantero',
       position: 'Sihteeri ja viestintäkomissaari',
       responsibilities: 'Nettisivut, kalenteriasiat',
     },
     {
-      img: '/tklogo.svg',
+      img: '/ilona.jpg',
       name: 'Ilona Kairinen',
       position: 'Talouskomissaari',
       responsibilities: 'Yritysyhteistyö',
     },
     {
-      img: '/tklogo.svg',
+      img: '/merimari.jpg',
       name: 'Merimari Seppänen',
       position: 'Tapahtumakomissaari',
       responsibilities: 'Kastajaisten suunnittelu',
     },
     {
-      img: '/tklogo.svg',
+      img: '/niklas.jpg',
       name: 'Niklas Luomala',
       position: 'Kulttuurikomissaari',
       responsibilities: 'Fuksiasiat',
