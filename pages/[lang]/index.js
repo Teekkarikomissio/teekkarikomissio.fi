@@ -56,9 +56,9 @@ function Homepage() {
         />
         <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
-            <H2>Turun teekkareiden yhteisiä tapahtumia</H2>
+            <H2>{t('homeHeading2')}</H2>
             <ShortText>
-              Järjestämme vuoden aikana teekkariyhteisölle perinteikkäitä ja verkostoa yhdistäviä tapahtumia.
+              {t('homeContent2')}
             </ShortText>
           </div>
         </div>
@@ -72,10 +72,9 @@ function Homepage() {
         ></img>
         <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
-            <H2>Teekkarikulttuuria</H2>
+            <H2>{t('homeHeading3')}</H2>
             <ShortText>
-              Teekkarikomissio järjestää vuosittain paikalliset jäynäkilpailut, joiden kautta valitaan Turun edustaja
-              valtakunnallisiin jäynäkilpailuihin.
+              {t('homeContent3')}
             </ShortText>
           </div>
         </div>
@@ -89,16 +88,15 @@ function Homepage() {
         ></img>
         <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
-            <H2>Paikallista ja valtakunnallista vaikuttamista</H2>
-            <p className="text-gray-700 text-base">
-              Edustamme turkulaista teekkariutta sekä paikallisesti, että valtakunnallisesti. Yhteisön äänitorvena
-              otamme kantaa ja ajamme yhteisölle tärkeitä asioita.
-            </p>
+            <H2>{t('homeHeading4')}</H2>
+            <ShortText>
+              {t('homeContent4')}
+            </ShortText>
           </div>
         </div>
       </div>
 
-      <H1>Yhteistyössä:</H1>
+      <H1>{t('homeHeading5')}</H1>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-1 md:block">
         {partners.map(({ img, href, alt }) => (
           <PartnerCard key={`${href}${alt}`} img={img} href={href} alt={alt} />
