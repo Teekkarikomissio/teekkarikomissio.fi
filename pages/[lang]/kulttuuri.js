@@ -63,21 +63,6 @@ const Kulttuuri = () => {
         allowFullScreen
         title="Valtakunnalliset jäynäkilpailut 2018"
       ></iframe>
-        /*
-        Trying to add PDFs with inline frames, pray4Tertzi
-        */
-        <iframe
-            src="https://drive.google.com/file/d/1I6oH1CeuGkLxH-lYnooy3QblHkLOAid2/view?usp=sharing"
-            title="Jäynäjulistus 2021"
-        ></iframe>
-        <iframe
-            src="https://drive.google.com/file/d/1QN2mydEuZqgH6BWDgQ-ZKWVZgHNyBru-/view?usp=sharing"
-            title="Jäynämanifest 2021"
-        ></iframe>
-        <iframe
-            src="https://drive.google.com/file/d/1-e8ByYVBBwQkjMw7eDBUmaJ4U8OOtGN_/view?usp=sharing"
-            title="Jäynäkisojen säännöt"
-        ></iframe>
       <H1>Jäynäkulttuuri</H1>
       <LongText>
         Jäynäkilpailun tarkoituksena on vaalia jäynäperinteitä, edistää teekkarikulttuuria, kohottaa teekkarihenkeä ja
