@@ -20,7 +20,7 @@ const Layout = ({ titleKey, children }) => {
           content="teekkarikomissio, komissio, teknologkommissionen, kommissionen, teekkari, turku, tekniikka, opiskelu, yliopisto, tietotekniikka, biotekniikka, materiaalitekniikka, konetekniikka, fuksi, paavo, nurmi, vappu, wappu, lakitus, teekkariutta, turkulaista, TK, tk, teekkarikulttuuri, jäynäkulttuuri, teekkarilakki, yhdistys, fukseille, kulttuuri, yrityksille, fuksipassi, lakinkäyttöoikeus, käyttöoikeus, pysyväisohjesääntö, eldprowet, jäynäkilpailu"
         />
         <meta name="author" content="Teekkarikomissio - Teknologkommissionen" />
-        <meta property="og:image" content="/index-banner.jpg" />
+        <meta property="og:image" content="/index-banner-fi.jpg" />
         <link rel="shortcut icon" sizes="32x32" href="/tklogo.svg" />
       </Head>
       <Navigation />
