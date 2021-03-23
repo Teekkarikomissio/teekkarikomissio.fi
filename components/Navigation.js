@@ -11,7 +11,7 @@ const Navigation = () => {
   const { locale, t } = useTranslation('nav');
   const [isOpen, toggleOpen] = useState(false);
 
-  const links = ['kannanotto', 'yhdistys', 'fukseille', 'teekkarilakki', 'kulttuuri', 'yrityksille'];
+  const links = ['jaynakilpailut', 'kannanotto', 'yhdistys', 'fukseille', 'teekkarilakki', 'kulttuuri', 'yrityksille'];
 
   const NavLink = ({ NavName = '' }) => (
     <div className="block mt-4 lg:inline-block lg:mt-0 text-lg text-yellow-400 hover:text-white lg:mr-4">
