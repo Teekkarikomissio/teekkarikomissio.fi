@@ -34,7 +34,7 @@ function Homepage() {
 
   return (
     <Layout titleKey={t('metaTitle')}>
-      <HeaderPicture img="/index-banner.jpg" alt="Teekkarikomissio" />
+      <HeaderPicture img="/index-banner-fi.jpg" alt="Teekkarikomissio" />
 
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
         <div className="bg-white rounded-b lg:rounded-b-none p-4 flex flex-col justify-between leading-normal">

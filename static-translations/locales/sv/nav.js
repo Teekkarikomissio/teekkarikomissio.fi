@@ -5,5 +5,6 @@ export default {
   teekkarilakki: 'Mössa',
   kulttuuri: 'Kultur',
   yrityksille: 'Till Företag',
-  kannanotto: 'Kannanotto'
+  kannanotto: 'Kannanotto',
+  jaynakilpailut: 'Jäynätävlingen'
 };
