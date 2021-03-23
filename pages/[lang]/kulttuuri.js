@@ -55,6 +55,17 @@ const Kulttuuri = () => {
 
   return (
     <Layout titleKey={t('metaTitle')}>
+        <div className="lg:grid lg:grid-flow-col lg:grid-cols-3 lg:grid-rows-1 md:block">
+        <iframe src="https://drive.google.com/file/d/1I6oH1CeuGkLxH-lYnooy3QblHkLOAid2/preview"
+                title="Jäynäjulistus 2021"
+        ></iframe>
+        <iframe src="https://drive.google.com/file/d/1QN2mydEuZqgH6BWDgQ-ZKWVZgHNyBru-/preview"
+                title="Jäynämanifest 2021"
+        ></iframe>
+        <iframe src="https://drive.google.com/file/d/1-e8ByYVBBwQkjMw7eDBUmaJ4U8OOtGN_/preview"
+                title="Jäynäsäännöt"
+        ></iframe>
+        </div>
       <iframe
         className="w-full min-h-iFrameHeight lg:rounded-lg lg:mt-16"
         src="https://www.youtube.com/embed/GB0Lkq7Om24"
