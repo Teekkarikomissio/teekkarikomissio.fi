@@ -28,7 +28,8 @@ const Cap = () => {
             <LongText>{t('capBodyFive')}</LongText>
             <ul className="list-disc text-justify mx-16">
               <ListItem>
-                Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki
+                Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu
+                asusteeksi teekkari- tai ylioppilaslakki
               </ListItem>
               <ListItem>Virallinen Wappulehden myyntitapahtuma</ListItem>
               <ListItem>Valtakunnallinen jäynäkilpailu</ListItem>
@@ -36,8 +37,13 @@ const Cap = () => {
               <ListItem>RekomBIOnaatio</ListItem>
               <ListItem>ATK-YTP</ListItem>
               <ListItem>Lukioesittelyt</ListItem>
-              <ListItem>Kuoro - ja orkesteriesiintymiset, joihin kaikille kuuluu asusteena ylioppilaslakki</ListItem>
-              <ListItem>TEKin tapahtumat, joissa asusteeseen kuuluu teekkarilakki</ListItem>
+              <ListItem>
+                Kuoro - ja orkesteriesiintymiset, joihin kaikille kuuluu
+                asusteena ylioppilaslakki
+              </ListItem>
+              <ListItem>
+                TEKin tapahtumat, joissa asusteeseen kuuluu teekkarilakki
+              </ListItem>
             </ul>
           </div>
         </div>
@@ -53,9 +59,10 @@ export async function getStaticProps({ params: { lang } }) {
     props: {
       lang,
       namespaces,
-      translations: namespaces.map(namespace => ({
+      translations: namespaces.map((namespace) => ({
         namespace,
-        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+        translatedStrings:
+          TranslationStrings[lang] && TranslationStrings[lang][namespace],
       })),
     },
   };

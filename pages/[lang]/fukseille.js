@@ -46,7 +46,8 @@ const NewStudents = () => {
       img: '/logo-dikerho.jpg',
       href: 'https://turkudi.tek.fi/',
       heading: 'Turun DI-kerho',
-      description: 'Turun DI-kerhon tarkoituksena on toimia TEKin alueellisten jäsenten yhdyssiteenä.',
+      description:
+        'Turun DI-kerhon tarkoituksena on toimia TEKin alueellisten jäsenten yhdyssiteenä.',
       founded: 'est. 1933',
     },
     {
@@ -69,7 +70,10 @@ const NewStudents = () => {
   const GuildCard = ({ img, href, heading, description, founded }) => {
     return (
       <div className="max-w-full items-center justify-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 shadow-xl rounded-lg m-8">
-        <a className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4" href={href}>
+        <a
+          className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4"
+          href={href}
+        >
           <img className="h-32" src={img} alt={heading} />
           <div className="w-2/3 flex flex-col items-center justify-center h-auto lg:ml-4">
             <div className="font-bold text-xl lg:w-1/2 my-2">{heading}</div>
@@ -86,10 +90,12 @@ const NewStudents = () => {
       <HeaderPicture img="/fukseille-passit.jpg" alt="Fuksipassit" />
       <H1>Fuksipassit</H1>
       <LongText>
-        Uusien opiskelijoiden orientointiin kuuluu keskeisenä osana fuksipassit. Näiden passien sivuilta löytyy jokaisen
-        uuden opiskelijan lista siitä, mitä kaikkea yhteisömme toimintaan kuuluu. Passien tehtävät vaihtelevat
-        killoittain mutta pääosin niiden tarkoitus on perehdyttää toimintaan ja kannustaa osallistumaan tapahtumiin ja
-        tilaisuuksiin, joita järjestetään vuoden mittaan. Passin suoritettuaan fuksista tulee teekkari, joka saa
+        Uusien opiskelijoiden orientointiin kuuluu keskeisenä osana fuksipassit.
+        Näiden passien sivuilta löytyy jokaisen uuden opiskelijan lista siitä,
+        mitä kaikkea yhteisömme toimintaan kuuluu. Passien tehtävät vaihtelevat
+        killoittain mutta pääosin niiden tarkoitus on perehdyttää toimintaan ja
+        kannustaa osallistumaan tapahtumiin ja tilaisuuksiin, joita järjestetään
+        vuoden mittaan. Passin suoritettuaan fuksista tulee teekkari, joka saa
         lakkinsa vapun aattona.
       </LongText>
       <div className="lg:flex lg:flex-row items-center justify-center">
@@ -137,9 +143,10 @@ export async function getStaticProps({ params: { lang } }) {
     props: {
       lang,
       namespaces,
-      translations: namespaces.map(namespace => ({
+      translations: namespaces.map((namespace) => ({
         namespace,
-        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+        translatedStrings:
+          TranslationStrings[lang] && TranslationStrings[lang][namespace],
       })),
     },
   };

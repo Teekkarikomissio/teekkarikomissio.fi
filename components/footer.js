@@ -1,13 +1,23 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelopeSquare, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import {
+  faFacebookSquare,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
+import {
+  faEnvelopeSquare,
+  faMapMarkerAlt,
+} from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
     <div className="flex-shrink bg-red-800 text-white p-6 border-b-8 border-blue-700">
       <div className="flex flex-shrink flex-col items-center justify-center">
-        <img className="h-24 w-24 items-center justify-center" src="/tklogo.svg" alt="TK" />
+        <img
+          className="h-24 w-24 items-center justify-center"
+          src="/tklogo.svg"
+          alt="TK"
+        />
         <div className="lg:flex lg:flex-row md:block items-center justify-between">
           <a
             className="flex flex-col items-center m-8 hover:text-yellow-400 h-16"

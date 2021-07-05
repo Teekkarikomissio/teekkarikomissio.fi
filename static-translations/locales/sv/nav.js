@@ -6,5 +6,5 @@ export default {
   kulttuuri: 'Kultur',
   yrityksille: 'Till Företag',
   kannanotto: 'Kannanotto',
-  jaynakilpailut: 'Jäynätävlingen'
+  jaynakilpailut: 'Jäynätävlingen',
 };

@@ -5,7 +5,6 @@ import useTranslation from '../../hooks/useTranslation';
 
 import Layout from '../../components/Layout';
 import { H1, H2, H3, LongText } from '../../components/Typography';
-import jaynacompetition from '../../static-translations/locales/fi/jaynacompetition';
 
 const JaynaCompetition = () => {
   const { t } = useTranslation('jaynacompetition');
@@ -61,7 +60,7 @@ const JaynaCompetition = () => {
       <LongText>{t('jaynaRuleText17')}</LongText>
       <LongText>{t('jaynaRuleText18')}</LongText>
     </Layout>
-  );  
+  );
 };
 
 export async function getStaticProps({ params: { lang } }) {
@@ -71,9 +70,10 @@ export async function getStaticProps({ params: { lang } }) {
     props: {
       lang,
       namespaces,
-      translations: namespaces.map(namespace => ({
+      translations: namespaces.map((namespace) => ({
         namespace,
-        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+        translatedStrings:
+          TranslationStrings[lang] && TranslationStrings[lang][namespace],
       })),
     },
   };

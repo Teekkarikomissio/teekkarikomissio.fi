@@ -6,8 +6,8 @@ import forCompanies from './forCompanies';
 import home from './home';
 import nav from './nav';
 import techStudent from './techStudent';
-import commitment from "./commitment";
-import jaynacompetition from "./jaynacompetition";
+import commitment from './commitment';
+import jaynacompetition from './jaynacompetition';
 
 export default {
   association,

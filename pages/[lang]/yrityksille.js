@@ -21,8 +21,9 @@ const ForCompanies = () => {
         <ListItem>Syksyn fuksitapahtumassa</ListItem>
       </ul>
       <LongText>
-        Lisäksi keskustelemme mielellämme potentiaalisista muista yhteistyömahdollisuuksista! Meihin saa yhteyttä
-        laittamalla viestiä osoitteeseen:{' '}
+        Lisäksi keskustelemme mielellämme potentiaalisista muista
+        yhteistyömahdollisuuksista! Meihin saa yhteyttä laittamalla viestiä
+        osoitteeseen:{' '}
         <a className="underline" href="mailto:teekkarikomissio@lists.utu.fi">
           teekkarikomissio@lists.utu.fi
         </a>
@@ -38,9 +39,10 @@ export async function getStaticProps({ params: { lang } }) {
     props: {
       lang,
       namespaces,
-      translations: namespaces.map(namespace => ({
+      translations: namespaces.map((namespace) => ({
         namespace,
-        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+        translatedStrings:
+          TranslationStrings[lang] && TranslationStrings[lang][namespace],
       })),
     },
   };

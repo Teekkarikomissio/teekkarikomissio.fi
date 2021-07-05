@@ -57,9 +57,7 @@ function Homepage() {
         <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
             <H2>{t('homeHeading2')}</H2>
-            <ShortText>
-              {t('homeContent2')}
-            </ShortText>
+            <ShortText>{t('homeContent2')}</ShortText>
           </div>
         </div>
       </div>
@@ -73,9 +71,7 @@ function Homepage() {
         <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
             <H2>{t('homeHeading3')}</H2>
-            <ShortText>
-              {t('homeContent3')}
-            </ShortText>
+            <ShortText>{t('homeContent3')}</ShortText>
           </div>
         </div>
       </div>
@@ -89,9 +85,7 @@ function Homepage() {
         <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
             <H2>{t('homeHeading4')}</H2>
-            <ShortText>
-              {t('homeContent4')}
-            </ShortText>
+            <ShortText>{t('homeContent4')}</ShortText>
           </div>
         </div>
       </div>
@@ -113,9 +107,10 @@ export async function getStaticProps({ params: { lang } }) {
     props: {
       lang,
       namespaces,
-      translations: namespaces.map(namespace => ({
+      translations: namespaces.map((namespace) => ({
         namespace,
-        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+        translatedStrings:
+          TranslationStrings[lang] && TranslationStrings[lang][namespace],
       })),
     },
   };

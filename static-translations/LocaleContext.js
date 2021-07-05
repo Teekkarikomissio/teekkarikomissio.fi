@@ -12,7 +12,12 @@ export const LocaleContext = createContext({
   setLocale: () => null,
 });
 
-export const LocaleProvider = ({ lang, translations, namespaces, children }) => {
+export const LocaleProvider = ({
+  lang,
+  translations,
+  namespaces,
+  children,
+}) => {
   const [locale, setLocale] = useState({ lang, translations, namespaces });
   const { query } = useRouter();
 
@@ -29,5 +34,9 @@ export const LocaleProvider = ({ lang, translations, namespaces, children }) => 
     }
   }, [query.lang, locale.lang, query, translations, namespaces]);
 
-  return <LocaleContext.Provider value={{ locale, setLocale }}>{children}</LocaleContext.Provider>;
+  return (
+    <LocaleContext.Provider value={{ locale, setLocale }}>
+      {children}
+    </LocaleContext.Provider>
+  );
 };
