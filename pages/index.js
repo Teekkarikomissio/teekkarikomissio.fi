@@ -3,9 +3,9 @@ import Head from 'next/head';
 import Router, { useRouter } from 'next/router';
 import getInitialLocale from '../static-translations/getInitialLocale';
 
-const Index = () => {
+function Index(props) {
   const { asPath } = useRouter();
-
+  
   useEffect(() => {
     Router.push(`/${getInitialLocale()}${asPath}`);
   }, [asPath]);

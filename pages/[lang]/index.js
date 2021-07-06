@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import TranslationStrings from '../../static-translations/locales';
 import withLocalization from '../../hocs/withLocalization';
 import useTranslation from '../../hooks/useTranslation';
@@ -6,7 +6,29 @@ import Layout from '../../components/Layout';
 import HeaderPicture from '../../components/HeaderPicture';
 import { H1, H2, ShortText } from '../../components/Typography';
 
+const client = require('contentful').createClient({
+  space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID,
+  accessToken: process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN,
+});
+
+
 function Homepage() {
+  const [entries, setEntries] = useState([]);
+
+  async function fetchEntries() {
+    const entries = await client.getEntries();
+    if (entries.items) return entries.items;
+    console.log(`Error getting Entries for ${contentType.name}.`);
+  }
+
+  useEffect(() => {
+    async function getEntries() {
+      const allEntries = await fetchEntries();
+      setEntries([...allEntries]);
+    }
+    getEntries();
+  }, []);
+
   const { t } = useTranslation('home');
 
   const partners = [
@@ -34,6 +56,8 @@ function Homepage() {
 
   return (
     <Layout titleKey={t('metaTitle')}>
+      {entries.map(entry => <p>{entry.fields.introduction}</p>)}
+
       <HeaderPicture img="/index-banner-fi.jpg" alt="Teekkarikomissio" />
 
       <div className="max-w-sm w-full lg:max-w-full lg:flex">
