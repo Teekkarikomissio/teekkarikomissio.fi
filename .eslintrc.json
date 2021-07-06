@@ -12,7 +12,6 @@
     "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended"
   ],
-  "parser": "babel-eslint",
   "settings": {
     "react": {
       "version": "detect"

@@ -29,24 +29,24 @@
     "@fortawesome/react-fontawesome": "^0.1.8",
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "@zeit/next-css": "^1.0.1",
-    "autoprefixer": "^9.7.6",
-    "next": "^9.3.0",
+    "autoprefixer": "^10.2.6",
+    "next": "^11.0.1",
+    "postcss": "^8.3.5",
     "postcss-import": "^12.0.1",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "tailwindcss": "^1.2.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.4"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.3.0",
+    "eslint": "^7.30.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^4.3.8",
-    "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1"
+    "husky": "^7.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.2"
   },
   "husky": {
     "hooks": {
