@@ -1,0 +1,76 @@
+@import 'colors';
+
+.intro {
+  text-align: center;
+
+  h1 {
+    line-height: 2;
+    font-weight: 700;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
+
+.events {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+
+  img {
+    border-radius: 1rem;
+    width: 100%;
+  }
+
+  h1 {
+    line-height: 2;
+    font-weight: 700;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    margin: 1rem;
+  }
+
+  padding: 1rem;
+}
+
+.grid--wrapper {
+  h1,
+  h2 {
+    color: $stiletto;
+  }
+  display: grid;
+  grid-template-columns:
+    1fr
+    min(65ch, 100%)
+    1fr;
+}
+
+.grid--wrapper > *,
+.header {
+  grid-column: 2;
+}
+
+.full-bleed {
+  width: 100%;
+  grid-column: 1 / -1;
+}
+
+.wrapper {
+  width: min(60ch, calc(100% - 64px));
+}

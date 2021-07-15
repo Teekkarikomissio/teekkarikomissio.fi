@@ -1,0 +1,46 @@
+@import '../../styles/colors.scss';
+
+.menu {
+  background-color: $stiletto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.menu li {
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+  margin: 0 2rem 0 2rem;
+
+  a {
+    font-size: 1rem;
+    color: $robRoy;
+    text-decoration: none;
+    transition: all 0.45s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &:hover a {
+    color: #d94f5c;
+  }
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.selector {
+  border: 0.1rem solid $robRoy;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  height: 2rem;
+
+  h4 {
+    margin-right: 0.2rem;
+  }
+}

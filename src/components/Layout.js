@@ -1,7 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 
-import Navigation from './Navigation';
+import Navigation from './Navigation/Navigation';
 import Footer from './footer';
 
 const Layout = ({ titleKey, children }) => {
