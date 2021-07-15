@@ -78,7 +78,7 @@ export default function Association(props) {
 
 export async function getStaticProps({ locale }) {
   const res = await fetch(
-    `https://cdn.contentful.com/spaces/bhnx2gxvmzaa/environments/master/entries/7le6U0AJhAL6Ht9QrfbH8Q?access_token=bGonsARJb1zRfGF1Ly3BH7EUaBhjjrhd50PV7qRTtlA&locale=${locale}`
+    `https://cdn.contentful.com/spaces/${process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID}/environments/master/entries/7le6U0AJhAL6Ht9QrfbH8Q?access_token=${process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN}&locale=${locale}`
   );
   const associationPageContent = await res.json();
 

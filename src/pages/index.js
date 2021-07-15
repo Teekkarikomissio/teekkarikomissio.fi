@@ -98,7 +98,7 @@ export default function Homepage(props) {
 
 export async function getStaticProps({ locale }) {
   const res = await fetch(
-    `https://cdn.contentful.com/spaces/bhnx2gxvmzaa/environments/master/entries/1hNDC9PObV6TydgWGyPUMo?access_token=bGonsARJb1zRfGF1Ly3BH7EUaBhjjrhd50PV7qRTtlA&locale=${locale}`
+    `https://cdn.contentful.com/spaces/${process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID}/environments/master/entries/1hNDC9PObV6TydgWGyPUMo?access_token=${process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN}&locale=${locale}`
   );
   const homePageContent = await res.json();
 
