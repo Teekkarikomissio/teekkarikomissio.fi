@@ -13,7 +13,7 @@ const NewStudents = () => {
   const guildInfo = [
     {
       img: '/logo-date.png',
-      href: 'https://date.abo.fi/',
+      href: 'https://datateknologerna.org/',
       heading: 'Datateknologerna vid Åbo Akademi rf',
       description: 'Tietotekniikka',
       founded: 'est. 1999',
@@ -27,7 +27,7 @@ const NewStudents = () => {
     },
     {
       img: '/logo-kk.png',
-      href: 'https://kemistklubben.abo.fi/',
+      href: 'https://kemistklubben.org/',
       heading: 'Kemistklubben vid Åbo Akademi rf',
       description: 'Kemian- ja prosessitekniikka',
       founded: 'est. 1923',
@@ -84,22 +84,16 @@ const NewStudents = () => {
   return (
     <Layout titleKey={t('metaTitle')}>
       <HeaderPicture img="/fukseille-passit.jpg" alt="Fuksipassit" />
-      <H1>Fuksipassit</H1>
-      <LongText>
-        Uusien opiskelijoiden orientointiin kuuluu keskeisenä osana fuksipassit. Näiden passien sivuilta löytyy jokaisen
-        uuden opiskelijan lista siitä, mitä kaikkea yhteisömme toimintaan kuuluu. Passien tehtävät vaihtelevat
-        killoittain mutta pääosin niiden tarkoitus on perehdyttää toimintaan ja kannustaa osallistumaan tapahtumiin ja
-        tilaisuuksiin, joita järjestetään vuoden mittaan. Passin suoritettuaan fuksista tulee teekkari, joka saa
-        lakkinsa vapun aattona.
-      </LongText>
+      <H1>{t('techStudentHeading')}</H1>
+      <LongText> {t('techStudentBody')}</LongText>
       <div className="lg:flex lg:flex-row items-center justify-center">
         {/* <img className="h-64" src={'/fukseille-date.jpg'} alt="Passi Date" />
         <img className="h-64" src={'/fukseille-digit.jpg'} alt="Passi Digit" />
         <img className="h-64" src={'/fukseille-nucleus.jpg'} alt="Passi Nucleus" />
         <img className="h-64" src={'/fukseille-kk.jpg'} alt="Passi KK" /> */}
       </div>
-      <H1>{t('techStudentHeading')}</H1>
-      <ShortText>{t('techStudentBody')}</ShortText>
+      <H1>{t('techStudentHeading1')}</H1>
+      <ShortText>{t('techStudentBody1')}</ShortText>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block">
         {guildInfo.map(({ img, href, heading, description, founded }) => (
           <GuildCard
@@ -112,7 +106,7 @@ const NewStudents = () => {
           />
         ))}
       </div>
-      <H2>Alumnikerhot</H2>
+      <H2>{t('techStudentHeading2*')}</H2>
       <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700" />
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block">
         {alumniInfo.map(({ img, href, heading, description, founded }) => (
