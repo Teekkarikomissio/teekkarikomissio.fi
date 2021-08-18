@@ -2,9 +2,9 @@ export default {
   indexTitle: 'Teknologkommissionen',
   yhdistys: 'Föreningen',
   fukseille: 'Gulis',
-  teekkarilakki: 'Mössa',
+  teekkarilakki: 'Teknologössa',
   kulttuuri: 'Kultur',
   yrityksille: 'Till Företag',
-  kannanotto: 'Kannanotto',
+  kannanotto: 'Ställningsantagande',
   jaynakilpailut: 'Jäynätävlingen'
 };

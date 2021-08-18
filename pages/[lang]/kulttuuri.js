@@ -63,23 +63,12 @@ const Kulttuuri = () => {
         allowFullScreen
         title="Valtakunnalliset jäynäkilpailut 2018"
       ></iframe>
-      <H1>Jäynäkulttuuri</H1>
-      <LongText>
-        Jäynäkilpailun tarkoituksena on vaalia jäynäperinteitä, edistää teekkarikulttuuria, kohottaa teekkarihenkeä ja
-        edistää teekkaribrändin näkyvyyttä Turussa sekä tuottaa hyvää mieltä jäynän kaikilla vaikutusalueilla.
-      </LongText>
-      <LongText>
-        Jäynän tarkoituksena on tuottaa hyväntahtoisesti riemua itselle, jäynän kohteelle ja suurelle yleisölle. Jäynä
-        ei tosimielellä ota kantaa uskontoon tai politiikkaan. Se on luonteeltaan yllätyksellinen, tekniikan keinoja
-        hyväksikäyttävä ja epäsovinnainen. Jäynä voi olla kestoltaan lyhyt tai pitkä.
-      </LongText>
-      <LongText>
-        Jäynä ei solvaa, rienaa, turmele, varasta tai tuhoa. Jäynä ei aiheuta kenellekään taloudellisia, henkisiä tai
-        fyysisiä vaikeuksia. Jäynä ei saa kohdistua millään muotoa poliisi- tai pelastusviranomaisiin eikä tuomariston
-        jäseneen.
-      </LongText>
+      <H1>{t('cultureHeading')}</H1>
+      <LongText>{t('cultureBody')}</LongText>
+      <LongText>{t('cultureBody1')}</LongText>
+      <LongText>{t('cultureBody2')}</LongText>
       {/* <TextBox heading={'Teekkariwappu'} body={'https://www.teekkariwappu.fi/'} /> */}
-      <H2>Teekkarikomission tapahtumat</H2>
+      <H2>{t('cultureHeading1')}</H2>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
         {eventInfo.map(({ img, heading }) => (
           <EventCard key={`${heading}`} imgUrl={img} heading={heading} />
