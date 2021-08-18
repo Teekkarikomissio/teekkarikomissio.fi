@@ -27,17 +27,15 @@ const Cap = () => {
             <H2>{t('capHeadingFive')}</H2>
             <LongText>{t('capBodyFive')}</LongText>
             <ul className="list-disc text-justify mx-16">
-              <ListItem>
-                Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki
-              </ListItem>
-              <ListItem>Virallinen Wappulehden myyntitapahtuma</ListItem>
-              <ListItem>Valtakunnallinen jäynäkilpailu</ListItem>
-              <ListItem>Tietoteekkarien taistot</ListItem>
-              <ListItem>RekomBIOnaatio</ListItem>
-              <ListItem>ATK-YTP</ListItem>
-              <ListItem>Lukioesittelyt</ListItem>
-              <ListItem>Kuoro - ja orkesteriesiintymiset, joihin kaikille kuuluu asusteena ylioppilaslakki</ListItem>
-              <ListItem>TEKin tapahtumat, joissa asusteeseen kuuluu teekkarilakki</ListItem>
+              <ListItem>{t('capListItemOne')}</ListItem>
+              <ListItem>{t('capListItemTwo')}</ListItem>
+              <ListItem>{t('capListItemThree')}</ListItem>
+              <ListItem>{t('capListItemFour')}</ListItem>
+              <ListItem>{t('capListItemFive')}</ListItem>
+              <ListItem>{t('capListItemSix')}</ListItem>
+              <ListItem>{t('capListItemSeven')}</ListItem>
+              <ListItem>{t('capListItemEight')}</ListItem>
+              <ListItem>{t('capListItemNine')}</ListItem>
             </ul>
           </div>
         </div>
