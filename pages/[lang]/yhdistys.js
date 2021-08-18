@@ -13,7 +13,7 @@ const Yhdistys = () => {
     {
       img: '/juhani.jpg',
       name: 'Juhani Kalske',
-      position: '{t(',associationTitle,')}':associationTitle,
+      position: 'Pääkomissaari',
       responsibilities: 'Paavo Nurmen patsaan lakitus',
     },
     {
