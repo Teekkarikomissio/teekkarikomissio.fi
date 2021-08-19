@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import TranslationStrings from '../../static-translations/locales';
 import withLocalization from '../../hocs/withLocalization';
 import useTranslation from '../../hooks/useTranslation';
@@ -49,3 +49,4 @@ export async function getStaticPaths() {
 }
 
 export default withLocalization(Commitment);
+*/
