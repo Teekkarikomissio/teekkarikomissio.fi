@@ -72,7 +72,7 @@ const Kulttuuri = () => {
       <LongText>{t('cultureBody3')}</LongText>
       <LongText>{t('cultureBody4')}</LongText>
       <LongText>{t('cultureBody5')}</LongText>
-      <H3>{t('cultureHeading2')}</H3>
+      <H2>{t('cultureHeading2')}</H2>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
         {eventInfo.map(({ img, heading }) => (
           <EventCard key={`${heading}`} imgUrl={img} heading={heading} />
