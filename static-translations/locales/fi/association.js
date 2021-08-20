@@ -5,7 +5,7 @@ export default {
     'Teekkarikomissio hoitaa jäsenyhdistyksilleen yhteisiä asioita, edustaa Turun teekkareita ylioppilaskunta-tasolla ja vastaa heidän korkeakoulupoliittisista kannanotoista. Lisäksi Komissio on tärkeä yhdyskanava Turussa toimiville teekkariyhdistyksille. Käytännössä Teekkarikomission järjestämään toimintaan kuuluu hallituksen ja yhdistyksen kokouksia, edustusmatkoja sekä enemmän tai vähemmän säännöllisiä tapahtumia.',
   associationHeading1: 'Vuoden',
   associationHeading2: 'hallitus',
-  associoationOtherResponsibilities: 'Muut vastuualueeet:',
+  associationOtherResponsibilities: 'Muut vastuualueet:',
   associationTitle: 'Pääkomissaari',
   associationTitle1: 'Varapääkomissaari',
   associationTitle2: 'Sihteeri ja viestintäkomissaari',

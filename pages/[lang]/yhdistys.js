@@ -9,42 +9,44 @@ import { H1, H2, LongText } from '../../components/Typography';
 const Yhdistys = () => {
   const { t } = useTranslation('association');
 
+
+
   const boardMembers = [
     {
       img: '/juhani.jpg',
       name: 'Juhani Kalske',
-      position: {t('associationTitle')},
-      responsibilities: {t('associationResponsibilities')},
+      position: t('associationTitle'),
+      responsibilities: t('associationResponsibilities'),
     },
     {
       img: '/casimir.jpg',
       name: 'Casimir Ruohomaa',
-      position: {t('associationTitle1')},
-      responsibilities: {t('associationResponsibilities1')},
+      position: t('associationTitle1'),
+      responsibilities: t('associationResponsibilities1'),
     },
     {
       img: '/robert.jpg',
       name: 'Robert Kantero',
-      position: {t('associationTitle2')},
-      responsibilities: {t('associationResponsibilities2')},
+      position: t('associationTitle2'),
+      responsibilities: t('associationResponsibilities2'),
     },
     {
       img: '/ilona.jpg',
       name: 'Ilona Kairinen',
-      position: {t('associationTitle3')},
-      responsibilities: {t('associationResponsibilities3')},
+      position: t('associationTitle3'),
+      responsibilities: t('associationResponsibilities3'),
     },
     {
       img: '/merimari.jpg',
       name: 'Merimari Seppänen',
-      position: {t('associationTitle4')},
-      responsibilities: {t('associationResponsibilities4')},
+      position: t('associationTitle4'),
+      responsibilities: t('associationResponsibilities4'),
     },
     {
       img: '/niklas.jpg',
       name: 'Niklas Luomala',
-      position: {t('associationTitle5')},
-      responsibilities: {t('associationResponsibilities5')},
+      position: t('associationTitle5'),
+      responsibilities: t('associationResponsibilities5'),
     },
   ];
 
