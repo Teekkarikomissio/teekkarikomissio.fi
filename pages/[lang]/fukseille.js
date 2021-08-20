@@ -15,28 +15,28 @@ const NewStudents = () => {
       img: '/logo-date.png',
       href: 'https://datateknologerna.org/',
       heading: 'Datateknologerna vid Åbo Akademi rf',
-      description: 'Tietotekniikka',
+      description: t('techStudentInfo'),
       founded: 'est. 1999',
     },
     {
       img: '/logo-digit.png',
       href: 'https://digit.fi/',
       heading: 'Digit ry',
-      description: 'Tieto- ja viestintätekniikka',
+      description: t('techStudentInfo1'),
       founded: 'est. 1999',
     },
     {
       img: '/logo-kk.png',
       href: 'https://kemistklubben.org/',
       heading: 'Kemistklubben vid Åbo Akademi rf',
-      description: 'Kemian- ja prosessitekniikka',
+      description: t('techStudentInfo2'),
       founded: 'est. 1923',
     },
     {
       img: '/logo-nucleus.png',
       href: 'https://nucleus.fi/',
       heading: 'Nucleus ry',
-      description: 'Biotekniikka ja elintarvikekehitys',
+      description: t('techStudentInfo3'),
       founded: 'est. 2008',
     },
   ];
@@ -46,7 +46,7 @@ const NewStudents = () => {
       img: '/logo-dikerho.jpg',
       href: 'https://turkudi.tek.fi/',
       heading: 'Turun DI-kerho',
-      description: 'Turun DI-kerhon tarkoituksena on toimia TEKin alueellisten jäsenten yhdyssiteenä.',
+      description: t('techStudentInfo4'),
       founded: 'est. 1933',
     },
     {
@@ -54,14 +54,14 @@ const NewStudents = () => {
       href: 'https://digit.fi/alumneille',
       heading: '0-kerho',
       description:
-        '0-kerho on Digit ry:n alumnikerho, jonka tarkoitus on toimia linkkinä uusien ja vanhojen opiskelijoiden välillä.',
+        t('techStudentInfo5'),
       founded: '',
     },
     {
       img: '/logo-aboatek.png',
       href: 'https://aboatekblog.wordpress.com/',
       heading: 'AboaTEK',
-      description: 'Lounais-Suomen tekniikan akateemiset naiset',
+      description: t('techStudentInfo6'),
       founded: '',
     },
   ];

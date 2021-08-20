@@ -5,4 +5,11 @@ export default {
   techStudentHeading1: 'Jäsenyhdistykset',
   techStudentBody1: 'Teekkarikomissiolla on neljä jäsentä - Turussa toimivat teekkariyhdistykset. Jokainen Digit ry:n, Nucleus ry:n, Datateknologerna vid Åbo Akademi rf:n tai Kemistklubben vid Åbo Akademi rf:n äänioikeutettu jäsen on siis automaagisesti oikeutettu osallistumaan TK:n toimintaan!',
   techStudentHeading2: 'Alumnikerhot',
+  techStudentInfo: 'Tietotekniikka',
+  techStudentInfo1: 'Tieto- ja viestintätekniikka',
+  techStudentInfo2: 'Kemian- ja prosessitekniikka',
+  techStudentInfo3: 'Biotekniikka ja elintarvikekehitys',
+  techStudentInfo4: 'Turun DI-kerhon tarkoituksena on toimia TEKin alueellisten jäsenten yhdyssiteenä.',
+  techStudentInfo5: '0-kerho on Digit ry:n alumnikerho, jonka tarkoitus on toimia linkkinä uusien ja vanhojen opiskelijoiden välillä.',
+  techStudentInfo6: 'Lounais-Suomen tekniikan akateemiset naiset',
 };

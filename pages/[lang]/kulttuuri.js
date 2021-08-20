@@ -12,31 +12,31 @@ const Kulttuuri = () => {
   const eventInfo = [
     {
       img: '/event-jaynastartti.jpg',
-      heading: 'Paikallisten jäynäkilpailuiden starttaaminen',
+      heading: t('cultureEvent'),
     },
     {
       img: '/event-preldprowet.jpg',
-      heading: 'TK:n wappuinen PREldproWET',
+      heading: t('cultureEvent1'),
     },
     {
       img: '/tklogo.svg',
-      heading: 'Eldprowet',
+      heading: t('cultureEvent2'),
     },
     {
       img: '/event-paavo.jpg',
-      heading: 'Paavo Nurmen patsaan lakitus',
+      heading: t('cultureEvent3'),
     },
     {
       img: '/event-sommar.jpg',
-      heading: 'Sommarträff',
+      heading: t('cultureEvent4'),
     },
     {
       img: '/event-sitz.jpg',
-      heading: 'TK:n kiltojen väliset sitsit',
+      heading: t('cultureEvent5'),
     },
     {
       img: '/event-fia.jpg',
-      heading: 'TK fiacup',
+      heading: t('cultureEvent6'),
     },
   ];
 

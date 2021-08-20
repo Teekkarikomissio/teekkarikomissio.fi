@@ -9,42 +9,44 @@ import { H1, H2, LongText } from '../../components/Typography';
 const Yhdistys = () => {
   const { t } = useTranslation('association');
 
+
+
   const boardMembers = [
     {
       img: '/juhani.jpg',
       name: 'Juhani Kalske',
-      position: 'Pääkomissaari',
-      responsibilities: 'Paavo Nurmen patsaan lakitus',
+      position: t('associationTitle'),
+      responsibilities: t('associationResponsibilities'),
     },
     {
       img: '/casimir.jpg',
       name: 'Casimir Ruohomaa',
-      position: 'Varapääkomissaari',
-      responsibilities: 'Paavo Nurmen patsaan lakitus',
+      position: t('associationTitle1'),
+      responsibilities: t('associationResponsibilities1'),
     },
     {
       img: '/robert.jpg',
       name: 'Robert Kantero',
-      position: 'Sihteeri ja viestintäkomissaari',
-      responsibilities: 'Nettisivut, kalenteriasiat',
+      position: t('associationTitle2'),
+      responsibilities: t('associationResponsibilities2'),
     },
     {
       img: '/ilona.jpg',
       name: 'Ilona Kairinen',
-      position: 'Talouskomissaari',
-      responsibilities: 'Yritysyhteistyö',
+      position: t('associationTitle3'),
+      responsibilities: t('associationResponsibilities3'),
     },
     {
       img: '/merimari.jpg',
       name: 'Merimari Seppänen',
-      position: 'Tapahtumakomissaari',
-      responsibilities: 'Kastajaisten suunnittelu',
+      position: t('associationTitle4'),
+      responsibilities: t('associationResponsibilities4'),
     },
     {
       img: '/niklas.jpg',
       name: 'Niklas Luomala',
-      position: 'Kulttuurikomissaari',
-      responsibilities: 'Fuksiasiat',
+      position: t('associationTitle5'),
+      responsibilities: t('associationResponsibilities5'),
     },
   ];
 
@@ -56,7 +58,7 @@ const Yhdistys = () => {
           <div className="w-2/3 flex flex-col items-center justify-center h-auto lg:ml-4 mb-4">
             <H2>{name}</H2>
             <p className="text-gray-700 text-lg my-4">{position}</p>
-            <p className="text-gray-700 text-base">Muut vastuualueet: {responsibilities}</p>
+            <p className="text-gray-700 text-base">{t('associationOtherResponsibilities')} {responsibilities}</p>
           </div>
         </div>
       </div>
