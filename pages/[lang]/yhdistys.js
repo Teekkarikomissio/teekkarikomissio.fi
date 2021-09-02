@@ -31,7 +31,7 @@ const Yhdistys = () => {
       name: 'Robert Kantero',
       position: t('associationTitle2'),
       responsibilities: t('associationResponsibilities2'),
-      contact: 'rkantero@abo.fi',
+      contact: 'rkantero [ät] abo.fi',
     },
     {
       img: '/ilona.jpg',
@@ -52,7 +52,7 @@ const Yhdistys = () => {
       name: 'Niklas Luomala',
       position: t('associationTitle5'),
       responsibilities: t('associationResponsibilities5'),
-      contact: '',
+      contact: 'nemluo@utu.fi',
     },
   ];
 
@@ -85,7 +85,7 @@ const Yhdistys = () => {
         <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 my-4" />
         <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-3 md:block">
           {boardMembers.map(({ img, name, position, responsibilities }) => (
-            <BoardCard key={`${name}`} img={img} name={name} position={position} responsibilities={responsibilities} />
+            <BoardCard key={`${name}`} img={img} name={name} position={position} responsibilities={responsibilities} contact={contact}/>
           ))}
         </div>
       </div>
