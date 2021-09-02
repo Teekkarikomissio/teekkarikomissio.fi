@@ -17,46 +17,52 @@ const Yhdistys = () => {
       name: 'Juhani Kalske',
       position: t('associationTitle'),
       responsibilities: t('associationResponsibilities'),
-      contact: '',
+      contact: 'E-mail: juhekal@utu.fi',
+      contact2: 'TG: @JKarlsberg',
     },
     {
       img: '/casimir.jpg',
       name: 'Casimir Ruohomaa',
       position: t('associationTitle1'),
       responsibilities: t('associationResponsibilities1'),
-      contact: '',
+      contact: 'E-mail: ',
+      contact2: 'TG: @Ruohomaa',
     },
     {
       img: '/robert.jpg',
       name: 'Robert Kantero',
       position: t('associationTitle2'),
       responsibilities: t('associationResponsibilities2'),
-      contact: 'rkantero@abo.fi',
+      contact: 'E-mail: rkantero@abo.fi',
+      contact2: 'TG: @rkantero',
     },
     {
       img: '/ilona.jpg',
       name: 'Ilona Kairinen',
       position: t('associationTitle3'),
       responsibilities: t('associationResponsibilities3'),
-      contact: '',
+      contact: 'E-mail: ikairine@abo.fi',
+      contact2: 'TG: @iltsu',
     },
     {
       img: '/merimari.jpg',
       name: 'Merimari Seppänen',
       position: t('associationTitle4'),
       responsibilities: t('associationResponsibilities4'),
-      contact: '',
+      contact: 'E-mail: ',
+      contact2: 'TG: @Merimarise',
     },
     {
       img: '/niklas.jpg',
       name: 'Niklas Luomala',
       position: t('associationTitle5'),
       responsibilities: t('associationResponsibilities5'),
-      contact: 'nemluo@utu.fi',
+      contact: 'E-mail: nemluo@utu.fi',
+      contact2: 'TG: @henrywestons',
     },
   ];
 
-  const BoardCard = ({ img, name, position, responsibilities, contact }) => {
+  const BoardCard = ({ img, name, position, responsibilities, contact, contact2 }) => {
     return (
       <div className="max-w-full items-center justify-center rounded-lg shadow-xl m-8">
         <div className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4">
@@ -64,8 +70,9 @@ const Yhdistys = () => {
           <div className="w-2/3 flex flex-col items-center justify-center h-auto lg:ml-4 mb-4">
             <H2>{name}</H2>
             <p className="text-gray-700 text-lg my-4">{position}</p>
-            <p className="text-gray-700 text-base">{t('associationOtherResponsibilities')} {responsibilities}</p>
-            <p className="text-gray-700 text-lg my-4">{contact}</p>
+            <p className="text-gray-700 text-lg my-4">{t('associationOtherResponsibilities')} {responsibilities}</p>
+            <p className="text-gray-700 text-base">{contact}</p>
+            <p className="text-gray-700 text-base">{contact2}</p>
           </div>
         </div>
       </div>
@@ -85,7 +92,7 @@ const Yhdistys = () => {
         <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 my-4" />
         <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-3 md:block">
           {boardMembers.map(({ img, name, position, responsibilities, contact}) => (
-            <BoardCard key={`${name}`} img={img} name={name} position={position} responsibilities={responsibilities} contact={contact}/>
+            <BoardCard key={`${name}`} img={img} name={name} position={position} responsibilities={responsibilities} contact={contact} contact2={contact2}/>
           ))}
         </div>
       </div>
