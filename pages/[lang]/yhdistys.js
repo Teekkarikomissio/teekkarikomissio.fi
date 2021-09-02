@@ -25,7 +25,7 @@ const Yhdistys = () => {
       name: 'Casimir Ruohomaa',
       position: t('associationTitle1'),
       responsibilities: t('associationResponsibilities1'),
-      contact: 'E-mail: ',
+      contact: 'E-mail: cruohoma@abo.fi',
       contact2: 'TG: @Ruohomaa',
     },
     {
@@ -49,7 +49,7 @@ const Yhdistys = () => {
       name: 'Merimari Seppänen',
       position: t('associationTitle4'),
       responsibilities: t('associationResponsibilities4'),
-      contact: 'E-mail: ',
+      contact: 'E-mail: mersep@utu.fi',
       contact2: 'TG: @Merimarise',
     },
     {
