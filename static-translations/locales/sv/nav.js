@@ -2,7 +2,7 @@ export default {
   indexTitle: 'Teknologkommissionen',
   yhdistys: 'Föreningen',
   fukseille: 'Gulis',
-  teekkarilakki: 'Teknologössa',
+  teekkarilakki: 'Teknologmössa',
   kulttuuri: 'Kultur',
   yrityksille: 'Till Företag',
   jaynakilpailut: 'Jäynätävlingen'
