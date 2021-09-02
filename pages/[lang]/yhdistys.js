@@ -56,7 +56,7 @@ const Yhdistys = () => {
     },
   ];
 
-  const BoardCard = ({ img, name, position, responsibilities }) => {
+  const BoardCard = ({ img, name, position, responsibilities, contact }) => {
     return (
       <div className="max-w-full items-center justify-center rounded-lg shadow-xl m-8">
         <div className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4">
