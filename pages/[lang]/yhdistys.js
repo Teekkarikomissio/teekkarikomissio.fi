@@ -17,36 +17,42 @@ const Yhdistys = () => {
       name: 'Juhani Kalske',
       position: t('associationTitle'),
       responsibilities: t('associationResponsibilities'),
+      contact: '',
     },
     {
       img: '/casimir.jpg',
       name: 'Casimir Ruohomaa',
       position: t('associationTitle1'),
       responsibilities: t('associationResponsibilities1'),
+      contact: '',
     },
     {
       img: '/robert.jpg',
       name: 'Robert Kantero',
       position: t('associationTitle2'),
       responsibilities: t('associationResponsibilities2'),
+      contact: 'rkantero@abo.fi',
     },
     {
       img: '/ilona.jpg',
       name: 'Ilona Kairinen',
       position: t('associationTitle3'),
       responsibilities: t('associationResponsibilities3'),
+      contact: '',
     },
     {
       img: '/merimari.jpg',
       name: 'Merimari Seppänen',
       position: t('associationTitle4'),
       responsibilities: t('associationResponsibilities4'),
+      contact: '',
     },
     {
       img: '/niklas.jpg',
       name: 'Niklas Luomala',
       position: t('associationTitle5'),
       responsibilities: t('associationResponsibilities5'),
+      contact: '',
     },
   ];
 
@@ -59,6 +65,7 @@ const Yhdistys = () => {
             <H2>{name}</H2>
             <p className="text-gray-700 text-lg my-4">{position}</p>
             <p className="text-gray-700 text-base">{t('associationOtherResponsibilities')} {responsibilities}</p>
+            <p className="text-gray-700 text-lg my-4">{contact}</p>
           </div>
         </div>
       </div>
