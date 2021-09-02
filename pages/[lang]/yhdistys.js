@@ -91,7 +91,7 @@ const Yhdistys = () => {
         <H2>{t('associationHeading1')} {new Date().getFullYear()} {t('associationHeading2')}</H2>
         <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 my-4" />
         <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-3 md:block">
-          {boardMembers.map(({ img, name, position, responsibilities, contact}) => (
+          {boardMembers.map(({ img, name, position, responsibilities, contact, contact2}) => (
             <BoardCard key={`${name}`} img={img} name={name} position={position} responsibilities={responsibilities} contact={contact} contact2={contact2}/>
           ))}
         </div>
