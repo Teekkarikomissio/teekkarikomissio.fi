@@ -31,7 +31,7 @@ const Yhdistys = () => {
       name: 'Robert Kantero',
       position: t('associationTitle2'),
       responsibilities: t('associationResponsibilities2'),
-      contact: 'rkantero [ät] abo.fi',
+      contact: 'rkantero@abo.fi',
     },
     {
       img: '/ilona.jpg',
@@ -65,7 +65,7 @@ const Yhdistys = () => {
             <H2>{name}</H2>
             <p className="text-gray-700 text-lg my-4">{position}</p>
             <p className="text-gray-700 text-base">{t('associationOtherResponsibilities')} {responsibilities}</p>
-            <p className="text-gray-700 text-base">{contact}</p>
+            <p className="text-gray-700 text-lg my-4">{contact}</p>
           </div>
         </div>
       </div>
