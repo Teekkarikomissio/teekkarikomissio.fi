@@ -14,7 +14,7 @@ const Footer = () => {
             href="https://www.google.fi/maps/place/Axelia/@60.455294,22.2783535,17z/data=!3m1!4b1!4m5!3m4!1s0x468c76f03394fe35:0x7f74515b5f8f6062!8m2!3d60.455294!4d22.2805422"
           >
             <FontAwesomeIcon icon={faMapMarkerAlt} />
-            <span>Piispankatu 8, 20500 Turku</span>
+            <span>Henrikinkatu 2, 20500 Turku</span>
           </a>
           <a
             className="flex flex-col items-center m-8 hover:text-yellow-400 h-16"
