@@ -29,7 +29,7 @@ const Yhdistys = () => {
       contact2: 'TG: @maksim_sala_bim',
     },
     {
-      img: '/logo-machina.jpg',
+      img: '/logo-machina.png',
       name: 'Jonatan Järvinen',
       position: t('associationTitle2'),
       responsibilities: t('associationResponsibilities2'),
