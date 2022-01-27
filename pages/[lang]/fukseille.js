@@ -41,7 +41,7 @@ const NewStudents = () => {
     },
     {
       img: '/logo-adamas.png',
-      href: 'https://www.adamas.fi/',
+      href: 'https://adamas.fi/',
       heading: 'Adamas ry',
       description: t('techStudentInfo4'),
       founded: 'est. 2020',
