@@ -39,6 +39,20 @@ const NewStudents = () => {
       description: t('techStudentInfo3'),
       founded: 'est. 2008',
     },
+    {
+      img: '/logo-adamas.png',
+      href: 'https://www.adamas.fi/',
+      heading: 'Adamas ry',
+      description: t('techStudentInfo4'),
+      founded: 'est. 2020',
+    },
+    {
+      img: '/logo-machina.jpg',
+      href: 'https://www.facebook.com/KonetekniikkaMachinary/',
+      heading: 'Machina ry',
+      description: t('techStudentInfo5'),
+      founded: 'est. 2020',
+    },
   ];
 
   const alumniInfo = [
@@ -46,7 +60,7 @@ const NewStudents = () => {
       img: '/logo-dikerho.jpg',
       href: 'https://turkudi.tek.fi/',
       heading: 'Turun DI-kerho',
-      description: t('techStudentInfo4'),
+      description: t('techStudentInfo6'),
       founded: 'est. 1933',
     },
     {
@@ -54,14 +68,14 @@ const NewStudents = () => {
       href: 'https://digit.fi/alumneille',
       heading: '0-kerho',
       description:
-        t('techStudentInfo5'),
+        t('techStudentInfo7'),
       founded: '',
     },
     {
       img: '/logo-aboatek.png',
       href: 'https://aboatekblog.wordpress.com/',
       heading: 'AboaTEK',
-      description: t('techStudentInfo6'),
+      description: t('techStudentInfo8'),
       founded: '',
     },
   ];
@@ -94,7 +108,7 @@ const NewStudents = () => {
       </div>
       <H1>{t('techStudentHeading1')}</H1>
       <ShortText>{t('techStudentBody1')}</ShortText>
-      <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block">
+      <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-3 md:block">
         {guildInfo.map(({ img, href, heading, description, founded }) => (
           <GuildCard
             key={`${href}${heading}`}
