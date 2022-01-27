@@ -17,9 +17,9 @@ export default {
   associationResponsibilities: 'Paavo Nurmen patsaan lakitus ja nettisivut',
   associationResponsibilities1: 'Paavo Nurmen patsaan lakitus',
   associationResponsibilities2: 'Kalenteriasiat',
-  associationResponsibilities3: '',
+  associationResponsibilities3: 'N/A',
   associationResponsibilities4: 'Kalenteriasiat',
   associationResponsibilities5: 'Fuksiasiat',
-  associationResponsibilities6: '',
-  associationResponsibilities7: '',
+  associationResponsibilities6: 'N/A',
+  associationResponsibilities7: 'N/A',
   };

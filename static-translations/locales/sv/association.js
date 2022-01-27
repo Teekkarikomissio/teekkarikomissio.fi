@@ -17,9 +17,9 @@ export default {
   associationResponsibilities: 'Paavo Nurmi-statyns mösspåläggning och webbsidan',
   associationResponsibilities1: 'Paavo Nurmi-statyns mösspåläggning',
   associationResponsibilities2: 'Kalenderärenden',
-  associationResponsibilities3: '',
+  associationResponsibilities3: 'N/A',
   associationResponsibilities4: 'Kalenderärenden',
   associationResponsibilities5: 'Gulisärenden',
-  associationResponsibilities6: '',
-  associationResponsibilities7: '',
+  associationResponsibilities6: 'N/A',
+  associationResponsibilities7: 'N/A',
 };
