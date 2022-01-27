@@ -13,7 +13,7 @@ const Yhdistys = () => {
 
   const boardMembers = [
     {
-      img: '/logo-date.png',
+      img: '/juhani.jpg',
       name: 'Robert Kantero',
       position: t('associationTitle'),
       responsibilities: t('associationResponsibilities'),
@@ -21,7 +21,7 @@ const Yhdistys = () => {
       contact2: 'TG: @rkantero',
     },
     {
-      img: '/logo-digit.png',
+      img: '/juhani.jpg',
       name: 'Maksim Laitinen',
       position: t('associationTitle1'),
       responsibilities: t('associationResponsibilities1'),
@@ -29,7 +29,7 @@ const Yhdistys = () => {
       contact2: 'TG: @maksim_sala_bim',
     },
     {
-      img: '/logo-machina.jpg',
+      img: '/juhani.jpg',
       name: 'Jonatan Järvinen',
       position: t('associationTitle2'),
       responsibilities: t('associationResponsibilities2'),
@@ -37,7 +37,7 @@ const Yhdistys = () => {
       contact2: 'TG: @jondejarvinen',
     },
     {
-      img: '/logo-kk.png',
+      img: '/juhani.jpg',
       name: 'Alex Nygård',
       position: t('associationTitle3'),
       responsibilities: t('associationResponsibilities3'),
@@ -45,7 +45,7 @@ const Yhdistys = () => {
       contact2: 'TG: @TBA',
     },
     {
-      img: '/logo-nucleus.png',
+      img: '/juhani.jpg',
       name: 'Julia Pyysalo',
       position: t('associationTitle4'),
       responsibilities: t('associationResponsibilities4'),
@@ -53,7 +53,7 @@ const Yhdistys = () => {
       contact2: 'TG: @juliapyysalo',
     },
     {
-      img: '/logo-digit.png',
+      img: '/juhani.jpg',
       name: 'Matti Loimaranta',
       position: t('associationTitle5'),
       responsibilities: t('associationResponsibilities5'),
@@ -61,7 +61,7 @@ const Yhdistys = () => {
       contact2: 'TG: @MattiLoimaranta',
     },
     {
-      img: '/logo-kk.png',
+      img: '/juhani.jpg',
       name: 'Niklas Sjöqvist',
       position: t('associationTitle6'),
       responsibilities: t('associationResponsibilities6'),
@@ -69,7 +69,7 @@ const Yhdistys = () => {
       contact2: 'TG: @sjoklas',
     },
     {
-      img: '/logo-kk.png',
+      img: '/juhani.jpg',
       name: 'Niklas Lind',
       position: t('associationTitle7'),
       responsibilities: t('associationResponsibilities7'),
