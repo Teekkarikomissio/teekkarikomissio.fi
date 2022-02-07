@@ -13,7 +13,7 @@ const Yhdistys = () => {
 
   const boardMembers = [
     {
-      img: '/logo-date.png',
+      img: '/Robert.png',
       name: 'Robert Kantero',
       position: t('associationTitle'),
       responsibilities: t('associationResponsibilities'),
@@ -21,7 +21,7 @@ const Yhdistys = () => {
       contact2: 'TG: @rkantero',
     },
     {
-      img: '/logo-digit.png',
+      img: '/Maksim.png',
       name: 'Maksim Laitinen',
       position: t('associationTitle1'),
       responsibilities: t('associationResponsibilities1'),
@@ -29,7 +29,7 @@ const Yhdistys = () => {
       contact2: 'TG: @maksim_sala_bim',
     },
     {
-      img: '/logo-machina.png',
+      img: '/Jonde.png',
       name: 'Jonatan Järvinen',
       position: t('associationTitle2'),
       responsibilities: t('associationResponsibilities2'),
@@ -37,7 +37,7 @@ const Yhdistys = () => {
       contact2: 'TG: @jondejarvinen',
     },
     {
-      img: '/logo-kk.png',
+      img: '/Alex.png',
       name: 'Alex Nygård',
       position: t('associationTitle3'),
       responsibilities: t('associationResponsibilities3'),
@@ -45,7 +45,7 @@ const Yhdistys = () => {
       contact2: 'TG: @Alexmny',
     },
     {
-      img: '/logo-nucleus.png',
+      img: '/Julia.png',
       name: 'Julia Pyysalo',
       position: t('associationTitle4'),
       responsibilities: t('associationResponsibilities4'),
@@ -53,7 +53,7 @@ const Yhdistys = () => {
       contact2: 'TG: @juliapyysalo',
     },
     {
-      img: '/logo-digit.png',
+      img: '/Matti.png',
       name: 'Matti Loimaranta',
       position: t('associationTitle5'),
       responsibilities: t('associationResponsibilities5'),
@@ -61,7 +61,7 @@ const Yhdistys = () => {
       contact2: 'TG: @MattiLoimaranta',
     },
     {
-      img: '/logo-kk.png',
+      img: '/Sjoklas.png',
       name: 'Niklas Sjöqvist',
       position: t('associationTitle6'),
       responsibilities: t('associationResponsibilities6'),
@@ -69,7 +69,7 @@ const Yhdistys = () => {
       contact2: 'TG: @sjoklas',
     },
     {
-      img: '/logo-adamas.png',
+      img: '/Niklas.png',
       name: 'Niklas Lind',
       position: t('associationTitle7'),
       responsibilities: t('associationResponsibilities7'),
