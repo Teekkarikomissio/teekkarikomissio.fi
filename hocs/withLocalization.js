@@ -1,6 +1,5 @@
 import React from 'react';
 import Error from 'next/error';
-import { getDisplayName } from 'next/dist/next-server/lib/utils';
 import { LocaleProvider } from '../static-translations/LocaleContext';
 import isLocale from '../static-translations/isLocale';
 import Router, { useRouter } from 'next/router';
@@ -15,7 +14,7 @@ export default WrappedPage => {
     }
 
     if (!isLocale(lang)) {
-      if (process.browser) {
+      if (process.window) {
         // if the specified param is not a valid locale, it might be a subpath without locale prefic
         Router.push(`/${getInitialLocale()}${asPath}`);
       }
@@ -32,7 +31,7 @@ export default WrappedPage => {
     );
   };
 
-  WithLocale.displayName = `withLocalization(${getDisplayName(WrappedPage)})`;
+  WithLocale.displayName = `withLocalization(WrappedPage)`;
 
   return WithLocale;
 };
