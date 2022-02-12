@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import TranslationStrings from '../../static-translations/locales';
 import withLocalization from '../../hocs/withLocalization';
 import useTranslation from '../../hooks/useTranslation';
@@ -44,7 +45,7 @@ const Kulttuuri = () => {
     return (
       <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 m-8 p-4 shadow-xl rounded-lg">
         <div className="items-center justify-center">
-          <img src={imgUrl} alt={heading} />
+          <Image src={imgUrl} alt={heading} width={400} height={400} />
         </div>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{heading}</div>
@@ -89,9 +90,10 @@ export async function getStaticProps({ params: { lang } }) {
     props: {
       lang,
       namespaces,
-      translations: namespaces.map(namespace => ({
+      translations: namespaces.map((namespace) => ({
         namespace,
-        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+        translatedStrings:
+          TranslationStrings[lang] && TranslationStrings[lang][namespace],
       })),
     },
   };

@@ -14,7 +14,8 @@ export default {
   associationTitle5: 'Kulturkommissarie',
   associationTitle6: 'Informationskommissarie',
   associationTitle7: 'Utrikeskommissarie',
-  associationResponsibilities: 'Paavo Nurmi-statyns mösspåläggning och webbsidan',
+  associationResponsibilities:
+    'Paavo Nurmi-statyns mösspåläggning och webbsidan',
   associationResponsibilities1: 'Paavo Nurmi-statyns mösspåläggning',
   associationResponsibilities2: 'Kalenderärenden',
   associationResponsibilities3: 'N/A',

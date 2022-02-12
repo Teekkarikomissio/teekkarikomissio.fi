@@ -61,7 +61,7 @@ const JaynaCompetition = () => {
       <LongText>{t('jaynaRuleText17')}</LongText>
       <LongText>{t('jaynaRuleText18')}</LongText>
     </Layout>
-  );  
+  );
 };
 
 export async function getStaticProps({ params: { lang } }) {
@@ -71,9 +71,10 @@ export async function getStaticProps({ params: { lang } }) {
     props: {
       lang,
       namespaces,
-      translations: namespaces.map(namespace => ({
+      translations: namespaces.map((namespace) => ({
         namespace,
-        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+        translatedStrings:
+          TranslationStrings[lang] && TranslationStrings[lang][namespace],
       })),
     },
   };

@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 import TranslationStrings from '../../static-translations/locales';
 import withLocalization from '../../hocs/withLocalization';
 import useTranslation from '../../hooks/useTranslation';
@@ -8,8 +10,6 @@ import { H1, H2, LongText } from '../../components/Typography';
 
 const Yhdistys = () => {
   const { t } = useTranslation('association');
-
-
 
   const boardMembers = [
     {
@@ -78,15 +78,30 @@ const Yhdistys = () => {
     },
   ];
 
-  const BoardCard = ({ img, name, position, responsibilities, contact, contact2 }) => {
+  const BoardCard = ({
+    img,
+    name,
+    position,
+    responsibilities,
+    contact,
+    contact2,
+  }) => {
     return (
       <div className="max-w-full items-center justify-center rounded-lg shadow-xl m-8">
         <div className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4">
-          <img className="w-64" src={img} alt={name} />
+          <Image
+            className="w-64"
+            src={img}
+            alt={name}
+            width={400}
+            height={600}
+          />
           <div className="w-2/3 flex flex-col items-center justify-center h-auto lg:ml-4 mb-4">
             <H2>{name}</H2>
             <p className="text-gray-700 text-lg my-4">{position}</p>
-            <p className="text-gray-700 text-lg my-4">{t('associationOtherResponsibilities')} {responsibilities}</p>
+            <p className="text-gray-700 text-lg my-4">
+              {t('associationOtherResponsibilities')} {responsibilities}
+            </p>
             <p className="text-gray-700 text-base">{contact}</p>
             <p className="text-gray-700 text-base">{contact2}</p>
           </div>
@@ -104,12 +119,25 @@ const Yhdistys = () => {
         </div>
       </div>
       <div>
-        <H2>{t('associationHeading1')} {new Date().getFullYear()} {t('associationHeading2')}</H2>
+        <H2>
+          {t('associationHeading1')} {new Date().getFullYear()}{' '}
+          {t('associationHeading2')}
+        </H2>
         <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 my-4" />
         <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
-          {boardMembers.map(({ img, name, position, responsibilities, contact, contact2}) => (
-            <BoardCard key={`${name}`} img={img} name={name} position={position} responsibilities={responsibilities} contact={contact} contact2={contact2}/>
-          ))}
+          {boardMembers.map(
+            ({ img, name, position, responsibilities, contact, contact2 }) => (
+              <BoardCard
+                key={`${name}`}
+                img={img}
+                name={name}
+                position={position}
+                responsibilities={responsibilities}
+                contact={contact}
+                contact2={contact2}
+              />
+            )
+          )}
         </div>
       </div>
     </Layout>
@@ -123,9 +151,10 @@ export async function getStaticProps({ params: { lang } }) {
     props: {
       lang,
       namespaces,
-      translations: namespaces.map(namespace => ({
+      translations: namespaces.map((namespace) => ({
         namespace,
-        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+        translatedStrings:
+          TranslationStrings[lang] && TranslationStrings[lang][namespace],
       })),
     },
   };

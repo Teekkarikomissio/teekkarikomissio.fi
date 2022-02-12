@@ -11,9 +11,12 @@ export default function LocaleSwitcher() {
   const { locale, t } = useTranslation('common');
 
   const handleLocaleChange = useCallback(
-    event => {
+    (event) => {
       const regex = new RegExp(`^/(${locales.join('|')})`);
-      Router.push(router.pathname, router.asPath.replace(regex, `/${event.currentTarget.value}`));
+      Router.push(
+        router.pathname,
+        router.asPath.replace(regex, `/${event.currentTarget.value}`)
+      );
     },
     [router]
   );

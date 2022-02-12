@@ -18,13 +18,15 @@ export default {
   Liiallisessa päihtymistilassa lakki tulisi piilottaa sen maineen säilyttämiseksi.`,
   capHeadingFive: '§5 Pysyväisohjesääntö',
   capBodyFive: `Myönnetään pysyvä lakinkäyttöoikeus seuraaviin tilaisuuksiin:`,
-  capListItemOne: 'Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki',
+  capListItemOne:
+    'Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki',
   capListItemTwo: 'Virallinen Wappulehden myyntitapahtuma',
   capListItemThree: 'Valtakunnallinen jäynäkilpailu',
   capListItemFour: 'Tietoteekkarien taistot',
   capListItemFive: 'RekomBIOnaatio',
   capListItemSix: 'ATK-YTP',
   capListItemSeven: 'Lukioesittelyt',
-  capListItemEight: 'Kuoro - ja orkesteriesiintymiset, joihin kaikille kuuluu asusteena ylioppilaslakki',
+  capListItemEight:
+    'Kuoro - ja orkesteriesiintymiset, joihin kaikille kuuluu asusteena ylioppilaslakki',
   capListItemNine: 'TEKin tapahtumat, joissa asusteeseen kuuluu teekkarilakki',
 };

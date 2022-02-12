@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 import TranslationStrings from '../../static-translations/locales';
 import withLocalization from '../../hocs/withLocalization';
 import useTranslation from '../../hooks/useTranslation';
@@ -67,8 +69,7 @@ const NewStudents = () => {
       img: '/logo-nollakerho.png',
       href: 'https://digit.fi/alumneille',
       heading: '0-kerho',
-      description:
-        t('techStudentInfo7'),
+      description: t('techStudentInfo7'),
       founded: '',
     },
     {
@@ -83,8 +84,17 @@ const NewStudents = () => {
   const GuildCard = ({ img, href, heading, description, founded }) => {
     return (
       <div className="max-w-full items-center justify-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 shadow-xl rounded-lg m-8">
-        <a className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4" href={href}>
-          <img className="h-32" src={img} alt={heading} />
+        <a
+          className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4"
+          href={href}
+        >
+          <Image
+            className="h-32"
+            src={img}
+            alt={heading}
+            width={200}
+            height={200}
+          />
           <div className="w-2/3 flex flex-col items-center justify-center h-auto lg:ml-4">
             <div className="font-bold text-xl lg:w-1/2 my-2">{heading}</div>
             <p className="text-gray-700 text-base">{founded}</p>
@@ -100,12 +110,6 @@ const NewStudents = () => {
       <HeaderPicture img="/fukseille-passit.jpg" alt="Fuksipassit" />
       <H1>{t('techStudentHeading')}</H1>
       <LongText> {t('techStudentBody')}</LongText>
-      <div className="lg:flex lg:flex-row items-center justify-center">
-        {/* <img className="h-64" src={'/fukseille-date.jpg'} alt="Passi Date" />
-        <img className="h-64" src={'/fukseille-digit.jpg'} alt="Passi Digit" />
-        <img className="h-64" src={'/fukseille-nucleus.jpg'} alt="Passi Nucleus" />
-        <img className="h-64" src={'/fukseille-kk.jpg'} alt="Passi KK" /> */}
-      </div>
       <H1>{t('techStudentHeading1')}</H1>
       <ShortText>{t('techStudentBody1')}</ShortText>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-3 md:block">
@@ -145,9 +149,10 @@ export async function getStaticProps({ params: { lang } }) {
     props: {
       lang,
       namespaces,
-      translations: namespaces.map(namespace => ({
+      translations: namespaces.map((namespace) => ({
         namespace,
-        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+        translatedStrings:
+          TranslationStrings[lang] && TranslationStrings[lang][namespace],
       })),
     },
   };

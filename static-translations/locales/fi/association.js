@@ -22,4 +22,4 @@ export default {
   associationResponsibilities5: 'Fuksiasiat',
   associationResponsibilities6: 'N/A',
   associationResponsibilities7: 'N/A',
-  };
+};

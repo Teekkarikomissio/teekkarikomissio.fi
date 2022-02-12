@@ -5,7 +5,7 @@ import isLocale from '../static-translations/isLocale';
 import Router, { useRouter } from 'next/router';
 import getInitialLocale from '../static-translations/getInitialLocale';
 
-export default WrappedPage => {
+export default (WrappedPage) => {
   const WithLocale = ({ lang, translations, namespaces, ...pageProps }) => {
     const { asPath } = useRouter();
 
@@ -25,7 +25,11 @@ export default WrappedPage => {
     }
 
     return (
-      <LocaleProvider lang={lang} translations={translations} namespaces={namespaces}>
+      <LocaleProvider
+        lang={lang}
+        translations={translations}
+        namespaces={namespaces}
+      >
         <WrappedPage {...pageProps} />
       </LocaleProvider>
     );

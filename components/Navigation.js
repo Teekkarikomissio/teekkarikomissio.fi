@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 import useTranslation from '../hooks/useTranslation';
 
 import Link from 'next/link';
@@ -11,7 +12,14 @@ const Navigation = () => {
   const { locale, t } = useTranslation('nav');
   const [isOpen, toggleOpen] = useState(false);
 
-  const links = ['jaynakilpailut', 'yhdistys', 'fukseille', 'teekkarilakki', 'kulttuuri', 'yrityksille'];
+  const links = [
+    'jaynakilpailut',
+    'yhdistys',
+    'fukseille',
+    'teekkarilakki',
+    'kulttuuri',
+    'yrityksille',
+  ];
 
   const NavLink = ({ NavName = '' }) => (
     <div className="block mt-4 lg:inline-block lg:mt-0 text-lg text-yellow-400 hover:text-white lg:mr-4">
@@ -26,9 +34,17 @@ const Navigation = () => {
       <div className="container mx-auto lg:flex lg:flex-row lg:justify-between">
         <div className="flex justify-between">
           <div className="flex items-center flex-shrink-0 text-white mr-6">
-            <img className="fill-current h-8 w-8 mr-2" src="/tklogo.svg" alt="TK logo" width="54" height="54" />
+            <Image
+              className="fill-current h-8 w-8 mr-2"
+              src="/tklogo.svg"
+              alt="TK logo"
+              width="54"
+              height="54"
+            />
             <Link href="/[lang]" as={`/${locale}`}>
-              <a className="font-semibold lg:text-xl md:text-sm tracking-tight">{t('indexTitle')}</a>
+              <a className="font-semibold lg:text-xl md:text-sm tracking-tight">
+                {t('indexTitle')}
+              </a>
             </Link>
           </div>
           <button
@@ -39,9 +55,15 @@ const Navigation = () => {
             <FontAwesomeIcon className="fill-current h-3 w-3" icon={faBars} />
           </button>
         </div>
-        <div className={isOpen ? '' : 'w-full block lg:flex lg:w-auto hidden lg:block pt-6 lg:pt-0'}>
+        <div
+          className={
+            isOpen
+              ? ''
+              : 'w-full block lg:flex lg:w-auto hidden lg:block pt-6 lg:pt-0'
+          }
+        >
           <div className="text-sm">
-            {links.map(link => {
+            {links.map((link) => {
               return <NavLink key={link} NavName={link} />;
             })}
             <LocaleSwitcher />

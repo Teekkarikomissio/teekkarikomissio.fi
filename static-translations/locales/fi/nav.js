@@ -5,5 +5,5 @@ export default {
   teekkarilakki: 'Teekkarilakki',
   kulttuuri: 'Kulttuuri',
   yrityksille: 'Yrityksille',
-  jaynakilpailut: 'Jäynäkilpailut'
+  jaynakilpailut: 'Jäynäkilpailut',
 };

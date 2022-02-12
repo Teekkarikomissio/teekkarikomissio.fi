@@ -20,7 +20,8 @@ const ForCompanies = () => {
         <ListItem>{t('forCompaniesListItem1')}</ListItem>
         <ListItem>{t('forCompaniesListItem2')}</ListItem>
       </ul>
-      <LongText>{t('forCompaniesBody1')}{' '}
+      <LongText>
+        {t('forCompaniesBody1')}{' '}
         <a className="underline" href="mailto:teekkarikomissio@lists.utu.fi">
           teekkarikomissio@lists.utu.fi
         </a>
@@ -36,9 +37,10 @@ export async function getStaticProps({ params: { lang } }) {
     props: {
       lang,
       namespaces,
-      translations: namespaces.map(namespace => ({
+      translations: namespaces.map((namespace) => ({
         namespace,
-        translatedStrings: TranslationStrings[lang] && TranslationStrings[lang][namespace],
+        translatedStrings:
+          TranslationStrings[lang] && TranslationStrings[lang][namespace],
       })),
     },
   };
