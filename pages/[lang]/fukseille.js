@@ -12,7 +12,7 @@ const NewStudents = () => {
 
   const guildInfo = [
     {
-      img: '/logo-date.png',
+      img: '/Albin_alt.png',
       href: 'https://datateknologerna.org/',
       heading: 'Datateknologerna vid Åbo Akademi rf',
       description: t('techStudentInfo'),
