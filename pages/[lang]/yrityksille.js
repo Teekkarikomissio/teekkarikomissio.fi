@@ -21,8 +21,8 @@ const ForCompanies = () => {
         <ListItem>{t('forCompaniesListItem2')}</ListItem>
       </ul>
       <LongText>{t('forCompaniesBody1')}{' '}
-        <a className="underline" href="mailto:teekkarikomissio@lists.utu.fi">
-          teekkarikomissio@lists.utu.fi
+        <a className="underline" href="mailto:teekkarikomissio@utu.fi">
+          teekkarikomissio@utu.fi
         </a>
       </LongText>
     </Layout>

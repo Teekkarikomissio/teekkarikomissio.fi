@@ -11,17 +11,17 @@ const Footer = () => {
         <div className="lg:flex lg:flex-row md:block items-center justify-between">
           <a
             className="flex flex-col items-center m-8 hover:text-yellow-400 h-16"
-            href="https://www.google.fi/maps/place/Axelia/@60.455294,22.2783535,17z/data=!3m1!4b1!4m5!3m4!1s0x468c76f03394fe35:0x7f74515b5f8f6062!8m2!3d60.455294!4d22.2805422"
+            href="https://www.google.com/maps/place/Aurum/@60.4556193,22.2832854,16.75z/data=!4m5!3m4!1s0x0:0xdccba43f503231bf!8m2!3d60.4548997!4d22.2825189"
           >
             <FontAwesomeIcon icon={faMapMarkerAlt} />
             <span>Henrikinkatu 2, 20500 Turku</span>
           </a>
           <a
             className="flex flex-col items-center m-8 hover:text-yellow-400 h-16"
-            href="mailto:teekkarikomissio@lists.utu.fi"
+            href="mailto:teekkarikomissio@utu.fi"
           >
             <FontAwesomeIcon icon={faEnvelopeSquare} />
-            <span>teekkarikomissio@lists.utu.fi</span>
+            <span>teekkarikomissio@utu.fi</span>
           </a>
           <a
             className="flex flex-col items-center m-8 hover:text-yellow-400 h-16"
