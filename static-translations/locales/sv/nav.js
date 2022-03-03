@@ -5,5 +5,6 @@ export default {
   teekkarilakki: 'Teknologmössa',
   kulttuuri: 'Kultur',
   yrityksille: 'Till Företag',
-  jaynakilpailut: 'Jäynätävlingen'
+  jaynakilpailut: 'Jäynätävlingen',
+  stadgar: 'Stadgar',
 };
