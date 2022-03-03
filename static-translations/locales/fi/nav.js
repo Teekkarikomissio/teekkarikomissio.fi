@@ -6,5 +6,5 @@ export default {
   kulttuuri: 'Kulttuuri',
   yrityksille: 'Yrityksille',
   jaynakilpailut: 'Jäynäkilpailut',
-  stadgar: 'Säännöt',
+  viralliset: 'Dokumentit',
 };
