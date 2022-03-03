@@ -20,11 +20,9 @@ const OfficialDocuments = () => {
         </ListItem>
         <ListItem>{t('docsListItem2')}
         <a href="/sub-rules-fi.pdf">FI</a>
-        <a href=""></a>
         </ListItem>
         <ListItem>{t('docsListItem3')}
         <a href="/stragia-fi.pdf">FI</a>
-        <a href=""></a>
         </ListItem>
       </ul>
     </Layout>
