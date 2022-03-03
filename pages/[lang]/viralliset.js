@@ -12,7 +12,7 @@ const OfficialDocuments = () => {
 
   return (
     <Layout titleKey={t('metaTitle')}>
-      <HeaderPicture img="/index-banner.jpg" alt="TK" />
+      <HeaderPicture img={t('docsImage')} alt="TK" />
       <H2>{t('docsHeading')}</H2>
       <br></br>
       <ul className="list-disc mb-12 mx-16">

@@ -1,6 +1,7 @@
 export default {
   metaTitle: 'Teknologkommissionen',
   homeTitle: 'Teekkarikomissio - Teknologkommissionen',
+  homeImage: '/index-banner-sv.jpg',
   homeHeading: 'Vad är Teknologkommissionen?',
   homeHeading2: 'Åboteknologernas gemensamma evenemang',
   homeHeading3: 'Teknologkultur',

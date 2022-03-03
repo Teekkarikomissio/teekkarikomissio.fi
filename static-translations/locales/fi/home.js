@@ -1,6 +1,7 @@
 export default {
   metaTitle: 'Teekkarikomissio',
   homeTitle: 'Teekkarikomissio - Teknologkommission',
+  homeImage: '/index-banner-fi.jpg',
   homeHeading: 'Teekkariutta yli yliopistorajojen',
   homeHeading2: 'Turun teekkareiden yhteisiä tapahtumia',
   homeHeading3: 'Teekkarikulttuuria',
