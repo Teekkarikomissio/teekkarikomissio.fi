@@ -26,6 +26,8 @@ const Cap = () => {
             <LongText>{t('capBodyFour')}</LongText>
             <H2>{t('capHeadingFive')}</H2>
             <LongText>{t('capBodyFive')}</LongText>
+            <H2>{t('capHeadingSix')}</H2>
+            <LongText>{t('capBodySix')}</LongText>
             <ul className="list-disc text-justify mx-16">
               <ListItem>{t('capListItemOne')}</ListItem>
               <ListItem>{t('capListItemTwo')}</ListItem>
@@ -37,6 +39,8 @@ const Cap = () => {
               <ListItem>{t('capListItemEight')}</ListItem>
               <ListItem>{t('capListItemNine')}</ListItem>
             </ul>
+            <br></br>
+            <LongText>{t('capBodySeven')}</LongText>
           </div>
         </div>
       </div>
