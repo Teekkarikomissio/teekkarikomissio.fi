@@ -4,7 +4,7 @@ import withLocalization from '../../hocs/withLocalization';
 import useTranslation from '../../hooks/useTranslation';
 
 import Layout from '../../components/Layout';
-import { H1, H2, H3, LongText } from '../../components/Typography';
+import { H1, H2, H3, LongText, ListItem } from '../../components/Typography';
 
 const OfficialDocuments = () => {
   const { t } = useTranslation('officialDocuments');
@@ -15,13 +15,14 @@ const OfficialDocuments = () => {
       <br></br>
       <ul className="list-decimal mb-8 mx-16">
         <ListItem>{t('docsListItem1')}
-        
+        <a href="/rules-fi.pdf">FI</a>
+        <a href="/rules-sv.pdf">SV</a>
         </ListItem>
         <ListItem>{t('docsListItem2')}
-        
+        <a href="/sub-rules-fi.pdf">FI</a>
         </ListItem>
         <ListItem>{t('docsListItem3')}
-        
+        <a href="/stragia-fi.pdf">FI</a>
         </ListItem>
       </ul>
     </Layout>
