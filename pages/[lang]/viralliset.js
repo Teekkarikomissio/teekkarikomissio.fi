@@ -15,14 +15,13 @@ const OfficialDocuments = () => {
       <br></br>
       <ul className="list-decimal mb-8 mx-16">
         <ListItem>{t('docsListItem1')}
-        <a href="/rules-fi.pdf">FI</a>
-        <a href="/rules-sv.pdf">SV</a>
+        
         </ListItem>
         <ListItem>{t('docsListItem2')}
-        <a href="/sub-rules-fi.pdf">FI</a>
+        
         </ListItem>
         <ListItem>{t('docsListItem3')}
-        <a href="/stragia-fi.pdf">FI</a>
+        
         </ListItem>
       </ul>
     </Layout>
