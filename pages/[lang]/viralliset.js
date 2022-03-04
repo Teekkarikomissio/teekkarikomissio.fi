@@ -34,6 +34,8 @@ const OfficialDocuments = () => {
           {t('docsListItem3')}
           {' '}
           <a className="underline" href="/strategia-fi.pdf">FI</a>
+          {' '}
+          <a className="underline" href="/strategia-sv.pdf">SV</a>
         </ListItem>
       </ul>
     </Layout>
