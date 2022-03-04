@@ -27,6 +27,8 @@ const OfficialDocuments = () => {
           {t('docsListItem2')}
           {' '}
           <a className="underline" href="/sub-rules-fi.pdf">FI</a>
+          {' '}
+          <a className="underline" href="/sub-rules-sv.pdf">SV</a>
         </ListItem>
         <ListItem>
           {t('docsListItem3')}
