@@ -11,7 +11,7 @@ function Homepage() {
 
   const partners = [
     {
-      img: '/logo-tek.png',
+      img: '/tek-logo.png',
       alt: 'TEK',
       href: 'https://www.tek.fi/',
     },
