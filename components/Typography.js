@@ -26,7 +26,7 @@ export const H3 = ({ children }) => {
 
 export const LongText = ({ children }) => {
   return (
-    <p className="break-words lg:text-justify md:text-center text-gray-700 text-lg mb-8 mx-8">
+    <p className="break-words lg:text-justify md:text-center text-gray-700 text-lg mb-8 mx-8 prose">
       {children}
     </p>
   );

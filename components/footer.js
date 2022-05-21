@@ -16,12 +16,13 @@ const Footer = () => {
     <div className="flex-shrink bg-red-800 text-white p-6 border-b-8 border-blue-700">
       <div className="flex flex-shrink flex-col items-center justify-center">
         <Image
-          className="h-24 w-24 items-center justify-center"
+          className="items-center justify-center"
           src="/tklogo.svg"
           alt="TK"
-          width={100}
-          height={100}
+          width={48}
+          height={48}
         />
+
         <div className="lg:flex lg:flex-row md:block items-center justify-between">
           <a
             className="flex flex-col items-center m-8 hover:text-yellow-400 h-16"

@@ -7,6 +7,7 @@ import useTranslation from '../../hooks/useTranslation';
 import Layout from '../../components/Layout';
 import HeaderPicture from '../../components/HeaderPicture';
 import { H1, H2, ShortText } from '../../components/Typography';
+import Hero from '../../components/Hero';
 
 function Homepage() {
   const { t } = useTranslation('home');
@@ -28,7 +29,7 @@ function Homepage() {
     return (
       <div className="flex items-center justify-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 m-8 p-4">
         <a href={href}>
-          <Image src={img} alt={alt} layout="fill" width={600} height={400} />
+          <Image src={img} alt={alt} layout="fill" />
         </a>
       </div>
     );
@@ -36,26 +37,13 @@ function Homepage() {
 
   return (
     <Layout titleKey={t('metaTitle')}>
-      <div className="w-full p-4">
-        <HeaderPicture img="/index-banner-fi.jpg" alt="Teekkarikomissio" />
-      </div>
+      <Hero metaTitle={t('metaTitle')} homeHeading={t('homeHeading')} homeContent={t('homeContent')} />
 
-      <div className="max-w-sm w-full lg:max-w-full lg:flex">
-        <div className="bg-white rounded-b lg:rounded-b-none p-4 flex flex-col justify-between leading-normal">
-          <H1>{t('homeHeading')}</H1>
-          <ShortText>{t('homeContent')}</ShortText>
+      <div className="relative my-16 lg:flex lg:flex-row-reverse justify-between items-center">
+        <div className="relative h-64 w-48 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+          <Image className="rounded-lg" src="/index-teekkari.jpg" alt="Teekkari" layout="fill" />
         </div>
-      </div>
-
-      <div className="my-16 lg:flex lg:flex-row justify-between items-center">
-        <Image
-          className="relative lg:rounded-lg flex-none lg:shadow-2xl bg-cover text-center lg:h-1/4 lg:w-1/4 overflow-hidden"
-          src="/index-teekkari.jpg"
-          alt="Teekkari"
-          width={400}
-          height={600}
-        />
-        <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
+        <div className="relative rounded-lg bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
             <H2>{t('homeHeading2')}</H2>
             <ShortText>{t('homeContent2')}</ShortText>
@@ -63,14 +51,15 @@ function Homepage() {
         </div>
       </div>
 
-      <div className="my-16 lg:flex lg:flex-row-reverse justify-between items-center">
-        <Image
-          className="lg:rounded-lg flex-none lg:shadow-2xl bg-cover text-center lg:h-1/4 lg:w-1/4 overflow-hidden"
-          src="/index-jaynamerkki.jpeg"
-          alt="Jäynämerkki"
-          width={400}
-          height={400}
-        />
+      <div className="my-16 justify-between items-center">
+        <div className="relative rounded-full h-48 w-48 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+          <Image
+            className='rounded-full'
+            src="/index-jaynamerkki.jpeg"
+            alt="Jäynämerkki"
+            layout="fill"
+          />
+        </div>
         <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
           <div className="mb-8">
             <H2>{t('homeHeading3')}</H2>

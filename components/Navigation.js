@@ -38,8 +38,8 @@ const Navigation = () => {
               className="fill-current h-8 w-8 mr-2"
               src="/tklogo.svg"
               alt="TK logo"
-              width="54"
-              height="54"
+              width="24"
+              height="24"
             />
             <Link href="/[lang]" as={`/${locale}`}>
               <a className="font-semibold lg:text-xl md:text-sm tracking-tight">
