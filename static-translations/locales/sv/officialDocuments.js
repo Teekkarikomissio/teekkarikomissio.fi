@@ -5,4 +5,7 @@ export default {
     docsListItem1: 'Stadgar',
     docsListItem2: 'Arbetsordning',
     docsListItem3: 'Strategi',
+    docsListItem4: 'Teknologhymnen',
+    docsListText: 'Noter',
+    docsListText1: 'Ord',
 }

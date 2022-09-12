@@ -37,6 +37,13 @@ const OfficialDocuments = () => {
           {' '}
           <a className="underline" href="/strategia-sv.pdf">SV</a>
         </ListItem>
+        <ListItem>
+          {t('docsListItem4')}
+          {' '}
+          <a className="underline" href="/teekkarihymni_teknologhymn_notes.pdf">{t('docsListText')}</a>
+          {' '}
+          <a className="underline" href="/teekkarihymni_teknologhymn_lyrics.pdf">{t('docsListText1')}</a>
+        </ListItem>
       </ul>
     </Layout>
   );  

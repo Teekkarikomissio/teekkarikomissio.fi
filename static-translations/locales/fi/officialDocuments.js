@@ -5,4 +5,7 @@ export default {
     docsListItem1: 'Säännöt',
     docsListItem2: 'Ohjesäännöt',
     docsListItem3: 'Strategia',
+    docsListItem4: 'Teekkarihymni',
+    docsListText: 'Nuotit',
+    docsListText1: 'Sanat',
 }

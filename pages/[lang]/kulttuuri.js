@@ -55,6 +55,9 @@ const Kulttuuri = () => {
 
   return (
     <Layout titleKey={t('metaTitle')}>
+      <H1>{t('cultureHeading_neg1')}</H1>
+      <LongText>{t('cultureBody_neg1')}</LongText>
+      <LongText>{t('cultureBody_neg2')}</LongText>
       <iframe
         className="w-full min-h-iFrameHeight lg:rounded-lg lg:mt-16"
         src="https://www.youtube.com/embed/GB0Lkq7Om24"
