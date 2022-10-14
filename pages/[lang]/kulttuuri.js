@@ -58,24 +58,30 @@ const Kulttuuri = () => {
       <H1>{t('cultureHeading_neg1')}</H1>
       <LongText>{t('cultureBody_neg1')}</LongText>
       <LongText>{t('cultureBody_neg2')}</LongText>
+      <H1>{t('cultureHeading')}</H1>
       <iframe
-        className="w-full min-h-iFrameHeight lg:rounded-lg lg:mt-16"
+        className="w-full min-h-iFrameHeight lg:rounded-lg lg:mt-16 mb-6"
         src="https://www.youtube.com/embed/GB0Lkq7Om24"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         title="Valtakunnalliset jäynäkilpailut 2018"
       ></iframe>
-      <H1>{t('cultureHeading')}</H1>
       <LongText>{t('cultureBody')}</LongText>
       <LongText>{t('cultureBody1')}</LongText>
       <LongText>{t('cultureBody2')}</LongText>
-      {/* <TextBox heading={'Teekkariwappu'} body={'https://www.teekkariwappu.fi/'} /> */}
       <H2>{t('cultureHeading1')}</H2>
       <LongText>{t('cultureBody3')}</LongText>
       <LongText>{t('cultureBody4')}</LongText>
       <LongText>{t('cultureBody5')}</LongText>
       <H2>{t('cultureHeading2')}</H2>
+      <div className='flex h-screen my-6'>
+        <iframe 
+          src="https://calendar.google.com/calendar/embed?src=uvuvvg8nh8dt26778tef67u0h8%40group.calendar.google.com&ctz=Europe%2FHelsinki" 
+          style={{ flex: 1 }} 
+          frameBorder="0" 
+          scrolling="no" />
+      </div>
       <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
         {eventInfo.map(({ img, heading }) => (
           <EventCard key={`${heading}`} imgUrl={img} heading={heading} />
