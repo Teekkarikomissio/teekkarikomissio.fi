@@ -70,7 +70,6 @@ const Kulttuuri = () => {
       <LongText>{t('cultureBody')}</LongText>
       <LongText>{t('cultureBody1')}</LongText>
       <LongText>{t('cultureBody2')}</LongText>
-      {/* <TextBox heading={'Teekkariwappu'} body={'https://www.teekkariwappu.fi/'} /> */}
       <H2>{t('cultureHeading1')}</H2>
       <LongText>{t('cultureBody3')}</LongText>
       <LongText>{t('cultureBody4')}</LongText>

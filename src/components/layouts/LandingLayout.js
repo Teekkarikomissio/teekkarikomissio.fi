@@ -1,10 +1,11 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Navigation from './Navigation';
-import Footer from './footer';
+import Header from '../sections/Header';
+import Footer from '../sections/Footer';
+import { Flex } from '@chakra-ui/react';
 
-const Layout = ({ titleKey, children }) => {
+const LandingLayout = ({ titleKey, children }) => {
   return (
     <div className="flex flex-col text-center">
       <Head>
@@ -23,13 +24,13 @@ const Layout = ({ titleKey, children }) => {
         <meta property="og:image" content="/index-banner-fi.jpg" />
         <link rel="shortcut icon" sizes="32x32" href="/tklogo.svg" />
       </Head>
-      <Navigation />
-      <div className="flex-expand flex flex-col items-center max-h-full">
-        <div className="container mx-auto max-w-prose max-h-full">{children}</div>
-      </div>
-      <Footer />
+      <Flex direction="column">
+        <Header />
+        {children}
+        <Footer />
+      </Flex>
     </div>
   );
 };
 
-export default Layout;
+export default LandingLayout;
