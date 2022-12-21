@@ -6,6 +6,7 @@ export default {
     docsListItem2: 'Arbetsordning',
     docsListItem3: 'Strategi',
     docsListItem4: 'Teknologhymnen',
+    docsListItem5: 'Jämställdhetsplan',
     docsListText: 'Noter',
     docsListText1: 'Ord',
 }

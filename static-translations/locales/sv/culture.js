@@ -1,6 +1,7 @@
 export default {
   metaTitle: 'Kultur',
   cultureHeading_neg1: 'Teknologhymnen',
+  cultureHeading_neg2: 'Teknologkommissionens hedersmärke',
   cultureHeading: 'Jäynäkultur',
   cultureHeading1: 'Ställningsantagande',
   cultureHeading2: 'Teknologkommissionens evenemang',
@@ -12,11 +13,4 @@ export default {
   cultureBody3: 'Till teknologkulturen hör ingen form av trakasseri, mobbning eller oanständigt uppförande och vi får inte vända vår blick då sånt sker. Däremot är vi medvetna om att det verkligen har skett och vi i teknologgemenskapet vill därför ödmjukast be om förlåtelse för offren av dålig behandling. Teknologkulturen har gamla och starka traditioner, varav en del bra och andra dåliga. Vi håller hårt om de goda traditionerna, medan vi försöker ändra eller bli av med de dåliga. Teknologkulturen är levande och vi försöker hela tiden utveckla den mot mer jämnställdhet, öppenhet och tillgänglighet.',
   cultureBody4: 'Arbetet är dock ännu i gång. Flera exkluderande och oanständiga traditioner och strukturer har vi redan tagit isär, men arbete finns ännu kvar att göra. Som tur får vi hjälp i detta arbete av studentkåren, universitetet och nationella föreningar. Vi lovar att även i fortsättningen bygga upp en teknologkultur som tar itu med sina brister.',
   cultureBody5: 'Vårt teknologgemenskap består av en väldig mängd olika människor, som binds av ett särskilt intresse för teknologi, såväl som tofsmössan. Vi vill att varje medlem i vårt gemenskap kan känna sig trygg och välkommen.',
-  cultureEvent: 'Starten av den lokala jäynätävlingen',
-  cultureEvent1: 'TK:s wappiga PREldproWET',
-  cultureEvent2: 'Eldprowet',
-  cultureEvent3: 'Paavo Nurmi-statyns mösspåläggning',
-  cultureEvent4: 'Sommarträff',
-  cultureEvent5: 'TK sitz',
-  cultureEvent6: 'TK fiacup',
 };

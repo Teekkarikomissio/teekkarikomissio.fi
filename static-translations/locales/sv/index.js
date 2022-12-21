@@ -9,6 +9,7 @@ import techStudent from './techStudent';
 import commitment from "./commitment";
 import jaynacompetition from "./jaynacompetition";
 import officialDocuments from './officialDocuments';
+import events from './events';
 
 export default {
   association,
@@ -22,4 +23,5 @@ export default {
   commitment,
   jaynacompetition,
   officialDocuments,
+  events,
 };

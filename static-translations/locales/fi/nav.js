@@ -7,4 +7,5 @@ export default {
   yrityksille: 'Yrityksille',
   jaynakilpailut: 'Jäynäkilpailut',
   viralliset: 'Dokumentit',
+  tapahtumat: 'Tapahtumat',
 };

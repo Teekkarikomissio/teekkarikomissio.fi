@@ -44,6 +44,13 @@ const OfficialDocuments = () => {
           {' '}
           <a className="underline" href="/teekkarihymni_teknologhymn_lyrics.pdf">{t('docsListText1')}</a>
         </ListItem>
+        <ListItem>
+        {t('docsListItem5')}
+        {' '}
+        <a className="underline" href="/values-fi.pdf">FI</a>
+        {' '}
+        <a /*className="underline" href="/values-sv.pdf"*/>Väntar på översättning</a>
+        </ListItem>
       </ul>
     </Layout>
   );  
