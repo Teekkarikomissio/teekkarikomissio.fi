@@ -45,6 +45,7 @@ const JaynaCompetition = () => {
       <H3>{t('jaynaRuleHeading5')}</H3>
       <LongText>{t('jaynaRuleText6')}</LongText>
       <LongText>{t('jaynaRuleText7')}</LongText>
+      <LongText>{t('jaynaRuleText19')}</LongText>
       <LongText>{t('jaynaRuleText8')}</LongText>
       <H3>{t('jaynaRuleHeading6')}</H3>
       <LongText>{t('jaynaRuleText9')}</LongText>
