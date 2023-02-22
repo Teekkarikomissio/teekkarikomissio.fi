@@ -1,8 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Header from './sections/Header';
-import Footer from './sections/Footer';
+import Header from '../sections/Header';
+import Footer from '../sections/Footer';
 import { Container } from '@chakra-ui/react';
 
 const DefaultLayout = ({ titleKey, children }) => {
