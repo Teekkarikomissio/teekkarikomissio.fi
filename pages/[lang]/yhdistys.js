@@ -13,68 +13,68 @@ const Yhdistys = () => {
 
   const boardMembers = [
     {
-      img: '/Robert.png',
-      name: 'Robert Kantero',
-      position: t('associationTitle'),
-      responsibilities: t('associationResponsibilities'),
-      contact: 'E-mail: rkantero@abo.fi',
-      contact2: 'TG: @rkantero',
-    },
-    {
-      img: '/Maksim.png',
-      name: 'Maksim Laitinen',
-      position: t('associationTitle1'),
-      responsibilities: t('associationResponsibilities1'),
-      contact: 'E-mail: maeela@utu.fi',
-      contact2: 'TG: @maksim_sala_bim',
-    },
-    {
-      img: '/Jonde.png',
-      name: 'Jonatan Järvinen',
-      position: t('associationTitle2'),
-      responsibilities: t('associationResponsibilities2'),
-      contact: 'E-mail: joojar@utu.fi',
-      contact2: 'TG: @jondejarvinen',
-    },
-    {
-      img: '/Alex.png',
-      name: 'Alex Nygård',
-      position: t('associationTitle3'),
-      responsibilities: t('associationResponsibilities3'),
-      contact: 'E-mail: alex.nygard@abo.fi',
-      contact2: 'TG: @Alexmny',
-    },
-    {
-      img: '/Julia.png',
-      name: 'Julia Pyysalo',
-      position: t('associationTitle4'),
-      responsibilities: t('associationResponsibilities4'),
-      contact: 'E-mail: japyys@utu.fi',
-      contact2: 'TG: @juliapyysalo',
-    },
-    {
-      img: '/Matti.png',
+      img: '/Matti 2023.JPG',
       name: 'Matti Loimaranta',
-      position: t('associationTitle5'),
-      responsibilities: t('associationResponsibilities5'),
+      position: t('associationTitle'),
+      responsibilities: t('associationResponsibilities1'),
       contact: 'E-mail: makalo@utu.fi',
       contact2: 'TG: @MattiLoimaranta',
     },
     {
-      img: '/Sjoklas.png',
+      img: '/Niklas S 2023.jpg',
       name: 'Niklas Sjöqvist',
-      position: t('associationTitle6'),
-      responsibilities: t('associationResponsibilities6'),
+      position: t('associationTitle1'),
+      responsibilities: t('associationResponsibilities1'),
       contact: 'E-mail: niklas.sjoqvist@abo.fi',
       contact2: 'TG: @sjoklas',
     },
     {
-      img: '/Niklas.png',
+      img: '/Niklas L 2023.JPG',
       name: 'Niklas Lind',
-      position: t('associationTitle7'),
+      position: t('associationTitle2'),
       responsibilities: t('associationResponsibilities7'),
       contact: 'E-mail: nielin@utu.fi',
-      contact2: 'TG: @Niklaslind',
+      contact2: 'TG: @jondejarvinen',
+    },
+    {
+      img: '/Juho 2023.JPG',
+      name: 'Juho Ollila',
+      position: t('associationTitle3'),
+      responsibilities: t('associationResponsibilities7'),
+      contact: 'E-mail: jtolli@utu.fi',
+      contact2: 'TG: @juhollila',
+    },
+    {
+      img: '/Mikko 2023.JPG',
+      name: 'Mikko Lehtosalo',
+      position: t('associationTitle4'),
+      responsibilities: t('associationResponsibilities3'),
+      contact: 'E-mail: moleht@utu.fi',
+      //contact2: 'TG: @',
+    },
+    {
+      img: '/Reetta 2023.JPG',
+      name: 'Reetta Lindberg',
+      position: t('associationTitle5'),
+      responsibilities: t('associationResponsibilities5'),
+      contact: 'E-mail: resoli@utu.fi',
+      contact2: 'TG: @reettalindberg',
+    },
+    {
+      img: '/Einar 2023.JPG',
+      name: 'Einar Helkkula',
+      position: t('associationTitle6'),
+      responsibilities: t('associationResponsibilities8'),
+      contact: 'E-mail: einar.helkkula@abo.fi',
+      contact2: 'TG: @EinarEinarEinar',
+    },
+    {
+      img: '/Max 2023.JPG',
+      name: 'Max Andersson',
+      position: t('associationTitle7'),
+      responsibilities: t('associationResponsibilities7'),
+      contact: 'E-mail: maxander@abo.fi',
+      contact2: 'TG: @maxintili',
     },
   ];
 
@@ -82,7 +82,7 @@ const Yhdistys = () => {
     return (
       <div className="max-w-full items-center justify-center rounded-lg shadow-xl m-8">
         <div className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4">
-          <img className="w-64" src={img} alt={name} />
+        <img className="w-64" src={img} alt={name} />
           <div className="w-2/3 flex flex-col items-center justify-center h-auto lg:ml-4 mb-4">
             <H2>{name}</H2>
             <p className="text-gray-700 text-lg my-4">{position}</p>

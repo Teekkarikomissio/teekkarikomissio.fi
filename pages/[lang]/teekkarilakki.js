@@ -17,13 +17,28 @@ const Cap = () => {
         <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none flex flex-col justify-between leading-normal">
           <div className="mb-8">
             <H2>{t('capHeadingOne')}</H2>
-            <LongText>{t('capBodyOne')}</LongText>
+            <LongText>{t('capOneListItemOne')}</LongText>
+            <LongText>{t('capOneListItemTwo')}</LongText>
             <H2>{t('capHeadingTwo')}</H2>
             <LongText>{t('capBodyTwo')}</LongText>
+            <ul className="list-disc text-justify mx-16">
+              <ListItem>{t('capTwoListItemOne')}</ListItem>
+              <ListItem>{t('capTwoListItemTwo')}</ListItem>
+              <ListItem>{t('capTwoListItemThree')}</ListItem>
+            </ul>
             <H2>{t('capHeadingThree')}</H2>
             <LongText>{t('capBodyThree')}</LongText>
-            <H2>{t('capHeadingFour')}</H2>
-            <LongText>{t('capBodyFour')}</LongText>
+            <ul className="list-disc text-justify mx-16">
+              <ListItem>{t('capThreeListItemOne')}</ListItem>
+              <ListItem>{t('capThreeListItemTwo')}</ListItem>
+            </ul>
+            <LongText>{t('')}</LongText>  
+            <LongText>{t('capFooterThreeFirst')}</LongText>
+            <LongText>{t('capFooterThreeSecond')}</LongText>
+            <H2>{t('capHeadingFour')}</H2>  
+            <LongText>{t('capFourListItemOne')}</LongText>
+            <LongText>{t('capFourListItemTwo')}</LongText>
+            <LongText>{t('capFourListItemThree')}</LongText>
             <H2>{t('capHeadingFive')}</H2>
             <LongText>{t('capBodyFive')}</LongText>
             <H2>{t('capHeadingSix')}</H2>
