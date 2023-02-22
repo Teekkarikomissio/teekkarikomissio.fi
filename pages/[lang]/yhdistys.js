@@ -34,7 +34,7 @@ const Yhdistys = () => {
       position: t('associationTitle2'),
       responsibilities: t('associationResponsibilities7'),
       contact: 'E-mail: nielin@utu.fi',
-      contact2: 'TG: @jondejarvinen',
+      contact2: 'TG: @Niklaslind',
     },
     {
       img: '/Juho 2023.JPG',
