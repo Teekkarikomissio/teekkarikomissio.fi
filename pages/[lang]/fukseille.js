@@ -48,7 +48,7 @@ const NewStudents = () => {
     },
     {
       img: '/logo-machina.png',
-      href: 'https://www.facebook.com/KonetekniikkaMachinary/',
+      href: 'https://machina.fi',
       heading: 'Machina ry',
       description: t('techStudentInfo5'),
       founded: 'est. 2020',
