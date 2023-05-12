@@ -1,8 +1,8 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
-import Navigation from './Navigation';
-import Footer from './footer';
+import Navbar from "./Navbar";
+import Footer from "./footer";
 
 const Layout = ({ titleKey, children }) => {
   return (
@@ -23,9 +23,11 @@ const Layout = ({ titleKey, children }) => {
         <meta property="og:image" content="/index-banner-fi.jpg" />
         <link rel="shortcut icon" sizes="32x32" href="/tklogo.svg" />
       </Head>
-      <Navigation />
+      <Navbar />
       <div className="flex-expand flex flex-col items-center max-h-full">
-        <div className="container mx-auto max-w-prose max-h-full">{children}</div>
+        <div className="container mx-auto max-w-prose max-h-full">
+          {children}
+        </div>
       </div>
       <Footer />
     </div>

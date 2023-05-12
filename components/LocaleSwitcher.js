@@ -1,31 +1,27 @@
-import React, { useCallback } from 'react';
-import Router, { useRouter } from 'next/router';
-import { locales } from '../static-translations/config';
-import useTranslation from '../hooks/useTranslation';
+import Link from "next/link";
+import { useRouter } from "next/router";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLanguage } from '@fortawesome/free-solid-svg-icons';
+import { HiOutlineTranslate } from "react-icons/hi";
 
 export default function LocaleSwitcher() {
   const router = useRouter();
-  const { locale, t } = useTranslation('common');
+  const { locales, locale: activeLocale, pathname, asPath, query } = router;
 
-  const handleLocaleChange = useCallback(
-    event => {
-      const regex = new RegExp(`^/(${locales.join('|')})`);
-      Router.push(router.pathname, router.asPath.replace(regex, `/${event.currentTarget.value}`));
-    },
-    [router]
+  const otherLocales = (locales || []).filter(
+    (locale) => locale !== activeLocale
   );
 
   return (
-    <button
-      value={locale === 'sv' ? 'fi' : 'sv'}
-      onClick={handleLocaleChange}
-      className="mt-4 inline-flex text-sm px-4 py-2 leading-none border rounded text-yellow-400 border-yellow-400 hover:border-transparent hover:text-yellow-400 hover:bg-white lg:mt-0"
+    <Link
+      href={{ pathname, query }}
+      as={asPath}
+      locale={otherLocales[0]}
+      legacyBehavior
     >
-      <FontAwesomeIcon className="mr-2 h-4" icon={faLanguage} />
-      {t(locale === 'sv' ? 'fi' : 'sv')}
-    </button>
+      <button className="btn btn-outline btn-secondary gap-2">
+        <HiOutlineTranslate className="h-6 w-6" />
+        {otherLocales}
+      </button>
+    </Link>
   );
 }
