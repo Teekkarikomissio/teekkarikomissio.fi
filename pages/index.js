@@ -86,12 +86,10 @@ function Homepage() {
       </Head>
       <HeaderPicture img={textContent.homeImage} alt="Teekkarikomissio" />
 
-      <div className="max-w-sm w-full lg:max-w-full lg:flex">
-        <div className="bg-white rounded-b lg:rounded-b-none p-4 flex flex-col justify-between leading-normal">
-          <H1>{textContent.homeHeading}</H1>
-          <ShortText>{textContent.homeContent}</ShortText>
-        </div>
-      </div>
+      <article className="prose mt-8">
+        <h2>{textContent.homeHeading}</h2>
+        <ShortText>{textContent.homeContent}</ShortText>
+      </article>
 
       <div className="my-16 lg:flex lg:flex-row justify-between items-center">
         <img
@@ -99,12 +97,10 @@ function Homepage() {
           src="/index-teekkari.jpg"
           alt="Teekkari"
         />
-        <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
-          <div className="mb-8">
-            <H2>{textContent.homeHeading2}</H2>
-            <ShortText>{textContent.homeContent2}</ShortText>
-          </div>
-        </div>
+        <article className="prose m-8">
+          <h2>{textContent.homeHeading2}</h2>
+          <p>{textContent.homeContent2}</p>
+        </article>
       </div>
 
       <div className="my-16 lg:flex lg:flex-row-reverse justify-between items-center">
@@ -113,12 +109,10 @@ function Homepage() {
           src="/index-jaynamerkki.jpeg"
           alt="Jäynämerkki"
         ></img>
-        <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
-          <div className="mb-8">
-            <H2>{textContent.homeHeading3}</H2>
-            <ShortText>{textContent.homeContent3}</ShortText>
-          </div>
-        </div>
+        <article className="prose m-8">
+          <h2>{textContent.homeHeading3}</h2>
+          <p>{textContent.homeContent3}</p>
+        </article>
       </div>
 
       <div className="my-16 lg:flex lg:flex-row justify-between items-center">
@@ -127,12 +121,10 @@ function Homepage() {
           src="/paavon-lakitus.jpg"
           alt="Paavon lakitus"
         ></img>
-        <div className="bg-white mx-8 p-4 flex flex-col justify-between leading-normal">
-          <div className="mb-8">
-            <H2>{textContent.homeHeading4}</H2>
-            <ShortText>{textContent.homeContent4}</ShortText>
-          </div>
-        </div>
+        <article className="prose m-8">
+          <h2>{textContent.homeHeading4}</h2>
+          <p>{textContent.homeContent4}</p>
+        </article>
       </div>
 
       <H1>{textContent.homeHeading5}</H1>

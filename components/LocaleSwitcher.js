@@ -1,37 +1,27 @@
-import Link from 'next/link'
-import { useRouter } from 'next/router'
+import Link from "next/link";
+import { useRouter } from "next/router";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLanguage } from '@fortawesome/free-solid-svg-icons';
+import { HiOutlineTranslate } from "react-icons/hi";
 
 export default function LocaleSwitcher() {
-  const router = useRouter()
-  const { locales, locale: activeLocale } = router
+  const router = useRouter();
+  const { locales, locale: activeLocale, pathname, asPath, query } = router;
 
   const otherLocales = (locales || []).filter(
     (locale) => locale !== activeLocale
-  )
+  );
 
   return (
-    <div>
-      <p>Locale switcher:</p>
-      <ul>
-        {otherLocales.map((locale) => {
-          const { pathname, query, asPath } = router
-          return (
-            <li key={locale}>
-              <Link
-                href={{ pathname, query }}
-                as={asPath}
-                locale={locale}
-                legacyBehavior
-              >
-                {locale}
-              </Link>
-            </li>
-          )
-        })}
-      </ul>
-    </div>
-  )
+    <Link
+      href={{ pathname, query }}
+      as={asPath}
+      locale={otherLocales[0]}
+      legacyBehavior
+    >
+      <button className="btn btn-outline btn-secondary gap-2">
+        <HiOutlineTranslate className="h-6 w-6" />
+        {otherLocales}
+      </button>
+    </Link>
+  );
 }

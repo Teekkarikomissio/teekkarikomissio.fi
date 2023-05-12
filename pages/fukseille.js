@@ -1,8 +1,10 @@
 import React from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
+import Image from "next/image";
 
 import HeaderPicture from "../components/HeaderPicture";
-import { H1, H2, ShortText, LongText } from "../components/Typography";
+import { H2 } from "../components/Typography";
 
 const NewStudents = () => {
   const router = useRouter();
@@ -126,30 +128,39 @@ const NewStudents = () => {
 
   const GuildCard = ({ img, href, heading, description, founded }) => {
     return (
-      <div className="max-w-full items-center justify-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 shadow-xl rounded-lg m-8">
-        <a
-          className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4"
-          href={href}
-        >
-          <img className="h-32" src={img} alt={heading} />
-          <div className="w-2/3 flex flex-col items-center justify-center h-auto lg:ml-4">
-            <div className="font-bold text-xl lg:w-1/2 my-2">{heading}</div>
-            <p className="text-gray-700 text-base">{founded}</p>
-            <p className="text-gray-700 text-base">{description}</p>
-          </div>
-        </a>
+      <div className="card w-64 bg-base-100 shadow-xl m-2 p-2">
+        <div className="px-5 pt-5">
+          <Image
+            src={img}
+            alt={heading}
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="w-full h-auto object-cover"
+          />
+        </div>
+        <div className="card-body items-center text-center">
+          <h2 className="card-title">{heading}</h2>
+          <p>{founded}</p>
+          <p>{description}</p>
+          <Link className="link" href={href}>
+            {href}
+          </Link>
+        </div>
       </div>
     );
   };
 
   return (
     <>
-      <HeaderPicture img="/fukseille-passit.jpg" alt="Fuksipassit" />
-      <H1>{textContent.techStudentHeading}</H1>
-      <LongText>{textContent.techStudentBody}</LongText>
-      <H1>{textContent.techStudentHeading1}</H1>
-      <ShortText>{textContent.techStudentBody1}</ShortText>
-      <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-3 md:block">
+      <div className="prose">
+        <h1>{textContent.techStudentHeading}</h1>
+        <p>{textContent.techStudentBody}</p>
+        <HeaderPicture img="/fukseille-passit.jpg" alt="Fuksipassit" />
+        <h1>{textContent.techStudentHeading1}</h1>
+        <p>{textContent.techStudentBody1}</p>
+      </div>
+      <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-3 md:block items-center text-center">
         {guildInfo.map(({ img, href, heading, description, founded }) => (
           <GuildCard
             key={`${href}${heading}`}
@@ -163,7 +174,7 @@ const NewStudents = () => {
       </div>
       <H2>{textContent.techStudentHeading2}</H2>
       <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700" />
-      <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block">
+      <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 md:block items-center text-center">
         {alumniInfo.map(({ img, href, heading, description, founded }) => (
           <GuildCard
             key={`${href}${heading}`}

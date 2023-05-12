@@ -1,7 +1,8 @@
 import React from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
-import { H1, H2, LongText } from "../components/Typography";
+import { H2, H3 } from "../components/Typography";
 
 const Yhdistys = () => {
   const router = useRouter();
@@ -9,58 +10,59 @@ const Yhdistys = () => {
 
   const translations = {
     fi: {
-      metaTitle: 'Yhdistys',
-      associationHeading: 'Mitä TK oikeastaan tekee?',
+      metaTitle: "Yhdistys",
+      associationHeading: "Mitä TK oikeastaan tekee?",
       associationContent:
-        'Teekkarikomissio hoitaa jäsenyhdistyksilleen yhteisiä asioita, edustaa Turun teekkareita ylioppilaskunta-tasolla ja vastaa heidän korkeakoulupoliittisista kannanotoista. Lisäksi Komissio on tärkeä yhdyskanava Turussa toimiville teekkariyhdistyksille. Käytännössä Teekkarikomission järjestämään toimintaan kuuluu hallituksen ja yhdistyksen kokouksia, edustusmatkoja sekä enemmän tai vähemmän säännöllisiä tapahtumia.',
-      associationHeading1: 'Vuoden',
-      associationHeading2: 'hallitus',
-      associationOtherResponsibilities: 'Muut vastuualueet:',
-      associationTitle: 'Pääkomissaari',
-      associationTitle1: 'Varapääkomissaari',
-      associationTitle2: 'Sihteeri',
-      associationTitle3: 'Talouskomissaari',
-      associationTitle4: 'Tapahtumakomissaari',
-      associationTitle5: 'Kulttuurikomissaari',
-      associationTitle6: 'Viestintäkomissaari',
-      associationTitle7: 'Ulkoasiainkomissaari',
-      associationResponsibilities: 'Paavo Nurmen patsaan lakitus ja nettisivut',
-      associationResponsibilities1: 'Paavo Nurmen patsaan lakitus',
-      associationResponsibilities2: 'Kalenteriasiat',
-      associationResponsibilities3: 'Yhdenvertaisuuskomissaari',
-      associationResponsibilities4: 'Kalenteriasiat',
-      associationResponsibilities5: 'Fuksiasiat',
-      associationResponsibilities6: 'N/A',
-      associationResponsibilities7: 'N/A',
-      associationResponsibilities8: 'Nettisivut',
+        "Teekkarikomissio hoitaa jäsenyhdistyksilleen yhteisiä asioita, edustaa Turun teekkareita ylioppilaskunta-tasolla ja vastaa heidän korkeakoulupoliittisista kannanotoista. Lisäksi Komissio on tärkeä yhdyskanava Turussa toimiville teekkariyhdistyksille. Käytännössä Teekkarikomission järjestämään toimintaan kuuluu hallituksen ja yhdistyksen kokouksia, edustusmatkoja sekä enemmän tai vähemmän säännöllisiä tapahtumia.",
+      associationHeading1: "Vuoden",
+      associationHeading2: "hallitus",
+      associationOtherResponsibilities: "Muut vastuualueet:",
+      associationTitle: "Pääkomissaari",
+      associationTitle1: "Varapääkomissaari",
+      associationTitle2: "Sihteeri",
+      associationTitle3: "Talouskomissaari",
+      associationTitle4: "Tapahtumakomissaari",
+      associationTitle5: "Kulttuurikomissaari",
+      associationTitle6: "Viestintäkomissaari",
+      associationTitle7: "Ulkoasiainkomissaari",
+      associationResponsibilities: "Paavo Nurmen patsaan lakitus ja nettisivut",
+      associationResponsibilities1: "Paavo Nurmen patsaan lakitus",
+      associationResponsibilities2: "Kalenteriasiat",
+      associationResponsibilities3: "Yhdenvertaisuuskomissaari",
+      associationResponsibilities4: "Kalenteriasiat",
+      associationResponsibilities5: "Fuksiasiat",
+      associationResponsibilities6: "N/A",
+      associationResponsibilities7: "N/A",
+      associationResponsibilities8: "Nettisivut",
     },
     sv: {
-      metaTitle: 'Föreningen',
-      associationHeading: 'Vad gör TK egentligen?',
+      metaTitle: "Föreningen",
+      associationHeading: "Vad gör TK egentligen?",
       associationContent:
-        'Teknologkommissionen sköter om gemensamma ärenden för medlemsföreningarna, representerar Åbos teknologer på studentkårs nivå samt svarar för deras högskolepolitiska ställningstaganden. Dessutom är Kommissionen en viktig förbindelsekanal mellan de teknologföreningar som är verksamma inom Åbo. I praktiken hör styrelsens samt föreningens möten, representationsresor samt mer eller mindre regelbundna evenemang till Teknologkommissionens verksamhet.',
-      associationHeading1: 'År',
-      associationHeading2: 'styrelse',
-      associationOtherResponsibilities: 'Övriga ansvar:',
-      associationTitle: 'Huvudkommissarie',
-      associationTitle1: 'Vice huvudkommissarie',
-      associationTitle2: 'Sekreterare',
-      associationTitle3: 'Ekonomiekommissarie',
-      associationTitle4: 'Evenemangskommissarie',
-      associationTitle5: 'Kulturkommissarie',
-      associationTitle6: 'Kommunikationskommissarie',
-      associationTitle7: 'Utrikeskommissarie',
-      associationResponsibilities: 'Paavo Nurmi-statyns mösspåläggning och webbsidan',
-      associationResponsibilities1: 'Paavo Nurmi-statyns mösspåläggning',
-      associationResponsibilities2: 'Kalenderärenden',
-      associationResponsibilities3: 'Jämställdhetskommissarie',
-      associationResponsibilities4: 'Kalenderärenden',
-      associationResponsibilities5: 'Gulisärenden',
-      associationResponsibilities6: 'N/A',
-      associationResponsibilities7: 'N/A',
-      associationResponsibilities8: 'Webbsida',
-    }
-  }
+        "Teknologkommissionen sköter om gemensamma ärenden för medlemsföreningarna, representerar Åbos teknologer på studentkårs nivå samt svarar för deras högskolepolitiska ställningstaganden. Dessutom är Kommissionen en viktig förbindelsekanal mellan de teknologföreningar som är verksamma inom Åbo. I praktiken hör styrelsens samt föreningens möten, representationsresor samt mer eller mindre regelbundna evenemang till Teknologkommissionens verksamhet.",
+      associationHeading1: "År",
+      associationHeading2: "styrelse",
+      associationOtherResponsibilities: "Övriga ansvar:",
+      associationTitle: "Huvudkommissarie",
+      associationTitle1: "Vice huvudkommissarie",
+      associationTitle2: "Sekreterare",
+      associationTitle3: "Ekonomiekommissarie",
+      associationTitle4: "Evenemangskommissarie",
+      associationTitle5: "Kulturkommissarie",
+      associationTitle6: "Kommunikationskommissarie",
+      associationTitle7: "Utrikeskommissarie",
+      associationResponsibilities:
+        "Paavo Nurmi-statyns mösspåläggning och webbsidan",
+      associationResponsibilities1: "Paavo Nurmi-statyns mösspåläggning",
+      associationResponsibilities2: "Kalenderärenden",
+      associationResponsibilities3: "Jämställdhetskommissarie",
+      associationResponsibilities4: "Kalenderärenden",
+      associationResponsibilities5: "Gulisärenden",
+      associationResponsibilities6: "N/A",
+      associationResponsibilities7: "N/A",
+      associationResponsibilities8: "Webbsida",
+    },
+  };
 
   const textContent = translations[locale];
 
@@ -140,11 +142,15 @@ const Yhdistys = () => {
     contact2,
   }) => {
     return (
-      <div className="max-w-full items-center justify-center rounded-lg shadow-xl m-8">
-        <div className="lg:flex lg:flex-row flex flex-col items-center justify-center p-4">
-          <img className="w-64" src={img} alt={name} />
+      <div className="max-w-full items-center justify-center rounded-lg shadow-xl m-3">
+        <div className="flex flex-col items-center justify-center p-4">
+          <div className="avatar">
+            <div className="w-64 mask mask-squircle">
+              <Image src={img} alt={name} fill />
+            </div>
+          </div>
           <div className="w-2/3 flex flex-col items-center justify-center h-auto lg:ml-4 mb-4">
-            <H2>{name}</H2>
+            <H3>{name}</H3>
             <p className="text-gray-700 text-lg my-4">{position}</p>
             <p className="text-gray-700 text-lg my-4">
               {textContent.associationOtherResponsibilities} {responsibilities}
@@ -159,12 +165,10 @@ const Yhdistys = () => {
 
   return (
     <>
-      <div className="max-w-sm w-full lg:max-w-full lg:flex">
-        <div className="bg-white flex flex-col justify-between leading-normal">
-          <H1>{textContent.associationHeading}</H1>
-          <LongText>{textContent.associationContent}</LongText>
-        </div>
-      </div>
+      <article className="prose">
+        <h1>{textContent.associationHeading}</h1>
+        <p>{textContent.associationContent}</p>
+      </article>
       <div>
         <H2>
           {textContent.associationHeading1} {new Date().getFullYear()}{" "}

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
+
+import { HiMenu } from "react-icons/hi";
 
 import LocaleSwitcher from "./LocaleSwitcher";
 
@@ -51,7 +52,7 @@ const Navbar = () => {
   ];
 
   const NavLink = ({ NavName = "" }) => (
-    <div className="block mt-4 lg:inline-block lg:mt-0 text-lg text-yellow-400 hover:text-white lg:mr-4">
+    <div className="block mt-2 lg:inline-block lg:mt-0 text-lg text-yellow-400 hover:text-white lg:mr-4">
       <Link href={NavName} as={`/${locale}/${NavName}`}>
         {textContent[NavName]}
       </Link>
@@ -59,11 +60,11 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="sticky top-0 z-10  bg-red-800 p-6">
+    <nav className="sticky top-0 z-10  bg-red-800 p-6 mb-8">
       <div className="container mx-auto lg:flex lg:flex-row lg:justify-between">
         <div className="flex justify-between">
           <div className="flex items-center flex-shrink-0 text-white mr-6">
-            <img
+            <Image
               className="fill-current h-8 w-8 mr-2"
               src="/tklogo.svg"
               alt="TK logo"
@@ -79,17 +80,17 @@ const Navbar = () => {
             onClick={() => toggleOpen(!isOpen)}
             className="lg:hidden px-3 py-2 border rounded text-yellow-400 border-yellow-400 hover:text-white hover:border-white"
           >
-            <FontAwesomeIcon className="fill-current h-3 w-3" icon={faBars} />
+            <HiMenu />
           </button>
         </div>
         <div
           className={
             isOpen
               ? ""
-              : "w-full block lg:flex lg:w-auto hidden lg:block pt-6 lg:pt-0"
+              : "w-full lg:flex lg:w-auto hidden pt-6 lg:pt-0 items-center text-center"
           }
         >
-          <div className="text-sm">
+          <div className="text-sm items-center text-center">
             {links.map((link) => {
               return <NavLink key={link} NavName={link} />;
             })}
