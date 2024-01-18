@@ -25,6 +25,7 @@ const Yhdistys = () => {
       associationTitle5: "Kulttuurikomissaari",
       associationTitle6: "Viestintäkomissaari",
       associationTitle7: "Ulkoasiainkomissaari",
+      associationTitle8: "Järjestökomissaari",
       associationResponsibilities: "Paavo Nurmen patsaan lakitus ja nettisivut",
       associationResponsibilities1: "Paavo Nurmen patsaan lakitus",
       associationResponsibilities2: "Kalenteriasiat",
@@ -51,6 +52,7 @@ const Yhdistys = () => {
       associationTitle5: "Kulturkommissarie",
       associationTitle6: "Kommunikationskommissarie",
       associationTitle7: "Utrikeskommissarie",
+      associationTitle8: "Föreningkommissarie",
       associationResponsibilities:
         "Paavo Nurmi-statyns mösspåläggning och webbsidan",
       associationResponsibilities1: "Paavo Nurmi-statyns mösspåläggning",
@@ -68,68 +70,84 @@ const Yhdistys = () => {
 
   const boardMembers = [
     {
-      img: "/Matti 2023.JPG",
-      name: "Matti Loimaranta",
+      img: "/tklogo.svg",
+      name: "Reetta Lindberg",
       position: textContent.associationTitle,
       responsibilities: textContent.associationResponsibilities1,
-      contact: "E-mail: makalo@utu.fi",
-      contact2: "TG: @MattiLoimaranta",
-    },
-    {
-      img: "/Niklas S 2023.jpg",
-      name: "Niklas Sjöqvist",
-      position: textContent.associationTitle1,
-      responsibilities: textContent.associationResponsibilities1,
-      contact: "E-mail: niklas.sjoqvist@abo.fi",
-      contact2: "TG: @sjoklas",
-    },
-    {
-      img: "/Niklas L 2023.JPG",
-      name: "Niklas Lind",
-      position: textContent.associationTitle2,
-      responsibilities: textContent.associationResponsibilities7,
-      contact: "E-mail: nielin@utu.fi",
-      contact2: "TG: @Niklaslind",
-    },
-    {
-      img: "/Juho 2023.JPG",
-      name: "Juho Ollila",
-      position: textContent.associationTitle3,
-      responsibilities: textContent.associationResponsibilities7,
-      contact: "E-mail: jtolli@utu.fi",
-      contact2: "TG: @juhollila",
-    },
-    {
-      img: "/Mikko 2023.JPG",
-      name: "Mikko Lehtosalo",
-      position: textContent.associationTitle4,
-      responsibilities: textContent.associationResponsibilities3,
-      contact: "E-mail: moleht@utu.fi",
-      //contact2: 'TG: @',
-    },
-    {
-      img: "/Reetta 2023.JPG",
-      name: "Reetta Lindberg",
-      position: textContent.associationTitle5,
-      responsibilities: textContent.associationResponsibilities5,
       contact: "E-mail: resoli@utu.fi",
       contact2: "TG: @reettalindberg",
     },
     {
-      img: "/Einar 2023.JPG",
-      name: "Einar Helkkula",
-      position: textContent.associationTitle6,
-      responsibilities: textContent.associationResponsibilities8,
-      contact: "E-mail: einar.helkkula@abo.fi",
-      contact2: "TG: @EinarEinarEinar",
+      img: "/tklogo.svg",
+      name: "Risto Ruohola",
+      position: textContent.associationTitle1,
+      responsibilities: textContent.associationResponsibilities1,
+      contact: "E-mail: risto.ruohola@abo.fi",
+      contact2: "TG: @ristoruohola",
     },
     {
-      img: "/Max 2023.JPG",
-      name: "Max Andersson",
+      img: "/tklogo.svg",
+      name: "Ellen Ekblom",
+      position: textContent.associationTitle6,
+      responsibilities: textContent.associationResponsibilities3,
+      contact: "E-mail: eaekbl@utu.fi",
+      contact2: "TG: @ellenekblom",
+    },
+    {
+      img: "/tklogo.svg",
+      name: "Tiitus Hannula",
       position: textContent.associationTitle7,
-      responsibilities: textContent.associationResponsibilities7,
-      contact: "E-mail: maxander@abo.fi",
-      contact2: "TG: @maxintili",
+      //responsibilities: textContent.associationResponsibilities7,
+      contact: "E-mail: tiitus.k.hannula@utu.fi",
+      contact2: "TG: @tiitush",
+    },
+    {
+      img: "/tklogo.svg",
+      name: "Arttu Jokinen",
+      position: textContent.associationTitle3,
+      //responsibilities: textContent.associationResponsibilities3,
+      contact: "E-mail: aijoki@utu.fi",
+      contact2: 'TG: @ArttuJokinen',
+    },
+    {
+      img: "/tklogo.svg",
+      name: "Jani Norrby",
+      position: textContent.associationTitle8,
+      //responsibilities: textContent.associationResponsibilities5,
+      contact: "E-mail: jtnorr@utu.fi",
+      contact2: "TG: @jani_norppa",
+    },
+    {
+      img: "/tklogo.svg",
+      name: "Roosa Varjonen",
+      position: textContent.associationTitle5,
+      //responsibilities: textContent.associationResponsibilities7,
+      contact: "E-mail: rosova@utu.fi",
+      contact2: "TG: @rroskaa",
+    },
+    {
+      img: "/tklogo.svg",
+      name: "Mikko Lehtosalo",
+      position: textContent.associationTitle4,
+      //responsibilities: textContent.associationResponsibilities7,
+      contact: "E-mail: moleht@utu.fi",
+      contact2: "TG: @mleht0",
+    },
+    {
+      img: "/tklogo.svg",
+      name: "Kristoffer Lindholm",
+      position: textContent.associationTitle2,
+      //responsibilities: textContent.associationResponsibilities7,
+      contact: "E-mail: kristoffer.lindholm@abo.fi",
+      //contact2: "TG: @mleht0",
+    },
+    {
+      img: "/tklogo.svg",
+      name: "Marianne Matinvuori",
+      position: textContent.associationTitle4,
+      //responsibilities: textContent.associationResponsibilities7,
+      contact: "E-mail: heidi.matinvuori@abo.fi",
+      contact2: "TG: @Nannenen",
     },
   ];
 
@@ -175,7 +193,7 @@ const Yhdistys = () => {
           {textContent.associationHeading2}
         </H2>
         <div className="border-b-4 border-solid border-blue-700 lg:border-blue-700 my-4" />
-        <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
+        <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-5 md:block">
           {boardMembers.map(
             ({ img, name, position, responsibilities, contact, contact2 }) => (
               <BoardCard
