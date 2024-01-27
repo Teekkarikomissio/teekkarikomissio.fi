@@ -1,0 +1,95 @@
+import React from "react";
+import { H1, ShortText } from "../../components/Typography";
+import { Locale } from "../../i18n-config";
+import { getDictionary } from "../../get-dictionary";
+import Image from "next/image";
+
+import jaynamerkki from "../../public/index-jaynamerkki.jpeg";
+import teekkari from "../../public/index-teekkari.jpg";
+import paavo from "../../public/paavon-lakitus.jpg";
+import tek from "../../public/logos/tek-logo.png";
+import tfif from "../../public/logos/logo-tfif.svg";
+import { PartnerCard } from "@/types";
+
+export default async function IndexPage({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
+  const dictionary = await getDictionary(lang);
+  const home = dictionary["home"];
+
+  const partners = [
+    {
+      img: tek,
+      alt: "TEK",
+      href: "https://www.tek.fi/",
+    },
+    {
+      img: tfif,
+      alt: "TFiF",
+      href: "https://tfif.fi/",
+    },
+  ];
+
+  const PartnerCard: React.FC<PartnerCard> = ({ img, href, alt }) => {
+    return (
+      <div className="flex items-center justify-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 m-8 p-4">
+        <a href={href}>
+          <Image src={img} alt={alt} />
+        </a>
+      </div>
+    );
+  };
+
+  return (
+    <>
+      <article className="prose mt-8">
+        <h2>{home.homeHeading}</h2>
+        <ShortText>{home.homeContent}</ShortText>
+      </article>
+      <div className="my-16 lg:flex lg:flex-row justify-between items-center">
+        <Image
+          className="lg:rounded-lg flex-none lg:shadow-2xl bg-cover text-center lg:h-1/4 lg:w-1/4 overflow-hidden"
+          src={teekkari}
+          alt="Teekkari"
+        />
+        <article className="prose m-8">
+          <h2>{home.homeHeading2}</h2>
+          <p>{home.homeContent2}</p>
+        </article>
+      </div>
+
+      <div className="my-16 lg:flex lg:flex-row-reverse justify-between items-center">
+        <Image
+          className="lg:rounded-lg flex-none lg:shadow-2xl bg-cover text-center lg:h-1/4 lg:w-1/4 overflow-hidden"
+          src={jaynamerkki}
+          alt="Jäynämerkki"
+        ></Image>
+        <article className="prose m-8">
+          <h2>{home.homeHeading3}</h2>
+          <p>{home.homeContent3}</p>
+        </article>
+      </div>
+
+      <div className="my-16 lg:flex lg:flex-row justify-between items-center">
+        <Image
+          className="lg:rounded-lg flex-none lg:shadow-2xl bg-cover text-center lg:h-2/5 lg:w-2/5 overflow-hidden"
+          src={paavo}
+          alt="Paavon lakitus"
+        />
+        <article className="prose m-8">
+          <h2>{home.homeHeading4}</h2>
+          <p>{home.homeContent4}</p>
+        </article>
+      </div>
+
+      <H1>{home.homeHeading5}</H1>
+      <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-1 md:block">
+        {partners.map(({ img, href, alt }) => (
+          <PartnerCard key={`${href}${alt}`} img={img} href={href} alt={alt} />
+        ))}
+      </div>
+    </>
+  );
+}
