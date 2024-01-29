@@ -13,7 +13,7 @@ export const H3 = ({ children }) => {
 };
 
 export const LongText = ({ children }) => {
-  return <p className="text-gray-700 text-base sm:text-lg md:text-xl mb-8 mx-4 sm:mx-6 md:mx-8 break-words text-justify sm:text-left md:text-center">{children}</p>;
+  return <p className="text-gray-700 text-base sm:text-lg md:text-xl mb-8 mx-4 sm:mx-6 md:mx-8 break-words text-left">{children}</p>;
 };
 
 export const ShortText = ({ children }) => {
