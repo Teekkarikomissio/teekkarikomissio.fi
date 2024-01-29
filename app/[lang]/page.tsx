@@ -4,7 +4,7 @@ import { Locale } from '../../i18n-config'
 import { getDictionary } from '../../get-dictionary'
 import Image from 'next/image'
 
-import jaynamerkki from '../../public/index-jaynamerkki.jpeg'
+import jaynamerkki from '../../public/index-jaynamerkki.jpg'
 import teekkari from '../../public/index-teekkari.jpg'
 import paavo from '../../public/paavon-lakitus.jpg'
 import tek from '../../public/logos/tek-logo.png'
@@ -82,7 +82,7 @@ export default async function IndexPage({
           <Image
             className="lg:rounded-lg flex-none lg:shadow-2xl bg-cover items-center lg:h-1/4 lg:w-1/4 w-64 overflow-hidden"
             src={jaynamerkki}
-            alt="Jäynämerkki"
+            alt="Jaynamerkki"
           ></Image>
           <article className="prose m-8">
             <h2>{home.homeHeading3}</h2>
