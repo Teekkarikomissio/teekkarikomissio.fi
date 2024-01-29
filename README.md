@@ -67,7 +67,7 @@ To report bugs, please use the [issues](https://github.com/Teekkarikomissio/teek
 
 ## License
 
-The project is licensed under the ISC License. See the [LICENSE](https://github.com/miipel/teekkarikomissio.fi/blob/main/LICENSE) file for details.
+The project is licensed under the MIT License. See the [LICENSE](https://github.com/Teekkarikomissio/teekkarikomissio.fi/blob/master/LICENSE) file for details.
 
 ## Authors
 
