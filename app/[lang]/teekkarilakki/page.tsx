@@ -16,9 +16,9 @@ export default async function Cap({
   const cap = dictionary["cap"];
 
   return (
-    <>
+    <div className="max-w-prose">
       <Image src={teekkarilakki} alt="Turun teekkarilakki" />
-      <div className="max-w-sm w-full lg:max-w-full lg:flex">
+      <div className="max-w-prose w-full lg:max-w-full lg:flex">
         <div className="border-b border-blue-700 lg:border-blue-700 bg-white rounded-b lg:rounded-b-none flex flex-col justify-between leading-normal">
           <div className="mb-8">
             <H2>{cap.capHeadingOne}</H2>
@@ -63,6 +63,6 @@ export default async function Cap({
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

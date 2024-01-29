@@ -65,9 +65,7 @@ export default async function RootLayout({
           lang={params.lang}
         />
         <div className="flex-expand flex flex-col items-center max-h-full">
-          <div className="container mx-auto max-w-prose max-h-full">
-            {children}
-          </div>
+          {children}
         </div>
         <Footer />
       </body>

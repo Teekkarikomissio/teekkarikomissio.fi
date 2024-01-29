@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { Locale } from "../../../i18n-config";
 import { getDictionary } from "../../../get-dictionary";
-import { H2, H3 } from "../../../components/Typography";
+import { H1, H2, H3, LongText } from "../../../components/Typography";
 
 import tklogo from "../../../public/logos/tklogo.svg"
 import { BoardCard } from "@/types";
@@ -130,10 +130,10 @@ export default async function Yhdistys({
   };
 
   return (
-    <>
-      <article className="prose">
-        <h1>{association.associationHeading}</h1>
-        <p>{association.associationContent}</p>
+    <div className="max-w-prose">
+      <article>
+        <H1>{association.associationHeading}</H1>
+        <LongText>{association.associationContent}</LongText>
       </article>
       <div>
         <H2>
@@ -157,6 +157,6 @@ export default async function Yhdistys({
           )}
         </div>
       </div>
-    </>
+    </div>
   );
 }

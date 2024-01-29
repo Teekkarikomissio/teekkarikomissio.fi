@@ -4,13 +4,13 @@ import { usePathname } from "next/navigation";
 import { i18n, type Locale } from "../i18n-config";
 import { LanguageSpecificPaths } from "../types";
 import { useRouter } from "next/navigation";
+import { Languages } from "lucide-react";
 
 import {
   Select,
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "./ui/select";
@@ -27,7 +27,6 @@ export default function LocaleSwitcher({ lang, paths }: { lang: Locale, paths: L
       segments[1] = locale;
       const basePath = segments.slice(2).join("/");
       const newPath = paths[locale][basePath] ? `/${locale}${paths[locale][basePath]}` : `/${locale}/`;
-      console.log("Constructed URL: ", newPath);
       return newPath;
     }
 
@@ -36,7 +35,6 @@ export default function LocaleSwitcher({ lang, paths }: { lang: Locale, paths: L
 
   const handleSelect = (value: Locale) => {
     const url = redirectedPathName(value);
-    console.log("Redirecting to URL: ", url)
     router.push(url);
   };
 
@@ -51,12 +49,12 @@ export default function LocaleSwitcher({ lang, paths }: { lang: Locale, paths: L
 
   return (
     <Select onValueChange={handleSelect}>
-      <SelectTrigger className="w-[180px]">
+      <SelectTrigger className="w-[120px]">
+        <Languages />
         <SelectValue placeholder={resolveLanguageName(lang)} />
       </SelectTrigger>
       <SelectContent>
         <SelectGroup>
-          <SelectLabel>Languages</SelectLabel>
           {i18n.locales.map((locale) => (
             <SelectItem key={locale} value={locale}>
               {resolveLanguageName(locale)}

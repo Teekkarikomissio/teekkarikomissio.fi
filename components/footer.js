@@ -1,14 +1,20 @@
-import React from 'react';
-import { Facebook, Mail, MapPin, Instagram } from 'lucide-react';
-import Image from 'next/image';
+import React from 'react'
+import { Facebook, Mail, MapPin, Instagram } from 'lucide-react'
+import Image from 'next/image'
 
 import tklogo from '../public/logos/tklogo.svg'
 
 const Footer = () => {
   return (
-    <div className="flex-shrink bg-red-800 text-white p-6 border-b-8 border-blue-700">
+    <div className="items-center text-center flex-shrink bg-red-800 text-white p-6 border-b-8 border-blue-700">
       <div className="flex flex-shrink flex-col items-center justify-center">
-        <Image className="items-center justify-center" src={tklogo} width={48} height={48} alt="TK" />
+        <Image
+          className="items-center justify-center"
+          src={tklogo}
+          width={48}
+          height={48}
+          alt="TK"
+        />
         <div className="lg:flex lg:flex-row md:block items-center justify-between">
           <a
             className="flex flex-col items-center m-8 hover:text-yellow-400 h-16"
@@ -40,11 +46,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div>
-        <p>&copy; {new Date().getFullYear()} Teekkarikomissioyhdistys ry</p>
-      </div>
+      <p>&copy; {new Date().getFullYear()} Teekkarikomissioyhdistys ry</p>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

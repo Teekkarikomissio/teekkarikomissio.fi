@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export type NavigationLabels = Record<string, string>;
 
 export interface LanguageSpecificPaths {
@@ -9,7 +11,7 @@ export type FinnishPaths = Record<string, string>;
 export type SwedishPaths = Record<string, string>;
 
 export type GuildCardProps = {
-  img: string;
+  img: StaticImageData;
   href: string;
   heading: string;
   description: string;

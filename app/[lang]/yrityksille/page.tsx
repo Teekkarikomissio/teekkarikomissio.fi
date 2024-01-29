@@ -17,7 +17,7 @@ export default async function ForCompanies({
 
 
   return (
-    <>
+    <div className="max-w-prose">
       <Image src={paavo} alt="Paavon lakitus" />
       <H1>{forCompanies.forCompaniesHeading}</H1>
       <LongText>{forCompanies.forCompaniesBody}</LongText>
@@ -32,6 +32,6 @@ export default async function ForCompanies({
           teekkarikomissio@utu.fi
         </a>
       </LongText>
-    </>
+    </div>
   );
 };

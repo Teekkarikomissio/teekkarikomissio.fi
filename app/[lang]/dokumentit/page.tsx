@@ -17,7 +17,7 @@ export default async function OfficialDocuments({
   const documents = dictionary["documents"];
 
   return (
-    <>
+    <div className='max-w-prose'>
       <Image className="lg:rounded-lg lg:mt-16" src={liput} alt="TK" />
       <H2>{documents.docsHeading}</H2>
       <br></br>
@@ -69,6 +69,6 @@ export default async function OfficialDocuments({
           <a>Väntar på översättning</a>
         </ListItem>
       </ul>
-    </>
+    </div>
   );
 }

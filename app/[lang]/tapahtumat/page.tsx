@@ -67,14 +67,16 @@ export default async function Tapahtumat({
 
   return (
     <>
-      <H2>{events.eventHeading}</H2>
-      <div className="flex h-screen my-6">
+      <div className="max-w-prose">
+        <H2>{events.eventHeading}</H2>
+      </div>
+      <div className="flex h-96 w-full my-6">
         <iframe
           src="https://calendar.google.com/calendar/embed?src=uvuvvg8nh8dt26778tef67u0h8%40group.calendar.google.com&ctz=Europe%2FHelsinki"
           style={{ flex: 1 }}
         />
       </div>
-      <div className="lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
+      <div className="max-w-prose lg:grid lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-4 md:block">
         {eventInfo.map(({ img, heading }) => (
           <EventCard key={`${heading}`} imgUrl={img} heading={heading} />
         ))}

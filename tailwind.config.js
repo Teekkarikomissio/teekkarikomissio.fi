@@ -78,6 +78,14 @@ module.exports = {
         sans: ['var(--font-inter)'],
         mono: ['var(--font-roboto-mono)'],
       },
+      blur: {
+        xs: '2px',
+        xss: '1px',
+      },
+      container: {
+        center: true,
+        maxWidth: "max-w-prose"
+      },
     },
   },
   plugins: [require('tailwindcss-animate'), require('@tailwindcss/typography')],

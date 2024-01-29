@@ -13,7 +13,7 @@ export default async function JaynaCompetition({
   const jaynaCompetition = dictionary["jaynaCompetition"];
 
   return (
-    <>
+    <div className='max-w-prose'>
       <H2>{jaynaCompetition.jaynacompetitionHeading}</H2>
       <br></br>
       <H1>{jaynaCompetition.jaynajulistus}</H1>
@@ -65,6 +65,6 @@ export default async function JaynaCompetition({
       <LongText>{jaynaCompetition.jaynaRuleText16}</LongText>
       <LongText>{jaynaCompetition.jaynaRuleText17}</LongText>
       <LongText>{jaynaCompetition.jaynaRuleText18}</LongText>
-    </>
+    </div>
   );
 }
