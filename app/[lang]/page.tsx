@@ -67,9 +67,9 @@ export default async function IndexPage({
           <h2>{home.homeHeading}</h2>
           <ShortText>{home.homeContent}</ShortText>
         </article>
-        <div className="my-16 lg:flex lg:flex-row justify-between items-center">
+        <div className="my-16 lg:flex lg:flex-row flex flex-col justify-between items-center">
           <Image
-            className="lg:rounded-lg flex-none lg:shadow-2xl bg-cover text-center lg:h-1/4 lg:w-1/4 w-64 overflow-hidden"
+            className="lg:rounded-lg flex-none lg:shadow-2xl bg-cover items-center lg:h-1/4 lg:w-1/4 w-64 overflow-hidden"
             src={teekkari}
             alt="Teekkari"
           />
@@ -78,9 +78,9 @@ export default async function IndexPage({
             <p>{home.homeContent2}</p>
           </article>
         </div>
-        <div className="my-16 lg:flex lg:flex-row-reverse justify-between items-center">
+        <div className="my-16 lg:flex lg:flex-row-reverse flex flex-col justify-between items-center">
           <Image
-            className="lg:rounded-lg flex-none lg:shadow-2xl bg-cover text-center lg:h-1/4 lg:w-1/4 w-64 overflow-hidden"
+            className="lg:rounded-lg flex-none lg:shadow-2xl bg-cover items-center lg:h-1/4 lg:w-1/4 w-64 overflow-hidden"
             src={jaynamerkki}
             alt="Jäynämerkki"
           ></Image>
@@ -91,7 +91,7 @@ export default async function IndexPage({
         </div>
         <div className="my-16 lg:flex lg:flex-row justify-between items-center">
           <Image
-            className="lg:rounded-lg flex-none lg:shadow-2xl bg-cover text-center lg:h-2/5 lg:w-2/5 overflow-hidden"
+            className="lg:rounded-lg flex-none lg:shadow-2xl bg-cover items-center lg:h-2/5 lg:w-2/5 overflow-hidden"
             src={paavo}
             alt="Paavon lakitus"
           />
