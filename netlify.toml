@@ -1,0 +1,48 @@
+[[redirects]]
+  from = "/sv/dokument"
+  to = "/sv/dokumentit"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sv/gulis"
+  to = "/sv/fukseille"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sv/jaynatavlingen"
+  to = "/sv/jaynakilpailut"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sv/kultur"
+  to = "/sv/kulttuuri"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sv/evenemang"
+  to = "/sv/tapahtumat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sv/teknologmossa"
+  to = "/sv/teekkarilakki"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sv/foreningen"
+  to = "/sv/yhdistys"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sv/till-foretag"
+  to = "/sv/yrityksille"
+  status = 200
+  force = true
+
