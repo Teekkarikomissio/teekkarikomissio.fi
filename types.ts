@@ -25,7 +25,7 @@ export type PartnerCard = {
 };
 
 export type BoardCard = {
-  img: string;
+  img: string | StaticImageData;
   name: string;
   position: string;
   responsibilities?: string;
