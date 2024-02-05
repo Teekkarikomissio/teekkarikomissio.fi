@@ -6,6 +6,15 @@ import { getDictionary } from "../../../get-dictionary";
 import { H1, H2, H3, LongText } from "../../../components/Typography";
 
 import tklogo from "../../../public/logos/tklogo.svg"
+import Reetta from "/public/board/2024/reetta-lindberg-min.jpg"
+import Risto from "/public/board/2024/risto-ruohola-min.jpg"
+import Jani from "/public/board/2024/jani-norrby-min.jpg"
+import Roosa from "/public/board/2024/roosa-varjonen-min.jpg"
+import Ellen from "/public/board/2024/ellen-ekblom-min.jpg"
+import Tiitus from "/public/board/2024/tiitus-hannula-min.jpg"
+import Kristoffer from "/public/board/2024/kristoffer-lindholm-min.jpg"
+import Arttu from "/public/board/2024/arttujokinen-min.jpg"
+import Marianne from "/public/board/2024/marianne-matinvuori-min.jpg"
 import { BoardCard } from "@/types";
 
 export default async function Yhdistys({
@@ -18,7 +27,7 @@ export default async function Yhdistys({
 
   const boardMembers = [
     {
-      img: tklogo,
+      img: Reetta,
       name: "Reetta Lindberg",
       position: association.associationTitle,
       responsibilities: association.associationResponsibilities1,
@@ -26,7 +35,7 @@ export default async function Yhdistys({
       contact2: "TG: @reettalindberg",
     },
     {
-      img: tklogo,
+      img: Risto,
       name: "Risto Ruohola",
       position: association.associationTitle1,
       responsibilities: association.associationResponsibilities1,
@@ -34,7 +43,7 @@ export default async function Yhdistys({
       contact2: "TG: @ristoruohola",
     },
     {
-      img: tklogo,
+      img: Ellen,
       name: "Ellen Ekblom",
       position: association.associationTitle6,
       responsibilities: association.associationResponsibilities3,
@@ -42,7 +51,7 @@ export default async function Yhdistys({
       contact2: "TG: @ellenekblom",
     },
     {
-      img: tklogo,
+      img: Tiitus,
       name: "Tiitus Hannula",
       position: association.associationTitle7,
       //responsibilities: association.associationResponsibilities7,
@@ -50,7 +59,7 @@ export default async function Yhdistys({
       contact2: "TG: @tiitush",
     },
     {
-      img: tklogo,
+      img: Arttu,
       name: "Arttu Jokinen",
       position: association.associationTitle3,
       //responsibilities: association.associationResponsibilities3,
@@ -58,7 +67,7 @@ export default async function Yhdistys({
       contact2: "TG: @ArttuJokinen",
     },
     {
-      img: tklogo,
+      img: Jani,
       name: "Jani Norrby",
       position: association.associationTitle8,
       //responsibilities: association.associationResponsibilities5,
@@ -66,7 +75,7 @@ export default async function Yhdistys({
       contact2: "TG: @jani_norppa",
     },
     {
-      img: tklogo,
+      img: Roosa,
       name: "Roosa Varjonen",
       position: association.associationTitle5,
       //responsibilities: association.associationResponsibilities7,
@@ -82,7 +91,7 @@ export default async function Yhdistys({
       contact2: "TG: @mleht0",
     },
     {
-      img: tklogo,
+      img: Kristoffer,
       name: "Kristoffer Lindholm",
       position: association.associationTitle2,
       //responsibilities: association.associationResponsibilities7,
@@ -90,7 +99,7 @@ export default async function Yhdistys({
       //contact2: "TG: @mleht0",
     },
     {
-      img: tklogo,
+      img: Marianne,
       name: "Marianne Matinvuori",
       position: association.associationTitle4,
       //responsibilities: association.associationResponsibilities7,
@@ -112,7 +121,7 @@ export default async function Yhdistys({
         <div className="flex flex-col items-center justify-center p-4">
           <div className="avatar">
             <div className="w-64 mask mask-squircle">
-              <Image src={img} alt={name} />
+              <Image width="400" height="400" src={img} alt={name} />
             </div>
           </div>
           <div className="w-2/3 flex flex-col items-center justify-center h-auto lg:ml-4 mb-4">
