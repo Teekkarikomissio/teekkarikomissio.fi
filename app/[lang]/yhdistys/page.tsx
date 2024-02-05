@@ -15,6 +15,7 @@ import Tiitus from "/public/board/2024/tiitus-hannula-min.jpg"
 import Kristoffer from "/public/board/2024/kristoffer-lindholm-min.jpg"
 import Arttu from "/public/board/2024/arttujokinen-min.jpg"
 import Marianne from "/public/board/2024/marianne-matinvuori-min.jpg"
+import Mikko from "/public/board/2024/mikko-lehtosalo-min.jpg"
 import { BoardCard } from "@/types";
 
 export default async function Yhdistys({
@@ -55,7 +56,7 @@ export default async function Yhdistys({
       name: "Tiitus Hannula",
       position: association.associationTitle7,
       //responsibilities: association.associationResponsibilities7,
-      contact: "E-mail: tiitus.k.hannula@utu.fi",
+      contact: "E-mail: tkhann@utu.fi",
       contact2: "TG: @tiitush",
     },
     {
@@ -78,15 +79,15 @@ export default async function Yhdistys({
       img: Roosa,
       name: "Roosa Varjonen",
       position: association.associationTitle5,
-      //responsibilities: association.associationResponsibilities7,
+      responsibilities: association.associationResponsibilities5,
       contact: "E-mail: rosova@utu.fi",
       contact2: "TG: @rroskaa",
     },
     {
-      img: tklogo,
+      img: Mikko,
       name: "Mikko Lehtosalo",
       position: association.associationTitle4,
-      //responsibilities: association.associationResponsibilities7,
+      responsibilities: association.associationResponsibilities7,
       contact: "E-mail: moleht@utu.fi",
       contact2: "TG: @mleht0",
     },
@@ -96,13 +97,13 @@ export default async function Yhdistys({
       position: association.associationTitle2,
       //responsibilities: association.associationResponsibilities7,
       contact: "E-mail: kristoffer.lindholm@abo.fi",
-      //contact2: "TG: @mleht0",
+      contact2: "TG: @kristofferlindholm",
     },
     {
       img: Marianne,
       name: "Marianne Matinvuori",
       position: association.associationTitle4,
-      //responsibilities: association.associationResponsibilities7,
+      responsibilities: association.associationResponsibilities6,
       contact: "E-mail: heidi.matinvuori@abo.fi",
       contact2: "TG: @Nannenen",
     },
