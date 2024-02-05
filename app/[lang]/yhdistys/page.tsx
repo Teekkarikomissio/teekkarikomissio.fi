@@ -15,6 +15,7 @@ import Tiitus from "/public/board/2024/tiitus-hannula-min.jpg"
 import Kristoffer from "/public/board/2024/kristoffer-lindholm-min.jpg"
 import Arttu from "/public/board/2024/arttujokinen-min.jpg"
 import Marianne from "/public/board/2024/marianne-matinvuori-min.jpg"
+import Mikko from "/public/board/2024/mikko-Lehtosalo-min.jpg"
 import { BoardCard } from "@/types";
 
 export default async function Yhdistys({
@@ -83,7 +84,7 @@ export default async function Yhdistys({
       contact2: "TG: @rroskaa",
     },
     {
-      img: tklogo,
+      img: Mikko,
       name: "Mikko Lehtosalo",
       position: association.associationTitle4,
       //responsibilities: association.associationResponsibilities7,
