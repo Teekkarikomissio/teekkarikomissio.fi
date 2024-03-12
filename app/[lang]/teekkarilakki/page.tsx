@@ -26,14 +26,14 @@ export default async function Cap({
             <LongText>{cap.capOneListItemTwo}</LongText>
             <H2>{cap.capHeadingTwo}</H2>
             <LongText>{cap.capBodyTwo}</LongText>
-            <ul className="list-disc text-justify mx-16">
+            <ul className="list-disc list-inside text-justify mx-16">
               <ListItem>{cap.capTwoListItemOne}</ListItem>
               <ListItem>{cap.capTwoListItemTwo}</ListItem>
               <ListItem>{cap.capTwoListItemThree}</ListItem>
             </ul>
             <H2>{cap.capHeadingThree}</H2>
             <LongText>{cap.capBodyThree}</LongText>
-            <ul className="list-disc text-justify mx-16">
+            <ul className="list-disc list-inside text-justify mx-16 mb-5">
               <ListItem>{cap.capThreeListItemOne}</ListItem>
               <ListItem>{cap.capThreeListItemTwo}</ListItem>
             </ul>
@@ -47,7 +47,7 @@ export default async function Cap({
             <LongText>{cap.capBodyFive}</LongText>
             <H2>{cap.capHeadingSix}</H2>
             <LongText>{cap.capBodySix}</LongText>
-            <ul className="list-disc text-justify mx-16">
+            <ul className="list-disc list-inside text-justify mx-16">
               <ListItem>{cap.capListItemOne}</ListItem>
               <ListItem>{cap.capListItemTwo}</ListItem>
               <ListItem>{cap.capListItemThree}</ListItem>
