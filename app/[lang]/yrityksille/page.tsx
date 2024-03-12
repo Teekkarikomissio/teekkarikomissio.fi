@@ -29,7 +29,7 @@ export default async function ForCompanies({
       <LongText>
         {forCompanies.forCompaniesBody1}{" "}
         <a className="underline" href="mailto:teekkarikomissio@utu.fi">
-          teekkarikomissio@utu.fi
+          teekkarikomissio[@]utu.fi
         </a>
       </LongText>
     </div>

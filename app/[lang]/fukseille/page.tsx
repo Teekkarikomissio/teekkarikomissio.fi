@@ -24,6 +24,7 @@ import asklepio from '@/public/logos/logo-asklepio.png'
 import diKerho from '@/public/logos/logo-dikerho.jpg'
 import nollaKerho from '@/public/logos/logo-nollakerho.png'
 import aboaTek from '@/public/logos/logo-aboatek.png'
+import optima from  '@/public/logos/logo-optima.jpg'
 
 export default async function NewStudents({
   params: { lang },
@@ -83,6 +84,13 @@ export default async function NewStudents({
       description: newStudents.techStudentInfo6,
       founded: 'est. 2022',
     },
+    {
+      img: optima,
+      href: 'https://linktr.ee/optimary',
+      heading: 'Optima ry',
+      description: newStudents.techStudentInfo10,
+      founded: 'est. 2023',
+    },
   ]
 
   const alumniInfo = [
@@ -117,7 +125,7 @@ export default async function NewStudents({
     founded,
   }) => {
     return (
-      <Card className="w-[325px] items-center break-inside-avoid-column">
+      <Card className="w-[325px] h-[365px] items-center break-inside-avoid-column">
         <CardHeader className='items-center text-wrap'>
           <CardTitle>{heading}</CardTitle>
           <CardDescription>{description}</CardDescription>
