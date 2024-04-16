@@ -33,6 +33,10 @@ module.exports = {
         source: "/sv/till-foretag",
         destination: "/sv/yrityksille",
       },
+      {
+        source: "/sv/trakasserianmalan",
+        destination:"/sv/ongelmatilannelomake",
+      },
     ];
   },
 };

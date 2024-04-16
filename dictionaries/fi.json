@@ -100,6 +100,10 @@
     "cultureBody4": "Työ on kuitenkin kesken. Monia syrjiviä ja epäasiallisia perinteitä ja rakenteita on saatu jo purettua, mutta urakkaa riittää yhä. Työhön on onneksi tarjolla tukea ylioppilaskunnalta, yliopistolta sekä valtakunnallisilta järjestöiltä. Lupaamme jatkossakin yhdessä rakentaa entistä rohkeammin epäkohtiin puuttuvaa teekkarikulttuuria.",
     "cultureBody5": "Teekkariyhteisömme on valtavan laaja joukko erilaisia ihmisiä, joita yhdistää erityisesti kiinnostus tekniikkaan ja tupsulakki. Me haluamme, että jokainen yhteisön jäsen tuntee olonsa turvalliseksi ja tervetulleeksi."
   },
+  "harassmentform":{
+    "metaTitle": "Ongelmatilannelomake",
+    "harassmentformHeading1_neg1": "Teekkarikomission ongelmatilannelomake"
+  },
   "events": {
     "metaTitle": "Tapahtumat",
     "eventHeading": "Teekkarikomission tapahtumat",
@@ -202,7 +206,8 @@
     "yrityksille": "Yrityksille",
     "jaynakilpailut": "Jäynäkilpailut",
     "dokumentit": "Dokumentit",
-    "tapahtumat": "Tapahtumat"
+    "tapahtumat": "Tapahtumat",
+    "ongelmatilannelomake": "Ongelmatilannelomake"
   },
   "navbarPaths": {
     "indexTitle": "/",
@@ -213,6 +218,7 @@
     "yrityksille": "/yrityksille",
     "jaynakilpailut": "/jaynakilpailut",
     "dokumentit": "/dokumentit",
-    "tapahtumat": "/tapahtumat"
+    "tapahtumat": "/tapahtumat",
+    "ongelmatilannelomake": "/ongelmatilannelomake"
   }
 }
