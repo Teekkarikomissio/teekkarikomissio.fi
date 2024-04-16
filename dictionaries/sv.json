@@ -100,6 +100,10 @@
     "cultureBody4": "Arbetet är dock ännu i gång. Flera exkluderande och oanständiga traditioner och strukturer har vi redan tagit isär, men arbete finns ännu kvar att göra. Som tur får vi hjälp i detta arbete av studentkåren, universitetet och nationella föreningar. Vi lovar att även i fortsättningen bygga upp en teknologkultur som tar itu med sina brister.",
     "cultureBody5": "Vårt teknologgemenskap består av en väldig mängd olika människor, som binds av ett särskilt intresse för teknologi, såväl som tofsmössan. Vi vill att varje medlem i vårt gemenskap kan känna sig trygg och välkommen."
   },
+  "harassmentform":{
+    "metaTitle": "Trakasserianmälan",
+    "harassmentformHeading1_neg1": "Teknologkommissionens trakasserianmälan"
+  },
   "events": {
     "metaTitle": "Evenemang",
     "eventHeading": "Teknologkommissionens evenemang",
@@ -202,7 +206,8 @@
     "yrityksille": "Till Företag",
     "jaynakilpailut": "Jäynätävlingen",
     "dokumentit": "Dokument",
-    "tapahtumat": "Evenemang"
+    "tapahtumat": "Evenemang",
+    "ongelmatilannelomake": "Trakasserianmälan"
   },
   "navbarPaths": {
     "indexTitle": "/",
@@ -213,6 +218,7 @@
     "yrityksille": "/till-foretag",
     "jaynakilpailut": "/jaynatavlingen",
     "dokumentit": "/dokument",
-    "tapahtumat": "/evenemang"
+    "tapahtumat": "/evenemang",
+    "ongelmatilannelomake": "/trakasserianmalan"
   }
 }
