@@ -1,0 +1,44 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: 'images/uploads'
+public_folder: 'images/uploads'
+slug:
+  encoding: 'ascii'
+  clean_accents: true
+  sanitize_replacement: '_'
+collections:
+- label: "Home page"
+    name: "homepage"
+    files:
+      - label: "Hero"
+        name: "hero"
+        file: "src/content/homepage/hero.md" # Path to the markdown file
+        create: true
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - {
+              label: "Background Image",
+              name: "backgroundImage",
+              widget: "image",
+              required: false,
+            }
+          - { label: "Button Text", name: "buttonText", widget: "string" }
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - label: 'Home'
+        name: 'home'
+        file: 'content/home.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'About'
+        name: 'about'
+        file: 'content/about.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }

@@ -36,7 +36,8 @@ export function middleware(request: NextRequest) {
     pathname.endsWith(".svg") ||
     pathname === "/manifest.json" ||
     pathname === "/favicon.ico" ||
-    pathname === "/favicon.png"
+    pathname === "/favicon.png" ||
+    pathname === "/admin"
   )
     return;
 
@@ -47,6 +48,10 @@ export function middleware(request: NextRequest) {
 
   // Redirect if there is no locale
   if (pathnameIsMissingLocale) {
+    if (pathname === `/admin`) {
+      return;
+    }
+
     const locale = getLocale(request);
 
     // e.g. incoming request is /products
