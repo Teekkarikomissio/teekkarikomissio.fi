@@ -16,7 +16,7 @@ export default async function Kulttuuri({
   return (
     <>
       <iframe
-        className="w-screen min-h-iFrameHeight lg:rounded-lg lg:mt-16 mb-6"
+        className="w-screen min-h-iFrameHeight mb-6"
         src="https://www.youtube.com/embed/GB0Lkq7Om24"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
