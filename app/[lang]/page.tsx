@@ -39,12 +39,10 @@ export default async function IndexPage({
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </article>
-      <div className="flex h-screen w-full">
         <iframe
           src="https://calendar.google.com/calendar/embed?src=uvuvvg8nh8dt26778tef67u0h8%40group.calendar.google.com&ctz=Europe%2FHelsinki"
-          style={{ flex: 1, margin: 100 }}
+          className='flex h-screen w-full lg:my-16 lg:mb-16'
         />
-      </div>
     </>
   )
 }
