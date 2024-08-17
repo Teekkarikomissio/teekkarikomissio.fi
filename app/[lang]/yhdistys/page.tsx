@@ -3,7 +3,7 @@ import React from 'react'
 import { Locale } from '../../../i18n-config'
 import getPageBySlug from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
-import markdownStyles from '../../../components/markdown-styles.module.css'
+import yhdistysStyles from './yhdistys-styles.module.css'
 
 export default async function Yhdistys({
   params: { lang },
@@ -14,13 +14,11 @@ export default async function Yhdistys({
   const content = await markdownToHtml(yhdistysPage.content || '')
 
   return (
-    <div className="max-w-prose">
-      <div className="max-w-2xl mx-auto">
-        <div
-          className={markdownStyles['markdown']}
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
-      </div>
-    </div>
+    <article className="flex flex-col justify-center text-center max-w-prose prose-stone">
+      <div
+        className={yhdistysStyles['markdown']}
+        dangerouslySetInnerHTML={{ __html: content }}
+      />
+    </article>
   )
 }
