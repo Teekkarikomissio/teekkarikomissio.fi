@@ -23,7 +23,7 @@ Teknologkommissionen ordnar årligen den lokala jäynätävlingen där även Åb
 
 Vi representerar teknologskap i Åbo både på lokal och på riksnivå. Som teknologsällskapets språkrör verkar vi för och tar ställning till för teknologer viktiga ärenden.
 
-### I samarbete:
+## I samarbete:
 ![TEK logo](/logos/tek-logo.png)
 ---
 ![TFIF logo](/logos/logo-tfif.svg)

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 import lander from '@/public/home-lander.jpg'
 import tklogo from '@/public/logos/tklogo.svg'
-import markdownStyles from '../../components/markdown-styles.module.css'
+import frontpageStyles from './frontpage-styles.module.css'
 
 import getPageBySlug from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
@@ -33,16 +33,16 @@ export default async function IndexPage({
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl font-bold tracking-tight text-white drop-shadow-2xl sm:text-6xl"
         />
       </div>
-      <article className="max-w-prose mx-auto prose prose-stone m-8">
+      <article className="flex flex-col justify-center text-center max-w-prose mx-auto prose prose-stone m-8">
         <div
-          className={markdownStyles['markdown']}
+          className={frontpageStyles['markdown']}
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </article>
-      <div className="flex h-96 w-full my-6">
+      <div className="flex h-screen w-full">
         <iframe
           src="https://calendar.google.com/calendar/embed?src=uvuvvg8nh8dt26778tef67u0h8%40group.calendar.google.com&ctz=Europe%2FHelsinki"
-          style={{ flex: 1 }}
+          style={{ flex: 1, margin: 100 }}
         />
       </div>
     </>

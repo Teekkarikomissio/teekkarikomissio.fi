@@ -4,8 +4,9 @@
   
   .markdown p {
     @apply m-8;
+    @apply flex;
+    @apply justify-center;
   }
-
   .markdown li,
   .markdown ul,
   .markdown ol,
@@ -27,6 +28,8 @@
 
   .markdown h2 {
     @apply text-3xl mt-12 mb-4 mx-8 leading-snug;
+    @apply flex;
+    @apply justify-center;
   }
   
   .markdown h3 {

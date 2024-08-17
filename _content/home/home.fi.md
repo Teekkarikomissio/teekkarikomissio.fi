@@ -23,7 +23,7 @@ Teekkarikomissio järjestää vuosittain paikalliset jäynäkilpailut, joiden ka
 
 Edustamme turkulaista teekkariutta sekä paikallisesti, että valtakunnallisesti. Yhteisön äänitorvena otamme kantaa ja ajamme yhteisölle tärkeitä asioita.
 
-### Yhteistyössä
+## Yhteistyössä
 ![TEK logo](/logos/tek-logo.png)
 ---
 ![TFIF logo](/logos/logo-tfif.svg)
