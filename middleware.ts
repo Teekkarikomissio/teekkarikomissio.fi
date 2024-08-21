@@ -27,8 +27,8 @@ function getLocale(request: NextRequest): string | undefined {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
-  // // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
-  // // If you have one
+  // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
+  // If you have one
   if (
     pathname.endsWith(".pdf") ||
     pathname.endsWith(".png") ||
@@ -36,10 +36,7 @@ export function middleware(request: NextRequest) {
     pathname.endsWith(".svg") ||
     pathname === "/manifest.json" ||
     pathname === "/favicon.ico" ||
-    pathname === "/favicon.png" ||
-    pathname.startsWith("/admin") ||
-    pathname.startsWith("/.netlify") ||
-    pathname.startsWith("/.next")
+    pathname === "/favicon.png"
   )
     return;
 
