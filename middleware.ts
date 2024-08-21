@@ -39,8 +39,7 @@ export function middleware(request: NextRequest) {
     pathname === "/favicon.png" ||
     pathname.startsWith("/admin") ||
     pathname.startsWith("/.netlify") ||
-    pathname.startsWith("/.next") ||
-    pathname.startsWith("#access_token")
+    pathname.startsWith("/.next")
   )
     return;
 
