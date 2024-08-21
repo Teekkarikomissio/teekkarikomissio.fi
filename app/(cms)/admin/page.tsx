@@ -15,7 +15,7 @@ export default function Admin() {
 		</head>
 		<body>
 			<!-- Dashboard script-->
-			<script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+			<script src="https://unpkg.com/decap-cms@^3.3.0/dist/decap-cms.js"></script>
 			<!-- netlify identity -->
 			<script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 

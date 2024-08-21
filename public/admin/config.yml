@@ -16,7 +16,7 @@ collections:
         name: "home"
         i18n: true
         file: "_content/home"
-        slug: "{{page}}.{{lang}}.md"
+        slug: "{{filename}}.{{locale}}.md"
         fields:
           - { label: "Title", name: "title", widget: "string", i18n: true }
           - { label: "Body", name: "body", widget: "markdown", i18n: true }
