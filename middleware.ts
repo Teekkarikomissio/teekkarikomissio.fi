@@ -37,8 +37,9 @@ export function middleware(request: NextRequest) {
     pathname === "/manifest.json" ||
     pathname === "/favicon.ico" ||
     pathname === "/favicon.png" ||
-    pathname === "/admin" ||
-    pathname === "/admin/config.yml"
+    pathname.startsWith("/admin") ||
+    pathname.startsWith("/.netlify") ||
+    pathname.startsWith("/.next")
   )
     return;
 
