@@ -1,0 +1,36 @@
+.markdown {
+    @apply text-lg leading-relaxed;
+  }
+  
+  .markdown p {
+    @apply m-6;
+    @apply flex;
+    @apply justify-center;
+  }
+
+  .markdown li,
+  .markdown ul,
+  .markdown ol,
+  .markdown blockquote {
+    @apply my-6;
+  }
+  
+  .markdown ul {
+    @apply list-none;
+  }
+
+  .markdown ol {
+    @apply list-none;
+  }
+
+  .markdown h2 {
+    @apply text-3xl mt-12 mb-4 mx-8 leading-snug;
+  }
+  
+  .markdown h3 {
+    @apply text-2xl mt-8 mb-4 mx-8 leading-snug;
+  }
+
+  .markdown img {
+    @apply lg:size-1/2 rounded-full items-center justify-center text-center
+  }

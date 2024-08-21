@@ -1,0 +1,38 @@
+.markdown {
+    @apply text-lg leading-relaxed;
+  }
+  
+  .markdown p {
+    @apply m-8;
+  }
+
+  .markdown li,
+  .markdown ul,
+  .markdown ol,
+  .markdown blockquote {
+    @apply my-6;
+  }
+  
+  .markdown ul {
+    list-style-type: disc;
+    @apply ml-14;
+    @apply mr-8;
+  }
+
+  .markdown ol {
+    list-style-type: decimal;
+    @apply ml-14;
+    @apply mr-8;
+  }
+
+  .markdown h2 {
+    @apply text-3xl mt-12 mb-4 mx-8 leading-snug;
+  }
+  
+  .markdown h3 {
+    @apply text-2xl mt-8 mb-4 mx-8 leading-snug;
+  }
+
+  .markdown img {
+    @apply size-1/2 rounded-sm items-center justify-center text-center
+  }

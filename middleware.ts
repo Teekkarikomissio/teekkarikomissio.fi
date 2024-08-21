@@ -36,7 +36,9 @@ export function middleware(request: NextRequest) {
     pathname.endsWith(".svg") ||
     pathname === "/manifest.json" ||
     pathname === "/favicon.ico" ||
-    pathname === "/favicon.png"
+    pathname === "/favicon.png" ||
+    pathname === "/admin" ||
+    pathname === "/admin/config.yml"
   )
     return;
 

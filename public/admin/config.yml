@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  repo: teekkarikomissio/teekkarikomissio.fi
+  branch: master
+media_folder: "public/images"
+public_folder: "/images"
+i18n:
+  structure: multiple_files
+  locales: [fi, sv, en]
+  default_locale: fi
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home"
+        name: "home"
+        i18n: true
+        file: "_content/home"
+        slug: "{{page}}.{{lang}}.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", i18n: true }
+          - { label: "Body", name: "body", widget: "markdown", i18n: true }
