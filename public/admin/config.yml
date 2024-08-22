@@ -1,21 +1,31 @@
+# backend:
+#   name: git-gateway
+#   branch: main
+#   proxy_url: http://localhost:8081/api/v1
+# local_backend: true
+
 backend:
   name: git-gateway
   repo: teekkarikomissio/teekkarikomissio.fi
   branch: master
+
 media_folder: "public/images"
 public_folder: "/images"
+
 i18n:
   structure: multiple_files
   locales: [fi, sv, en]
   default_locale: fi
+
 collections:
   - name: "pages"
     label: "Pages"
     files:
-      - label: "Home"
-        name: "home"
+      - name: "home"
+        label: "Home"
+        slug: "home"
         i18n: true
-        folder: "_content/home"
+        file: "_content/home/home.md"
         fields:
           - { label: "Title", name: "title", widget: "string", i18n: true }
           - { label: "Body", name: "body", widget: "markdown", i18n: true }
