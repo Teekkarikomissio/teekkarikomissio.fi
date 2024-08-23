@@ -11,3 +11,5 @@ title: Dokumentit
 - Strategia: [Suomeksi](/strategy-fi.pdf) [Ruotsiksi](/strategy-sv.pdf)  
 - Teekkarihymni: [Nuotit](/teekkarihymni_teknologhymn_notes.pdf) [Sanat](/teekkarihymni_teknologhymn_words.pdf)  
 - Yhdenvertaisuussuunnitelma: [Suomeksi](/values-fi.pdf) [Ruotsiksi](/values-sv.pdf)  
+
+Testi muutos

@@ -11,3 +11,5 @@ title: Dokument
 - Strategi: [På Finska](/strategy-fi.pdf) [På Svenska](/strategy-sv.pdf)  
 - Teknologhymnen: [Noter](/teekkarihymni_teknologhymn_notes.pdf) [Ord](/teekkarihymni_teknologhymn_words.pdf)  
 - Jämställdhetsplan: [På Finska](/values-fi.pdf) Väntar på översättning  
+
+Testi muutos
