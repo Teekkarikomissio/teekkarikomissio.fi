@@ -41,7 +41,7 @@ Teekkarikomissio hoitaa jäsenyhdistyksilleen yhteisiä asioita, edustaa Turun t
 - TG: @tiitush
 
 ### Arttu Jokinen
-![Arttu](/board/2024/arttujokinen-min.jpg)
+![Arttu](/board/2024/arttu-jokinen-min.jpg)
 
 - Talouskomissaari
 - E-mail: aijoki@utu.fi
