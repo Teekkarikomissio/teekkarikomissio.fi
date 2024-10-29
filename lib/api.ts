@@ -10,3 +10,15 @@ export default function getPageBySlug(pageName: string, locale: string) {
 
   return { meta: data, content };
 }
+
+export function getFolderContents(folderPath: string): string[] {
+  const fullPath = path.join(process.cwd(), folderPath)
+  try {
+    return fs
+      .readdirSync(fullPath)
+      .filter((item) => fs.statSync(path.join(fullPath, item)).isDirectory())
+  } catch (error) {
+    console.error(`Error reading directory ${folderPath}:`, error)
+    return []
+  }
+}
