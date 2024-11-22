@@ -2,6 +2,14 @@
 title: Turun paikalliset jäynäkilpailut
 ---
 
+## Jäynäkulttuuri
+
+Jäynäkilpailun tarkoituksena on vaalia jäynäperinteitä, edistää teekkarikulttuuria, kohottaa teekkarihenkeä ja edistää teekkaribrändin näkyvyyttä Turussa sekä tuottaa hyvää mieltä jäynän kaikilla vaikutusalueilla.
+
+Jäynän tarkoituksena on tuottaa hyväntahtoisesti riemua itselle, jäynän kohteelle ja suurelle yleisölle. Jäynä ei tosimielellä ota kantaa uskontoon tai politiikkaan. Se on luonteeltaan yllätyksellinen, tekniikan keinoja hyväksikäyttävä ja epäsovinnainen. Jäynä voi olla kestoltaan lyhyt tai pitkä.
+
+Jäynä ei solvaa, rienaa, turmele, varasta tai tuhoa. Jäynä ei aiheuta kenellekään taloudellisia, henkisiä tai fyysisiä vaikeuksia. Jäynä ei saa kohdistua millään muotoa poliisi- tai pelastusviranomaisiin eikä tuomariston jäseneen.
+
 ## Turun paikalliset jäynäkilpailut ovat käynnissä 6.2.–7.4.!
 
 ## Jäynäjulistus 2024

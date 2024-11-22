@@ -4,7 +4,7 @@ title: Jäsenyhdistykset
 
 ## Jäsenyhdistykset
 
-Teekkarikomissiolla on kahdeksan jäsentä - Turussa toimivat teekkariyhdistykset. Jokainen Digit ry:n, Nucleus ry:n, Adamas ry:n, Machina ry:n, Aklepio ry:n, Optioma ry:n, Datateknologerna vid Åbo Akademi rf:n tai Kemistklubben vid Åbo Akademi rf:n äänioikeutettu jäsen on siis automaagisesti oikeutettu osallistumaan TK:n toimintaan!
+Teekkarikomissiolla on kahdeksan jäsentä - Turussa toimivat teekkariyhdistykset. Jokainen Digit ry:n, Nucleus ry:n, Adamas ry:n, Machina ry:n, Asklepio ry:n, Optima ry:n, Datateknologerna vid Åbo Akademi rf:n tai Kemistklubben vid Åbo Akademi rf:n äänioikeutettu jäsen on siis automaagisesti oikeutettu osallistumaan TK:n toimintaan!
 
 ### [**Kemistklubben vid Åbo Akademi rf**](https://kemistklubben.org/)
 ![KK](/logos/logo-kk.png)

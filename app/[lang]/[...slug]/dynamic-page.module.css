@@ -3,12 +3,10 @@
   }
   
   .markdown p {
-    @apply m-6;
-    @apply mb-16;
+    @apply m-8;
     @apply flex;
     @apply justify-center;
   }
-
   .markdown li,
   .markdown ul,
   .markdown ol,
@@ -17,16 +15,21 @@
   }
   
   .markdown ul {
-    @apply list-disc;
+    list-style-type: disc;
     @apply ml-14;
-    @apply mr-8;  }
+    @apply mr-8;
+  }
 
   .markdown ol {
-    @apply list-none;
+    list-style-type: decimal;
+    @apply ml-14;
+    @apply mr-8;
   }
 
   .markdown h2 {
     @apply text-3xl mt-12 mb-4 mx-8 leading-snug;
+    @apply flex;
+    @apply justify-center;
   }
   
   .markdown h3 {
@@ -34,5 +37,5 @@
   }
 
   .markdown img {
-    @apply w-screen rounded-sm
+    @apply size-1/2 rounded-sm items-center justify-center text-center
   }

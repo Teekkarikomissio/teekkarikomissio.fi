@@ -10,10 +10,12 @@ import getPageBySlug from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
 
 export default async function IndexPage({
-  params: { lang },
+  params,
 }: {
   params: { lang: Locale }
 }) {
+  const { lang } = await params
+
   const homePage = getPageBySlug('home/home', lang)
   const content = await markdownToHtml(homePage.content || '')
 

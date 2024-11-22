@@ -41,6 +41,7 @@ export default function LocaleSwitcher({ lang, paths }: { lang: Locale, paths: L
   const languageNames: Record<Locale, string> = {
     fi: "Suomi",
     sv: "Svenska",
+    en: "English"
   };
 
   const resolveLanguageName = (lang: Locale) => {

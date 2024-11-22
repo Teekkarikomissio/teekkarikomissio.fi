@@ -26,174 +26,147 @@ import {
 } from '@/components/ui/sheet'
 
 import LocaleSwitcher from './locale-switcher'
-import { getFolderContents } from '@/lib/api'
 
 import tklogo from '../public/logos/tklogo.svg'
 import { Locale } from '../i18n-config'
 import { cn } from '@/lib/utils'
-
-const CONTENT_FOLDERS = getFolderContents('_content');
+import { LanguageSpecificPaths } from '@/types'
 
 interface NavigationBarProps {
-  labels: NavigationLabels
-  paths: LanguageSpecificPaths
   lang: Locale
-}
-
-interface NavItem {
-  title: string;
-  href: string;
-  description?: string;
-  children?: NavItem[];
-}
-
-interface NewNavBarProps {
-  contentFolders: string[];
-  navItems: Record<string, NavItem[]>;
-  lang: string;
+  contentFolders: {
+    href: string
+    slug: string
+    meta: {
+      [key: string]: any
+    }
+    content: string
+  }[]
 }
 
 type NavigationLabels = Record<string, string>
 
-interface LanguageSpecificPaths {
-  fi: FinnishPaths
-  sv: SwedishPaths
-}
-
-type FinnishPaths = Record<string, string>
-type SwedishPaths = Record<string, string>
-
-export default function Navbar({ labels, paths, lang }: NavigationBarProps) {
+export default function Navbar({
+  lang,
+  contentFolders,
+}: NavigationBarProps) {
   const [isOpen, toggleOpen] = useState(false)
 
-  const yhdistys: { title: string; href: string; description: string }[] = [
-    {
-      title: 'Yhdistys',
-      href: '/fi/yhdistys',
-      description: 'Mitä TK oikeastaan tekee?',
-    },
-    {
-      title: 'Yhteystiedot',
-      href: '/fi/yhdistys/yhteystiedot',
-      description: 'Yhteystiedot',
-    },
-    {
-      title: 'Dokumentit',
-      href: '/fi/yhdistys/dokumentit',
-      description: 'Dokumentit',
-    },
-  ]
+  let paths: Record<string, string>;
+  if (lang === 'sv') { 
+    paths = {
+    "indexTitle": "/",
+    "yhdistys": "/foreningen",
+    "fukseille": "/gulis",
+    "teekkarilakki": "/teknologmossa",
+    "kulttuuri": "/kultur",
+    "yrityksille": "/till-foretag",
+    "jaynakilpailut": "/jaynatavlingen",
+    "dokumentit": "/dokument",
+    "tapahtumat": "/evenemang",
+    "ongelmatilannelomake": "/trakasserianmalan"
+  }}
 
-  const fukseille: { title: string; href: string; description: string }[] = [
-    {
-      title: 'Yhdistys',
-      href: '/fi/yhdistys',
-      description: 'Mitä TK oikeastaan tekee?',
-    },
-  ]
-
-  const kulttuuri: { title: string; href: string; description: string }[] = [
-    {
-      title: 'Yhdistys',
-      href: '/fi/yhdistys',
-      description: 'Mitä TK oikeastaan tekee?',
-    },
-  ]
-
-  const tapahtumat: { title: string; href: string; description: string }[] = [
-    {
-      title: 'Yhdistys',
-      href: '/fi/yhdistys',
-      description: 'Mitä TK oikeastaan tekee?',
-    },
-  ]
-
-  const yhteistyo: { title: string; href: string; description: string }[] = [
-    {
-      title: 'Yhdistys',
-      href: '/fi/yhdistys',
-      description: 'Mitä TK oikeastaan tekee?',
-    },
-  ]
+  if (lang === 'fi') {
+    paths = {
+    "indexTitle": "/",
+    "yhdistys": "/yhdistys",
+    "fukseille": "/fukseille",
+    "teekkarilakki": "/teekkarilakki",
+    "kulttuuri": "/kulttuuri",
+    "yrityksille": "/yrityksille",
+    "jaynakilpailut": "/jaynakilpailut",
+    "dokumentit": "/dokumentit",
+    "tapahtumat": "/tapahtumat",
+    "ongelmatilannelomake": "/ongelmatilannelomake"
+    }
+  }
 
   const NavbarBrand = () => (
     <div className="flex items-center justify-center text-white">
       <Image className="fill-current h-8 w-8 mr-2" src={tklogo} alt="TK logo" />
-      <Link href={`/${lang}/`}>{labels['indexTitle']}</Link>
+      <Link href={`/${lang}/`}>Teekkarikomissio</Link>
     </div>
   )
 
   const NavbarLinks = () => (
     <div className="text-white flex flex-col space-y-3 lg:space-y-0 lg:flex-row lg:space-x-3 lg:text-center text-left lg:mb-0 mb-4">
-      {Object.keys(labels ?? {})
-        .filter((key) => key !== 'indexTitle')
-        .map((key) => {
-          const path = paths[lang]?.[key]
-          const label = labels[key]
-          if (!path) {
-            console.warn(`Path not found for key: ${key} and lang: ${lang}`)
-            return null // Skip rendering this link
-          }
-          const href = `/${lang}${path}`
-          return (
-            <NavigationMenuItem key={key}>
-              <Link href={href} legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  {label}
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-          )
-        })}
+      {contentFolders.map((folder) => {
+        const href = `/${lang}/${folder}`
+        return (
+          <NavigationMenuItem key={folder.slug}>
+            <Link href={href} legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                {folder.slug}
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+        )
+      })}
     </div>
   )
 
-  const NavMenuItem: React.FC<{ item: NavItem; lang: string }> = ({ item, lang }) => (
-    <NavigationMenuItem>
-      {item.children ? (
-        <>
-          <NavigationMenuTrigger>{item.title}</NavigationMenuTrigger>
+  const NavigationMenuDemo = () => (
+    <NavigationMenu>
+      <NavigationMenuList>
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-              {item.children.map((child) => (
+            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+              <li className="row-span-3">
+                <NavigationMenuLink asChild>
+                  <a
+                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+                    href="/"
+                  >
+                    <div className="mb-2 mt-4 text-lg font-medium">
+                      shadcn/ui
+                    </div>
+                    <p className="text-sm leading-tight text-muted-foreground">
+                      Beautifully designed components built with Radix UI and
+                      Tailwind CSS.
+                    </p>
+                  </a>
+                </NavigationMenuLink>
+              </li>
+              <ListItem href="/docs" title="Introduction">
+                Re-usable components built using Radix UI and Tailwind CSS.
+              </ListItem>
+              <ListItem href="/docs/installation" title="Installation">
+                How to install dependencies and structure your app.
+              </ListItem>
+              <ListItem href="/docs/primitives/typography" title="Typography">
+                Styles for headings, paragraphs, lists...etc
+              </ListItem>
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>Components</NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+              {contentFolders.map((folder) => (
                 <ListItem
-                  key={child.title}
-                  title={child.title}
-                  href={`/${lang}${child.href}`}
+                  key={folder.slug}
+                  title={folder.slug}
+                  href={folder.href}
                 >
-                  {child.description}
+                  {folder.slug}
                 </ListItem>
               ))}
             </ul>
           </NavigationMenuContent>
-        </>
-      ) : (
-        <Link href={`/${lang}${item.href}`} legacyBehavior passHref>
-          <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-            {item.title}
-          </NavigationMenuLink>
-        </Link>
-      )}
-    </NavigationMenuItem>
-  )
-
-  const NewNavBar = () => {
-    return (
-      <NavigationMenu>
-      <NavigationMenuList>
-        {contentFolders.map((folder) => {
-          const items = navItems[folder.toLowerCase()];
-          if (!items) return null;
-          return <NavMenuItem key={folder} item={{ title: folder, children: items }} lang={lang} />;
-        })}
-        <NavMenuItem 
-          item={{ title: "Ongelmatilannelomake", href: "/docs" }} 
-          lang={lang}
-        />
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <Link href="/docs" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Documentation
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
-    )
-  }
+  )
 
   const ListItem = React.forwardRef<
     React.ElementRef<'a'>,
@@ -259,7 +232,7 @@ export default function Navbar({ labels, paths, lang }: NavigationBarProps) {
               isOpen ? 'flex' : 'hidden'
             } flex-col items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex-row w-full`}
           >
-            <NewNavBar />
+            <NavigationMenuDemo />
             <LocaleSwitcher paths={paths} lang={lang} />
           </div>
         </div>

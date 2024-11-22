@@ -5,10 +5,12 @@ export type NavigationLabels = Record<string, string>;
 export interface LanguageSpecificPaths {
   fi: FinnishPaths;
   sv: SwedishPaths;
+  en: EnglishPaths;
 }
 
 export type FinnishPaths = Record<string, string>;
 export type SwedishPaths = Record<string, string>;
+export type EnglishPaths = Record<string, string>;
 
 export type GuildCardProps = {
   img: StaticImageData;

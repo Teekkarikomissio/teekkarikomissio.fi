@@ -30,6 +30,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Body", name: "body", widget: "markdown", i18n: true }
+      - { label: "iframe", name: "iframe", widget: "string", required: false }
   - name: "home"
     label: "Kotisivu"
     slug: "home"
@@ -39,6 +40,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Body", name: "body", widget: "markdown", i18n: true }
+      - { label: "iframe", name: "iframe", widget: "string", required: false }
   - name: "jaynakilpailut"
     label: "Jäynäkilpailut"
     slug: "jaynakilpailut"
@@ -48,6 +50,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Body", name: "body", widget: "markdown", i18n: true }
+      - { label: "iframe", name: "iframe", widget: "string", required: false }
   - name: "kulttuuri"
     label: "Kulttuuri"
     slug: "kulttuuri"
@@ -57,6 +60,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Body", name: "body", widget: "markdown", i18n: true }
+      - { label: "iframe", name: "iframe", widget: "string", required: false }
   - name: "teekkarilakki"
     label: "Teekkarilakki"
     slug: "teekkarilakki"
@@ -66,6 +70,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Body", name: "body", widget: "markdown", i18n: true }
+      - { label: "iframe", name: "iframe", widget: "string", required: false }
   - name: "yhdistys"
     label: "Yhdistys"
     slug: "yhdistys"
@@ -75,6 +80,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Body", name: "body", widget: "markdown", i18n: true }
+      - { label: "iframe", name: "iframe", widget: "string", required: false }
   - name: "yrityksille"
     label: "Yrityksille"
     slug: "yrityksille"
@@ -84,3 +90,5 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Body", name: "body", widget: "markdown", i18n: true }
+      - { label: "iframe", name: "iframe", widget: "string", required: false }
+      
