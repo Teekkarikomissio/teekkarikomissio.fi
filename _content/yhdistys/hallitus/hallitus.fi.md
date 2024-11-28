@@ -1,5 +1,5 @@
 ---
-title: Mitä TK oikeastaan tekee?
+title: Hallitus
 ---
 
 ## Mitä TK oikeastaan tekee?

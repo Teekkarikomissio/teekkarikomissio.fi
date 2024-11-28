@@ -1,5 +1,5 @@
 ---
-title: Vad gör TK egentligen?
+title: Styrelse
 ---
 
 ## Vad gör TK egentligen?
