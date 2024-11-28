@@ -7,8 +7,7 @@ import { i18n, type Locale } from '../../i18n-config'
 //import { ThemeProvider } from '../../components/theme-provider'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/footer'
-import { getDictionary } from '../../get-dictionary'
-import { LanguageSpecificPaths } from '../../types'
+import { getNavigationByLocale } from '@/lib/api'
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }))
@@ -33,23 +32,12 @@ export default async function RootLayout({
   children: React.ReactNode
   params: { lang: Locale }
 }) {
-  const dictionary = await getDictionary(params.lang)
-  const navbarLabels = dictionary['navbarLabels']
-
-  const dictionaryFI = await getDictionary('fi')
-  const pathsFI = dictionaryFI.navbarPaths
-
-  const dictionarySV = await getDictionary('sv')
-  const pathsSV = dictionarySV.navbarPaths
-
-  const languageSpecificPaths: LanguageSpecificPaths = {
-    fi: pathsFI,
-    sv: pathsSV,
-  }
+  const { lang } = await params;
+  const contentFolders = await getNavigationByLocale(lang);
 
   return (
     <html
-      lang={params.lang}
+      lang={lang}
       className={cn(
         'min-h-screen bg-background font-sans antialiased',
         inter.variable,
@@ -57,14 +45,20 @@ export default async function RootLayout({
       )}
       suppressHydrationWarning
     >
-      <head />
-      <body>
+      <head>
+        <link rel='icon' href='/favicon.ico' sizes='any' />
+      </head>
+      <body className="min-h-screen flex flex-col">
         <Navbar
-          labels={navbarLabels}
-          paths={languageSpecificPaths}
-          lang={params.lang}
+          lang={lang}
+          contentFolders={contentFolders
+            ?.filter((folder): folder is NonNullable<typeof folder> => folder !== null)
+            .map(folder => ({
+              ...folder,
+              subPages: folder.subPages?.filter((subPage): subPage is NonNullable<typeof subPage> => subPage !== null) || []
+            })) ?? []}
         />
-        <div className="flex-expand flex flex-col items-center max-h-full">
+        <div className="flex-1 flex flex-col items-center">
           {children}
         </div>
         <Footer />

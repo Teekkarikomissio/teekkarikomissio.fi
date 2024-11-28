@@ -6,8 +6,8 @@ import tklogo from '../public/logos/tklogo.svg'
 
 const Footer = () => {
   return (
-    <div className="items-center text-center flex-shrink bg-red-800 text-white p-6 border-b-8 border-blue-700">
-      <div className="flex flex-shrink flex-col items-center justify-center">
+    <div className="w-full items-center text-center bg-red-800 text-white p-6 border-b-8 border-blue-700">
+      <div className="flex flex-col items-center justify-center">
         <Image
           className="items-center justify-center"
           src={tklogo}
