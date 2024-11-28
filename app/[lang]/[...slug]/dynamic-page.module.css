@@ -2,37 +2,28 @@
   @apply text-lg leading-relaxed;
 }
 
+/* Base text alignment and spacing */
 .markdown p {
-  @apply m-6 mb-8;
+  @apply m-4 lg:m-6 mb-6 lg:mb-8 text-left max-w-[70ch];
 }
 
-/* Center text by default except in specific sections */
-.markdown > p {
-  @apply text-center;
+/* Lists styling */
+.markdown li {
+  @apply my-3 text-left;
 }
 
-/* Left align text in lists and their containers */
-.markdown li,
 .markdown ul,
 .markdown ol {
-  @apply my-4 mx-4 text-left;
+  @apply mx-8 lg:mx-auto w-[calc(100%-4rem)] lg:w-[70ch] list-disc pl-8;
 }
 
-.markdown ul {
-  @apply list-disc mx-auto w-fit;
-}
-
-.markdown ol {
-  @apply list-decimal mx-auto w-fit;
-}
-
-/* Center headings */
+/* Headings - keep centered as they're structural elements */
 .markdown h2 {
-  @apply text-3xl mt-12 mb-6 text-center font-bold;
+  @apply text-2xl lg:text-3xl mt-8 lg:mt-12 mb-4 lg:mb-6 text-center font-bold px-4;
 }
 
 .markdown h3 {
-  @apply text-2xl mt-8 mb-4 text-center font-semibold;
+  @apply text-xl lg:text-2xl mt-6 lg:mt-8 mb-3 lg:mb-4 text-center font-semibold px-4;
 }
 
 /* Image styles with variants */
@@ -47,7 +38,7 @@
 
 /* Board member images */
 .markdown h3 + p > img {
-  @apply lg:size-1/2 rounded-full;
+  @apply lg:size-1/2 rounded-md;
 }
 
 .markdown a {
