@@ -2,7 +2,6 @@
 
 import { usePathname } from "next/navigation";
 import { i18n, type Locale } from "../i18n-config";
-import { LanguageSpecificPaths } from "../types";
 import { useRouter } from "next/navigation";
 import { Languages } from "lucide-react";
 
@@ -15,7 +14,7 @@ import {
   SelectValue,
 } from "./ui/select";
 
-export default function LocaleSwitcher({ lang, paths }: { lang: Locale, paths: LanguageSpecificPaths}) {
+export default function LocaleSwitcher({ lang }: { lang: Locale }) {
   const pathName = usePathname();
   const router = useRouter();
 
@@ -25,9 +24,7 @@ export default function LocaleSwitcher({ lang, paths }: { lang: Locale, paths: L
 
     if (segments.length >= 2) {
       segments[1] = locale;
-      const basePath = segments.slice(2).join("/");
-      const newPath = paths[locale][basePath] ? `/${locale}${paths[locale][basePath]}` : `/${locale}/`;
-      return newPath;
+      return `/${segments.filter(Boolean).join("/")}`;
     }
 
     return `/${locale}/`;

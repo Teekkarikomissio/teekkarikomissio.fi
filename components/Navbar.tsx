@@ -8,18 +8,14 @@ import { Menu } from 'lucide-react'
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
-  navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu'
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -30,7 +26,6 @@ import LocaleSwitcher from './locale-switcher'
 import tklogo from '../public/logos/tklogo.svg'
 import { Locale } from '../i18n-config'
 import { cn } from '@/lib/utils'
-import { LanguageSpecificPaths } from '@/types'
 
 interface NavigationBarProps {
   lang: Locale
@@ -38,9 +33,21 @@ interface NavigationBarProps {
     href: string
     slug: string
     meta: {
+      title?: string
+      description?: string
       [key: string]: any
     }
     content: string
+    subPages?: {
+      href: string
+      slug: string
+      meta: {
+        title?: string
+        description?: string
+        [key: string]: any
+      }
+      content: string
+    }[]
   }[]
 }
 
@@ -50,37 +57,7 @@ export default function Navbar({
   lang,
   contentFolders,
 }: NavigationBarProps) {
-  const [isOpen, toggleOpen] = useState(false)
-
-  let paths: Record<string, string>;
-  if (lang === 'sv') { 
-    paths = {
-    "indexTitle": "/",
-    "yhdistys": "/foreningen",
-    "fukseille": "/gulis",
-    "teekkarilakki": "/teknologmossa",
-    "kulttuuri": "/kultur",
-    "yrityksille": "/till-foretag",
-    "jaynakilpailut": "/jaynatavlingen",
-    "dokumentit": "/dokument",
-    "tapahtumat": "/evenemang",
-    "ongelmatilannelomake": "/trakasserianmalan"
-  }}
-
-  if (lang === 'fi') {
-    paths = {
-    "indexTitle": "/",
-    "yhdistys": "/yhdistys",
-    "fukseille": "/fukseille",
-    "teekkarilakki": "/teekkarilakki",
-    "kulttuuri": "/kulttuuri",
-    "yrityksille": "/yrityksille",
-    "jaynakilpailut": "/jaynakilpailut",
-    "dokumentit": "/dokumentit",
-    "tapahtumat": "/tapahtumat",
-    "ongelmatilannelomake": "/ongelmatilannelomake"
-    }
-  }
+  const [isOpen] = useState(false)
 
   const NavbarBrand = () => (
     <div className="flex items-center justify-center text-white">
@@ -88,85 +65,45 @@ export default function Navbar({
       <Link href={`/${lang}/`}>Teekkarikomissio</Link>
     </div>
   )
-
-  const NavbarLinks = () => (
-    <div className="text-white flex flex-col space-y-3 lg:space-y-0 lg:flex-row lg:space-x-3 lg:text-center text-left lg:mb-0 mb-4">
-      {contentFolders.map((folder) => {
-        const href = `/${lang}/${folder}`
-        return (
-          <NavigationMenuItem key={folder.slug}>
-            <Link href={href} legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                {folder.slug}
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
-        )
-      })}
-    </div>
-  )
-
-  const NavigationMenuDemo = () => (
-    <NavigationMenu>
-      <NavigationMenuList>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-              <li className="row-span-3">
-                <NavigationMenuLink asChild>
-                  <a
-                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                    href="/"
-                  >
-                    <div className="mb-2 mt-4 text-lg font-medium">
-                      shadcn/ui
-                    </div>
-                    <p className="text-sm leading-tight text-muted-foreground">
-                      Beautifully designed components built with Radix UI and
-                      Tailwind CSS.
-                    </p>
-                  </a>
-                </NavigationMenuLink>
-              </li>
-              <ListItem href="/docs" title="Introduction">
-                Re-usable components built using Radix UI and Tailwind CSS.
-              </ListItem>
-              <ListItem href="/docs/installation" title="Installation">
-                How to install dependencies and structure your app.
-              </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Typography">
-                Styles for headings, paragraphs, lists...etc
-              </ListItem>
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Components</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-              {contentFolders.map((folder) => (
-                <ListItem
-                  key={folder.slug}
-                  title={folder.slug}
-                  href={folder.href}
-                >
-                  {folder.slug}
-                </ListItem>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Documentation
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-      </NavigationMenuList>
-    </NavigationMenu>
-  )
+  
+  const NavigationMenuDemo = () => {
+    return (
+      <NavigationMenu>
+        <NavigationMenuList className="flex items-center space-x-2">
+          {contentFolders.map((section) => (
+            <NavigationMenuItem key={section.slug}>
+              {section.subPages && section.subPages.length > 0 ? (
+                <>
+                  <NavigationMenuTrigger className="bg-tk-blue text-white hover:bg-tk-red transition-colors">
+                    {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid w-[400px] gap-3 p-4 bg-white rounded-md border border-tk-red">
+                      {section.subPages.map((subPage) => (
+                        <ListItem
+                          key={subPage.slug}
+                          title={subPage.meta.title || subPage.slug}
+                          href={subPage.href}
+                        >
+                          {subPage.meta.description || ""}
+                        </ListItem>
+                      ))}
+                    </ul>
+                  </NavigationMenuContent>
+                </>
+              ) : (
+                <Link href={section.href} legacyBehavior passHref>
+                  <NavigationMenuLink className="inline-flex h-9 w-max items-center justify-center rounded-md bg-tk-blue px-4 py-2 text-sm font-medium text-white hover:bg-tk-red transition-colors">
+                    {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
+                  </NavigationMenuLink>
+                </Link>
+              )}
+            </NavigationMenuItem>
+          ))}
+        </NavigationMenuList>
+      </NavigationMenu>
+    );
+  };
 
   const ListItem = React.forwardRef<
     React.ElementRef<'a'>,
@@ -178,13 +115,13 @@ export default function Navbar({
           <a
             ref={ref}
             className={cn(
-              'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground',
+              'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:text-red-800',
               className
             )}
             {...props}
           >
-            <div className="text-sm font-medium leading-none">{title}</div>
-            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+            <div className="text-sm font-medium leading-none hover:text-red-800">{title}</div>
+            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground hover:text-red-800">
               {children}
             </p>
           </a>
@@ -195,25 +132,59 @@ export default function Navbar({
   ListItem.displayName = 'ListItem'
 
   const NavbarSheet = () => {
+    const [open, setOpen] = useState(false)
+
     return (
-      <Sheet>
+      <Sheet open={open} onOpenChange={setOpen}>
         <SheetTrigger className="rounded-none capitalize pl-1">
           <span className="lg:hidden inline-flex items-center px-3 py-2 border rounded text-secondary border-secondary hover:text-white hover:border-white">
             <Menu size={24} />
           </span>
         </SheetTrigger>
-        <SheetContent className="bg-red-800">
-          <NavigationMenu orientation="vertical">
-            <NavigationMenuList className="flex-col items-start space-x-0">
-              <Image
-                className="fill-current h-8 w-8 mr-2 mb-4"
-                src={tklogo}
-                alt="TK logo"
-              />
-              <NavbarLinks />
-              <LocaleSwitcher paths={paths} lang={lang} />
-            </NavigationMenuList>
-          </NavigationMenu>
+        <SheetContent side="left" className="w-[300px] bg-tk-red border-r-0 p-0">
+          <SheetHeader className="p-4">
+            <SheetTitle className="text-white sr-only">Navigation Menu</SheetTitle>
+          </SheetHeader>
+          <div className="flex flex-col space-y-4 p-4">
+            <LocaleSwitcher lang={lang} />
+            <nav className="flex flex-col space-y-4">
+              {contentFolders.map((section) => (
+                <div key={section.slug} className="flex flex-col">
+                  {section.subPages && section.subPages.length > 0 ? (
+                    <>
+                      <Link 
+                        href={section.href}
+                        onClick={() => setOpen(false)}
+                        className="text-white p-2 rounded-md hover:bg-white hover:text-black transition-all font-medium"
+                      >
+                        {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
+                      </Link>
+                      <div className="flex flex-col space-y-2 pl-4 mt-2">
+                        {section.subPages.map((subPage) => (
+                          <Link 
+                            key={subPage.slug}
+                            href={subPage.href}
+                            onClick={() => setOpen(false)}
+                            className="text-white p-2 rounded-md hover:bg-white hover:text-black transition-all"
+                          >
+                            {subPage.meta.title || subPage.slug}
+                          </Link>
+                        ))}
+                      </div>
+                    </>
+                  ) : (
+                    <Link 
+                      href={section.href}
+                      onClick={() => setOpen(false)}
+                      className="text-white p-2 rounded-md hover:bg-white hover:text-black transition-all font-medium"
+                    >
+                      {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
+                    </Link>
+                  )}
+                </div>
+              ))}
+            </nav>
+          </div>
         </SheetContent>
       </Sheet>
     )
@@ -233,7 +204,7 @@ export default function Navbar({
             } flex-col items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex-row w-full`}
           >
             <NavigationMenuDemo />
-            <LocaleSwitcher paths={paths} lang={lang} />
+            <LocaleSwitcher lang={lang} />
           </div>
         </div>
       </div>

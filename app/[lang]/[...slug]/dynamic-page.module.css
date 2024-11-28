@@ -1,41 +1,60 @@
 .markdown {
-    @apply text-lg leading-relaxed;
-  }
-  
-  .markdown p {
-    @apply m-8;
-    @apply flex;
-    @apply justify-center;
-  }
-  .markdown li,
-  .markdown ul,
-  .markdown ol,
-  .markdown blockquote {
-    @apply my-6;
-  }
-  
-  .markdown ul {
-    list-style-type: disc;
-    @apply ml-14;
-    @apply mr-8;
-  }
+  @apply text-lg leading-relaxed;
+}
 
-  .markdown ol {
-    list-style-type: decimal;
-    @apply ml-14;
-    @apply mr-8;
-  }
+.markdown p {
+  @apply m-6 mb-8;
+}
 
-  .markdown h2 {
-    @apply text-3xl mt-12 mb-4 mx-8 leading-snug;
-    @apply flex;
-    @apply justify-center;
-  }
-  
-  .markdown h3 {
-    @apply text-2xl mt-8 mb-4 mx-8 leading-snug;
-  }
+/* Center text by default except in specific sections */
+.markdown > p {
+  @apply text-center;
+}
 
-  .markdown img {
-    @apply size-1/2 rounded-sm items-center justify-center text-center
-  }
+/* Left align text in lists and their containers */
+.markdown li,
+.markdown ul,
+.markdown ol {
+  @apply my-4 mx-4 text-left;
+}
+
+.markdown ul {
+  @apply list-disc mx-auto w-fit;
+}
+
+.markdown ol {
+  @apply list-decimal mx-auto w-fit;
+}
+
+/* Center headings */
+.markdown h2 {
+  @apply text-3xl mt-12 mb-6 text-center font-bold;
+}
+
+.markdown h3 {
+  @apply text-2xl mt-8 mb-4 text-center font-semibold;
+}
+
+/* Image styles with variants */
+.markdown img {
+  @apply mx-auto rounded-sm;
+}
+
+/* Default large images (like banner images) */
+.markdown > p > img {
+  @apply w-screen lg:max-w-3xl;
+}
+
+/* Board member images */
+.markdown h3 + p > img {
+  @apply lg:size-1/2 rounded-full;
+}
+
+.markdown a {
+  @apply underline target:shadow-lg hover:text-blue-800;
+}
+
+/* Special handling for blockquotes */
+.markdown blockquote {
+  @apply my-6 pl-4 border-l-4 border-gray-300 italic;
+}

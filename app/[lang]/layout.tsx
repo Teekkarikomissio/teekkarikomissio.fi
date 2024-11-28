@@ -32,8 +32,8 @@ export default async function RootLayout({
   children: React.ReactNode
   params: { lang: Locale }
 }) {
-  const { lang } = await params
-  const contentFolders = (await getNavigationByLocale(lang)).filter((item): item is NonNullable<typeof item> => Boolean(item))
+  const { lang } = await params;
+  const contentFolders = await getNavigationByLocale(lang);
 
   return (
     <html
@@ -48,12 +48,17 @@ export default async function RootLayout({
       <head>
         <link rel='icon' href='/favicon.ico' sizes='any' />
       </head>
-      <body>
+      <body className="min-h-screen flex flex-col">
         <Navbar
           lang={lang}
-          contentFolders={contentFolders}
+          contentFolders={contentFolders
+            ?.filter((folder): folder is NonNullable<typeof folder> => folder !== null)
+            .map(folder => ({
+              ...folder,
+              subPages: folder.subPages?.filter((subPage): subPage is NonNullable<typeof subPage> => subPage !== null) || []
+            })) ?? []}
         />
-        <div className="flex-expand flex flex-col items-center max-h-full">
+        <div className="flex-1 flex flex-col items-center">
           {children}
         </div>
         <Footer />

@@ -1,17 +1,17 @@
 import React from 'react'
 import { Locale } from '../../../i18n-config'
 import MarkdownPage from '@/components/MarkdownPage'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import { getNavigationByLocale } from '@/lib/api'
 import { i18n } from '@/i18n-config'
 
 import dynamicPageStyles from './dynamic-page.module.css'
 
 interface Props {
-  params: {
+  params: Promise<{
     lang: Locale
     slug: string[]
-  }
+  }>
 }
 
 export async function generateStaticParams() {
@@ -25,6 +25,13 @@ export async function generateStaticParams() {
         lang: locale as Locale,
         slug: [folder!.slug],
       })
+
+      folder?.subPages?.forEach((subPage) => {
+        paths.push({
+          lang: locale as Locale,
+          slug: [folder.slug, subPage!.slug],
+        })
+      })
     })
   }
 
@@ -34,6 +41,18 @@ export async function generateStaticParams() {
 export default async function DynamicPage({ params }: Props) {
   const { lang, slug } = await params
   const slugPath = slug.join('/')
+
+  const navigation = await getNavigationByLocale(lang)
+  const currentSection = navigation.find(section => section?.slug === slug[0])
+
+  if (!currentSection) {
+    notFound()
+  }
+
+  if (slug.length === 1 && currentSection.subPages?.length > 0) {
+    const firstSubPage = currentSection.subPages[0]
+    redirect(`/${lang}/${currentSection.slug}/${firstSubPage?.slug}`)
+  }
 
   try {
     return (

@@ -12,7 +12,7 @@ import markdownToHtml from '@/lib/markdownToHtml'
 export default async function IndexPage({
   params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }) {
   const { lang } = await params
 
