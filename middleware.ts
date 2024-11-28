@@ -21,7 +21,8 @@ function getLocale(request: NextRequest): string | undefined {
 
   const locale = matchLocale(languages, locales, i18n.defaultLocale);
 
-  return locale;
+  // Turn this on when english content is ready
+  return "fi";
 }
 
 export function middleware(request: NextRequest) {
