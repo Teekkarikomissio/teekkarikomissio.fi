@@ -49,17 +49,17 @@ export const metadata: Metadata = {
     description: 'Teekkariutta yli yliopistorajojen',
     siteName: 'Teekkarikomissio',
     images: [{
-      url: '/home-landing-2.jpg',
-      width: 1200,
-      height: 630,
-      alt: 'Teekkarikomissio Banner'
+      url: '/logos/tklogo-social.png',
+      width: 512,
+      height: 512,
+      alt: 'Teekkarikomissio Logo'
     }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Teekkarikomissio - Teknologkommission',
     description: 'Teekkariutta yli yliopistorajojen',
-    images: ['/home-landing-2.jpg'],
+    images: ['/logos/tklogo-social.png'],
   },
   robots: {
     index: true,
@@ -87,9 +87,6 @@ export default async function RootLayout({
       )}
       suppressHydrationWarning
     >
-      <head>
-        <link rel='icon' href='/favicon.ico' sizes='any' />
-      </head>
       <body className="min-h-screen flex flex-col">
         <Navbar
           lang={lang}
