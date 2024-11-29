@@ -4,7 +4,6 @@ import { Metadata } from 'next'
 
 import { cn } from '../../lib/utils'
 import { i18n, type Locale } from '../../i18n-config'
-//import { ThemeProvider } from '../../components/theme-provider'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/footer'
 import { getNavigationByLocale } from '@/lib/api'
@@ -24,6 +23,49 @@ const roboto_mono = Roboto_Mono({
   display: 'swap',
   variable: '--font-roboto-mono',
 })
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://teekkarikomissio.fi'),
+  title: {
+    template: '%s | Teekkarikomissio',
+    default: 'Teekkarikomissio - Teknologkommission',
+  },
+  description: 'Teekkariutta yli yliopistorajojen',
+  keywords: [
+    'teekkarikomissio',
+    'komissio',
+    'teknologkommissionen',
+    'teekkari',
+    'turku',
+  ],
+  authors: [
+    { name: 'Teekkarikomissio', url: 'https://teekkarikomissio.fi' }
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'fi_FI',
+    url: 'https://teekkarikomissio.fi',
+    title: 'Teekkarikomissio - Teknologkommission',
+    description: 'Teekkariutta yli yliopistorajojen',
+    siteName: 'Teekkarikomissio',
+    images: [{
+      url: '/home-landing-2.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Teekkarikomissio Banner'
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Teekkarikomissio - Teknologkommission',
+    description: 'Teekkariutta yli yliopistorajojen',
+    images: ['/home-landing-2.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  }
+}
 
 export default async function RootLayout({
   children,
@@ -65,17 +107,4 @@ export default async function RootLayout({
       </body>
     </html>
   )
-}
-
-export const metadata: Metadata = {
-  metadataBase: new URL('https://teekkarikomissio.fi/'),
-  title: 'Teekkarikomissio - Teknologkommission',
-  description:
-    'Teekkarikomissio (TK) on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille.',
-  keywords:
-    'teekkarikomissio, komissio, teknologkommissionen, kommissionen, teekkari, turku, tekniikka, opiskelu, yliopisto, tietotekniikka, biotekniikka, materiaalitekniikka, konetekniikka, fuksi, paavo, nurmi, vappu, wappu, lakitus, teekkariutta, turkulaista, TK, tk, teekkarikulttuuri, jäynäkulttuuri, teekkarilakki, yhdistys, fukseille, kulttuuri, yrityksille, fuksipassi, lakinkäyttöoikeus, käyttöoikeus, pysyväisohjesääntö, eldprowet, jäynäkilpailu',
-  authors: [{ name: 'Teekkarikomissio', url: 'https://teekkarikomissio.fi/' }],
-  openGraph: {
-    images: '/index-banner-fi.jpg',
-  },
 }
