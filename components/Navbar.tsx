@@ -20,6 +20,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet'
+import { ScrollArea } from '@/components/ui/scroll-area'
 
 import LocaleSwitcher from './locale-switcher'
 
@@ -51,8 +52,6 @@ interface NavigationBarProps {
   }[]
 }
 
-type NavigationLabels = Record<string, string>
-
 export default function Navbar({
   lang,
   contentFolders,
@@ -65,8 +64,8 @@ export default function Navbar({
       <Link href={`/${lang}/`}>Teekkarikomissio</Link>
     </div>
   )
-  
-  const NavigationMenuDemo = () => {
+
+  const NavigationMenuDesktop = () => {
     return (
       <NavigationMenu>
         <NavigationMenuList className="flex items-center space-x-2">
@@ -131,7 +130,7 @@ export default function Navbar({
   })
   ListItem.displayName = 'ListItem'
 
-  const NavbarSheet = () => {
+  const NavigationMenuMobile = () => {
     const [open, setOpen] = useState(false)
 
     return (
@@ -145,48 +144,56 @@ export default function Navbar({
           <SheetHeader className="p-4">
             <SheetTitle className="text-white sr-only">Navigation Menu</SheetTitle>
           </SheetHeader>
-          <div className="flex flex-col space-y-4 p-4">
-            <LocaleSwitcher lang={lang} />
-            <nav className="flex flex-col space-y-4">
-              {contentFolders.map((section) => (
-                <div key={section.slug} className="flex flex-col">
-                  {section.subPages && section.subPages.length > 0 ? (
-                    <>
-                      <Link 
-                        href={section.href}
-                        onClick={() => setOpen(false)}
-                        className="text-white p-2 rounded-md hover:bg-white hover:text-black transition-all font-medium"
-                      >
-                        {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
-                      </Link>
-                      <div className="flex flex-col space-y-2 pl-4 mt-2">
-                        {section.subPages.map((subPage) => (
-                          <Link 
-                            key={subPage.slug}
-                            href={subPage.href}
+          <div className="flex flex-col space-y-4">
+            <div className="p-4">
+              <LocaleSwitcher lang={lang} />
+            </div>
+            <ScrollArea className="h-[calc(100vh-150px)]">
+              <div className="px-4 pb-8">
+                <nav className="flex flex-col space-y-4">
+                  {contentFolders.map((section) => (
+                    <div key={section.slug} className="flex flex-col">
+                      {section.subPages && section.subPages.length > 0 ? (
+                        <>
+                          <Link
+                            href={section.href}
                             onClick={() => setOpen(false)}
-                            className="text-white p-2 rounded-md hover:bg-white hover:text-black transition-all"
+                            className="text-white p-2 rounded-md hover:bg-white hover:text-black transition-all font-medium"
                           >
-                            {subPage.meta.title || subPage.slug}
+                            {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
                           </Link>
-                        ))}
-                      </div>
-                    </>
-                  ) : (
-                    <Link 
-                      href={section.href}
-                      onClick={() => setOpen(false)}
-                      className="text-white p-2 rounded-md hover:bg-white hover:text-black transition-all font-medium"
-                    >
-                      {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
-                    </Link>
-                  )}
-                </div>
-              ))}
-            </nav>
+                          <div className="flex flex-col space-y-2 pl-4 mt-2">
+                            {section.subPages.map((subPage) => (
+                              <Link
+                                key={subPage.slug}
+                                href={subPage.href}
+                                onClick={() => setOpen(false)}
+                                className="text-white p-2 rounded-md hover:bg-white hover:text-black transition-all"
+                              >
+                                {subPage.meta.title || subPage.slug}
+                              </Link>
+                            ))}
+                          </div>
+                        </>
+                      ) : (
+                        <Link
+                          href={section.href}
+                          onClick={() => setOpen(false)}
+                          className="text-white p-2 rounded-md hover:bg-white hover:text-black transition-all font-medium"
+                        >
+                          {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
+                        </Link>
+                      )}
+                    </div>
+                  ))}
+                </nav>
+              </div>
+            </ScrollArea>
           </div>
         </SheetContent>
       </Sheet>
+
+
     )
   }
 
@@ -195,15 +202,14 @@ export default function Navbar({
       <div className="flex flex-col lg:flex-row items-center lg:items-center justify-between">
         <div className="flex justify-between items-center w-full">
           <NavbarBrand />
-          <NavbarSheet />
+          <NavigationMenuMobile />
         </div>
         <div className="flex items-center">
           <div
-            className={`lg:flex ${
-              isOpen ? 'flex' : 'hidden'
-            } flex-col items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex-row w-full`}
+            className={`lg:flex ${isOpen ? 'flex' : 'hidden'
+              } flex-col items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex-row w-full`}
           >
-            <NavigationMenuDemo />
+            <NavigationMenuDesktop />
             <LocaleSwitcher lang={lang} />
           </div>
         </div>
