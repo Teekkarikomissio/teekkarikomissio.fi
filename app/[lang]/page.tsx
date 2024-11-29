@@ -1,7 +1,6 @@
 import React from 'react'
 import { Locale } from '../../i18n-config'
 import Image from 'next/image'
-import dynamic from 'next/dynamic'
 
 import lander from '@/public/home-landing-2.jpg'
 import frontpageStyles from './frontpage-styles.module.css'
@@ -12,9 +11,8 @@ import InstagramFeedSection from '@/components/InstagramFeedSection'
 
 const frontPageContent = {
   fi: {
-    events: {
-      title: "Turun teekkareiden yhteisiä tapahtumia",
-      description: "Järjestämme vuoden aikana teekkariyhteisölle perinteikkäitä ja verkostoa yhdistäviä tapahtumia."
+    association: {
+      description: "Teekkarikomissio on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille.",
     },
     culture: {
       title: "Teekkarikulttuuria",
@@ -31,9 +29,8 @@ const frontPageContent = {
     }
   },
   sv: {
-    events: {
-      title: "Åboteknologernas gemensamma evenemang",
-      description: "Under året ordnar vi både traditionella och nätverksförenande teknologevenemang."
+    association: {
+      description: "Teknologkommissionen är ett sammanbindande kontaktforum för teknologföreningar i Åbo.",
     },
     culture: {
       title: "Teknologkultur",
@@ -50,9 +47,8 @@ const frontPageContent = {
     }
   },
   en: {
-    events: {
-      title: "Joint Events for Turku's Tech Students",
-      description: "Throughout the year, we organize traditional and network-building events for our tech student community."
+    association: {
+      description: "The Teekkarikomissio is a unifying contact forum for teekkari associations operating in Turku.",
     },
     culture: {
       title: "Teekkari Culture",
@@ -124,24 +120,21 @@ export default async function IndexPage({
         </div>
       </div>
 
-      {/* Content Sections */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 gap-16">
-          {/* Events Section */}
-          <div className="flex flex-col lg:flex-row items-center gap-8">
-            <Image
-              src="/index-teekkari.jpg"
-              alt="Tekniikan opiskelija"
-              width={300}
-              height={200}
-              className="rounded-lg w-full lg:w-auto max-w-[300px]"
-            />
-            <div className="flex flex-col">
-              <h3 className="text-2xl font-bold mb-4 text-center lg:text-left">{frontPageContent[lang].events.title}</h3>
-              <p className="text-lg text-center lg:text-left">{frontPageContent[lang].events.description}</p>
-            </div>
+      {/* Description Section */}
+      <div className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative pb-2 mb-8">
+            <h2 className="text-3xl font-bold text-center">
+              {frontPageContent[lang].association.description}
+            </h2>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-red-800"></div>
           </div>
+        </div>
+      </div>
 
+      {/* Content Sections */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <div className="grid grid-cols-1 gap-16">
           {/* Culture Section */}
           <div className="flex flex-col lg:flex-row items-center gap-8">
             <Image
