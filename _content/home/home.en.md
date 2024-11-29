@@ -1,4 +1,5 @@
 ---
-title: 🤖 under construction
+title: Teekkari culture across university boundaries
 ---
-## 🤖 under construction
+![TEK logo](/logos/tek-logo.png)
+![TFIF logo](/logos/logo-tfif.svg)

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Facebook, Mail, MapPin, Instagram } from 'lucide-react'
+import { Mail, MapPin, Instagram } from 'lucide-react'
 import Image from 'next/image'
 
 import tklogo from '../public/logos/tklogo.svg'
@@ -36,13 +36,6 @@ const Footer = () => {
           >
             <Instagram size={48} />
             <span>@turunteekkari</span>
-          </a>
-          <a
-            className="flex flex-col items-center m-8 hover:text-yellow-400 h-16"
-            href="https://www.facebook.com/teekkarikomissio/"
-          >
-            <Facebook size={48} />
-            <span>@teekkarikomissio</span>
           </a>
         </div>
       </div>

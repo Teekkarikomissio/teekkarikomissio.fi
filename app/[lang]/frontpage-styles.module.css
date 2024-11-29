@@ -5,7 +5,11 @@
   .markdown p {
     @apply m-8;
     @apply flex;
+    @apply flex-row;
+    @apply flex-wrap;
+    @apply gap-8;
     @apply justify-center;
+    @apply items-center;
   }
   .markdown li,
   .markdown ul,
@@ -31,5 +35,12 @@
   }
 
   .markdown img {
-    @apply size-1/2 rounded-sm items-center justify-center text-center
+    @apply w-48 rounded-sm items-center justify-center text-center;
+  }
+
+  @media (max-width: 768px) {
+    .flex.flex-row {
+      flex-direction: column;
+      text-align: center;
+    }
   }

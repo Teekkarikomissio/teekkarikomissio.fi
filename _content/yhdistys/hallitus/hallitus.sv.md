@@ -4,6 +4,8 @@ title: Styrelse
 
 ## Vad gör TK egentligen?
 
+Teknologkommissionen (TK) är ett sammanbindande organ för de olika teknologföreningarna i Åbo. Teknologkommissionen är en tvåspråkig förening inom vilken ordförandes modersmål samtidigt är kommissionens arbetsspråk. I föreningsregistret är TK registrerat som Teknologkommissionsföreningen. Inom dagligt bruk skulle detta namn dock vara för långt och klumpigt, så vanligtvis talar man om Teknologkommissionen, eller helt kort endast TK.
+
 Teknologkommissionen sköter om gemensamma ärenden för medlemsföreningarna, representerar Åbos teknologer på studentkårs nivå samt svarar för deras högskolepolitiska ställningstaganden. Dessutom är Kommissionen en viktig förbindelsekanal mellan de teknologföreningar som är verksamma inom Åbo. I praktiken hör styrelsens samt föreningens möten, representationsresor samt mer eller mindre regelbundna evenemang till Teknologkommissionens verksamhet.
 
 ---
