@@ -38,7 +38,7 @@ export function middleware(request: NextRequest) {
       '/.next',
       '#access_token'
     ].some(path => pathname.startsWith(path)) ||
-    /\.(pdf|png|jpg|svg|ico)$/.test(pathname)
+    /\.(pdf|png|jpg|svg|ico|yml)$/.test(pathname)
   ) {
     return;
   }
