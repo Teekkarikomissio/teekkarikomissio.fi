@@ -121,7 +121,7 @@ export default async function IndexPage({
   return (
     <>
       {/* Hero Section */}
-      <div className="bg-red-800 w-full relative overflow-hidden pb-8">
+      <div className="bg-red-800 w-full relative overflow-hidden lg:pb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 h-auto lg:h-[60vh] pt-8 lg:pt-16">
             <div className="flex items-center lg:pr-8">
@@ -149,7 +149,7 @@ export default async function IndexPage({
                 </p>
               </div>
             </div>
-            <div className="relative h-[45vh] lg:h-auto -right-32 lg:top-0 lg:-bottom-16">
+            <div className="relative h-[45vh] lg:h-auto pl-4 -mr-4 sm:-mr-6 lg:mx-0 lg:-right-32 lg:top-0 lg:-bottom-16">
               <Image
                 src={lander}
                 alt="Tech student life at Turku"
