@@ -4,7 +4,6 @@ import { Metadata } from 'next'
 
 import { cn } from '../../lib/utils'
 import { i18n, type Locale } from '../../i18n-config'
-//import { ThemeProvider } from '../../components/theme-provider'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/footer'
 import { getNavigationByLocale } from '@/lib/api'
@@ -24,6 +23,49 @@ const roboto_mono = Roboto_Mono({
   display: 'swap',
   variable: '--font-roboto-mono',
 })
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://teekkarikomissio.fi'),
+  title: {
+    template: '%s | Teekkarikomissio',
+    default: 'Teekkarikomissio - Teknologkommission',
+  },
+  description: 'Teekkariutta yli yliopistorajojen',
+  keywords: [
+    'teekkarikomissio',
+    'komissio',
+    'teknologkommissionen',
+    'teekkari',
+    'turku',
+  ],
+  authors: [
+    { name: 'Teekkarikomissio', url: 'https://teekkarikomissio.fi' }
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'fi_FI',
+    url: 'https://teekkarikomissio.fi',
+    title: 'Teekkarikomissio - Teknologkommission',
+    description: 'Teekkariutta yli yliopistorajojen',
+    siteName: 'Teekkarikomissio',
+    images: [{
+      url: 'https://teekkarikomissio.fi/logos/tklogo-social.png',
+      width: 512,
+      height: 512,
+      alt: 'Teekkarikomissio Logo'
+    }],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Teekkarikomissio - Teknologkommission',
+    description: 'Teekkariutta yli yliopistorajojen',
+    images: ['https://teekkarikomissio.fi/logos/tklogo-social.png'],
+  },
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/logos/tklogo-social.png',
+  }
+}
 
 export default async function RootLayout({
   children,
@@ -45,9 +87,6 @@ export default async function RootLayout({
       )}
       suppressHydrationWarning
     >
-      <head>
-        <link rel='icon' href='/favicon.ico' sizes='any' />
-      </head>
       <body className="min-h-screen flex flex-col">
         <Navbar
           lang={lang}
@@ -65,17 +104,4 @@ export default async function RootLayout({
       </body>
     </html>
   )
-}
-
-export const metadata: Metadata = {
-  metadataBase: new URL('https://teekkarikomissio.fi/'),
-  title: 'Teekkarikomissio - Teknologkommission',
-  description:
-    'Teekkarikomissio (TK) on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille.',
-  keywords:
-    'teekkarikomissio, komissio, teknologkommissionen, kommissionen, teekkari, turku, tekniikka, opiskelu, yliopisto, tietotekniikka, biotekniikka, materiaalitekniikka, konetekniikka, fuksi, paavo, nurmi, vappu, wappu, lakitus, teekkariutta, turkulaista, TK, tk, teekkarikulttuuri, jäynäkulttuuri, teekkarilakki, yhdistys, fukseille, kulttuuri, yrityksille, fuksipassi, lakinkäyttöoikeus, käyttöoikeus, pysyväisohjesääntö, eldprowet, jäynäkilpailu',
-  authors: [{ name: 'Teekkarikomissio', url: 'https://teekkarikomissio.fi/' }],
-  openGraph: {
-    images: '/index-banner-fi.jpg',
-  },
 }

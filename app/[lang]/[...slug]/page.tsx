@@ -4,7 +4,9 @@ import MarkdownPage from '@/components/MarkdownPage'
 import { notFound, redirect } from 'next/navigation'
 import { getNavigationByLocale } from '@/lib/api'
 import { i18n } from '@/i18n-config'
+import { Metadata } from 'next'
 
+import getPageBySlug from '@/lib/api'
 import dynamicPageStyles from './dynamic-page.module.css'
 
 interface Props {
@@ -36,6 +38,31 @@ export async function generateStaticParams() {
   }
 
   return paths
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { lang, slug } = await params
+  const slugPath = slug.join('/')
+  
+  try {
+    const page = getPageBySlug(`${slugPath}/${slug[slug.length - 1]}`, lang)
+    
+    return {
+      title: page.meta.title,
+      description: page.meta.description || '',
+      openGraph: {
+        title: page.meta.title,
+        description: page.meta.description || '',
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: page.meta.title,
+        description: page.meta.description || '',
+      },
+    }
+  } catch (error) {
+    notFound()
+  }
 }
 
 export default async function DynamicPage({ params }: Props) {
