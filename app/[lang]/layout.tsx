@@ -49,21 +49,21 @@ export const metadata: Metadata = {
     description: 'Teekkariutta yli yliopistorajojen',
     siteName: 'Teekkarikomissio',
     images: [{
-      url: '/logos/tklogo-social.png',
+      url: 'https://teekkarikomissio.fi/logos/tklogo-social.png',
       width: 512,
       height: 512,
       alt: 'Teekkarikomissio Logo'
     }],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     title: 'Teekkarikomissio - Teknologkommission',
     description: 'Teekkariutta yli yliopistorajojen',
-    images: ['/logos/tklogo-social.png'],
+    images: ['https://teekkarikomissio.fi/logos/tklogo-social.png'],
   },
-  robots: {
-    index: true,
-    follow: true,
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/logos/tklogo-social.png',
   }
 }
 

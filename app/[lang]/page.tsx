@@ -1,4 +1,5 @@
 import React from 'react'
+import { Metadata } from 'next'
 import { Locale } from '../../i18n-config'
 import Image from 'next/image'
 
@@ -8,6 +9,47 @@ import frontpageStyles from './frontpage-styles.module.css'
 import getPageBySlug from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
 import InstagramFeedSection from '@/components/InstagramFeedSection'
+
+type Props = {
+  params: Promise<{ lang: Locale }>
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { lang } = await params
+  
+  const title = lang === 'sv' ? 
+    'Teknologskap över universitetsgränserna' : 
+    lang === 'en' ? 
+    'Teekkari culture across university boundaries' : 
+    'Teekkariutta yli yliopistorajojen'
+
+  const description = lang === 'sv' ?
+    'Teknologkommissionen är ett sammanbindande kontaktforum för teknologföreningar i Åbo.' :
+    lang === 'en' ?
+    'The Teekkarikomissio is a unifying contact forum for teekkari associations operating in Turku.' :
+    'Teekkarikomissio on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille.'
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: [{
+        url: 'https://teekkarikomissio.fi/home-landing-2.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Teekkarikomissio'
+      }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['https://teekkarikomissio.fi/home-landing-2.jpg'],
+    },
+  }
+}
 
 const frontPageContent = {
   fi: {
