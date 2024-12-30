@@ -14,7 +14,7 @@ title: Aikaisemmat hallitukset
 * Jani Norrby
 * Mikko Lehtosalo
 
-\##2023
+## 2023
 
 * Matti Loimaranta
 * Niklas Sjöqvist
