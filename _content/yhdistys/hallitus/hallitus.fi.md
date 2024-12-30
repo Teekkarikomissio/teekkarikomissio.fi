@@ -35,7 +35,7 @@ Hoitaa pääkomissaarin tehtäviä tämän ollessa estynyt. Hän vastaa Paavo Nu
 * E-mail: eaekbl@utu.fi
 * TG: @ellenekblom
 
-Viestintäkomissaari vastaa yhdistyksen viestinnästä tiedottamalla toiminnasta jäsenkilloille, ylläpitämällä nettisivuja ja kehittämällä viestinnän eri osa-alueita. Hän huolehtii tiedotuksen kaksikielisyydestä.
+Viestintäkomissaari vastaa yhdistyksen viestinnästä tiedottamalla toiminnasta jäsenkilloille, ylläpitämällä nettisivuja ja kehittämällä viestinnän eri osa-alueita. Hän huolehtii tiedotuksen kolmikielisyydestä.
 
 Yhdenvertaisuuskomissaari vastaa yhdistyksen yhdenvertaisuustyöstä ja -suunnitelmasta.
 
