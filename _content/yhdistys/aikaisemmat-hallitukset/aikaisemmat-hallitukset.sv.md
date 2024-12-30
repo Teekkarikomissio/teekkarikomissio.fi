@@ -142,7 +142,7 @@ title: Tidigare styrelser
 
 ## 2010
 
-2009
+## 2009
 * Sari Viljanen
 * Petri Teräspuro
 * Petteri Karvinen
@@ -152,7 +152,7 @@ title: Tidigare styrelser
 * Ville Manninen
 * Andreas Vuorinen
 
-2008
+## 2008
 * Antti Hakkala
 * Olle Svanfeldt-Winter
 * Juval Nadav

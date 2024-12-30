@@ -14,8 +14,7 @@ title: Aikaisemmat hallitukset
 * Jani Norrby
 * Mikko Lehtosalo
 
-
-##2023
+\##2023
 
 * Matti Loimaranta
 * Niklas Sjöqvist
@@ -28,6 +27,7 @@ title: Aikaisemmat hallitukset
 * Sebastian Boman
 
 ## 2022
+
 * Robert Kantero
 * Maksim Laitinen
 * Jonatan Järvinen
@@ -38,6 +38,7 @@ title: Aikaisemmat hallitukset
 * Niklas Lind
 
 ## 2021
+
 * Juhani Kalske
 * Casimir Ruohomaa
 * Ilona Kairinen
@@ -46,6 +47,7 @@ title: Aikaisemmat hallitukset
 * Robert Kantero
 
 ## 2020
+
 * Jeremi Nyyssönen
 * Miika Peltotalo
 * Juhani Kalske
@@ -56,6 +58,7 @@ title: Aikaisemmat hallitukset
 * Casimir Ruohomaa
 
 ## 2019
+
 * Oskari Lehtinen
 * Martin Ekman
 * Miika Peltotalo
@@ -66,6 +69,7 @@ title: Aikaisemmat hallitukset
 * Juhani Kalske
 
 ## 2018
+
 * Asser Junnila
 * Peetu Seilonen
 * Joonatan Mäkelä
@@ -76,6 +80,7 @@ title: Aikaisemmat hallitukset
 * Miika Peltotalo
 
 ## 2017
+
 * Robert Talling
 * Axel Johansson
 * Antti Nuutinen
@@ -86,6 +91,7 @@ title: Aikaisemmat hallitukset
 * Jeremi Nyyssönen
 
 ## 2016
+
 * Liina-Lotta Erkko
 * Pietari Lehtinen
 * Lina Fredriksson
@@ -97,6 +103,7 @@ title: Aikaisemmat hallitukset
 * Axel Johansson
 
 ## 2015
+
 * Malte Gabrielsson
 * Matias Virta
 * Thomas Kurten
@@ -108,6 +115,7 @@ title: Aikaisemmat hallitukset
 * Julius Rajala
 
 ## 2014
+
 * Matti Vähä-Heikkilä
 * Joni Kiikola
 * Minna Tuovinen
@@ -119,6 +127,7 @@ title: Aikaisemmat hallitukset
 * Liina-Lotta Erkko
 
 ## 2013
+
 * Joni Kiikola
 * Sami Siipola
 * Matti Vähä-Heikkilä
@@ -129,6 +138,7 @@ title: Aikaisemmat hallitukset
 * Malte Gabrielsson
 
 ## 2012
+
 * Jukka Koivisto
 * Desire Lindberg
 * Marlo Ekberg
@@ -143,7 +153,8 @@ title: Aikaisemmat hallitukset
 
 ## 2010
 
-2009
+\## 2009
+
 * Sari Viljanen
 * Petri Teräspuro
 * Petteri Karvinen
@@ -153,7 +164,8 @@ title: Aikaisemmat hallitukset
 * Ville Manninen
 * Andreas Vuorinen
 
-2008
+\## 2008
+
 * Antti Hakkala
 * Olle Svanfeldt-Winter
 * Juval Nadav
@@ -164,24 +176,16 @@ title: Aikaisemmat hallitukset
 
 ## 2007
 
-
 ## 2006
-
 
 ## 2005
 
-
 ## 2004
-
 
 ## 2003
 
-
 ## 2002
-
 
 ## 2001
 
-
 ## 2000
-
