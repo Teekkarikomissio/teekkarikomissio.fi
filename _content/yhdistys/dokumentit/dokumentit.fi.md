@@ -7,6 +7,7 @@ title: Dokumentit
 ## Teekkarikomission viralliset dokumentit
 
 - Säännöt: [Suomeksi](/rules-fi.pdf) [Ruotsiksi](/rules-sv.pdf)  
+- Säännöt 2024: [Suomeksi](/rules-fi.pdf) [Ruotsiksi](/rules-sv.pdf)  
 - Ohjesäännöt: [Suomeksi](/sub-rules-fi.pdf) [Ruotsiksi](/sub-rules-sv.pdf)  
 - Strategia: [Suomeksi](/strategia-fi.pdf) [Ruotsiksi](/strategia-sv.pdf)  
 - Teekkarihymni: [Nuotit](/teekkarihymni_teknologhymn_notes.pdf) [Sanat](/teekkarihymni_teknologhymn_words.pdf)  
