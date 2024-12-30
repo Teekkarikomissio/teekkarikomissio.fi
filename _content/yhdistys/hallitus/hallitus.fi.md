@@ -1,5 +1,5 @@
 ---
-title: Yhteystiedot
+title: Hallitus
 ---
 ## Vuoden 2024 hallitus
 

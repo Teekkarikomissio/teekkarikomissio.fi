@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: The Board
 ---
 ## Board of TK 2024
 

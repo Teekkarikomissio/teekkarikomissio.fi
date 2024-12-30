@@ -1,5 +1,5 @@
 ---
-title: Kontakt
+title: Styrelsen
 ---
 ## År 2024 styrelse
 
