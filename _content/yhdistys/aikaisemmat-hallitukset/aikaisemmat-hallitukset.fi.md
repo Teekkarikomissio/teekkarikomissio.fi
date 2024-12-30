@@ -153,7 +153,7 @@ title: Aikaisemmat hallitukset
 
 ## 2010
 
-\## 2009
+## 2009
 
 * Sari Viljanen
 * Petri Teräspuro
@@ -164,7 +164,7 @@ title: Aikaisemmat hallitukset
 * Ville Manninen
 * Andreas Vuorinen
 
-\## 2008
+## 2008
 
 * Antti Hakkala
 * Olle Svanfeldt-Winter
@@ -175,12 +175,33 @@ title: Aikaisemmat hallitukset
 * Petri Teräspuro
 
 ## 2007
+* Jon von Weymarn
 
 ## 2006
+* Martin Fält
+* Joachim Sjöblom
+* Jon von Weymarn
+* Markus Nyman
+* Maria Rosenback
+* Antti Hakkala
+* Alina Tähkäpää
 
 ## 2005
+* Kari Jakobsson
+* Martin Fält
+* Antti Hakkala
+* Johan Abbors
+* Jonna Sirviö 
+* Jonas Elander
+* Anders Siggberg
+* Antti Levo
 
 ## 2004
+* Kristian Engsjö
+* Johan Björkman
+* Kirsi-Maria Rytsälä
+* Joel Svanbäck
+* Kari Jakobsson
 
 ## 2003
 
@@ -189,3 +210,10 @@ title: Aikaisemmat hallitukset
 ## 2001
 
 ## 2000
+* Otto Långvik
+* Päivi Haapanen
+* Kalle Jäykkä
+* Emil Nyback
+* Tuomas Mäkilä
+* Timo Kuusela
+

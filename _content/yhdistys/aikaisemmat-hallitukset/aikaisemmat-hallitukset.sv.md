@@ -14,7 +14,7 @@ title: Tidigare styrelser
 * Jani Norrby
 * Mikko Lehtosalo
 
-##2023
+## 2023
 
 * Matti Loimaranta
 * Niklas Sjöqvist
@@ -27,6 +27,7 @@ title: Tidigare styrelser
 * Sebastian Boman
 
 ## 2022
+
 * Robert Kantero
 * Maksim Laitinen
 * Jonatan Järvinen
@@ -37,6 +38,7 @@ title: Tidigare styrelser
 * Niklas Lind
 
 ## 2021
+
 * Juhani Kalske
 * Casimir Ruohomaa
 * Ilona Kairinen
@@ -45,6 +47,7 @@ title: Tidigare styrelser
 * Robert Kantero
 
 ## 2020
+
 * Jeremi Nyyssönen
 * Miika Peltotalo
 * Juhani Kalske
@@ -55,6 +58,7 @@ title: Tidigare styrelser
 * Casimir Ruohomaa
 
 ## 2019
+
 * Oskari Lehtinen
 * Martin Ekman
 * Miika Peltotalo
@@ -65,6 +69,7 @@ title: Tidigare styrelser
 * Juhani Kalske
 
 ## 2018
+
 * Asser Junnila
 * Peetu Seilonen
 * Joonatan Mäkelä
@@ -75,6 +80,7 @@ title: Tidigare styrelser
 * Miika Peltotalo
 
 ## 2017
+
 * Robert Talling
 * Axel Johansson
 * Antti Nuutinen
@@ -85,6 +91,7 @@ title: Tidigare styrelser
 * Jeremi Nyyssönen
 
 ## 2016
+
 * Liina-Lotta Erkko
 * Pietari Lehtinen
 * Lina Fredriksson
@@ -96,6 +103,7 @@ title: Tidigare styrelser
 * Axel Johansson
 
 ## 2015
+
 * Malte Gabrielsson
 * Matias Virta
 * Thomas Kurten
@@ -107,6 +115,7 @@ title: Tidigare styrelser
 * Julius Rajala
 
 ## 2014
+
 * Matti Vähä-Heikkilä
 * Joni Kiikola
 * Minna Tuovinen
@@ -118,6 +127,7 @@ title: Tidigare styrelser
 * Liina-Lotta Erkko
 
 ## 2013
+
 * Joni Kiikola
 * Sami Siipola
 * Matti Vähä-Heikkilä
@@ -128,6 +138,7 @@ title: Tidigare styrelser
 * Malte Gabrielsson
 
 ## 2012
+
 * Jukka Koivisto
 * Desire Lindberg
 * Marlo Ekberg
@@ -143,6 +154,7 @@ title: Tidigare styrelser
 ## 2010
 
 ## 2009
+
 * Sari Viljanen
 * Petri Teräspuro
 * Petteri Karvinen
@@ -153,6 +165,7 @@ title: Tidigare styrelser
 * Andreas Vuorinen
 
 ## 2008
+
 * Antti Hakkala
 * Olle Svanfeldt-Winter
 * Juval Nadav
@@ -162,26 +175,45 @@ title: Tidigare styrelser
 * Petri Teräspuro
 
 ## 2007
-
+* Jon von Weymarn
 
 ## 2006
-
+* Martin Fält
+* Joachim Sjöblom
+* Jon von Weymarn
+* Markus Nyman
+* Maria Rosenback
+* Antti Hakkala
+* Alina Tähkäpää
 
 ## 2005
-
+* Kari Jakobsson
+* Martin Fält
+* Antti Hakkala
+* Johan Abbors
+* Jonna Sirviö 
+* Jonas Elander
+* Anders Siggberg
+* Antti Levo
 
 ## 2004
-
+* Kristian Engsjö
+* Johan Björkman
+* Kirsi-Maria Rytsälä
+* Joel Svanbäck
+* Kari Jakobsson
 
 ## 2003
 
-
 ## 2002
-
 
 ## 2001
 
-
 ## 2000
 
-
+* Otto Långvik
+* Päivi Haapanen
+* Kalle Jäykkä
+* Emil Nyback
+* Tuomas Mäkilä
+* Timo Kuusela
