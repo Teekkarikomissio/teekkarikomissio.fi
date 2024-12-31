@@ -7,7 +7,7 @@ title: Toimikunnat
 
 Kastetoimikunta vastaa Teekkarikasteen järjestämisestä Wappupäivänä 1.5.
 
-###Kastetoimikunnassa mukana:
+### Kastetoimikunnassa mukana:
 
 Puheenjohtaja Timo Teekkari
 Jäsenet

@@ -13,7 +13,7 @@ Jäsenet
 #2 Axel Eklund
 #3 Adam Adamas
 
-###Kastetoimikunnassa mukana:
+### Kastetoimikunnassa mukana:
 
 Puheenjohtaja Timo Teekkari
 Jäsenet

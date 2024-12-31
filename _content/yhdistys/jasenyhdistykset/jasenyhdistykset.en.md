@@ -31,7 +31,7 @@ Teekkarikomissio has nine members- The Technical Student Associations in Turku. 
 
 ### **[Asklepio ry](https://asklepio.fi/)**
 
-![Asklepio](logo-asklepio-1-.png)
+![Asklepio](/logos/logo-asklepio-1-.png)
 
 ### **[Optima ry](https://optimary.fi/)**
 
@@ -39,4 +39,4 @@ Teekkarikomissio has nine members- The Technical Student Associations in Turku. 
 
 ### **[Efficio ry](https://https://www.instagram.com/efficio.ry//)**
 
-![Efficio](efficion-logo-bw.png)
+![Efficio](/logos/efficion-logo-bw.png)

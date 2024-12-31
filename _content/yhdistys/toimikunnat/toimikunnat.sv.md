@@ -4,7 +4,7 @@
 
 Doputskottet ansvarar för att organisera Wappens Teknologdop 1.5.
 
-###Kastetoimikunnassa mukana:
+### Kastetoimikunnassa mukana:
 
 Puheenjohtaja Timo Teekkari
 Jäsenet

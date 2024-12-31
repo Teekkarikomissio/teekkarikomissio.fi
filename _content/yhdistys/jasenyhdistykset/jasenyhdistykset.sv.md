@@ -25,10 +25,10 @@ Teknologkommissionen har nio medlemmar, nämligen de teknologföreningar som har
 ![Machina](/logos/logo-machina.png)
 
 ### **[Asklepio ry](https://asklepio.fi/)**
-![Asklepio](logo-asklepio-1-.png)
+![Asklepio](/logos/logo-asklepio-1-.png)
 
 ### [**Optima ry**](https://optimary.fi/)
 ![Optima](/logos/logo-optima.jpg)
 
 ### **[Efficio ry](https://https://www.instagram.com/efficio.ry//)**
-![Efficio](efficion-logo-bw.png)
+![Efficio](/logos/efficion-logo-bw.png)
