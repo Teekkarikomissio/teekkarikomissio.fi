@@ -3,7 +3,7 @@ title: Committees
 ---
 ## Dipping committee
 
-![Dipping committee](cb3a3656.jpg)
+![Dipping committee](/toimikunnat/cb3a3656.jpg)
 
 The dipping committee is in charge of organizing the Teekkari dipping in Turku on Wappu Day 1.5.
 
@@ -24,7 +24,7 @@ Jäsenet
 ## Annual ball committee
 
 
-![Annual ball committee](_hyt9397.jpg)
+![Annual ball committee](/toimikunnat/_hyt9397.jpg)
 
 The annual ball committee is in charge of the 25th annual ball of Teekkarikomissio in the fall of 2025. The chair of the committee is Roosa Varjonen (roosa.varjonen@teekkarikomissio.fi). The whole committee can be contacted through the following address: vuosijuhlatoimikunta@teekkarikomissio.fi.
 

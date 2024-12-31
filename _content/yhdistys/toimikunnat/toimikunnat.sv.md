@@ -1,6 +1,6 @@
 ## Doputskottet
 
-![Doputskottet](cb3a3656.jpg)
+![Doputskottet](/toimikunnat/cb3a3656.jpg)
 
 Doputskottet ansvarar för att organisera Wappens Teknologdop 1.5.
 
@@ -14,7 +14,7 @@ Jäsenet
 
 ## Årsfestutskottet
 
-![Årsfestutskottet](_hyt9397.jpg)
+![Årsfestutskottet](/toimikunnat/_hyt9397.jpg)
 
 Utskottet anvarar för Teekkarikommissionens 25-års årsfest hösten 2025. Som ordförande fungerar Roosa Varjonen (roosa.varjonen@teekkarikomissio.fi). Kontakta utskottet på adressen vuosijuhlatoimikunta@teekkarikomissio.fi. 
 

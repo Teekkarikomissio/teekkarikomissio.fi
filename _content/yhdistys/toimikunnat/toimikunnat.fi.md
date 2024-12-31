@@ -3,7 +3,7 @@ title: Toimikunnat
 ---
 ## Kastetoimikunta
 
-![Kastetoimikunta](cb3a3656.jpg)
+![Kastetoimikunta](/toimikunnat/cb3a3656.jpg)
 
 Kastetoimikunta vastaa Teekkarikasteen järjestämisestä Wappupäivänä 1.5.
 
@@ -17,7 +17,7 @@ Jäsenet
 
 ## Vuosijuhlatoimikunta
 
-![Vuosjuhlatoimikunta](_hyt9397.jpg)
+![Vuosjuhlatoimikunta](/toimikunnat/_hyt9397.jpg)
 
 Vuosijuhlatoimikunta vastaa Teekkarikomission 25-vuotisjuhlien järjestämisestä syksyllä 2025. Toimikunnan puheenjohtajana toimii Roosa Varjonen (roosa.varjonen@teekkarikomissio.fi). Koko toimikuntaan saa yhteyden osoitteesta vuosijuhlatoimikunta@teekkarikomissio.fi. 
 
