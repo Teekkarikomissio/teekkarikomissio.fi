@@ -1,6 +1,8 @@
 ---
 title: Vad är TK
 ---
+![TK logo](logo-musta.svg)
+
 Teknologkommissionen (TK) är en sammanbindande kontaktforum för åboländska teknologföreningar. TK är en tvåspråkig förening. Teknologkommissionens medlemmar är Kemistklubben, DaTe, Digit, Nucleus, Adamas, Machina, Asklepio, Optima och Efficio.
 
 Föreningen upprätthåller samarbete mellan teknikstuderande vid Åbo Akademi och Åbo universitet samt ansvarar för upprätthållande och utvecklande av den åboländska teknologkulturen. Förutom medlemsföreningarna håller kontakter till fakultet, studentkårer och takföreningar på andra orter samt lokala diplomingenjör- och alumniföreningar.

@@ -1,6 +1,8 @@
 ---
 title: Mikä on TK
 ---
+![TK logo](logo-musta.svg)
+
 Teekkarikomissio (TK) on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille. TK on kaksikielinen yhdistys. Teekkarikomission jäseniä ovat Kemistklubben, DaTe, Digit, Nucleus, Adamas, Machina, Asklepio, Optima ja Efficio.
 
 Yhdistys ylläpitää Turun yliopiston ja Åbo Akademin teekkariopiskelijoiden yhteistyötä ja vastaa turkulaisen teekkarikulttuurin ylläpitämisestä ja kehittämisestä. Yhdistys ylläpitää suhteita jäsenjärjestöjen lisäksi tiedekuntiin, ylioppilaskuntiin, muiden paikkakuntien teekkariyhdistyksiin ja ylioppilaskuntiin sekä paikallisiin diplomi-insinööriyhdistyksiin ja alumnikerhoihin.
