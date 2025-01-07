@@ -14,12 +14,12 @@ Utskottet anvarar för Teekkarikommissionens 25-års årsfest hösten 2025. Som 
 ![vujutmk](vujutmk.jpg "vujutmk")
 
 ### Utskottets medlemmar 
-Ordförande Roosa Varjonen
-Reetta Lindberg
-Marianne Matinvuori
-Niklas Mettälä
-Mikko Lehtosalo
-Matti Loimaranta
-Jeremi Nyyssönen
-Lauri Orava
-Shashika Harshani
+Ordförande Roosa Varjonen  
+Reetta Lindberg  
+Marianne Matinvuori  
+Niklas Mettälä  
+Mikko Lehtosalo  
+Matti Loimaranta  
+Jeremi Nyyssönen  
+Lauri Orava  
+Shashika Harshani  

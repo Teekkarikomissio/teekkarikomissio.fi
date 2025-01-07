@@ -14,12 +14,12 @@ The annual ball committee is in charge of the 25th annual ball of Teekkarikomiss
 ![vujutmk](vujutmk.jpg "vujutmk")
 
 ### Committee members 
-Chair Roosa Varjonen
-Reetta Lindberg
-Marianne Matinvuori
-Niklas Mettälä
-Mikko Lehtosalo
-Matti Loimaranta
-Jeremi Nyyssönen
-Lauri Orava
-Shashika Harshani
+Chair Roosa Varjonen  
+Reetta Lindberg  
+Marianne Matinvuori  
+Niklas Mettälä  
+Mikko Lehtosalo  
+Matti Loimaranta  
+Jeremi Nyyssönen  
+Lauri Orava  
+Shashika Harshani  

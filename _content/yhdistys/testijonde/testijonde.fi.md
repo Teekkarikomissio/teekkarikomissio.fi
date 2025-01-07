@@ -15,12 +15,12 @@ Vuosijuhlatoimikunta vastaa Teekkarikomission 25-vuotisjuhlien järjestämisest�
 
 ### Toimikunnan jäsenet
 
-Puheenjohtaja Roosa Varjonen
-Reetta Lindberg
-Marianne Matinvuori
-Niklas Mettälä
-Mikko Lehtosalo
-Matti Loimaranta
-Jeremi Nyyssönen
-Lauri Orava
-Shashika Harshani
+Puheenjohtaja Roosa Varjonen  
+Reetta Lindberg  
+Marianne Matinvuori  
+Niklas Mettälä  
+Mikko Lehtosalo  
+Matti Loimaranta  
+Jeremi Nyyssönen  
+Lauri Orava  
+Shashika Harshani  
