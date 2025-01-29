@@ -31,7 +31,7 @@ const Footer = () => {
               href="mailto:teekkarikomissio@utu.fi"
             >
               <Mail className="w-8 h-8 mb-2 group-hover:scale-110 transition-transform" />
-              <span>teekkarikomissio[@]utu.fi</span>
+              <span>hallitus[@]teekkarikomissio.fi</span>
             </a>
             
             <a
