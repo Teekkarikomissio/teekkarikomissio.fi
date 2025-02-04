@@ -8,13 +8,13 @@ title: Styrelsen
 ![Risto]()
 
 * Huvudkommissarie
-* Övriga ansvar: Paavo Nurmi-statyns mösspåläggning
+* Övriga ansvar: Paavo Nurmi-statyns mösspåläggning, jämställdhet
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @ristoruohola
 
-Huvudkommissarien sammankallar mötena för styrelsen och föreningen. Hen leder styrelsemötena och övervakar styrelsens verksamhet. Tillsammans med den sin vice ansvarar hen för att organisera Paavo Nurmis mösspåläggning.
+Huvudkommissarien sammankallar mötena för styrelsen och föreningen. Hen leder jämställdhetsarbete och styrelsemötena samt övervakar styrelsens verksamhet. Tillsammans med den sin vice ansvarar hen för att organisera Paavo Nurmis mösspåläggning.
 
-Arttu Saarinen
+### Arttu Saarinen
 
 ![Arttu]()
 
@@ -35,8 +35,6 @@ Utför huvudkommissariens uppgifter i hens frånvaro. Tillsammans med huvudkommi
 * TG: @Andreas_Lindholm
 
 Kommunikationskommissarien ansvarar för föreningens kommunikation genom att informera medlemsföreningarna om föreningens verksamhet, upprätthålla hemsidan och utveckla olika aspekter av kommunikationen. Hen ansvarar för den trespråkiga kommunikationen.
-
-Jämställdhetskommissarien ansvarar för föreningens jämställdhetsarbete och -plan.
 
 ### Annastiina Manninen
 
@@ -66,26 +64,25 @@ Ekonomiekommissarien ansvarar för föreningens ekonomi och räkenskaper samt f�
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @jani_norppa
 
-
 Föreningskommissarie fungerar som den viktigaste förbindelsen mellan föreningens styrelse och medlemsgillena. Han upprätthåller och främjar samarbetet mellan medlemmarna sinsemellan och mellan medlemmarna och TK styrelse, t.ex. i form av sektormöten.
 
 ### Lauri Koivusalo
 
-![Roosa](/board/2024/roosa-varjonen-min.jpg)
+![Laur]()
 
 * Kulturkommissarie
 * Övriga ansvar: Gulisärenden
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @Laurikoivusalo
-  
+
 Kulturkommissarien utvecklar och upprätthåller teknologkulturen i Åbo. Hen sköter beställningen av teknologmössor till medlemsgillen och är huvuddomare vid de nationella sprattävlingarna som TEK ordnar. Hen ansvarar också för gulis- och tutoruppfostran.
 
 ### Miko Toivonen
 
-![Mikko](/board/2024/mikko-lehtosalo-min.jpg)
+![Miko]()
 
 * Evenemangskommissarie
-* Övriga ansvar: Eldprowet
+* Övriga ansvar: Teknologdop
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @Monnionkala
 
@@ -93,20 +90,24 @@ Det kan finnas en eller två evenemangskommissarier i Teknologkommissionens styr
 
 ### Katriina Mc Cormick
 
-![Kristoffer](/board/2024/kristoffer-lindholm-min.jpg)
+![Katriina]()
 
 * Sekreterare
+* Övriga ansvar: Jämställdhetskommisarie
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @kultakatriiina
 
 Sekreteraren är protokollsekreterare vid styrelsens sammanträden och ansvarar för arkivering av protokoll och andra handlingar. Han tillställer mötesprotokoll och beslutsförteckningar från styrelsens sammanträden.
 
+
+Jämställdhetskommissarien ansvarar för föreningens jämställdhetsarbete och -plan.
+
 ### Oskar Karlsson
 
-![Marianne](/board/2024/marianne-matinvuori-min.jpg)
+![Oskar]()
 
 * Evenemangskommissarie
-* Övriga ansvar: Teknologdopet
+* Övriga ansvar: Eldprowet
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @karssonoskar
 
