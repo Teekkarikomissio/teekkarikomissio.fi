@@ -1,7 +1,7 @@
 ---
 title: The Board
 ---
-## Board of TK 2025
+## Board of 2025
 
 ### Risto Ruohola
 
