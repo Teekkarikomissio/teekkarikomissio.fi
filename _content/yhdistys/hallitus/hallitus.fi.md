@@ -12,7 +12,7 @@ title: Hallitus
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @ristoruohola
 
-Pääkomissaari kutsuu komission hallituksen ja yhdistyksen kokoukset koolle. Hän johtaa hallituksen kokouksia ja valvoo hallituksen toimintaa. Hän vastaa Paavo Nurmen lakituksen järjestämisestä yhdessä varapääkomissaarin kanssa.
+Pääkomissaari kutsuu komission hallituksen ja yhdistyksen kokoukset koolle. Hän johtaa hallituksen yhdenvertaisuustyötä ja kokouksia sekä valvoo hallituksen toimintaa. Hän vastaa Paavo Nurmen lakituksen järjestämisestä yhdessä varapääkomissaarin kanssa.
 
 ### Arttu Saarinen
 
@@ -35,8 +35,6 @@ Hoitaa pääkomissaarin tehtäviä tämän ollessa estynyt. Hän vastaa Paavo Nu
 * TG: @Andreas_Lindholm
 
 Viestintäkomissaari vastaa yhdistyksen viestinnästä tiedottamalla toiminnasta jäsenkilloille, ylläpitämällä nettisivuja ja kehittämällä viestinnän eri osa-alueita. Hän huolehtii tiedotuksen kolmikielisyydestä.
-
-Yhdenvertaisuuskomissaari vastaa yhdistyksen yhdenvertaisuustyöstä ja -suunnitelmasta.
 
 ### Annastiina Manninen
 
@@ -87,7 +85,7 @@ Kulttuurikomissaari kehittää ja ylläpitää teekkarikulttuuria Turussa. Hän 
 * Vastuualueet: Teekkarikaste
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @Monnionkala
-  
+
 Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. He vastaavat Teekkarikomission tapahtumien kehittämisestä ja järjestämisestä. He pitävät yhteyttä jäsenkiltoihin koko turkulaista teekkariyhteisöä koskevien tapahtumien järjestämisessä. Toinen tapahtumakomissaareista voi toimia Kastetoimikunnan puheenjohtajana.
 
 ### Katriina Mc Cormick
@@ -99,6 +97,10 @@ Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. H
 * TG: @kultakatriiina
 
 Sihteeri toimii hallituksen kokousten sihteerinä ja huolehtii pöytäkirjojen ja muiden dokumenttien arkistoinnista. Hän lähettää hallituksen kokousten pöytäkirjat tai päätösluettelot killoille.
+
+
+Yhdenvertaisuuskomissaari vastaa yhdistyksen yhdenvertaisuustyöstä ja -suunnitelmasta.
+
 
 ### Oskar Karlsson
 
