@@ -1,61 +1,60 @@
 ---
 title: Hallitus
 ---
-## Vuoden 2024 hallitus
-
-### Reetta Lindberg
-
-![Reetta](/board/2024/reetta-lindberg-min.jpg)
-
-* Pääkomissaari
-* Vastuualueet: Yhdenvertaisuus
-* E-mail: resoli@utu.fi
-* TG: @reettalindberg
-
-Pääkomissaari kutsuu komission hallituksen ja yhdistyksen kokoukset koolle. Hän johtaa hallituksen kokouksia ja valvoo hallituksen toimintaa. Hän vastaa Paavo Nurmen lakituksen järjestämisestä yhdessä varapääkomissaarin kanssa.
-
-
+## Vuoden 2025 hallitus
 
 ### Risto Ruohola
 
-![Risto](/board/2024/risto-ruohola-min.jpg)
+![Risto]()
+
+* Pääkomissaari
+* Vastuualueet: Yhdenvertaisuus
+* E-mail: etunimi.sukunimi@teekkarikomissio.fi
+* TG: @ristoruohola
+
+Pääkomissaari kutsuu komission hallituksen ja yhdistyksen kokoukset koolle. Hän johtaa hallituksen kokouksia ja valvoo hallituksen toimintaa. Hän vastaa Paavo Nurmen lakituksen järjestämisestä yhdessä varapääkomissaarin kanssa.
+
+### Arttu Saarinen
+
+![Arttu]()
 
 * Varapääkomissaari
 * Vastuualueet: Paavo Nurmen patsaan lakitus
-* E-mail: risto.ruohola@abo.fi
+* E-mail: etunimi.sukunimi@teekkarikomissio.fi
+* TG: @saarinearttu
 
 Hoitaa pääkomissaarin tehtäviä tämän ollessa estynyt. Hän vastaa Paavo Nurmen lakituksen järjestämisestä yhdessä pääkomissaarin kanssa. Hän avustaa muita hallituksen jäseniä tarvittaessa.
 
-### Ellen Ekblom
+### Andreas Lindholm
 
-![Ellen](/board/2024/ellen-ekblom-min.jpg)
+![Andreas]()
 
 * Viestintäkomissaari
-* Vastuualueet: Yhdenvertaisuuskomissaari ja Nettisivut
-* E-mail: eaekbl@utu.fi
-* TG: @ellenekblom
+* Vastuualueet: Nettisivut
+* E-mail: etunimi.sukunimi@teekkarikomissio.fi
+* TG: @Andreas_Lindholm
 
 Viestintäkomissaari vastaa yhdistyksen viestinnästä tiedottamalla toiminnasta jäsenkilloille, ylläpitämällä nettisivuja ja kehittämällä viestinnän eri osa-alueita. Hän huolehtii tiedotuksen kolmikielisyydestä.
 
 Yhdenvertaisuuskomissaari vastaa yhdistyksen yhdenvertaisuustyöstä ja -suunnitelmasta.
 
-### Tiitus Hannula
+### Annastiina Manninen
 
-![Tiitus](/board/2024/tiitus-hannula-min.jpg)
+![Annastiina]()
 
 * Ulkoasiainkomissaari
-* E-mail: tkhann@utu.fi
-* TG: @tiitush
+* E-mail: etunimi.sukunimi@teekkarikomissio.fi
+* TG: @annastiinasm
 
 Ulkoasiainkomissaari vastaa yhdistyksen yrityssuhteiden kehittämisestä ja ylläpitämisestä. Hän vastaa myös TeekkariExpon järjestämisestä.
 
-### Arttu Jokinen
+### Freja Tollander
 
-![Arttu](/board/2024/arttu-jokinen-min.jpg)
+![Freja]()
 
 * Talouskomissaari
-* E-mail: aijoki@utu.fi
-* TG: @ArttuJokinen
+* E-mail: etunimi.sukunimi@teekkarikomissio.fi
+* TG: @Freja_Tollander
 
 Talouskomissaari huolehtii yhdistyksen taloudesta ja kirjanpidosta sekä tarkkailee yhdistyksen taloudellista tilannetta ja pitää hallituksen siitä ajan tasalla. Talouskomissaarilla on oikeus yhdistyksen pankkitiliin. Hän valmistelee hallituksen talousarvioesityksen ja tilinpäätöksen.
 
@@ -64,48 +63,49 @@ Talouskomissaari huolehtii yhdistyksen taloudesta ja kirjanpidosta sekä tarkkai
 ![Jani](/board/2024/jani-norrby-min.jpg)
 
 * Järjestökomissaari
-* E-mail: jtnorr@utu.fi
+* E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @jani_norppa
 
 Järjestökomissaari toimii pääasiallisena yhteyshenkilönä yhdistyksen hallituksen ja jäsenkiltojen välillä. Hän ylläpitää ja edistää kiltojen keskenäistä, sekä kiltojen ja Teekkarikomission hallituksen välistä yhteistyötä, esimerkiksi sektoritapaamisten muodossa.
 
-### Roosa Varjonen
+### Lauri Koivusalo
 
-![Roosa](/board/2024/roosa-varjonen-min.jpg)
+![Lauri]()
 
 * Kulttuurikomissaari
 * Vastuualueet: Fuksiasiat
-* E-mail: rosova@utu.fi
-* TG: @rroskaa
+* E-mail: etunimi.sukunimi@teekkarikomissio.fi
+* TG: @Laurikoivusalo
 
 Kulttuurikomissaari kehittää ja ylläpitää teekkarikulttuuria Turussa. Hän huolehtii mm. jäsenkiltojen teekkarilakkien tilaamisesta ja on ensisijainen tuomari TEKin järjestämissä valtakunnallisissa jäynäkisoissa. Lisäksi hän vastaa fuksi- ja tuutorikasvatuksesta.
 
-### Mikko Lehtosalo
+### Miko Toivonen
 
-![Mikko](/board/2024/mikko-lehtosalo-min.jpg)
-
-* Tapahtumakomissaari
-* Vastuualueet: Eldprowet
-* E-mail: moleht@utu.fi
-* TG: @mleht0
-Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. He vastaavat Teekkarikomission tapahtumien kehittämisestä ja järjestämisestä. He pitävät yhteyttä jäsenkiltoihin koko turkulaista teekkariyhteisöä koskevien tapahtumien järjestämisessä. Toinen tapahtumakomissaareista voi toimia Kastetoimikunnan puheenjohtajana.
-
-### Kristoffer Lindholm
-
-![Kristoffer](/board/2024/kristoffer-lindholm-min.jpg)
-
-* Sihteeri
-* E-mail: kristoffer.lindholm@abo.fi
-* TG: @kristofferlindholm
-
-Sihteeri toimii hallituksen kokousten sihteerinä ja huolehtii pöytäkirjojen ja muiden dokumenttien arkistoinnista. Hän lähettää hallituksen kokousten pöytäkirjat tai päätösluettelot killoille.
-### Marianne Matinvuori
-
-![Marianne](/board/2024/marianne-matinvuori-min.jpg)
+![Miko]()
 
 * Tapahtumakomissaari
 * Vastuualueet: Teekkarikaste
-* E-mail: heidi.matinvuori@abo.fi
-* TG: @Nannenen
+* E-mail: etunimi.sukunimi@teekkarikomissio.fi
+* TG: @Monnionkala
+  Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. He vastaavat Teekkarikomission tapahtumien kehittämisestä ja järjestämisestä. He pitävät yhteyttä jäsenkiltoihin koko turkulaista teekkariyhteisöä koskevien tapahtumien järjestämisessä. Toinen tapahtumakomissaareista voi toimia Kastetoimikunnan puheenjohtajana.
+
+### Katriina Mc Cormick
+
+![Katriina]()
+
+* Sihteeri
+* E-mail: etunimi.sukunimi@teekkarikomissio.fi
+* TG: @kultakatriiina
+
+Sihteeri toimii hallituksen kokousten sihteerinä ja huolehtii pöytäkirjojen ja muiden dokumenttien arkistoinnista. Hän lähettää hallituksen kokousten pöytäkirjat tai päätösluettelot killoille.
+
+### Oskar Karlsson
+
+![Oskar]()
+
+* Tapahtumakomissaari
+* Vastuualueet: Eldprowet
+* E-mail: etunimi.sukunimi@teekkarikomissio.fi
+* TG: @karssonoskar
 
 Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. He vastaavat Teekkarikomission tapahtumien kehittämisestä ja järjestämisestä. He pitävät yhteyttä jäsenkiltoihin koko turkulaista teekkariyhteisöä koskevien tapahtumien järjestämisessä. Toinen tapahtumakomissaareista voi toimia Kastetoimikunnan puheenjohtajana.
