@@ -8,7 +8,7 @@ title: Hallitus
 ![Risto]()
 
 * Pääkomissaari
-* Vastuualueet: Yhdenvertaisuus
+* Vastuualueet: Paavo Nurmen patsaan lakitus, yhdenvertaisuus
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @ristoruohola
 
@@ -93,14 +93,13 @@ Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. H
 ![Katriina]()
 
 * Sihteeri
+* Vastuualueet: Yhdenvertaisuuskomissaari
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @kultakatriiina
 
 Sihteeri toimii hallituksen kokousten sihteerinä ja huolehtii pöytäkirjojen ja muiden dokumenttien arkistoinnista. Hän lähettää hallituksen kokousten pöytäkirjat tai päätösluettelot killoille.
 
-
 Yhdenvertaisuuskomissaari vastaa yhdistyksen yhdenvertaisuustyöstä ja -suunnitelmasta.
-
 
 ### Oskar Karlsson
 
