@@ -23,7 +23,7 @@ The Chair summons the meetings of the TK Board and the Association. They lead th
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
 * TG: @saarinearttu
 
-Carries out the duties of the Chair in his/her absence. Together with the Commissioner-General, he is responsible for organising Paavo Nurmi Cap Ceremony. He will assist the other members of the Board if necessary.
+Carries out the duties of the Chair in his absence. Together with the Chair, he is responsible for organising Paavo Nurmi Cap Ceremony. He will assist the other members of the Board if necessary.
 
 ### Andreas Lindholm
 
@@ -98,7 +98,6 @@ There can be one or two Event Officers on the Board of TK. They are responsible 
 * TG: @kultakatriiina
 
 The Secretary acts as secretary of the Board meetings and is responsible for the filing of minutes and other documents. He sends the minutes or lists of decisions of the Board meetings to the guilds.
-
 
 The Equality Officer is responsible for the Association's equality work and plan.
 
