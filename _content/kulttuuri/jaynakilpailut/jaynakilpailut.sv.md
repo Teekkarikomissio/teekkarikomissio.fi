@@ -1,7 +1,6 @@
 ---
 title: Åbos regionala jäynätävlingar
 ---
-
 ## Jäynäkultur
 
 Syftet med jäynätävlingen är att värna om jäynätraditioner, befrämja teknologkulturen, förhöja teknologandan, göra teknologskapet mer synligt i Åbo och att sprida gott humör.
@@ -10,13 +9,13 @@ Jäynändet har för avsikt att skapa glädje i all välmening för en själv, f
 
 En jäynä ska inte förolämpa, förlöjliga, förstöra, stjäla eller skada. En jäynä ska inte förorsaka ekonomiska, juridiska, mentala eller fysiska svårigheter. En jäynä får under inga omständigheter vara riktad mot polis- eller räddningsmyndigheter eller jurymedlemmar.
 
-## Åbos regionala jäynätävlingar är i gång 6.2.–7.4.!
+## Åbos regionala jäynätävlingar är i gång 13.02.-31.03.2025!
 
-## Jäynämanifest 2024
+## Jäynämanifest 2025
 
-### Teknologkommissionen ordnar Teknologjäynätävling!
+### Teknologkommissionen ordnar jäynätävlingen!
 
-Nästan varje år håller TEK (Tekniikan Akateemiset) en nationell jäynätävling för alla Finlands teknologer. Alla teknologorter får bidra till tävlingen med ett lag. Teknologkommissionen ordnar ett kval varifrån vinnarlaget reser vidare till den nationella finalen för att tävla mot andra teknologorter. Teknologkommissionen kommer att utse årets vinnare under teknologwappen. Vinnarlaget i den allmänna klassen kommer att få representera Åbo i den nationella jäynätavlingen 2024 och kommer även att få fina priser, rykte och ära.
+Nästan varje år håller TEK (Tekniikan Akateemiset) en nationell jäynätävling för alla Finlands teknologer. Alla teknologorter får bidra till tävlingen med ett lag. Teknologkommissionen ordnar ett kval varifrån vinnarlaget reser vidare till den nationella finalen för att tävla mot andra teknologorter. Teknologkommissionen kommer att utse årets vinnare under teknologwappen. Vinnarlaget i den allmänna klassen kommer att få representera Åbo i den nationella jäynätavlingen 2025 och kommer även att få fina priser, rykte och ära.
 
 Vid sidan om tävlingens vinnare så belönas också det bästa gulislaget med flera pris och omnämningar. Varje gulislag får TEK sponsorerade pris som tack för deltagande. Gulislagens konfiguration är klargjort i tävlingens regler.
 
@@ -36,13 +35,13 @@ Jäynän får ej förolämpa, fördärva, förstöra, stjäla eller orsaka helge
 
 ### Deltagande
 
-Alla lag skall skicka in sina tävlingsbidrag som fotodokument, videomaterial, skriftlig redogörelse eller som något annat passande sätt senast den 2.4.2023 kl. 23.59 till Teknologkommissionens styrelse (teekkarikomissio@lists.utu.fi).
+Alla lag skall skicka in sina tävlingsbidrag som fotodokument, videomaterial, skriftlig redogörelse eller som något annat passande sätt senast den 31.03.2025 kl. 23.59 till Teknologkommissionens styrelse (teekkarikomissio@lists.utu.fi).
 
 Vi vill ha just dig att representera Åbo till jäynäfinalen så grunda ett lag direkt och börja fundera på en bra jäynä!
 
 Mera information fås av Teknologkommissionens kulturkommissarie.
 
-Roosa Varjonen, rosova@utu.fi
+Lauri Koivusalo, etunimi.sukunimi@teekkarikomissio.fi
 
 För övrigt önskar Teknologkommissionen er alla trevliga kommande wappen!
 

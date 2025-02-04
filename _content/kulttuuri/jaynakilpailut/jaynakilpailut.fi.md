@@ -1,7 +1,6 @@
 ---
 title: Turun paikalliset jäynäkilpailut
 ---
-
 ## Jäynäkulttuuri
 
 Jäynäkilpailun tarkoituksena on vaalia jäynäperinteitä, edistää teekkarikulttuuria, kohottaa teekkarihenkeä ja edistää teekkaribrändin näkyvyyttä Turussa sekä tuottaa hyvää mieltä jäynän kaikilla vaikutusalueilla.
@@ -10,13 +9,13 @@ Jäynän tarkoituksena on tuottaa hyväntahtoisesti riemua itselle, jäynän koh
 
 Jäynä ei solvaa, rienaa, turmele, varasta tai tuhoa. Jäynä ei aiheuta kenellekään taloudellisia, henkisiä tai fyysisiä vaikeuksia. Jäynä ei saa kohdistua millään muotoa poliisi- tai pelastusviranomaisiin eikä tuomariston jäseneen.
 
-## Turun paikalliset jäynäkilpailut ovat käynnissä 6.2.–7.4.!
+## Turun paikalliset jäynäkilpailut ovat käynnissä 13.02.-31.03.2025!
 
-## Jäynäjulistus 2024
+## Jäynäjulistus 2025
 
 ### Teekkarikomissio järjestää jäynäkilpailun!
 
-Lähes joka vuosi TEK (Tekniikan Akateemiset) järjestää kansallisen jäynäkilpailun suomalaisille teekkareille. Kaikki teekkarikaupungit saavat osallistua kilpailuun yhdellä joukkueella. Teekkarikomissio järjestääkin nyt karsinnat, joiden voittaja pääsee edustamaan Turkua kansallisiin kilpailuihin. Turun karsintojen voittaja julistetaan Turun teekkariwapun aikana. Yleisen sarjan voittajajoukkue pääsee edustamaan Turkua vuoden 2024 valtakunnallisiin jäynäkilpailuihin, sekä saa hienoja palkintoja, mainetta ja kunniaa.
+Lähes joka vuosi TEK (Tekniikan Akateemiset) järjestää kansallisen jäynäkilpailun suomalaisille teekkareille. Kaikki teekkarikaupungit saavat osallistua kilpailuun yhdellä joukkueella. Teekkarikomissio järjestääkin nyt karsinnat, joiden voittaja pääsee edustamaan Turkua kansallisiin kilpailuihin. Turun karsintojen voittaja julistetaan Turun teekkariwapun aikana. Yleisen sarjan voittajajoukkue pääsee edustamaan Turkua vuoden 2025 valtakunnallisiin jäynäkilpailuihin, sekä saa hienoja palkintoja, mainetta ja kunniaa.
 
 Kilpailun voittajan lisäksi palkitaan paras fuksijoukkue runsain palkinnoin ja erityismainnoin. Jokainen fuksijoukkue saa kiitokseksi osallistumisesta TEKin sponsoroimia palkintoja. Fuksijoukkueen kokoonpano on määritelty kilpailun säännöissä.
 
@@ -36,13 +35,13 @@ Jäynä ei solvaa, rienaa, turmele, varasta tai tuhoa. Jäynä ei aiheuta kenell
 
 ### Osallistuminen
 
-Kaikkien joukkueiden tulee toimittaa jäynädokumentaationsa Teekkarikomission hallitukselle (teekkarikomissio [@] lists.utu.fi) 7.4.2024 klo. 23.59 mennessä esimerkiksi kuva-, video- ja/tai kirjallisena materiaalina
+Kaikkien joukkueiden tulee toimittaa jäynädokumentaationsa Teekkarikomission hallitukselle (hallitus@teekkarikomissio.fi) 31.03.2025 klo. 23.59 mennessä esimerkiksi kuva-, video- ja/tai kirjallisena materiaalina
 
 Haluamme sinut edustamaan Turkua Jäynäfinaaliin, joten perusta joukkue ja ala miettiä hyvää jäynää!
 
 Lisää infoa Teekkarikomission kulttuurikomissaarilta.
 
-Roosa Varjonen, rosova@utu.fi!
+Lauri Koivusalo, etunimi.sukunimi@teekkarikomissio.fi
 
 Teekkarikomissio toivottaa oikein hyvää wapun odotusta kaikille!
 
@@ -87,12 +86,15 @@ Jäynäkilpailun aikataulun, kilpailuajan ja muut yksityiskohdat määrittelee T
 Kilpailuajan umpeutuessa jäynädokumentaatio on oltava toimitettuna Teekkarikomission hallitukselle. Kilpailuaikana joukkueet tekevät yhden (1) mahdollisimman hauskan, ajankohtaisen, huomiota herättävän, teekkariperinteitä vaalivan sekä teekkarikulttuuria myönteisessä mielessä esiin tuovan jäynän. Kilpailussa toteuttamaansa jäynää joukkue ei ole saanut käyttää aikaisemmin.
 
 Kilpailualueena on Telluksen maa-, ilma ja vesialueet. Avaruudessa tehtäviä jäyniä varten pitää hakea erityislupa Teekkarikomissiolta.
+
 ### 8§ Muuta huomioitavaa
 
 Näiden sääntöjen lisäksi on noudatettava EU:n lainsäädäntöä, Suomen lakia, suorituspaikkakunnalla voimassa olevaa järjestyssääntöä, hyviä tapoja sekä yleensä mitä mieleen muistuu.
+
 ### 9§ Arvosteluperiaatteet
 
 Kilpailun arvostelussa kiinnitetään huomiota erityisesti kohdassa kolme (3) mainittuihin seikkoihin. Joukkueiden tulee kiinnittää erityistä huomiota tekemiensä jäynien todennettavuuteen. Tämä voi tapahtua joko suullisesti, kirjallisesti, monumentaalisesti, visuaalisesti, magneettisesti tai muutoin saattamalla tehdyt jäynät Teekkarikomission tietoisuuteen arvostelua varten. Mieluiten jäynät tulee todentaa videoimalla. Teekkarikomission jäsenen voi myös tarvittaessa pyytää todentamaan jäynän toteutuksen paikan päälle.
+
 ### 10§ Voittajan julkistaminen ja palkitseminen
 
 Teekkarikomissio julkistaa kilpailun tulokset erikseen ilmoitettuna ajankohtana, erikseen ilmoitetussa paikassa. Voittajille luovutetaan kiertopalkinto. Tämän lisäksi voittajat saavat mittaamattomasti mainetta ja kunniaa. Voittajajoukkueen jäsenet ovat oikeutettuja kantamaan Teekkarikomission määrittelemää punakeltaista jäynätupsua teekkarilakkiinsa kiinnitettynä sekä pääsevät edustamaan Turkua TEKin valtakunnalliseen teekkarijäynäkilpailuun.
