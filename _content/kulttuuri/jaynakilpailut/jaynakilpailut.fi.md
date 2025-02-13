@@ -53,7 +53,7 @@ Jäynäkilpailun tarkoituksena on vaalia jäynäperinteitä, edistää teekkarik
 
 ### 2§ Osallistujat
 
-Jäynäkisaan voi osallistua joukkueita turkulaisista teekkarikilloista. Osallistuvien joukkueiden määrää ei ole rajoitettu. Kukin yhdistys ja joukkue olkoot tietoisia siitä, että joukkue edustaa jäynäkilpailussa paitsi itseään, myös edustamaansa yhdistystä ja Teekkarikomissiota.
+Jäynäkisaan voi osallistua joukkueita turkulaisista teekkarikilloista. Yleisessä sarjassa tai fuksisarjassa osallistuvien joukkueiden määrää ei ole rajoitettu. Kiltasarjassa kukin kilta voi osallistua yhden joukkueen voimin kilpailuun. Kukin yhdistys ja joukkue olkoot tietoisia siitä, että joukkue edustaa jäynäkilpailussa paitsi itseään, myös edustamaansa yhdistystä, Teekkarikomissiota ja teekkareita yleisesti.
 
 ### 3§ Jäynän määritelmä
 
@@ -71,13 +71,13 @@ Joukkueen koko on kolmesta kahdeksaan (3–8) jäynääjää, joista vähintää
 
 Fuksijoukkue koostuu kolmesta kahdeksaan (3–8) jäynääjästä, joista enintään yksi on teekkari ja loput teekkarifukseja. Fuksijoukkueessa joukkueen kapteeni voi olla myös teekkarifuksi.
 
-Kiltasarjan joukkueen koko on kolmesta kahdeksaan (3-8) jäynääjää, joista kaikkien tulee olla edustamansa killan jäseniä ja heistä vähintään puolet killan edustaman alan pääaineopiskelijoita.
+Kiltasarjan joukkueen koko on kolmesta kahdeksaan (3-8) jäynääjää, joista kaikkien tulee olla edustamansa killan jäseniä ja heistä vähintään puolet killan edustaman alan pääaineopiskelijoita. Kiltasarjan jäynän toteutus on joukkueen edustaman killan hallituksen vastuulla.
 
 Säännöistä poikkeavaa joukkueen kokoonpanoa voi anoa hyväksyttäväksi Teekkarikomission hallitukselta.
 
 ### 6§ Tuomaristo
 
-Tuomaristona toimii Teekkarikomission hallitus, joka kilpailuajan umpeuduttua päättää kokouksessaan voittajan. Kilpailun päätuomarina toimii istuva kulttuurikomissaari. Tuomariston tehtävänä on ohjata ja valvoa kilpailun kulkua. Lisäksi jokainen tuomariston jäsen on velvoitettu ohjeistamaan oman yhdistyksensä joukkueita sekä lisäämään jäynäkulttuuria ja -tietoisuutta yhdistyksessään kisojen jatkuvuuden takaamiseksi.
+Tuomaristona toimii Teekkarikomission hallitus, joka kilpailuajan umpeuduttua päättää kokouksessaan voittajan. Kilpailun päätuomarina toimii istuva kulttuurikomissaari. Tuomariston tehtävänä on ohjata ja valvoa kilpailun kulkua. Lisäksi jokainen tuomariston jäsen on velvoitettu ohjeistamaan oman yhdistyksensä joukkueita sekä lisäämään jäynäkulttuuria ja -tietoisuutta yhdistyksessään kisojen jatkuvuuden takaamiseksi. Tuomariston jäsenet eivät ole mukana arvioimassa itse edustamansa killan jäynää.
 
 ### 7§ Jäynäjulistus, kilpailuaika ja -paikka
 
@@ -89,7 +89,8 @@ Kilpailualueena on Telluksen maa-, ilma ja vesialueet. Avaruudessa tehtäviä j�
 
 ### 8§ Muuta huomioitavaa
 
-Näiden sääntöjen lisäksi on noudatettava EU:n lainsäädäntöä, Suomen lakia, suorituspaikkakunnalla voimassa olevaa järjestyssääntöä, hyviä tapoja sekä yleensä mitä mieleen muistuu.
+
+Näiden sääntöjen lisäksi on noudatettava EU:n lainsäädäntöä, Suomen lakia, suorituspaikkakunnalla voimassa olevaa järjestyssääntöä, hyviä tapoja sekä muita ennalta mainitsemattomia säädöksiä, joita jäynää suorittaessa tulee soveltaa.
 
 ### 9§ Arvosteluperiaatteet
 
@@ -97,7 +98,8 @@ Kilpailun arvostelussa kiinnitetään huomiota erityisesti kohdassa kolme (3) ma
 
 ### 10§ Voittajan julkistaminen ja palkitseminen
 
-Teekkarikomissio julkistaa kilpailun tulokset erikseen ilmoitettuna ajankohtana, erikseen ilmoitetussa paikassa. Voittajille luovutetaan kiertopalkinto. Tämän lisäksi voittajat saavat mittaamattomasti mainetta ja kunniaa. Voittajajoukkueen jäsenet ovat oikeutettuja kantamaan Teekkarikomission määrittelemää punakeltaista jäynätupsua teekkarilakkiinsa kiinnitettynä sekä pääsevät edustamaan Turkua TEKin valtakunnalliseen teekkarijäynäkilpailuun.
+
+Teekkarikomissio julkistaa kilpailun tulokset erikseen ilmoitettuna ajankohtana, erikseen ilmoitetussa paikassa. Kunkin sarjan voittajajoukkueen jäsenet ovat oikeutettuja kantamaan Teekkarikomission määrittelemää punakeltaista jäynätupsua teekkarilakkiinsa kiinnitettynä. Fuksisarjan voittajien edustama kilta on oikeutettu olemaan kastejärjestyksessä ensimmäisenä. Kiltasarjan voittajille luovutetaan kiertopalkinto ja yleisen sarjan voittajat pääsevät edustamaan Turkua TEKin valtakunnalliseen teekkarijäynäkilpailuun. Tämän lisäksi voittajat saavat mittaamattomasti mainetta ja kunniaa.
 
 ### 11§ Sääntöjen tulkitseminen ja muuttaminen
 

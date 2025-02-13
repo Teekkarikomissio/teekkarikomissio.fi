@@ -77,7 +77,7 @@ Man kan be Teknologkommissionens styrelse om lov att delta med ett lag som inte 
 
 ### 6§ Jury
 
-Teknologkommissionens styrelse fungerar som tävlingens jury. Då jäynätävlinges tid är slut, utser juryn en vinnare. Teknolokommissionens sittande kulturkommissarie fungerar som huvuddomare. Juryns uppgift är att vägleda och övervaka tävlingens gång. Däröver är varje jurymedlem förpliktad att guida sin egen förenings lag och öka jäynäkultur och - tillkännedom i sin förening för att försäkra tävlingarnas framtid.
+Teknologkommissionens styrelse fungerar som tävlingens jury. Då jäynätävlinges tid är slut, utser juryn en vinnare. Teknolokommissionens sittande kulturkommissarie fungerar som huvuddomare. Juryns uppgift är att vägleda och övervaka tävlingens gång. Däröver är varje jurymedlem förpliktad att guida sin egen förenings lag och öka jäynäkultur och - tillkännedom i sin förening för att försäkra tävlingarnas framtid. Jurymedlemmar utvärderar inte jäynä utfört av föreningar som de själva representerar. 
 
 ### 7§ Jäynämanifest, tävlingstid och -plats
 
@@ -89,7 +89,8 @@ Tävlingsområdet är Tellus land-, luft- och vattenområden. För jäynän utf�
 
 ### 8§ Annat att tänka på
 
-Utöver dessa regler, bör följas även EU:s lagstiftning, Finlands lag, rådande ordningsregler, goda seder och annat man kan råka tänka sig.
+
+Utöver dessa regler, bör följas även EU:s lagstiftning, Finlands lag, rådande ordningsregler, goda seder och andra författningar, som inte nämns på förhand, ska tillämpas i utförande av jäynä.
 
 ### 9§ Bedömningskriterier
 
@@ -97,7 +98,7 @@ I tävlingens bedömning tas speciellt i beaktande artiklarna nämnda i paragraf
 
 ### 10§ Utseende och belöning av vinnarna
 
-Teknologkommissionen offentliggör tävlingens resultat under en särskilt nämnd tid, på ett särskilt nämnt ställe. Vinnarna får ett vandrande pris. Utöver detta, får vinnarna också omätbar ära och berömmelse. Medlemmarna i det vinnande laget är berättigade att bära Teknologkommissionens fastställda rödgula jäynätofs i sin tofsmössa och får representera Åbo i TEKs nationella teknologjäynätävling.
+Teknologkommissionen offentliggör tävlingens resultat under en särskilt nämnd tid, på ett särskilt nämnt ställe. Vinnande lagets medlemmar i alla serier är berättigade att bära Teknologkommissionens fastställda rödgula jäynätofs i sin tofsmössa. Vinnaren i gulisserien är berättigad att vara den första i dopordning. Vinnare i föreningsserie överräckas ett vandringspris och de får representera Åbo i TEKs nationella teknologjäynätävling. Utöver detta, får vinnarna också omätbar ära och berömmelse.
 
 ### 11§ Tolkande och ändrande av reglerna
 
