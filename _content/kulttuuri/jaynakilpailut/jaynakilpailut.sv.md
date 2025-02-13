@@ -9,7 +9,7 @@ Jäynändet har för avsikt att skapa glädje i all välmening för en själv, f
 
 En jäynä ska inte förolämpa, förlöjliga, förstöra, stjäla eller skada. En jäynä ska inte förorsaka ekonomiska, juridiska, mentala eller fysiska svårigheter. En jäynä får under inga omständigheter vara riktad mot polis- eller räddningsmyndigheter eller jurymedlemmar.
 
-## Åbos regionala jäynätävlingar är i gång 13.02.-31.03.2025!
+## Åbos regionala jäynätävlingar är i gång 13.02.-13.04.2025!
 
 ## Jäynämanifest 2025
 

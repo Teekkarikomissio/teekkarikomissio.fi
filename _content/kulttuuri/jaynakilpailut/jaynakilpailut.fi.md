@@ -9,7 +9,7 @@ Jäynän tarkoituksena on tuottaa hyväntahtoisesti riemua itselle, jäynän koh
 
 Jäynä ei solvaa, rienaa, turmele, varasta tai tuhoa. Jäynä ei aiheuta kenellekään taloudellisia, henkisiä tai fyysisiä vaikeuksia. Jäynä ei saa kohdistua millään muotoa poliisi- tai pelastusviranomaisiin eikä tuomariston jäseneen.
 
-## Turun paikalliset jäynäkilpailut ovat käynnissä 13.02.-31.03.2025!
+## Turun paikalliset jäynäkilpailut ovat käynnissä 13.02.-14.04.2025!
 
 ## Jäynäjulistus 2025
 
