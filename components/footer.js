@@ -28,10 +28,10 @@ const Footer = () => {
             
             <a
               className="flex flex-col items-center group transition-colors hover:text-yellow-100"
-              href="mailto:teekkarikomissio@utu.fi"
+              href="mailto:hallitus@teekkarikomissio.fi"
             >
               <Mail className="w-8 h-8 mb-2 group-hover:scale-110 transition-transform" />
-              <span>teekkarikomissio[@]utu.fi</span>
+              <span>hallitus[@]teekkarikomissio.fi</span>
             </a>
             
             <a
