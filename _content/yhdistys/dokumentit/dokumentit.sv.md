@@ -1,7 +1,7 @@
 ---
 title: Dokument
 ---
-![Liput](teekkarilakitus2024-43.jpg)
+![Liput](/teekkarilakitus2024-43.jpg)
 
 ## Teknologkommissionens officiella dokument
 

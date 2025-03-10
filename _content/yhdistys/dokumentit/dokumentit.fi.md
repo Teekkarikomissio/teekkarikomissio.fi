@@ -1,7 +1,7 @@
 ---
 title: Dokumentit
 ---
-![Liput](images/teekkarilakitus2024-43.jpg)
+![Liput](/teekkarilakitus2024-43.jpg)
 
 ## ﻿Teekkarikomission viralliset dokumentit
 

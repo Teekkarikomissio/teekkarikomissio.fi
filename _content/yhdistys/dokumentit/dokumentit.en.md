@@ -1,7 +1,7 @@
 ---
 title: Rules
 ---
-![Liput](teekkarilakitus2024-43.jpg)
+![Liput](/teekkarilakitus2024-43.jpg)
 
 ## TK's official documents
 
