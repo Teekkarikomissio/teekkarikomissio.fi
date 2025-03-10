@@ -99,7 +99,6 @@ Det kan finnas en eller två evenemangskommissarier i Teknologkommissionens styr
 
 Sekreteraren är protokollsekreterare vid styrelsens sammanträden och ansvarar för arkivering av protokoll och andra handlingar. Han tillställer mötesprotokoll och beslutsförteckningar från styrelsens sammanträden.
 
-
 Jämställdhetskommissarien ansvarar för föreningens jämställdhetsarbete och -plan.
 
 ### Oskar Karlsson
@@ -109,6 +108,6 @@ Jämställdhetskommissarien ansvarar för föreningens jämställdhetsarbete och
 * Evenemangskommissarie
 * Övriga ansvar: Eldprowet
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @karssonoskar
+* TG: @karlssonoskar
 
 Det kan finnas en eller två evenemangskommissarier i Teknologkommissionens styrelse. De ansvarar för utvecklingen och organiseringen av TKs evenemang. De samarbetar med medlemsgillena för att ordna evenemang för hela teknologgemenskapen i Åbo. En av evenemangskommissionärerna kan vara ordförande för Doputskottet.

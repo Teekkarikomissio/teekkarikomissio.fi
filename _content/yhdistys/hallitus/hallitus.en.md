@@ -108,6 +108,6 @@ The Equality Officer is responsible for the Association's equality work and plan
 * Events Officer
 * Areas of responsibility: Eldprowet
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @karssonoskar
+* TG: @karlssonoskar
 
 There can be one or two Event Officers on the Board of TK. They are responsible for the development and organisation of the Teekkarikomissio's events. They are in contact with the member guilds to organise events for the whole Teekkari community in Turku. One of the event commissioners may chair the Teekkari Dipping.
