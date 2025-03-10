@@ -3,7 +3,7 @@
 #   branch: main
 #   extension: md
 #   proxy_url: http://localhost:8081/api/v1
-# local_backend: true
+local_backend: true
 
 backend:
   name: git-gateway
