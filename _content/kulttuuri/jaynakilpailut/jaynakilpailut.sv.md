@@ -35,7 +35,7 @@ Jäynän får ej förolämpa, fördärva, förstöra, stjäla eller orsaka helge
 
 ### Deltagande
 
-Alla lag skall skicka in sina tävlingsbidrag som fotodokument, videomaterial, skriftlig redogörelse eller som något annat passande sätt senast den 31.03.2025 kl. 23.59 till Teknologkommissionens styrelse (teekkarikomissio@lists.utu.fi).
+Alla lag skall skicka in sina tävlingsbidrag som fotodokument, videomaterial, skriftlig redogörelse eller som något annat passande sätt senast den 14.4.2025 kl. 23.59 till Teknologkommissionens styrelse (teekkarikomissio@lists.utu.fi).
 
 Vi vill ha just dig att representera Åbo till jäynäfinalen så grunda ett lag direkt och börja fundera på en bra jäynä!
 
@@ -88,7 +88,6 @@ Då tävlingstiden tar slut, bör jäynädokumentationen vara levererad åt Tekn
 Tävlingsområdet är Tellus land-, luft- och vattenområden. För jäynän utförda i rymden krävs särskilt tillstånd av Teknologkommissionen.
 
 ### 8§ Annat att tänka på
-
 
 Utöver dessa regler, bör följas även EU:s lagstiftning, Finlands lag, rådande ordningsregler, goda seder och andra författningar, som inte nämns på förhand, ska tillämpas i utförande av jäynä.
 

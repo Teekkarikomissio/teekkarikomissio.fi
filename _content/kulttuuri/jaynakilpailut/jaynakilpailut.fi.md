@@ -35,7 +35,7 @@ Jäynä ei solvaa, rienaa, turmele, varasta tai tuhoa. Jäynä ei aiheuta kenell
 
 ### Osallistuminen
 
-Kaikkien joukkueiden tulee toimittaa jäynädokumentaationsa Teekkarikomission hallitukselle (hallitus@teekkarikomissio.fi) 31.03.2025 klo. 23.59 mennessä esimerkiksi kuva-, video- ja/tai kirjallisena materiaalina
+Kaikkien joukkueiden tulee toimittaa jäynädokumentaationsa Teekkarikomission hallitukselle (hallitus@teekkarikomissio.fi) 14.4.2025 klo. 23.59 mennessä esimerkiksi kuva-, video- ja/tai kirjallisena materiaalina
 
 Haluamme sinut edustamaan Turkua Jäynäfinaaliin, joten perusta joukkue ja ala miettiä hyvää jäynää!
 
@@ -89,7 +89,6 @@ Kilpailualueena on Telluksen maa-, ilma ja vesialueet. Avaruudessa tehtäviä j�
 
 ### 8§ Muuta huomioitavaa
 
-
 Näiden sääntöjen lisäksi on noudatettava EU:n lainsäädäntöä, Suomen lakia, suorituspaikkakunnalla voimassa olevaa järjestyssääntöä, hyviä tapoja sekä muita ennalta mainitsemattomia säädöksiä, joita jäynää suorittaessa tulee soveltaa.
 
 ### 9§ Arvosteluperiaatteet
@@ -97,7 +96,6 @@ Näiden sääntöjen lisäksi on noudatettava EU:n lainsäädäntöä, Suomen la
 Kilpailun arvostelussa kiinnitetään huomiota erityisesti kohdassa kolme (3) mainittuihin seikkoihin. Joukkueiden tulee kiinnittää erityistä huomiota tekemiensä jäynien todennettavuuteen. Tämä voi tapahtua joko suullisesti, kirjallisesti, monumentaalisesti, visuaalisesti, magneettisesti tai muutoin saattamalla tehdyt jäynät Teekkarikomission tietoisuuteen arvostelua varten. Mieluiten jäynät tulee todentaa videoimalla. Teekkarikomission jäsenen voi myös tarvittaessa pyytää todentamaan jäynän toteutuksen paikan päälle.
 
 ### 10§ Voittajan julkistaminen ja palkitseminen
-
 
 Teekkarikomissio julkistaa kilpailun tulokset erikseen ilmoitettuna ajankohtana, erikseen ilmoitetussa paikassa. Kunkin sarjan voittajajoukkueen jäsenet ovat oikeutettuja kantamaan Teekkarikomission määrittelemää punakeltaista jäynätupsua teekkarilakkiinsa kiinnitettynä. Fuksisarjan voittajien edustama kilta on oikeutettu olemaan kastejärjestyksessä ensimmäisenä. Kiltasarjan voittajille luovutetaan kiertopalkinto ja yleisen sarjan voittajat pääsevät edustamaan Turkua TEKin valtakunnalliseen teekkarijäynäkilpailuun. Tämän lisäksi voittajat saavat mittaamattomasti mainetta ja kunniaa.
 
