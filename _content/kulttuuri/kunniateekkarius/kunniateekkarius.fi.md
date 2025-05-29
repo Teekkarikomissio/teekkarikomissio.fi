@@ -7,19 +7,19 @@ Turkulaiseksi kunniateekkariksi voi Teekkarikomission hallituksen päätöksell�
 
 ### Turkulaiset kunniateekkarit
 
-#### Mika Hannula
+### Mika Hannula
 
 Mika Hannula on toiminut Turun yliopiston vararehtorina vuosina 2019‍–‍2024 jolloin Turun yliopistossa toteutettiin paikallisten yritysten ja elinkeinoelämän pitkään odottama tekniikan laajennus. Hannula on lisäksi toiminut lukuisissa muissakin tehtävissä. Tällaisia ovat esimerkiksi Tampereen teknillisen yliopiston rehtorina sekä Teknologiakampus Turun johtajana toimiminen. Hannula on väitellyt tuotantotaloudesta tohtoriksi ja tietojohtamisen professori.
 
 Teekkarikomission hallitus päätti myöntää Hannulalle kunniateekkariuden merkittävästä työstä teekkarien eteen Turun alueella sekä pitkäaikaisesta sitoutumisesta tekniikan koulutuksen kehittämiseen Turussa. Hannulan toimet ovat edistäneet teekkarien asemaa erityisesti Turun yliopistossa sekä tuoneet tietoisuutta teekkarialojen merkityksestä sekä koosta tavallisen turkulaisen tietouteen.
 
-#### Ann-Louise Hakalax
+### Ann-Louise Hakalax
 
 Ann-Louise Hakalax on toiminut Kemistklubbenin entisenä puheenjohtajana, ollut toteuttamassa 2022 järjestettyä ensimmäistä teekkarikastetta sekä toiminnallaan edistänyt merkittävästi suomenkielisten ja ruotsinkielisten koulutusohjelmien yhteistyötä. Hakalax on toiminut Kemistklubbenissa muutoksien aikakautena ja ollut merkittävästi vaikuttamassa teekkarien näkyvyyteen sekä tunnettuuteen erityisesti ruotsinkielisten keskuudessa Turussa.
 
 Teekkarikomission hallitus päätti myöntää Hakalaxille kunniateekkariuden pyyteettömästä työstä teekkarien eteen. Lisäksi hallitus on perustellut päätöstään esimerkiksi Hakalaxin teekkarihenkisyydellä sekä hänen toimiensa merkityksellisyydellä. Lisäksi Hakalax palkittiin Teekkarikomission kunniamerkillä vuonna 2024 Kemistklubbenin vuosijuhlien yhteydessä.
 
-#### Marceline Neg Akieh-Pirkanniemi
+### Marceline Neg Akieh-Pirkanniemi
 
 Marceline Neg Akieh-Pirkanniemi on väitellyt Åbo Akademista tekniikan tohtoriksi analyyttisestä kemiasta 2012. Akieh-Pirkanniemi on väitellyt aiheesta "Electroactive Ion Exchange Membranes based on conducting polymers". Väitöskirja on julkaistu vuonna 2012. Ennen opintojaan Åbo Akademissa Akieh-Pirkanniemi on opiskellut Martin-Luther-Universität Halle-Wittenbergissä, josta hän on valmistunut maisteriksi käytännön polymeeritieteistä vuonna 2005.
 
