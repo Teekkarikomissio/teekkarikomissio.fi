@@ -1,8 +1,6 @@
 ---
 title: Hedersteknologskap
 ---
-# Hedersteknologskap
-
 En person kan utses till hedersteknolog i Åbo genom beslut av Teknologkommissionens styrelse om personen på ett betydande sätt har främjat teknologkulturen samt varit en lokal och nationell påverkare inom teknologgemenskapen i Åbo. Hittills finns det tre hedersteknologer som har beviljats mössan med så kallat undantagstillstånd. Användningen av mössan är därmed tillåten för dem i enlighet med [stadgarna](/sv/yhdistys/dokumentit). Nedan listas de nuvarande hedersteknologerna samt motiveringarna till varför just dessa personer har utsetts till hedersteknologer i Åbo. Längst ner på denna sida hittar du dessutom talet som Åbo universitets vicerektor emeritus Mika Hannula höll på Åbo domkyrkas trappa den 30 april 2025 då han mottog sin mössa.
 
 ## Hedersteknologer i Åbo
@@ -27,6 +25,10 @@ Teknologkommissionens styrelse beslutade att bevilja Akieh-Pirkanniemi hederstek
 
 ## Mika Hannulas tal på Åbo domkyrkas trappa 30.4.2025
 
+<div style="float: left; margin-right: 20px; margin-bottom: 10px; width: 200px;">
+  <img src="/images/Hannula-puhe.webp" alt="Mika Hannula" style="width: 100%; height: auto;">
+  <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;">Mika Hannula's speech after receiving his cap.</p>
+</div>
 
 Arvoisa Teekkarikomissio, hyvät teekkarit, fuksit ja ystävät,
 
@@ -46,3 +48,6 @@ Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given.
 Kiitos vielä kerran Teekkarikomissiolle tästä suuresta kunniasta!
 
 Ett stort tack ännu en gång till Teknologkommissionen för denna stora ära - och glada Wappen till alla!
+
+
+<div style="clear: both;"></div>

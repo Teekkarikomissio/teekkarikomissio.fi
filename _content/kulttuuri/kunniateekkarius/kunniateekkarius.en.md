@@ -1,8 +1,6 @@
 ---
 title: Honorary Teekkari Status
 ---
-# Honorary Teekkari Status
-
 A person can be named an Honorary Teekkari in Turku by a decision of the Teekkarikomissio's board if they have significantly promoted teekkari culture and have been a local and national influencer in the Turku teekkari community. To date, there are three Honorary Teekkaris who have been granted the cap under a so-called special permit. The use of the cap is thus permitted for them in accordance with the [rules](/en/yhdistys/dokumentit). Listed below are the current Honorary Teekkaris and the reasons why these particular individuals were chosen to be named Honorary Teekkaris in Turku. Additionally, at the bottom of this page, you will find the speech given by the Vice Rector Emeritus of the University of Turku Mika Hannula on the steps of Turku Cathedral on April 30, 2025, upon receiving his cap.
 
 ## Honorary Teekkaris in Turku
@@ -27,6 +25,11 @@ The Teekkarikomissio's board decided to grant Akieh-Pirkanniemi Honorary Teekkar
 
 ## Mika Hannula's Speech on the Steps of Turku Cathedral on April 30, 2025
 
+<div style="float: left; margin-right: 20px; margin-bottom: 10px; width: 200px;">
+  <img src="/images/Hannula-puhe.webp" alt="Mika Hannula" style="width: 100%; height: auto;">
+  <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;">Mika Hannula's speech after receiving his cap.</p>
+</div>
+
 Arvoisa Teekkarikomissio, hyvät teekkarit, fuksit ja ystävät,
 
 Ärade Teknologkomissionen, teknologer och vänner,
@@ -45,3 +48,6 @@ Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given.
 Kiitos vielä kerran Teekkarikomissiolle tästä suuresta kunniasta!
 
 Ett stort tack ännu en gång till Teknologkommissionen för denna stora ära - och glada Wappen till alla!
+
+
+<div style="clear: both;"></div>

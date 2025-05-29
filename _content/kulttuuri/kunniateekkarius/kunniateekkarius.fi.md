@@ -1,8 +1,6 @@
 ---
 title: Kunniateekkarius
 ---
-# Kunniateekkarius
-
 Turkulaiseksi kunniateekkariksi voi Teekkarikomission hallituksen päätöksellä nimetä henkilön, joka on merkittävästi edistänyt teekkarikulttuuria sekä ollut paikallinen ja kansallinen vaikuttaja turkulaisessa teekkariyhteisössä. Tähän mennessä kunniateekkareita, joille lakki on myönnetty nk. poikkeusluvalla, on kolme kappaletta. Lakin käyttö on näin ollen heille sallittu [ohjesäännön](/fi/yhdistys/dokumentit) mukaisesti. Alla on lueteltu tämänhetkiset kunniateekkarit sekä perustelut, miksi nämä kyseiset henkilöt on päätetty nimetä turkulaisiksi kunniateekkareiksi. Lisäksi tämän sivun alalaidasta löydät Turun yliopiston vararehtori emerituksen Mika Hannulan puheen, jonka hän piti Turun Tuomiokirkon portailla 30.4.2025 saadessaan lakkinsa.
 
 ## Turkulaiset kunniateekkarit
@@ -27,6 +25,11 @@ Teekkarikomission hallitus päätti myöntää Akieh-Pirkanniemelle kunniateekka
 
 ## Mika Hannulan puhe Turun Tuomiokirkon portailla 30.4.2025
 
+<div style="float: left; margin-right: 20px; margin-bottom: 10px; width: 200px;">
+  <img src="/images/Hannula-puhe.webp" alt="Mika Hannula" style="width: 100%; height: auto;">
+  <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;">Mika Hannula's speech after receiving his cap.</p>
+</div>
+
 Arvoisa Teekkarikomissio, hyvät teekkarit, fuksit ja ystävät,
 
 Ärade Teknologkomissionen, teknologer och vänner,
@@ -45,3 +48,5 @@ Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given.
 Kiitos vielä kerran Teekkarikomissiolle tästä suuresta kunniasta!
 
 Ett stort tack ännu en gång till Teknologkommissionen för denna stora ära - och glada Wappen till alla!
+
+<div style="clear: both;"></div>
