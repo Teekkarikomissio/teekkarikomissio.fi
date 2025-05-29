@@ -7,7 +7,7 @@ Turkulaiseksi kunniateekkariksi voi Teekkarikomission hallituksen päätöksell�
 
 ### Mika Hannula
 
-Mika Hannula on toiminut Turun yliopiston vararehtorina vuosina 2019–2024 jolloin Turun yliopistossa toteutettiin paikallisten yritysten ja elinkeinoelämän pitkään odottama tekniikan laajennus. Hannula on lisäksi toiminut lukuisissa muissakin tehtävissä. Tällaisia ovat esimerkiksi Tampereen teknillisen yliopiston rehtorina sekä Teknologiakampus Turun johtajana toimiminen. Hannula on väitellyt tuotantotaloudesta tohtoriksi ja tietojohtamisen professori.
+Mika Hannula on toiminut Turun yliopiston vararehtorina vuosina 2019‍–‍2024 jolloin Turun yliopistossa toteutettiin paikallisten yritysten ja elinkeinoelämän pitkään odottama tekniikan laajennus. Hannula on lisäksi toiminut lukuisissa muissakin tehtävissä. Tällaisia ovat esimerkiksi Tampereen teknillisen yliopiston rehtorina sekä Teknologiakampus Turun johtajana toimiminen. Hannula on väitellyt tuotantotaloudesta tohtoriksi ja tietojohtamisen professori.
 
 Teekkarikomission hallitus päätti myöntää Hannulalle kunniateekkariuden merkittävästä työstä teekkarien eteen Turun alueella sekä pitkäaikaisesta sitoutumisesta tekniikan koulutuksen kehittämiseen Turussa. Hannulan toimet ovat edistäneet teekkarien asemaa erityisesti Turun yliopistossa sekä tuoneet tietoisuutta teekkarialojen merkityksestä sekä koosta tavallisen turkulaisen tietouteen.
 
