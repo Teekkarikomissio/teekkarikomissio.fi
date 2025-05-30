@@ -1,7 +1,7 @@
 ---
 title: Hedersteknologskap
 ---
-En person kan utses till hedersteknolog i Åbo genom beslut av Teknologkommissionens styrelse om personen på ett betydande sätt har främjat teknologkulturen samt varit en lokal och nationell påverkare inom teknologgemenskapen i Åbo. Hittills finns det tre hedersteknologer som har beviljats mössan med så kallat undantagstillstånd. Användningen av mössan är därmed tillåten för dem i enlighet med [stadgarna](/sv/yhdistys/dokumentit). Nedan listas de nuvarande hedersteknologerna samt motiveringarna till varför just dessa personer har utsetts till hedersteknologer i Åbo. Längst ner på denna sida hittar du dessutom talet som Åbo universitets vicerektor emeritus Mika Hannula höll på Åbo domkyrkas trappa den 30 april 2025 då han mottog sin mössa.
+En person kan utses till hedersteknolog i Åbo genom beslut av Teknologkommissionens styrelse om personen på ett betydande sätt har främjat teknologkulturen samt varit en lokal och nationell påverkare inom teknologgemenskapen i Åbo. Hittills finns det två hedersteknologer som har beviljats mössan med så kallat undantagstillstånd. Användningen av mössan är därmed tillåten för dem i enlighet med [stadgarna](/sv/yhdistys/dokumentit). Nedan listas de nuvarande hedersteknologerna samt motiveringarna till varför just dessa personer har utsetts till hedersteknologer i Åbo. Längst ner på denna sida hittar du dessutom talet som Åbo universitets vicerektor emeritus Mika Hannula höll på Åbo domkyrkas trappa den 30 april 2025 då han mottog sin mössa.
 
 ## Hedersteknologer i Åbo
 
@@ -16,12 +16,6 @@ Teknologkommissionens styrelse beslutade att bevilja Hannula hedersteknologstatu
 Ann-Louise Hakalax har varit tidigare ordförande för Kemistklubben, varit med och genomfört det första teknologdopet som anordnades 2022 samt genom sin verksamhet på ett betydande sätt främjat samarbetet mellan finskspråkiga och svenskspråkiga utbildningsprogram. Hakalax har verkat i Kemistklubben under en tid av förändringar och har på ett betydande sätt påverkat teknologernas synlighet och kännedom, särskilt bland svenskspråkiga i Åbo.
 
 Teknologkommissionens styrelse beslutade att bevilja Hakalax hedersteknologstatus för hennes osjälviska arbete för teknologerna. Dessutom har styrelsen motiverat sitt beslut med exempelvis Hakalax teknologanda samt betydelsen av hennes insatser. Hakalax tilldelades även Teknologkommissionens hederstecken år 2024 i samband med Kemistklubbens årsfest.
-
-### Marceline Neg Akieh-Pirkanniemi
-
-Marceline Neg Akieh-Pirkanniemi disputerade vid Åbo Akademi till teknologie doktor i analytisk kemi 2012. Akieh-Pirkanniemi disputerade på ämnet "Electroactive Ion Exchange Membranes based on conducting polymers". Avhandlingen publicerades år 2012. Före sina studier vid Åbo Akademi studerade Akieh-Pirkanniemi vid Martin-Luther-Universität Halle-Wittenberg, där hon avlade magisterexamen i praktisk polymerkemi år 2005.
-
-Teknologkommissionens styrelse beslutade att bevilja Akieh-Pirkanniemi hedersteknologstatus för hennes arbete inom teknikområdet samt som ett bevis på att teknologandan inte enbart är ett privilegium för personer som ursprungligen studerat i Finland. Mössan beviljades henne som en överraskning på hennes födelsedag hösten 2024.
 
 ## Mika Hannulas tal på Åbo domkyrkas trappa 30.4.2025
 
@@ -48,6 +42,5 @@ Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given.
 Kiitos vielä kerran Teekkarikomissiolle tästä suuresta kunniasta!
 
 Ett stort tack ännu en gång till Teknologkommissionen för denna stora ära - och glada Wappen till alla!
-
 
 <div style="clear: both;"></div>

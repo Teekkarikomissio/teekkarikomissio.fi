@@ -1,7 +1,7 @@
 ---
 title: Honorary Teekkari Status
 ---
-A person can be named an Honorary Teekkari in Turku by a decision of the Teekkarikomissio's board if they have significantly promoted teekkari culture and have been a local and national influencer in the Turku teekkari community. To date, there are three Honorary Teekkaris who have been granted the cap under a so-called special permit. The use of the cap is thus permitted for them in accordance with the [rules](/en/yhdistys/dokumentit). Listed below are the current Honorary Teekkaris and the reasons why these particular individuals were chosen to be named Honorary Teekkaris in Turku. Additionally, at the bottom of this page, you will find the speech given by the Vice Rector Emeritus of the University of Turku Mika Hannula on the steps of Turku Cathedral on April 30, 2025, upon receiving his cap.
+A person can be named an Honorary Teekkari in Turku by a decision of the Teekkarikomissio's board if they have significantly promoted teekkari culture and have been a local and national influencer in the Turku teekkari community. To date, there are Honorary Teekkaris who have been granted the cap under a so-called special permit. The use of the cap is thus permitted for them in accordance with the [rules](/en/yhdistys/dokumentit). Listed below are the current Honorary Teekkaris and the reasons why these particular individuals were chosen to be named Honorary Teekkaris in Turku. Additionally, at the bottom of this page, you will find the speech given by the Vice Rector Emeritus of the University of Turku Mika Hannula on the steps of Turku Cathedral on April 30, 2025, upon receiving his cap.
 
 ## Honorary Teekkaris in Turku
 
@@ -16,12 +16,6 @@ The Teekkarikomissio's board decided to grant Hannula Honorary Teekkari status f
 Ann-Louise Hakalax has served as the former chairperson of Kemistklubben, was involved in implementing the first teekkari christening organized in 2022, and through her activities has significantly promoted cooperation between Finnish-speaking and Swedish-speaking degree programs. Hakalax has been active in Kemistklubben during an era of change and has significantly influenced the visibility and recognition of teekkaris, especially among Swedish-speakers in Turku.
 
 The Teekkarikomissio's board decided to grant Hakalax Honorary Teekkari status for her selfless work for teekkaris. In addition, the board has justified its decision with, for example, Hakalax's teekkari spirit and the significance of her actions. Furthermore, Hakalax was awarded the Teekkarikomissio's Medal of Honour in 2024 in connection with Kemistklubben's annual ball.
-
-### Marceline Neg Akieh-Pirkanniemi
-
-Marceline Neg Akieh-Pirkanniemi defended her doctoral thesis in analytical chemistry at Åbo Akademi University in 2012, earning a Doctor of Science in Technology. Akieh-Pirkanniemi's doctoral thesis was on the topic "Electroactive Ion Exchange Membranes based on conducting polymers." The dissertation was published in 2012. Before her studies at Åbo Akademi University, Akieh-Pirkanniemi studied at Martin-Luther-Universität Halle-Wittenberg, from which she graduated with a Master's degree in Applied Polymer Science in 2005.
-
-The Teekkarikomissio's board decided to grant Akieh-Pirkanniemi Honorary Teekkari status for her work in the field of technology and as a testament that the teekkari spirit is not the exclusive right of people who originally studied in Finland. The cap was awarded to her as a surprise on her birthday in the autumn of 2024.
 
 ## Mika Hannula's Speech on the Steps of Turku Cathedral on April 30, 2025
 
@@ -48,6 +42,5 @@ Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given.
 Kiitos vielä kerran Teekkarikomissiolle tästä suuresta kunniasta!
 
 Ett stort tack ännu en gång till Teknologkommissionen för denna stora ära - och glada Wappen till alla!
-
 
 <div style="clear: both;"></div>

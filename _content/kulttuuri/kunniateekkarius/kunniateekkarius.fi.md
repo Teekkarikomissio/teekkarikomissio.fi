@@ -3,7 +3,7 @@ title: Kunniateekkarius
 ---
 ## Kunniateekkarius
 
-Turkulaiseksi kunniateekkariksi voi Teekkarikomission hallituksen päätöksellä nimetä henkilön, joka on merkittävästi edistänyt teekkarikulttuuria sekä ollut paikallinen ja kansallinen vaikuttaja turkulaisessa teekkariyhteisössä. Tähän mennessä kunniateekkareita, joille lakki on myönnetty nk. poikkeusluvalla, on kolme kappaletta. Lakin käyttö on näin ollen heille sallittu [ohjesäännön](/fi/yhdistys/dokumentit) mukaisesti. Alla on lueteltu tämänhetkiset kunniateekkarit sekä perustelut, miksi nämä kyseiset henkilöt on päätetty nimetä turkulaisiksi kunniateekkareiksi. Lisäksi tämän sivun alalaidasta löydät Turun yliopiston vararehtori emerituksen Mika Hannulan puheen, jonka hän piti Turun Tuomiokirkon portailla 30.4.2025 saadessaan lakkinsa.
+Turkulaiseksi kunniateekkariksi voi Teekkarikomission hallituksen päätöksellä nimetä henkilön, joka on merkittävästi edistänyt teekkarikulttuuria sekä ollut paikallinen ja kansallinen vaikuttaja turkulaisessa teekkariyhteisössä. Tähän mennessä kunniateekkareita, joille lakki on myönnetty nk. poikkeusluvalla, on kaksi kappaletta. Lakin käyttö on näin ollen heille sallittu [ohjesäännön](/fi/yhdistys/dokumentit) mukaisesti. Alla on lueteltu tämänhetkiset kunniateekkarit sekä perustelut, miksi nämä kyseiset henkilöt on päätetty nimetä turkulaisiksi kunniateekkareiksi. Lisäksi tämän sivun alalaidasta löydät Turun yliopiston vararehtori emerituksen Mika Hannulan puheen, jonka hän piti Turun Tuomiokirkon portailla 30.4.2025 saadessaan lakkinsa.
 
 ### Turkulaiset kunniateekkarit
 
@@ -18,12 +18,6 @@ Teekkarikomission hallitus päätti myöntää Hannulalle kunniateekkariuden mer
 Ann-Louise Hakalax on toiminut Kemistklubbenin entisenä puheenjohtajana, ollut toteuttamassa 2022 järjestettyä ensimmäistä teekkarikastetta sekä toiminnallaan edistänyt merkittävästi suomenkielisten ja ruotsinkielisten koulutusohjelmien yhteistyötä. Hakalax on toiminut Kemistklubbenissa muutoksien aikakautena ja ollut merkittävästi vaikuttamassa teekkarien näkyvyyteen sekä tunnettuuteen erityisesti ruotsinkielisten keskuudessa Turussa.
 
 Teekkarikomission hallitus päätti myöntää Hakalaxille kunniateekkariuden pyyteettömästä työstä teekkarien eteen. Lisäksi hallitus on perustellut päätöstään esimerkiksi Hakalaxin teekkarihenkisyydellä sekä hänen toimiensa merkityksellisyydellä. Lisäksi Hakalax palkittiin Teekkarikomission kunniamerkillä vuonna 2024 Kemistklubbenin vuosijuhlien yhteydessä.
-
-### Marceline Neg Akieh-Pirkanniemi
-
-Marceline Neg Akieh-Pirkanniemi on väitellyt Åbo Akademista tekniikan tohtoriksi analyyttisestä kemiasta 2012. Akieh-Pirkanniemi on väitellyt aiheesta "Electroactive Ion Exchange Membranes based on conducting polymers". Väitöskirja on julkaistu vuonna 2012. Ennen opintojaan Åbo Akademissa Akieh-Pirkanniemi on opiskellut Martin-Luther-Universität Halle-Wittenbergissä, josta hän on valmistunut maisteriksi käytännön polymeeritieteistä vuonna 2005.
-
-Teekkarikomission hallitus päätti myöntää Akieh-Pirkanniemelle kunniateekkariuden työstään tekniikan alalla sekä osoituksena, että teekkarihenki ei ole vain Suomessa alunperin opiskelleiden ihmisten yksinoikeus. Lakki on myönnetty hänelle syksyllä 2024 yllätyksenä hänen syntymäpäivänään.
 
 ### Mika Hannulan puhe Turun Tuomiokirkon portailla 30.4.2025
 
