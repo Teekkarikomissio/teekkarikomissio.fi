@@ -3,7 +3,7 @@ title: Kunniateekkarius
 ---
 ## Kunniateekkarius
 
-Turkulaiseksi kunniateekkariksi voi Teekkarikomission hallituksen päätöksellä nimetä henkilön, joka on merkittävästi edistänyt teekkarikulttuuria sekä ollut paikallinen ja kansallinen vaikuttaja turkulaisessa teekkariyhteisössä. Tähän mennessä kunniateekkareita, joille lakki on myönnetty nk. poikkeusluvalla, on kaksi kappaletta. Lakin käyttö on näin ollen heille sallittu [ohjesäännön](/fi/yhdistys/dokumentit) mukaisesti. Alla on lueteltu tämänhetkiset kunniateekkarit sekä perustelut, miksi nämä kyseiset henkilöt on päätetty nimetä turkulaisiksi kunniateekkareiksi. Lisäksi tämän sivun alalaidasta löydät Turun yliopiston vararehtori emerituksen Mika Hannulan puheen, jonka hän piti Turun Tuomiokirkon portailla 30.4.2025 saadessaan lakkinsa.
+Turkulaiseksi kunniateekkariksi voi Teekkarikomission hallituksen päätöksellä nimetä henkilön, joka on merkittävästi edistänyt teekkarikulttuuria sekä ollut paikallinen ja kansallinen vaikuttaja turkulaisessa teekkariyhteisössä. Tähän mennessä kunniateekkareita, joille lakki on myönnetty niin sanotulla poikkeusluvalla, on kaksi kappaletta. Lakin käyttö on näin ollen heille sallittu [ohjesäännön](/fi/yhdistys/dokumentit) mukaisesti. Alla on lueteltu tämänhetkiset kunniateekkarit sekä perustelut, miksi nämä kyseiset henkilöt on päätetty nimetä turkulaisiksi kunniateekkareiksi. Lisäksi tämän sivun alalaidasta löydät Turun yliopiston vararehtori emerituksen Mika Hannulan puheen, jonka hän piti Turun Tuomiokirkon portailla 30.4.2025 saadessaan lakkinsa.
 
 ### Turkulaiset kunniateekkarit
 
