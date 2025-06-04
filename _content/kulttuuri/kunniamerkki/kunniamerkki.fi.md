@@ -1,5 +1,5 @@
 ---
 title: Teekkarikomission kunniamerkki
-iframe: https://docs.google.com/forms/d/e/1FAIpQLSeVR8rR8ETs5XC7fUAeuadYzMHdDnOJ4UbD-2dV_KUkeeDKiQ/viewform?embedded=true
+iframe: https://docs.google.com/forms/d/e/1FAIpQLSeuinZI4Ny6c49IORC37kU1_u1JpkF-bAa2Gwk33_0iZvd3ag/viewform
 ---
 ## Teekkarikomission kunniamerkki
