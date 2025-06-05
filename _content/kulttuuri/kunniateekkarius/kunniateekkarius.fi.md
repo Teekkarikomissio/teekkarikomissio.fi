@@ -15,7 +15,7 @@ Teekkarikomission hallitus päätti myöntää Hannulalle kunniateekkariuden mer
 
 ### Ann-Louise Hakalax
 
-Ann-Louise Hakalax on toiminut Kemistklubbenin entisenä puheenjohtajana, ollut toteuttamassa 2022 järjestettyä ensimmäistä teekkarikastetta sekä toiminnallaan edistänyt merkittävästi suomenkielisten ja ruotsinkielisten koulutusohjelmien yhteistyötä. Hakalax on toiminut Kemistklubbenissa muutoksien aikakautena ja ollut merkittävästi vaikuttamassa teekkarien näkyvyyteen sekä tunnettuuteen erityisesti ruotsinkielisten keskuudessa Turussa.
+Ann-Louise Hakalax on toiminut Kemistklubbenin puheenjohtajana, ollut toteuttamassa 2022 järjestettyä ensimmäistä teekkarikastetta sekä toiminnallaan edistänyt merkittävästi suomenkielisten ja ruotsinkielisten koulutusohjelmien yhteistyötä. Hakalax on toiminut Kemistklubbenissa muutoksien aikakautena ja ollut merkittävästi vaikuttamassa teekkarien näkyvyyteen sekä tunnettuuteen erityisesti ruotsinkielisten keskuudessa Turussa.
 
 Teekkarikomission hallitus päätti myöntää Hakalaxille kunniateekkariuden pyyteettömästä työstä teekkarien eteen. Lisäksi hallitus on perustellut päätöstään esimerkiksi Hakalaxin teekkarihenkisyydellä sekä hänen toimiensa merkityksellisyydellä. Lisäksi Hakalax palkittiin Teekkarikomission kunniamerkillä vuonna 2024 Kemistklubbenin vuosijuhlien yhteydessä.
 

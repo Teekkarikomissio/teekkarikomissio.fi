@@ -13,7 +13,7 @@ The Teekkarikomissio's board decided to grant Hannula Honorary Teekkari status f
 
 ### Ann-Louise Hakalax
 
-Ann-Louise Hakalax has served as the former chairperson of Kemistklubben, was involved in implementing the first teekkari christening organized in 2022, and through her activities has significantly promoted cooperation between Finnish-speaking and Swedish-speaking degree programs. Hakalax has been active in Kemistklubben during an era of change and has significantly influenced the visibility and recognition of teekkaris, especially among Swedish-speakers in Turku.
+Ann-Louise Hakalax has served as the chairperson of Kemistklubben, was involved in implementing the first teekkari christening organized in 2022, and through her activities has significantly promoted cooperation between Finnish-speaking and Swedish-speaking degree programs. Hakalax has been active in Kemistklubben during an era of change and has significantly influenced the visibility and recognition of teekkaris, especially among Swedish-speakers in Turku.
 
 The Teekkarikomissio's board decided to grant Hakalax Honorary Teekkari status for her selfless work for teekkaris. In addition, the board has justified its decision with, for example, Hakalax's teekkari spirit and the significance of her actions. Furthermore, Hakalax was awarded the Teekkarikomissio's Medal of Honour in 2024 in connection with Kemistklubben's annual ball.
 
