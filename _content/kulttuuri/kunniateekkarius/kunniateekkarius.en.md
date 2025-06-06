@@ -17,12 +17,13 @@ Ann-Louise Hakalax has served as the chairperson of Kemistklubben, was involved 
 
 The Teekkarikomissio's board decided to grant Hakalax Honorary Teekkari status for her selfless work for teekkaris. In addition, the board has justified its decision with, for example, Hakalax's teekkari spirit and the significance of her actions. Furthermore, Hakalax was awarded the Teekkarikomissio's Medal of Honour in 2024 in connection with Kemistklubben's annual ball.
 
-## Mika Hannula's Speech on the Steps of Turku Cathedral on April 30, 2025
+------
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px; width: 200px;">
-  <img src="/images/Hannula-puhe.webp" alt="Mika Hannula" style="width: 100%; height: auto;">
-  <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;">Mika Hannula's speech after receiving his cap.</p>
-</div>
+![Mika Hannula's speech after receiving his cap.](/images/hannula-puhe.jpg)
+
+Kuvan ottanut: Annastiina Manninen / Teekkarikomissio
+
+## Mika Hannula's Speech on the Steps of Turku Cathedral on April 30, 2025
 
 Arvoisa Teekkarikomissio, hyvät teekkarit, fuksit ja ystävät,
 
@@ -43,4 +44,3 @@ Kiitos vielä kerran Teekkarikomissiolle tästä suuresta kunniasta!
 
 Ett stort tack ännu en gång till Teknologkommissionen för denna stora ära - och glada Wappen till alla!
 
-<div style="clear: both;"></div>
