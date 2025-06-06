@@ -17,12 +17,13 @@ Ann-Louise Hakalax har varit tidigare ordförande för Kemistklubben, varit med 
 
 Teknologkommissionens styrelse beslutade att bevilja Hakalax hedersteknologstatus för hennes osjälviska arbete för teknologerna. Dessutom har styrelsen motiverat sitt beslut med exempelvis Hakalax teknologanda samt betydelsen av hennes insatser. Hakalax tilldelades även Teknologkommissionens hederstecken år 2024 i samband med Kemistklubbens årsfest.
 
-## Mika Hannulas tal på Åbo domkyrkas trappa 30.4.2025
+------
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px; width: 200px;">
-  <img src="/images/Hannula-puhe.webp" alt="Mika Hannula" style="width: 100%; height: auto;">
-  <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;">Mika Hannula's speech after receiving his cap.</p>
-</div>
+![Mika Hannulas tal efter han fick sin mössan 30.4.2025](/images/hannula-puhe.jpg)
+
+Fotograf: Annastiina Manninen / Teknologkommissionen
+
+## Mika Hannulas tal på Åbo domkyrkas trappa 30.4.2025
 
 Arvoisa Teekkarikomissio, hyvät teekkarit, fuksit ja ystävät,
 

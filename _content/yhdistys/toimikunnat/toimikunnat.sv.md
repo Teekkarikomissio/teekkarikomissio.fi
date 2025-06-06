@@ -5,13 +5,13 @@ title: Utskott
 
 Doputskottet ansvarar för att organisera Wappens Teknologdop 1.5.
 
-![kastetoimikunta](kastetoimikunta.jpg "kastetoimikunta")
+![kastetoimikunta](/images/kastetoimikunta.jpg)
 
 ## Årsfestutskottet
 
 Årsfestutskottet anvarar för Teknologkommissionens 25-årsfest hösten 2025. Som ordförande fungerar Roosa Varjonen (roosa.varjonen@teekkarikomissio.fi). Kontakta utskottet på adressen vuosijuhlatoimikunta@teekkarikomissio.fi. 
 
-![vujutmk](vujutmk.jpg "vujutmk")
+![vujutmk](/images/vujutmk.jpg)
 
 ### Utskottets medlemmar
 

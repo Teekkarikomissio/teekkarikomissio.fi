@@ -19,12 +19,13 @@ Ann-Louise Hakalax on toiminut Kemistklubbenin puheenjohtajana, ollut toteuttama
 
 Teekkarikomission hallitus päätti myöntää Hakalaxille kunniateekkariuden pyyteettömästä työstä teekkarien eteen. Lisäksi hallitus on perustellut päätöstään esimerkiksi Hakalaxin teekkarihenkisyydellä sekä hänen toimiensa merkityksellisyydellä. Lisäksi Hakalax palkittiin Teekkarikomission kunniamerkillä vuonna 2024 Kemistklubbenin vuosijuhlien yhteydessä.
 
-### Mika Hannulan puhe Turun Tuomiokirkon portailla 30.4.2025
+------
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px; width: 200px;">
-  <img src="/images/Hannula-puhe.webp" alt="Mika Hannula" style="width: 100%; height: auto;">
-  <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;">Mika Hannula's speech after receiving his cap.</p>
-</div>
+![Mika Hannulan puhe Turun Tuomiokirkon portailla 30.4.2025](/images/hannula-puhe.jpg)
+
+Kuvan ottanut: Annastiina Manninen / Teekkarikomissio
+
+### Mika Hannulan puhe Turun Tuomiokirkon portailla 30.4.2025
 
 Arvoisa Teekkarikomissio, hyvät teekkarit, fuksit ja ystävät,
 
@@ -44,5 +45,3 @@ Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given.
 Kiitos vielä kerran Teekkarikomissiolle tästä suuresta kunniasta!
 
 Ett stort tack ännu en gång till Teknologkommissionen för denna stora ära - och glada Wappen till alla!
-
-<div style="clear: both;"></div>

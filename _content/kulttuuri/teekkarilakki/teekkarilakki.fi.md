@@ -1,7 +1,7 @@
 ---
 title: Teekkarilakki
 ---
-![Teekkarilakki](/teekkarihattu.jpg)
+![Teekkarilakki](/images/teekkarihattu.jpg)
 
 ## Teekkarilakin käyttösäännöt
 

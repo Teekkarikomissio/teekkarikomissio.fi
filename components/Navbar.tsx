@@ -25,7 +25,7 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 import LocaleSwitcher from './locale-switcher'
 
 import tklogo from '../public/logos/tklogo.svg'
-import { Locale } from '../i18n-config'
+import { Locale } from '@/i18n-config'
 import { cn } from '@/lib/utils'
 
 interface NavigationBarProps {
@@ -91,11 +91,11 @@ export default function Navbar({
                   </NavigationMenuContent>
                 </>
               ) : (
-                <Link href={section.href} legacyBehavior passHref>
-                  <NavigationMenuLink className="inline-flex h-9 w-max items-center justify-center rounded-md bg-tk-blue px-4 py-2 text-sm font-medium text-white hover:bg-tk-red transition-colors">
+                <NavigationMenuLink asChild className="inline-flex h-9 w-max items-center justify-center rounded-md bg-tk-blue px-4 py-2 text-sm font-medium text-white hover:bg-tk-red transition-colors">
+                  <Link href={section.href}>
                     {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
-                  </NavigationMenuLink>
-                </Link>
+                  </Link>
+                </NavigationMenuLink>
               )}
             </NavigationMenuItem>
           ))}
@@ -105,25 +105,23 @@ export default function Navbar({
   };
 
   const ListItem = React.forwardRef<
-    React.ElementRef<'a'>,
-    React.ComponentPropsWithoutRef<'a'>
+    React.ElementRef<typeof NavigationMenuLink>,
+    React.ComponentPropsWithoutRef<typeof NavigationMenuLink> & { title: string }
   >(({ className, title, children, ...props }, ref) => {
     return (
       <li>
-        <NavigationMenuLink asChild>
-          <a
-            ref={ref}
-            className={cn(
-              'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:text-red-800',
-              className
-            )}
-            {...props}
-          >
-            <div className="text-sm font-medium leading-none hover:text-red-800">{title}</div>
-            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground hover:text-red-800">
-              {children}
-            </p>
-          </a>
+        <NavigationMenuLink
+          ref={ref}
+          className={cn(
+            'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:text-red-800',
+            className
+          )}
+          {...props}
+        >
+          <div className="text-sm font-medium leading-none hover:text-red-800">{title}</div>
+          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground hover:text-red-800">
+            {children}
+          </p>
         </NavigationMenuLink>
       </li>
     )
