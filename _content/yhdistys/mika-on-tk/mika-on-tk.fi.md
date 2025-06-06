@@ -1,7 +1,9 @@
 ---
 title: Mikä on TK?
 ---
-![TK logo](logo-musta.svg)
+![TK logo](/logos/tklogo-musta.svg)
+
+## Mikä on TK?
 
 Teekkarikomissio (TK) on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille. TK on kaksikielinen yhdistys. Teekkarikomission jäseniä ovat Kemistklubben, DaTe, Digit, Nucleus, Adamas, Machina, Asklepio, Optima ja Efficio.
 
