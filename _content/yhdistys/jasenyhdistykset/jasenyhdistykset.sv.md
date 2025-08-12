@@ -18,6 +18,18 @@ Teknologkommissionen har tio medlemmar, nämligen de teknologföreningar som har
 ### [**Nucleus ry**](https://nucleus.fi/)
 ![Nucleus](/logos/logo-nucleus.png)
 
+Nucleus ry är en ämnesförening för bioteknikstuderande vid Åbo universitet och grundades 2008 och är således den näst äldsta teknologföreningen vid Åbo universitet.
+
+Medlemmar, som också kallas nugetter, kan kännas igen på sina elblå halare, dekorerade med orange sponsorlogo och föreningens vitt logo på ryggen. Styrelseordförande bär dessutom en frack sydd av halare. Nucleus har ett föreningskansli i Agoras källare.
+
+Föreningen har också klubbar beroende på medlemmarnas intressen: matlagningsklubben samlas för att laga mat och baka, bryggklubben instruerar till fermenteringens konst, och handarbetsklubben arrangerar samkväm, såsom sykvällar.
+
+En av årets viktigaste evenemang är rekomBIOnaatio som samlar bioteknikstuderande från hela Finland för en helg i en stad.
+
+Hemsidor: [Nucleus ry](https://nucleus.fi/)
+Instagram: @nucleus_ry 
+E-post: nucleus(at)utu.fi
+
 ### [**Adamas ry**](https://adamas.fi/)
 ![Adamas](/logos/logo-adamas.png)
 
