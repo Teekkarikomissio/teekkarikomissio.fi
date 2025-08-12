@@ -61,10 +61,24 @@ export const metadata: Metadata = {
     description: 'Teekkariutta yli yliopistorajojen',
     images: ['https://teekkarikomissio.fi/logos/tklogo-social.png'],
   },
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/logos/tklogo-social.png',
-  }
+  icons: [
+      {
+          rel: 'icon',
+          url: '/favicon-light.svg',
+          media: '(prefers-color-scheme: light)',
+          type: 'image/svg+xml'
+      },
+      {
+          rel: 'icon',
+          url: '/favicon-dark.svg',
+          media: '(prefers-color-scheme: dark)',
+          type: 'image/svg+xml'
+      },
+      {
+          rel: 'icon',
+          url: '/favicon.ico'
+      }
+  ]
 }
 
 export default async function RootLayout({

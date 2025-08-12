@@ -32,6 +32,8 @@ export function middleware(request: NextRequest) {
     [
       '/favicon.ico',
       '/favicon.png',
+      '/favicon-dark.svg',
+      '/favicon-light.svg',
       '/manifest.json',
       '/admin',
       '/.netlify',
