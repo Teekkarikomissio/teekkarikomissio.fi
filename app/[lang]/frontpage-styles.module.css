@@ -35,7 +35,7 @@
   }
 
   .markdown img {
-    @apply w-48 rounded-sm items-center justify-center text-center;
+    @apply w-96 rounded-sm items-center justify-center text-center;
   }
 
   @media (max-width: 768px) {

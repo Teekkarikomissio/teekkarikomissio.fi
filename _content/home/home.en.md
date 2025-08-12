@@ -1,5 +1,6 @@
 ---
 title: Teekkari culture across university boundaries
 ---
-![TEK logo](/logos/tek-logo.png)
-![TFIF logo](/logos/logo-tfif.svg)
+
+[![TEK logo](/logos/logo-tek.svg)](https://www.tek.fi/fi)
+[![TFIF logo](/logos/logo-tfif.svg)](https://tfif.fi/)
