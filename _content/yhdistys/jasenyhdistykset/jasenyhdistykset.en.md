@@ -27,7 +27,9 @@ Depending on the interests of its members, Nucleus also runs various clubs: a co
 One of the most important events of the year is rekomBIOnaatio, which brings together biotechnology students from all over Finland for a weekend in the same city.
 
 Website: [Nucleus ry](https://nucleus.fi/)
-Instagram: @nucleus_ry 
+
+Instagram: @nucleus_ry
+
 Email: nucleus(at)utu.fi
 
 ### **[Adamas ry](https://adamas.fi/)**
@@ -44,7 +46,9 @@ Asklepio, Lääketieteellisen tekniikan ja terveysteknologian opiskelijoiden kil
 Members can be identified by their white overalls decorated with sponsor prints in colour of lavender and a logo on back. The head of the board does also wear a frack made of an overall. Asklepio is sharing a guild room with Optima in Agoras basement where you can also meet their mascot, Askotti, if Machina has not stolen it in jäynä spirit.
 
 Website: [Asklepio](https://www.asklepio.fi/)
+
 Instagram: @asklepio.ry
+
 Email: asklepio(at)utu.fi 
 
 ### **[Optima ry](https://optimary.fi/)**

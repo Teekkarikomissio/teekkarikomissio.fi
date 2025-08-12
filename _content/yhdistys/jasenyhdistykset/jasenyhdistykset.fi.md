@@ -26,7 +26,9 @@ Jäsenistön mielenkiinnonkohteiden mukaan Nucleuksen alla toimii myös erilaisi
 Yksi vuoden tärkeimmistä tapahtumista on rekomBIOnaatio, joka kokoaa bioteekkareita ympäri Suomen viikonlopuksi samaan kaupunkiin.
 
 Kotisivut: [Nucleus ry](https://nucleus.fi/)
-Instagram: @nucleus_ry 
+
+Instagram: @nucleus_ry
+
 Sähköposti: nucleus(at)utu.fi 
 
 ### **[Adamas ry](https://adamas.fi/)**
@@ -43,7 +45,9 @@ Lääketieteellisen tekniikan ja terveysteknologian opiskelijoiden kilta Asklepi
 Asklepion jäsenet tunnistaa valkoisista haalareista laventelin värisillä painatuksilla ja logosta selässä. Puheenjohtaja kantaa lisäksi haalareista valmistettua frakkia. Asklepio jakaa kiltahuoneen Optiman kanssa Agoran kellarissa, ja siellä voi myös tavata heidän maskottinsa, Askotin, ellei Machina ole varastanut sitä jäynähengessä.
 
 Kotisivut: [Asklepio](https://www.asklepio.fi/)
+
 Instagram: @asklepio.ry
+
 Sähköposti: asklepio(at)utu.fi  
 
 ### **[Optima ry](https://optimary.fi/)**

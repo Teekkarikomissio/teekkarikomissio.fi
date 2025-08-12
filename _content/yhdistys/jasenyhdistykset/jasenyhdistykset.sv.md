@@ -27,7 +27,9 @@ Föreningen har också klubbar beroende på medlemmarnas intressen: matlagningsk
 En av årets viktigaste evenemang är rekomBIOnaatio som samlar bioteknikstuderande från hela Finland för en helg i en stad.
 
 Hemsidor: [Nucleus ry](https://nucleus.fi/)
-Instagram: @nucleus_ry 
+
+Instagram: @nucleus_ry
+
 E-post: nucleus(at)utu.fi
 
 ### [**Adamas ry**](https://adamas.fi/)
@@ -46,7 +48,9 @@ Lääketieteellisen tekniikan ja terveysteknologian opiskelijoiden kilta Asklepi
 Medlemmar kan kännas igen på sina vita halare med lavendelfärgade tryck och ett logo på ryggen. Styrelseordförande bär dessutom en frack sydd av halare. Asklepio delar ett föreningskansli med Optima i Agoras källare där man också kan träffa deras maskot, Askotti, om Machina inte har stulit den i jäynäanda.
 
 Hemsidor: [Asklepio](https://www.asklepio.fi/)
+
 Instagram: @asklepio.ry
+
 E-post: asklepio(at)utu.fi
 
 ### [**Optima ry**](https://optimary.fi/)
