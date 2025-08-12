@@ -39,6 +39,14 @@ Email: nucleus(at)utu.fi
 ### **[Asklepio ry](https://asklepio.fi/)**
 ![Asklepio](/logos/logo-asklepio-1-.png)
 
+Asklepio, Lääketieteellisen tekniikan ja terveysteknologian opiskelijoiden kilta Asklepio ry by its official name, is a student association for medical engineering and health technology students at University of Turku. Asklepio was founded in 2022. The meaning of the guild is to work as a trustee and unite medical engineering and health technology students.
+
+Members can be identified by their white overalls decorated with sponsor prints in colour of lavender and a logo on back. The head of the board does also wear a frack made of an overall. Asklepio is sharing a guild room with Optima in Agoras basement where you can also meet their mascot, Askotti, if Machina has not stolen it in jäynä spirit.
+
+Website: [Asklepio](https://www.asklepio.fi/)
+Instagram: @asklepio.ry
+Email: asklepio(at)utu.fi 
+
 ### **[Optima ry](https://optimary.fi/)**
 ![Optima](/logos/logo-optima.jpg)
 

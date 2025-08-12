@@ -38,6 +38,14 @@ Sähköposti: nucleus(at)utu.fi
 ### **[Asklepio ry](https://asklepio.fi/)**
 ![Asklepio](/logos/logo-asklepio-1-.png)
 
+Lääketieteellisen tekniikan ja terveysteknologian opiskelijoiden kilta Asklepio ry on perustettu vuonna 2022. Killan tarkoituksena on toimia edunvalvojana ja yhdistää lääketieteellisen tekniikan ja terveysteknologian opiskelijoita.
+
+Asklepion jäsenet tunnistaa valkoisista haalareista laventelin värisillä painatuksilla ja logosta selässä. Puheenjohtaja kantaa lisäksi haalareista valmistettua frakkia. Asklepio jakaa kiltahuoneen Optiman kanssa Agoran kellarissa, ja siellä voi myös tavata heidän maskottinsa, Askotin, ellei Machina ole varastanut sitä jäynähengessä.
+
+Kotisivut: [Asklepio](https://www.asklepio.fi/)
+Instagram: @asklepio.ry
+Sähköposti: asklepio(at)utu.fi  
+
 ### **[Optima ry](https://optimary.fi/)**
 ![Optima](/logos/logo-optima.jpg)
 
