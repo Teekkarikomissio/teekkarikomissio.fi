@@ -76,20 +76,7 @@ export const metadata: Metadata = {
       },
       {
           rel: 'icon',
-        rel: 'icon',
-        url: '/favicon-light.svg',
-        media: '(prefers-color-scheme: light)',
-        type: 'image/svg+xml'
-      },
-      {
-        rel: 'icon',
-        url: '/favicon-dark.svg',
-        media: '(prefers-color-scheme: dark)',
-        type: 'image/svg+xml'
-      },
-      {
-        rel: 'icon',
-        url: '/favicon.ico'
+          url: '/favicon.ico'
       }
   ]
 }
