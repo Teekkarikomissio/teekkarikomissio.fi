@@ -1,0 +1,46 @@
+.markdown {
+    @apply text-lg leading-relaxed;
+  }
+  
+  .markdown p {
+    @apply m-8;
+    @apply flex;
+    @apply flex-row;
+    @apply flex-wrap;
+    @apply gap-8;
+    @apply justify-center;
+    @apply items-center;
+  }
+  .markdown li,
+  .markdown ul,
+  .markdown ol,
+  .markdown blockquote {
+    @apply my-6;
+  }
+
+  .markdown ol {
+    list-style-type: decimal;
+    @apply ml-14;
+    @apply mr-8;
+  }
+
+  .markdown h2 {
+    @apply text-3xl mt-12 mb-4 mx-8 leading-snug;
+    @apply flex;
+    @apply justify-center;
+  }
+  
+  .markdown h3 {
+    @apply text-2xl mt-8 mb-4 mx-8 leading-snug;
+  }
+
+  .markdown img {
+    @apply w-48 rounded-sm items-center justify-center text-center;
+  }
+
+  @media (max-width: 768px) {
+    .flex.flex-row {
+      flex-direction: column;
+      text-align: center;
+    }
+  }

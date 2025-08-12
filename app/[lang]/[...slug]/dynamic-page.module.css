@@ -1,0 +1,59 @@
+.markdown {
+  @apply text-lg leading-relaxed;
+}
+
+/* Base text alignment and spacing */
+.markdown p {
+  @apply m-4 lg:m-6 mb-6 lg:mb-8 text-left max-w-[70ch];
+}
+
+/* Lists styling */
+.markdown li {
+  @apply my-3 text-left;
+}
+
+.markdown ul,
+.markdown ol {
+  @apply mx-8 lg:mx-auto w-[calc(100%-4rem)] lg:w-[70ch] list-disc pl-8;
+}
+
+/* Headings - keep centered as they're structural elements */
+.markdown h2 {
+  @apply text-2xl lg:text-3xl mt-8 lg:mt-12 mb-4 lg:mb-6 text-center font-bold px-4;
+}
+
+.markdown h3 {
+  @apply text-xl lg:text-2xl mt-6 lg:mt-8 mb-3 lg:mb-4 text-center font-semibold px-4;
+}
+
+/* Image styles with variants */
+.markdown img {
+  @apply mx-auto rounded-sm;
+}
+
+/* Default large images (like banner images) */
+.markdown > p > img {
+  @apply w-screen lg:max-w-3xl;
+}
+
+/* Board member images */
+.markdown h3 + p > img {
+  @apply lg:size-1/2 rounded-md;
+}
+
+.markdown a {
+  @apply underline target:shadow-lg hover:text-blue-800;
+}
+
+/* Special handling for blockquotes */
+.markdown blockquote {
+  @apply my-6 pl-4 border-l-4 border-gray-300 italic;
+}
+
+.markdown img[src*="tklogo-musta.svg"] {
+  @apply mx-auto w-52 h-auto;
+}
+
+.markdown img[src*="hannula-puhe.jpg"] {
+    @apply mx-auto w-80 h-auto rounded-md;
+}
