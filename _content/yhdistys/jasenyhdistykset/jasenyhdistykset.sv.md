@@ -4,7 +4,7 @@ title: Medlemsföreningar
 
 ## Medlemsföreningar
 
-Teknologkommissionen har nio medlemmar, nämligen de teknologföreningar som har sin verksamhet i Åbo. Varje röstberättigad medlem av Digit ry, Nucleus ry, Adamas ry, Machina ry, Asklepio ry, Optima ry, Efficio ry, Datateknologerna vid Åbo Akademi rf och Kemistklubben vid Åbo Akademi rf är alltså automatiskt berättigad att delta i TK:s verksamhet!
+Teknologkommissionen har tio medlemmar, nämligen de teknologföreningar som har sin verksamhet i Åbo. Varje röstberättigad medlem av Digit ry, Nucleus ry, Adamas ry, Machina ry, Asklepio ry, Optima ry, Efficio ry, Fermentus ry, Datateknologerna vid Åbo Akademi rf och Kemistklubben vid Åbo Akademi rf är alltså automatiskt berättigad att delta i TK:s verksamhet!
 
 ### [**Kemistklubben vid Åbo Akademi rf**](https://kemistklubben.org/)
 ![KK](/logos/logo-kk.png)
@@ -32,3 +32,8 @@ Teknologkommissionen har nio medlemmar, nämligen de teknologföreningar som har
 
 ### **[Efficio ry](https://https://www.instagram.com/efficio.ry//)**
 ![Efficio](/logos/efficion-logo-bw.png)
+
+
+
+### **[Fermentus ry](https://www.instagram.com/fermentus.ry/)**
+![Fermentus](/logos/logo-fermentus.png)
