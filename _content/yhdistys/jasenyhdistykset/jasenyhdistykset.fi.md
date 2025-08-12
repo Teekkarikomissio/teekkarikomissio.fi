@@ -37,7 +37,7 @@ Teekkarikomissiolla on kymmenen jäsentä - Turussa toimivat teekkariyhdistykset
 
 ![Optima](/logos/logo-optima.jpg)
 
-### **[Efficio ry](https://https://www.instagram.com/efficio.ry//)**
+### **[Efficio ry](https://https://www.instagram.com/efficio.ry/)**
 
 ![Efficio](/logos/efficion-logo-bw.png)
 
