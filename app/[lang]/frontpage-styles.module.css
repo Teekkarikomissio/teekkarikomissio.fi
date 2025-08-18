@@ -1,3 +1,5 @@
+@reference '../../styles/globals.css';
+
 .markdown {
     @apply text-lg leading-relaxed;
   }
@@ -44,3 +46,28 @@
       text-align: center;
     }
   }
+
+/* Ensure partner logos sit side-by-side with equal width, even if Markdown renders separate paragraphs */
+.markdown p:has(img) {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  justify-items: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+/* Make SVG logos consistent size and responsive */
+.markdown img {
+  width: 24rem; /* ~w-96 */
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .markdown p:has(img) {
+    grid-template-columns: 1fr;
+  }
+  .markdown img {
+    width: 16rem; /* ~w-64 on small screens */
+    justify-self: center;
+  }
+}

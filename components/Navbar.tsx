@@ -70,14 +70,14 @@ export default function Navbar({
       <NavigationMenu>
         <NavigationMenuList className="flex items-center space-x-2">
           {contentFolders.map((section) => (
-            <NavigationMenuItem key={section.slug}>
+            <NavigationMenuItem className="relative" key={section.slug}>
               {section.subPages && section.subPages.length > 0 ? (
                 <>
                   <NavigationMenuTrigger className="bg-tk-blue text-white hover:bg-tk-red transition-colors">
                     {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-3 p-4 bg-white rounded-md border border-tk-red">
+                    <ul className="grid w-[400px] gap-3 p-4 bg-white rounded-md border border-primary/20 ring-1 ring-primary/10 shadow-lg">
                       {section.subPages.map((subPage) => (
                         <ListItem
                           key={subPage.slug}
@@ -113,13 +113,13 @@ export default function Navbar({
         <NavigationMenuLink
           ref={ref}
           className={cn(
-            'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:text-red-800',
+            'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:text-primary',
             className
           )}
           {...props}
         >
-          <div className="text-sm font-medium leading-none hover:text-red-800">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground hover:text-red-800">
+          <div className="text-sm font-medium leading-none hover:text-primary">{title}</div>
+          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground hover:text-primary">
             {children}
           </p>
         </NavigationMenuLink>
@@ -196,7 +196,7 @@ export default function Navbar({
   }
 
   return (
-    <nav className="sticky top-0 z-10 bg-red-800 p-4">
+    <nav className="sticky top-0 z-10 bg-primary p-4">
       <div className="flex flex-col lg:flex-row items-center lg:items-center justify-between">
         <div className="flex justify-between items-center w-full">
           <NavbarBrand />

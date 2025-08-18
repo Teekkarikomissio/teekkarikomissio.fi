@@ -1,6 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
-import { Locale } from '../../i18n-config'
+import { Locale } from '@/i18n-config'
 import Image from 'next/image'
 
 import lander from '@/public/home-landing-2.jpg'
@@ -121,7 +121,7 @@ export default async function IndexPage({
   return (
     <>
       {/* Hero Section */}
-      <div className="bg-red-800 w-full relative overflow-hidden pb-5 lg:pb-8">
+      <div className="bg-primary w-full relative overflow-hidden pb-5 lg:pb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 h-auto lg:h-[60vh] pt-8 lg:pt-16">
             <div className="flex items-center lg:pr-8">
@@ -169,7 +169,7 @@ export default async function IndexPage({
             <h2 className="text-3xl font-bold text-center">
               {frontPageContent[lang].association.description}
             </h2>
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-red-800"></div>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-primary"></div>
           </div>
         </div>
       </div>
@@ -218,7 +218,7 @@ export default async function IndexPage({
             <h2 className="text-3xl font-bold text-center">
               {frontPageContent[lang].headings.calendar}
             </h2>
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-red-800"></div>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-primary"></div>
           </div>
           <div className="w-full h-[600px] overflow-hidden">
             <iframe
@@ -236,7 +236,7 @@ export default async function IndexPage({
             <h2 className="text-3xl font-bold text-center">
               {frontPageContent[lang].headings.partners}
             </h2>
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-red-800"></div>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-primary"></div>
           </div>
           <article className={frontpageStyles['markdown']} dangerouslySetInnerHTML={{ __html: content }} />
         </div>
