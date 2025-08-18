@@ -3,7 +3,7 @@ title: Dokumentit
 ---
 ![Liput](/images/teekkarilakitus2024-43.jpg)
 
-## ﻿Teekkarikomission viralliset dokumentit
+## Teekkarikomission viralliset dokumentit
 
 * Säännöt: [Suomeksi](/rules-fi.pdf) [Ruotsiksi](/rules-sv.pdf)  
 * Ohjesäännöt: [Suomeksi](/sub-rules-fi.pdf) [Ruotsiksi](/sub-rules-sv.pdf)  

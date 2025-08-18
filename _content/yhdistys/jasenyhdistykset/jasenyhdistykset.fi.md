@@ -153,7 +153,7 @@ Email: [hallitus(at)efficio.fi](mailto:hallitus@efficio.fi)
 
 ### **[Fermentus ry](https://www.instagram.com/fermentus.ry/)**
 
-![Fermentus](/logos/logo-fermentus.png)
+![Fermentus](/logos/logo-fermentus.svg)
 
 Fermentus ry on Turun yliopiston elintarviketekniikan opiskelijoiden kilta, joka perustettiin keväällä 2025. Jäsenet tunnistaa vaaleanpunaisista haalareistaan, jotka ovat sävyltään vaaleammat kuin Machinan haalarit.
 

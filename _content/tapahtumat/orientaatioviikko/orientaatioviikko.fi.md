@@ -3,7 +3,7 @@ title: Orientaatioviikko
 ---
 # Orientaatioviikko
 
-Orientaatio- eli O-viikot ovat tarkoitettu fukseille ennen varsinaisten opintojen alkamista. O-viikoilla uudet opiskelijat perehdytetään sekä yliopisto-opintoihin että opiskelijajärjestötoimintaan tuutorien sekä fuksi- ja tuutorivastaavien johdolla. O-viikkojen tarkoitus on saada fuksit viihtymään uudessa ympäristössä. 
+Orientaatio- eli O-viikot ovat tarkoitettu fukseille ennen varsinaisten opintojen alkamista. O-viikoilla uudet opiskelijat perehdytetään sekä yliopisto-opintoihin että opiskelijajärjestötoimintaan tuutorien sekä fuksi- ja tuutorivastaavien johdolla. O-viikkojen tarkoitus on saada fuksit viihtymään uudessa ympäristössä.
 
 ## Teekkariusluennot
 
