@@ -11,13 +11,11 @@ Vi kan erbjuda synlighet bland annat vid följande sammanhang:
 
 * Sociala medier
 * Nätsidor
-* Evenemang. 
-* * Teknologmössutdelning
+* Evenemang
 
+  * Teknologmössutdelning
   * Paavo Nurmi-statyns mösspåläggning
-
   * Teknologdop
-
   * TeknologExpo
 * Styrelsehalare
 

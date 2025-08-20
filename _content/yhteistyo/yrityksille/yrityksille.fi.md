@@ -14,12 +14,10 @@ Pystymme tarjoamaan näkyvyyttä mm. seuraavissa kohteissa:
 * Sosiaalinen media
 * Verkkosivut
 * Tapahtumat
-* * Yhteislakitus
 
+  * Yhteislakitus
   * Paavo Nurmen patsaan lakitus
-
   * Teekkarikaste
-
   * TeekkariExpo
 * Hallituksen edustushaalarit
 

@@ -13,12 +13,10 @@ We are able to offer visibility for example at:
 * Social media platforms
 * Web page
 * Events
-* * Teekkari Cap Ceremony
 
+  * Teekkari Cap Ceremony
   * Paavo Nurmi Cap Ceremony
-
   * Teekkari Dipping
-
   * TeekkariExpo
 * Board’s representation overall
 
