@@ -1,5 +1,5 @@
 ---
-title: Jäynägaala
+title: Jaynagaala
 ---
 ## Jäynägaala
 

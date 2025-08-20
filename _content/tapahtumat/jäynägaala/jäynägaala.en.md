@@ -1,5 +1,5 @@
 ---
-title: Jäynä Gala
+title: Jayna Gala
 ---
 ## Jäynä Gala
 
