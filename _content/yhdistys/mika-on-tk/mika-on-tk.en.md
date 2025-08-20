@@ -3,6 +3,10 @@ title: What is TK?
 ---
 ![TK logo](logo-musta.svg)
 
+![](logo-musta.svg)
+
+
+
 Teekkarikomissio (TK) is a coordinating contact forum for the teekkari associations in Turku. TK is a bilingual association. The members of the Teekkarikomission are Kemistklubben, DaTe, Digit, Nucleus, Adamas, Machina, Asklepio, Optima and Efficio.
 
 The association maintains cooperation between the University of Turku and the Åbo Akademi technology students and is responsible for the maintenance and development of Turku's teekkari culture. In addition to its member organizations, the association maintains relations with the faculties, student unions, teekkari associations and student unions in other localities, as well as with local graduate engineering associations and alumni clubs.
