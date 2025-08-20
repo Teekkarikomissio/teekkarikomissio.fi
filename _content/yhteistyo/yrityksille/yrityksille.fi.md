@@ -5,11 +5,30 @@ title: Yrityksille
 
 ## Yrityksille
 
-Teekkarikomission jäseniä ovat kaikkien jäsenyhdistysten jäsenet. Kauttamme yrityksesi voi tavoittaa opiskelijoita ja työssäkäyviä teekkareita sekä muodostaa positiivisen vaikutelman verkostomme jäsenille. Teemme mielellämme yhteistyötä esimerkiksi tapahtumanäkyvyyden muodossa mm. seuraavissa tapahtumissa:
+Teekkarikomissio haluaa rakentaa pitkäaikaista yhteistyötä yritysten kanssa. Teekkarikomissio pystyy tarjoamaan laajaa näkyvyyttä kaikkien Turun Yliopiston ja Åbo Akademin teekkareiden keskuudessa. Kauttamme on siis mahdollista tavoittaa kaikkien eri tekniikan alojen opiskelijoita.
 
-* Teekkarifuksien yhteislakitus
-* Paavo Nurmen patsaan lakitus
-* Teekkarikaste
-* TeekkariExpo
+Näkyvyys on yhtä tärkeää niin opiskelijoille kuin yrityksillekin, sillä opiskelijat haluavat kattavasti tietoa yrityksistä, joihin voisivat tulevaisuudessa työllistyä, jolloin yrityksen nimen ja logon tunnistaminen on jo iso askel, mutta myös positiivisen mielikuvan rakentaminen on mahdollista kauttamme.
 
-Lisäksi keskustelemme mielellämme potentiaalisista muista yhteistyömahdollisuuksista! Meihin saa yhteyttä laittamalla viestiä osoitteeseen hallitus\[@]teekkarikomissio.fi.
+Pystymme tarjoamaan näkyvyyttä mm. seuraavissa kohteissa:
+
+* Sosiaalinen media
+* Verkkosivut
+* Tapahtumat
+* * Yhteislakitus
+
+  * Paavo Nurmen patsaan lakitus
+
+  * Teekkarikaste
+
+  * TeekkariExpo
+* Hallituksen edustushaalarit
+
+Parhaan näkyvyyden yrityksille tuottaa wapputapahtumamme, joita ovat teekkarifuksien Yhteislakitus, Teekkarikaste ja Paavo Nurmen patsaan lakitus. Syksyisin järjestettävä messutapahtuma TeekkariExpo on erinomainen tilaisuus tavata opiskelijoita ja rekrytoida. Vahvuuksiimme kuuluu avoin mieli ja joustavuus, joten myös muita ideoita saa tuoda pöytään vapaasti, ja pyritään toteuttamaan ne mahdollisimman nopeasti ja laadukkaasti.
+
+Ota yhteyttä rohkeasti!
+
+Annastiina Manninen
+
+Ulkoasiainkomissaari 2025
+
+annastiina.manninen(at)teekkarikomissio.fi
