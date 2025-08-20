@@ -1,5 +1,5 @@
 ---
-title: Jaynagala
+title: Jäynägala
 ---
 ## Jäynägala
 
