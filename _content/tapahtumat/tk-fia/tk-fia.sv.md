@@ -1,9 +1,7 @@
 ---
 title: TK-FIA
 ---
-# TK-FIA
-
-
+## TK-FIA
 
 I Borgens djup uppfanns en gång FIA. Efter att ha spelats av Kemistklubben i  årtionden har det behållit sin plats som ett ikoniskt spel för Åbo Akademis teknologer. Lyckligtvis för alla som studerar vid Åbo universitet har Kemistklubben gett oss möjligheten att organisera vår egen version av sagda spel för alla teknologer under Teknologkommissionen.
 

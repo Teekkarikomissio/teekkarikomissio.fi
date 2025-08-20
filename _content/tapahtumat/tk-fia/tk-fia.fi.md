@@ -1,8 +1,7 @@
 ---
 title: TK-FIA
 ---
-# TK-FIA
-
+## TK-FIA
 
 Borgenin syövereissä keksittiin aikoinaan FIA. Kemistklubbenin toimesta vuosikymmeniä pelattuna, se on säilyttänyt asemansa ikonisena pelinä Åbo Akademin teekkareille. Onneksi kaikille Turun yliopistossa opiskeleville Kemistklubben on antanut meille mahdollisuuden järjestää oman versiomme kyseisestä pelistä kaikille Teekkarikomission jäsenille.
 
