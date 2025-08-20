@@ -1,5 +1,5 @@
 ---
-title: Fuksi ja maisteripassi
+title: Fuksi- ja maisteripassi
 ---
 ## Fuksi- ja maisteripassi
 
