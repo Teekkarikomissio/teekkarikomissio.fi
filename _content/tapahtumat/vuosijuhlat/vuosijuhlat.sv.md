@@ -1,8 +1,7 @@
 ---
 title: Årsfest
 ---
-# Årsfest
-
+## Årsfest
 
 Årsfester är de värdigaste högtider i teknologkulturen. Meningen är att inbjuda medlemmar och gäster ihop för att fira föreningen som fyller år. Enligt sitt namn firas årsfester högst en gång per år. Dock kan man ersätta årsfesten med en årsfestsitz vilken är finare än vanlig sitz. Årsfester består vanligtvis av cocktail, bankett och efterfest. Klädkoden är en högtidsdräkt med akademiska ordnar.
 

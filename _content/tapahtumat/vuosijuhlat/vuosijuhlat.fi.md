@@ -1,8 +1,7 @@
 ---
 title: Vuosijuhlat
 ---
-# Vuosijuhlat
-
+## Vuosijuhlat
 
 Vuosijuhlat ovat teekkarikulttuurin arvokkaimpia juhlia. Tarkoitus on kutsua yhdistyksen jäsenet ja kutsuvieraat juhlimaan yhdistystä sen täyttäessä vuosia. “Vujut” pidetäänkin nimensä mukaisesti enintään kerran vuodessa. Viiden vuoden välein sanotaan vietettävän puolipyöreitä vuosijuhlia ja kymmenen vuoden välein pyöreitä. Näillä on tapana olla tavallista juhlavammat.
 

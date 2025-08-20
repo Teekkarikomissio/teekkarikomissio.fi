@@ -1,9 +1,7 @@
 ---
 title: Annual ball
 ---
-# Annual ball
-
-
+## Annual ball
 
 Annual balls are the fanciest academic parties. The meaning is to invite members and special guests together and celebrate the association that has become older. As its name reveals, the annual ball takes place once a year or even more seldom.
 
