@@ -1,8 +1,7 @@
 ---
 title: Teekkari Dipping
 ---
-# Teekkari Dipping
-
+## Teekkari Dipping
 
 On May Day 1966, Finland’s first Teekkari Dipping was held in Tammerkoski, Tampere. Since then, this tradition has become a significant part of teekkari student culture and has spread to many other engineering student cities in Finland, including Turku. In Turku, the first Teekkari Dipping took place in the Aura River on 1.5.2022, at Itäinen Rantakatu 48.
 
