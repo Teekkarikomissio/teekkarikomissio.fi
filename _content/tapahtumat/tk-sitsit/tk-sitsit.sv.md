@@ -1,8 +1,7 @@
 ---
 title: TK-sitz
 ---
-# TK-sitz
-
+## TK-sitz
 
 TK-sitzen är en sitz som organiseras av Teknologkommissionen och syftar till att fungera som en gemensam sitz för alla teknologföreningar i Åbo. Målet med TK-sitzen är att samla åboteknologer och hjälpa dem att skapa nya relationer, minska språkbarriärer och introducera deltagarna till det andra universitetets sitzkultur. Under TK-sitzen inkluderas ofta element från båda universitetens sitzkulturer, vilket kan märkas i sångerna, sitzvanorna eller till och med i maten som serveras.
 
