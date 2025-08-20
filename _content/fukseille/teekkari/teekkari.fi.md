@@ -1,7 +1,6 @@
 ---
-title: Teekkari
+title: Mikä on teekkari?
 ---
-## Mikä on Teekkari?  
-Teekkari tarkoittaa henkilöä, joka opiskelee yliopistossa jotakin tekniikan alaa. Teekkarit valmistuvat aikanaan diplomi-insinööreiksi. Heidät tunnistaa kesäaikana teekkarilakista.
+## Mikä on teekkari?
 
-## Mikä on fuksi?
+Teekkari tarkoittaa henkilöä, joka opiskelee yliopistossa jotakin tekniikan alaa. Teekkarit valmistuvat aikanaan diplomi-insinööreiksi. Heidät tunnistaa kesäaikana teekkarilakista.
