@@ -1,8 +1,6 @@
 ---
 title: Teknologmössa
 ---
-
-
 ![Teekkarilakki](/teekkarihattu.jpg)
 
 ## Teekkarilakin käyttösäännöt
@@ -48,14 +46,17 @@ Utexaminerade diplomingenjörer från Turun Yliopisto eller Åbo Akademi har rä
 
 Permanent mössanvändningsrätt beviljas för följande tillfällen:
 
+* Automaatioteekkaripäivät
 * Åt gulisarna under deras mössprvovningar
+* Kemiat kohtaa
 * Kirkastusjuhlat
 * Kör- och orkesteruppträdanden där teknolog- eller studentmössa hör till accessoarer
 * Fantåg där teknolog- eller studentmössa hör till accessoarer
-* Presentationer för gymnasieelever
+* Presentationer för gymnasieelever samt annat teknologmarknadsföring arrangerad av universitet
 * RekomBIOnaatio
 * Tietoteekkarien taistot
 * Den nationella jäynätävlingen och andra TEKs evenemang, där teknologmössan hör till accessoarer
 * Det officiella Wappulehti-tidningens försäljningsevenemang
+* Åt Pönkeli-utskott för publiceringsevenemang av wapptidning
 
-I tillägg beviljas permanent personlig mössanvändningsrätt åt utexaminerade diplomingenjörer från Turun Yliopisto eller Åbo Akademi under deras egen examensdag och -fest.
+I tillägg beviljas permanent personlig mössanvändningsrätt åt utexaminerade diplomingenjörer från Turun Yliopisto eller Åbo Akademi under deras egen examensdag och -fest samt dimission.

@@ -14,6 +14,7 @@ Turun yliopiston ja Åbo Akademin teekkarilakki on tupsulakki, jossa on valkoine
 ### §2 Käyttöoikeus
 
 Lakkia ovat oikeutettuja käyttämään seuraavat henkilöt:
+
 * Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuneet henkilöt
 * Turun yliopistossa tai Åbo Akademissa opiskelevat tekniikan ylioppilaat, joille lakki on kertaalleen myönnetty.
 * Ne, joille lakki on kertaalleen myönnetty.
@@ -44,14 +45,18 @@ Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuneet henki
 ### §6 Pysyväisohjesääntö
 
 Myönnetään pysyvä lakinkäyttöoikeus seuraaviin tilaisuuksiin:
+
+* Automaatioteekkaripäivät
 * Fuksien lakkisovituksiin fukseille
+* Kemiat kohtaa
 * Kirkastusjuhlat
 * Kuoro- ja orkesteriesiintymiset, joihin kaikille kuuluu asusteena ylioppilaslakki
 * Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki
-* Lukioesittelyt
+* Lukioesittelyt tai muu yliopistojen järjestämä teekkarimarkkinointi
 * RekomBIOnaatio
 * Tietoteekkarien taistot
 * Valtakunnallinen jäynäkilpailu ja muut TEKin tapahtumat, joissa asusteeseen kuuluu teekkarilakki
 * Virallinen Wappulehden myyntitapahtuma
+* Wappulehden julkaisutilaisuuteen Pönkelitoimikunnalle
 
 Lisäksi myönnetään pysyvä henkilökohtainen lakinkäyttöoikeus Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuvalle omiin valmistujaispäiviin ja -juhliin.
