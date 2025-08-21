@@ -25,8 +25,4 @@ Parhaan näkyvyyden yrityksille tuottaa wapputapahtumamme, joita ovat teekkarifu
 
 Ota yhteyttä rohkeasti!
 
-Annastiina Manninen
-
-Ulkoasiainkomissaari 2025
-
-annastiina.manninen(at)teekkarikomissio.fi
+Annastiina Manninen                                                                  Ulkoasiainkomissaari 2025                       annastiina.manninen(at)teekkarikomissio.fi
