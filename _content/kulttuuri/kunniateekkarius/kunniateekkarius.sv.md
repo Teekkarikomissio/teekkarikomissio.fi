@@ -1,9 +1,11 @@
 ---
 title: Hedersteknologskap
 ---
+## Hedersteknologskap
+
 En person kan utses till hedersteknolog i Åbo genom beslut av Teknologkommissionens styrelse om personen på ett betydande sätt har främjat teknologkulturen samt varit en lokal och nationell påverkare inom teknologgemenskapen i Åbo. Hittills finns det två hedersteknologer som har beviljats mössan med så kallat undantagstillstånd. Användningen av mössan är därmed tillåten för dem i enlighet med [stadgarna](/sv/yhdistys/dokumentit). Nedan listas de nuvarande hedersteknologerna samt motiveringarna till varför just dessa personer har utsetts till hedersteknologer i Åbo. Längst ner på denna sida hittar du dessutom talet som Åbo universitets vicerektor emeritus Mika Hannula höll på Åbo domkyrkas trappa den 30 april 2025 då han mottog sin mössa.
 
-## Hedersteknologer i Åbo
+### Hedersteknologer i Åbo
 
 ### Mika Hannula
 
@@ -17,7 +19,7 @@ Ann-Louise Hakalax har varit tidigare ordförande för Kemistklubben, varit med 
 
 Teknologkommissionens styrelse beslutade att bevilja Hakalax hedersteknologstatus för hennes osjälviska arbete för teknologerna. Dessutom har styrelsen motiverat sitt beslut med exempelvis Hakalax teknologanda samt betydelsen av hennes insatser. Hakalax tilldelades även Teknologkommissionens hederstecken år 2024 i samband med Kemistklubbens årsfest.
 
-------
+- - -
 
 ![Mika Hannulas tal efter han fick sin mössan 30.4.2025](/images/hannula-puhe.jpg)
 
