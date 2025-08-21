@@ -18,8 +18,8 @@ Turun yliopiston ja Åbo Akademin teekkarilakki on tupsulakki, jossa on valkoine
 Lakkia ovat oikeutettuja käyttämään seuraavat henkilöt:
 
 * Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuneet henkilöt
-* Turun yliopistossa tai Åbo Akademissa opiskelevat tekniikan ylioppilaat, joille lakki on kertaalleen myönnetty.
-* Ne, joille lakki on kertaalleen myönnetty.
+* Turun yliopistossa tai Åbo Akademissa opiskelevat tekniikan ylioppilaat, joille lakki on kertaalleen myönnetty
+* Ne, joille lakki on kertaalleen myönnetty
 
 #### §3 Lakin myöntäminen
 
