@@ -3,15 +3,17 @@ title: Teekkarilakki
 ---
 ![Teekkarilakki](/images/teekkarihattu.jpg)
 
-## Teekkarilakin käyttösäännöt
+## Teekkarilakki
 
-### §1 Teekkarilakki
+### Käyttöohjesäännöt
+
+#### §1 Teekkarilakki
 
 Turkulainen teekkarilakki (myöhemmin lakki) on turkulaisen teekkarin tunnus.
 
 Turun yliopiston ja Åbo Akademin teekkarilakki on tupsulakki, jossa on valkoinen pyöreä samettipäällys, musta samettireuna ja musta lippa sekä musta silkkitupsu. Lakin mustaan samettireunukseen, lipan keskikohdalle, on kiinnitetty Turun yliopiston ylioppilaskunnan tai Åbo Akademin ylioppilaskunnan kultainen kokardi riippuen minkä yliopiston alla lakkia käytetään. Turun yliopiston lakin vuori on sinivalkoinen ja Åbo Akademin lakin vuori keltamusta. Lakit tilaa Teekkarikomission hallitus kiltojen tarpeiden mukaisesti, mutta lakin voi tilata myös Teekkarikomission hallituksen myöntämällä erityisluvalla.
 
-### §2 Käyttöoikeus
+#### §2 Käyttöoikeus
 
 Lakkia ovat oikeutettuja käyttämään seuraavat henkilöt:
 
@@ -19,7 +21,7 @@ Lakkia ovat oikeutettuja käyttämään seuraavat henkilöt:
 * Turun yliopistossa tai Åbo Akademissa opiskelevat tekniikan ylioppilaat, joille lakki on kertaalleen myönnetty.
 * Ne, joille lakki on kertaalleen myönnetty.
 
-### §3 Lakin myöntäminen
+#### §3 Lakin myöntäminen
 
 Teekkarikomissio myöntää lakinkäyttöoikeuden ja lakki voidaan myöntää aikaisintaan ensimmäisen opiskeluvuoden vappuaattona. Jokainen kilta luovuttaa lakin aikaisintaan 30.4. seuraavat kriteerit täyttäville henkilöille:
 
@@ -30,7 +32,7 @@ Muutoin teekkarilakki myönnetään Teekkarikomission toimesta viimeistään dip
 
 Teekkarikomissio voi erityistapauksissa poiketa näistä kriteereistä. Tällöin tarvitaan Teekkarikomission hallituksen 3/4 enemmistön kannatus.
 
-### §4 Lakin käyttö
+#### §4 Lakin käyttö
 
 Lakkia ei saa luovuttaa henkilölle, jolla ei ole lakin kanto-oikeutta.
 
@@ -38,11 +40,11 @@ Lakkia ei saa luovuttaa henkilölle, jolla ei ole lakin kanto-oikeutta.
 
 Lakin kanssa sekä vaatetuksen että käytöksen tulee olla lakin arvolle sopivaa. Muussa tapauksessa lakki tulee piilottaa sen maineen säilyttämiseksi.
 
-### §5 Kiltapinssi
+#### §5 Kiltapinssi
 
 Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuneet henkilöt ovat oikeutettuja käyttämään oman kiltansa pinssiä tupsun kiinnityskohdan yläpuolella, valkoiseen samettiin kiinnitettynä.
 
-### §6 Pysyväisohjesääntö
+#### §6 Pysyväisohjesääntö
 
 Myönnetään pysyvä lakinkäyttöoikeus seuraaviin tilaisuuksiin:
 
@@ -60,3 +62,21 @@ Myönnetään pysyvä lakinkäyttöoikeus seuraaviin tilaisuuksiin:
 * Wappulehden julkaisutilaisuuteen Pönkelitoimikunnalle
 
 Lisäksi myönnetään pysyvä henkilökohtainen lakinkäyttöoikeus Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuvalle omiin valmistujaispäiviin ja -juhliin.
+
+
+
+### Historia
+
+Turussa otettiin teekkarilakki käyttöön ensimmäistä kertaa 1960-luvulla Kemistklubbenin toimesta. Idea ei vielä 1940-luvulla saanut kannatusta, sillä tupsu merkitsi kantajansa olevan valmistunut.
+
+Alunperin alettiin kantamaan erästä Teknillisen Korkeakoulun teekkarilakkia, johon myöhemmin kiinnitettiin Åbo Akademin ylioppilaskunnan lyyra. Kemistklubbenin teekkarilakki suojattiin 1990-luvulla (Nordell ym. 2023).
+
+Myös muut Turun teekkarikillat alkoivat perustamisensa jälkeen käyttää samaa teekkarilakkimallia. Turun yliopiston lakeissa erona on vuori, jossa on eri värit ja erilainen kuvio. Kokardina he käyttävät Turun yliopiston ylioppilaskunnan kokardia.
+
+Turkulaisen teekkarilakin hallinta siirtyi Kemistklubbenilta Teekkarikomissiolle 2020-luvulla.
+
+
+
+Lähteet
+
+Nordell Ida 2023: Kemistklubben vid Åbo Akademi rf 1923-2023 : hundra år med Axel och Stina, Turku
