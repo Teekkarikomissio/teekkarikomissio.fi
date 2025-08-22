@@ -23,4 +23,8 @@ Den bästa synligheten för företag skapas av våra wappevenemang som är Tekno
 
 Ta modigt kontakt!
 
-Annastiina Manninen                                                                    Utrikeskommissarie 2025                         annastiina.manninen(at)teekkarikomissio.fi
+Annastiina Manninen
+
+Utrikeskommissarie 2025
+
+annastiina.manninen(at)teekkarikomissio.fi

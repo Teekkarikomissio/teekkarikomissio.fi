@@ -23,4 +23,8 @@ The best visibility can be reached at our big events near May Day. These Wappu e
 
 Don’t hesitate to contact!
 
-Annastiina Manninen                                                                            Commissioner of Foreign Affairs 2025     annastiina.manninen(at)teekkarikomissio.fi
+Annastiina Manninen
+
+Commissioner of Foreign Affairs 2025
+
+annastiina.manninen(at)teekkarikomissio.fi
