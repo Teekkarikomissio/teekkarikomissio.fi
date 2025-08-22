@@ -3,7 +3,7 @@ title: Teknologhymn
 ---
 ## Teknologhymn
 
-Teknologhymn är den mest traditionell av teknologsånger. Den brukar sjungas vid midnatt. Hymnens ord har ändrat i det långa loppet och varierar nuförtiden från stad till stad. Åbo är en starkt tvåspråkig studiestad, vilket också syns i det lokala teknologspektret. Således översatts hymnen till svenska av åboteknologer i 2022 med hjälp av en extern konsult. Den svenskspråkiga versionen sjungs inte veterligen ännu annanstans än i Åbo.
+Teknologhymn är den mest traditionell av teknologsånger. Den brukar sjungas vid midnatt. Hymnens ord har ändrat i det långa loppet och varierar nuförtiden från stad till stad. Åbo är en starkt tvåspråkig studiestad, vilket också syns i det lokala teknologspektret. Vi är väldigt nöjda med vår gemensamma satsning för att förena den åboländska teknologsångkulturen. Som resultat översattes hymnen till svenska av åboteknologer i 2022 med hjälp av en extern konsult. Den svenskspråkiga versionen sjungs inte veterligen ännu annanstans än i Åbo.
 
 Till skillnad från den traditionella hymnen, sjungs den finska versen först en gång och sedan den svenska. Förutom nedanstående orden hittas noterna och orden från sektionen Dokument.
 

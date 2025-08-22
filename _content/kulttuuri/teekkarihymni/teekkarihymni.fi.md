@@ -3,7 +3,8 @@ title: Teekkarihymni
 ---
 ## Teekkarihymni
 
-Teekkarihymni on teekkarilauluista perinteisin ja tapana laulaa aina keskiyöllä. Sanoitus on historian saatossa muuttunut, ja siinä on myös paikkakuntakohtaisia eroja. Turku on vahvasti kaksikielinen opiskelukaupunki, kuten myös paikallinen teekkareiden kirjo. Niinpä hymni käännettiin vuonna 2022 turkulaisteekkarien toimesta myös ruotsiksi ulkopuolista konsulttia apuna käyttäen. Ruotsinkielistä versiota ei tiettävästi lauleta vielä muualla kuin Turussa.
+Teekkarihymni on teekkarilauluista perinteisin ja tapana laulaa aina keskiyöllä. Sanoitus on historian saatossa muuttunut, ja siinä on myös paikkakuntakohtaisia eroja. Turku on vahvasti kaksikielinen opiskelukaupunki, kuten myös paikallinen teekkareiden kirjo. 
+Olemmekin hyvin tyytyväisiä yhteiseen ponnistukseemme turkulaisen teekkariyhteisön laulukulttuurin yhtenäistämiseksi. Tuloksena hymni käännettiin vuonna 2022 turkulaisteekkarien toimesta myös ruotsiksi ulkopuolista konsulttia apuna käyttäen. Ruotsinkielistä versiota ei tiettävästi lauleta vielä muualla kuin Turussa.
 
 Perinteisen tavan sijaan lauletaan säkeistö ensin kertaalleen suomeksi, jonka jälkeen lauletaan ruotsinkielinen säkeistö. Alla olevien sanojen lisäksi nuotit ja sanat löytyvät kohdasta Dokumentit.
 
