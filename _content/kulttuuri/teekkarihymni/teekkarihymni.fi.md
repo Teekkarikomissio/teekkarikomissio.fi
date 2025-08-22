@@ -14,6 +14,8 @@ trad.
 
 Ruotsinkielinen teksti: H. Lillsjö
 
+
+
 Yö kuin sielu teekkarin on pimiä,
 
 takajoukko nukkuu vain, nukkuu vain.
@@ -25,6 +27,8 @@ kuuluu pappilasta päin, kuuluu päin.
 Ja taas, ja siis,
 
 ja 1, 2, 3, 4, 5
+
+
 
 Natten är mörk som teknologens själ,
 
