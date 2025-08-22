@@ -3,7 +3,7 @@ title: For companies
 ---
 ![](yrityksille-paavo.jpg)
 
-For companies
+## For companies
 
 Teekkarikomissio aims to build long lasting collaborations with many kinds of companies. Teekkarikomissio can offer wide visibility among engineering students at the University of Turku and Åbo Akademi University. The visibility is equally important to the students as it is to companies, since students are always looking for career opportunities. Identifying the name and logo of a company is a big step, but building a positive image is also possible via us.
 
