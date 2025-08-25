@@ -2,8 +2,8 @@ import '../../styles/globals.css'
 import { Inter, Roboto_Mono } from 'next/font/google'
 import { Metadata } from 'next'
 
-import { cn } from '../../lib/utils'
-import { i18n, type Locale } from '../../i18n-config'
+import { cn } from '@/lib/utils'
+import { i18n, type Locale } from '@/i18n-config'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/footer'
 import { getNavigationByLocale } from '@/lib/api'
@@ -86,9 +86,10 @@ export default async function RootLayout({
   params,
 }: {
   children: React.ReactNode
-  params: Promise<{ lang: Locale }>
+  params: Promise<{ lang: string }>
 }) {
-  const { lang } = await params;
+  const { lang: langString } = await params;
+  const lang = langString as Locale;
   const contentFolders = await getNavigationByLocale(lang);
 
   return (
