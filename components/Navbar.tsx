@@ -52,10 +52,7 @@ interface NavigationBarProps {
   }[]
 }
 
-export default function Navbar({
-  lang,
-  contentFolders,
-}: NavigationBarProps) {
+export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
   const [isOpen] = useState(false)
 
   const NavbarBrand = () => (
@@ -74,26 +71,49 @@ export default function Navbar({
               {section.subPages && section.subPages.length > 0 ? (
                 <>
                   <NavigationMenuTrigger className="bg-tk-blue text-white hover:bg-tk-red transition-colors">
-                    {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
+                    {section.meta.translatedTitle?.[lang] ||
+                      section.meta.title ||
+                      section.slug}
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-3 p-4 bg-white rounded-md border border-primary/20 ring-1 ring-primary/10 shadow-lg">
-                      {section.subPages.map((subPage) => (
+                    {(() => {
+                      const many = section.subPages.length > 8
+
+                      const listItems = section.subPages.map((subPage) => (
                         <ListItem
                           key={subPage.slug}
                           title={subPage.meta.title || subPage.slug}
                           href={subPage.href}
                         >
-                          {subPage.meta.description || ""}
+                          {subPage.meta.description || ''}
                         </ListItem>
-                      ))}
-                    </ul>
+                      ))
+
+                      return (
+                        <div
+                          className={cn(
+                            "w-[400px] bg-white rounded-md border border-primary/20 ring-1 ring-primary/10 shadow-lg",
+                            many && "max-h-96 overflow-y-auto pr-2"
+                          )}
+                          style={{ scrollbarGutter: many ? "stable" : undefined }}
+                        >
+                          <ul className="grid gap-3 p-4">
+                            {listItems}
+                          </ul>
+                        </div>
+                      )
+                    })()}
                   </NavigationMenuContent>
                 </>
               ) : (
-                <NavigationMenuLink asChild className="inline-flex h-9 w-max items-center justify-center rounded-md bg-tk-blue px-4 py-2 text-sm font-medium text-white hover:bg-tk-red transition-colors">
+                <NavigationMenuLink
+                  asChild
+                  className="inline-flex h-9 w-max items-center justify-center rounded-md bg-tk-blue px-4 py-2 text-sm font-medium text-white hover:bg-tk-red transition-colors"
+                >
                   <Link href={section.href}>
-                    {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
+                    {section.meta.translatedTitle?.[lang] ||
+                      section.meta.title ||
+                      section.slug}
                   </Link>
                 </NavigationMenuLink>
               )}
@@ -101,12 +121,14 @@ export default function Navbar({
           ))}
         </NavigationMenuList>
       </NavigationMenu>
-    );
-  };
+    )
+  }
 
   const ListItem = React.forwardRef<
     React.ElementRef<typeof NavigationMenuLink>,
-    React.ComponentPropsWithoutRef<typeof NavigationMenuLink> & { title: string }
+    React.ComponentPropsWithoutRef<typeof NavigationMenuLink> & {
+      title: string
+    }
   >(({ className, title, children, ...props }, ref) => {
     return (
       <li>
@@ -118,7 +140,9 @@ export default function Navbar({
           )}
           {...props}
         >
-          <div className="text-sm font-medium leading-none hover:text-primary">{title}</div>
+          <div className="text-sm font-medium leading-none hover:text-primary">
+            {title}
+          </div>
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground hover:text-primary">
             {children}
           </p>
@@ -138,9 +162,14 @@ export default function Navbar({
             <Menu size={24} />
           </span>
         </SheetTrigger>
-        <SheetContent side="left" className="w-[300px] bg-tk-red border-r-0 p-0">
+        <SheetContent
+          side="left"
+          className="w-[300px] bg-tk-red border-r-0 p-0"
+        >
           <SheetHeader className="p-4">
-            <SheetTitle className="text-white sr-only">Navigation Menu</SheetTitle>
+            <SheetTitle className="text-white sr-only">
+              Navigation Menu
+            </SheetTitle>
           </SheetHeader>
           <div className="flex flex-col space-y-4">
             <div className="p-4">
@@ -158,7 +187,9 @@ export default function Navbar({
                             onClick={() => setOpen(false)}
                             className="text-white p-2 rounded-md hover:bg-white hover:text-black transition-all font-medium"
                           >
-                            {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
+                            {section.meta.translatedTitle?.[lang] ||
+                              section.meta.title ||
+                              section.slug}
                           </Link>
                           <div className="flex flex-col space-y-2 pl-4 mt-2">
                             {section.subPages.map((subPage) => (
@@ -179,7 +210,9 @@ export default function Navbar({
                           onClick={() => setOpen(false)}
                           className="text-white p-2 rounded-md hover:bg-white hover:text-black transition-all font-medium"
                         >
-                          {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
+                          {section.meta.translatedTitle?.[lang] ||
+                            section.meta.title ||
+                            section.slug}
                         </Link>
                       )}
                     </div>
@@ -190,8 +223,6 @@ export default function Navbar({
           </div>
         </SheetContent>
       </Sheet>
-
-
     )
   }
 
@@ -204,8 +235,9 @@ export default function Navbar({
         </div>
         <div className="flex items-center">
           <div
-            className={`lg:flex ${isOpen ? 'flex' : 'hidden'
-              } flex-col items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex-row w-full`}
+            className={`lg:flex ${
+              isOpen ? 'flex' : 'hidden'
+            } flex-col items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex-row w-full`}
           >
             <NavigationMenuDesktop />
             <LocaleSwitcher lang={lang} />
