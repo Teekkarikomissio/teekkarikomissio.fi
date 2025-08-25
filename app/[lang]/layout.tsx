@@ -86,7 +86,7 @@ export default async function RootLayout({
   params,
 }: {
   children: React.ReactNode
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }) {
   const { lang } = await params;
   const contentFolders = await getNavigationByLocale(lang);
