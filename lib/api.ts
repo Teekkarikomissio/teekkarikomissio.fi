@@ -5,9 +5,9 @@ import { type Locale } from '@/i18n-config'
 import { notFound } from 'next/navigation'
 
 interface NavigationItem {
-  title: string;
-  path: string;
-  items: NavigationItem[];
+  title: string
+  path: string
+  items: NavigationItem[]
 }
 
 interface SubPage {
@@ -30,17 +30,16 @@ interface ContentFolder {
   subPages: SubPage[]
 }
 
-
 export default function getPageBySlug(pageName: string, locale: Locale) {
-  const pagesDirectory = path.join(process.cwd(), '_content');
-  const fullPath = path.join(pagesDirectory, `${pageName}.${locale}.md`);
-  
+  const pagesDirectory = path.join(process.cwd(), '_content')
+  const fullPath = path.join(pagesDirectory, `${pageName}.${locale}.md`)
+
   try {
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-    const { content, data } = matter(fileContents);
-    return { href: `/${locale}/${pageName}`, meta: data, content };
+    const fileContents = fs.readFileSync(fullPath, 'utf8')
+    const { content, data } = matter(fileContents)
+    return { href: `/${locale}/${pageName}`, meta: data, content }
   } catch (error) {
-    notFound();
+    notFound()
   }
 }
 
@@ -48,40 +47,40 @@ export function getFolderContents(folderPath: string, locale: Locale) {
   try {
     // Check if directory exists first
     if (!fs.existsSync(folderPath)) {
-      return [];
+      return []
     }
 
-    const contents = fs.readdirSync(folderPath);
+    const contents = fs.readdirSync(folderPath)
 
     return contents.reduce((acc: NavigationItem[], item: string) => {
-      const fullPath = path.join(folderPath, item);
-      const stats = fs.statSync(fullPath);
+      const fullPath = path.join(folderPath, item)
+      const stats = fs.statSync(fullPath)
 
       if (stats.isDirectory()) {
         // Handle directory
-        const subItems = getFolderContents(fullPath, locale);
+        const subItems = getFolderContents(fullPath, locale)
         if (subItems.length > 0) {
           acc.push({
             title: item,
             path: fullPath.split('_content/')[1],
-            items: subItems
-          });
+            items: subItems,
+          })
         }
       } else if (stats.isFile() && item.endsWith(`.${locale}.md`)) {
         // Handle markdown file
-        const title = path.basename(item, `.${locale}.md`);
+        const title = path.basename(item, `.${locale}.md`)
         acc.push({
           title,
           path: fullPath.split('_content/')[1].replace(`.${locale}.md`, ''),
-          items: []
-        });
+          items: [],
+        })
       }
 
-      return acc;
-    }, []);
+      return acc
+    }, [])
   } catch (error) {
-    console.error(`Error processing folder ${folderPath}:`, error);
-    return [];
+    console.error(`Error processing folder ${folderPath}:`, error)
+    return []
   }
 }
 
@@ -204,32 +203,31 @@ const sectionTranslations = {
   yhdistys: {
     en: 'Association',
     sv: 'Föreningen',
-    fi: 'Yhdistys'
+    fi: 'Yhdistys',
   },
   fukseille: {
     en: 'For Freshmen',
     sv: 'För Gulisar',
-    fi: 'Fukseille'
+    fi: 'Fukseille',
   },
   kulttuuri: {
     en: 'Culture',
     sv: 'Kultur',
-    fi: 'Kulttuuri'
+    fi: 'Kulttuuri',
   },
   tapahtumat: {
     en: 'Events',
     sv: 'Evenemang',
-    fi: 'Tapahtumat'
+    fi: 'Tapahtumat',
   },
   yhteistyo: {
     en: 'Cooperation',
     sv: 'Samarbete',
-    fi: 'Yhteistyö'
+    fi: 'Yhteistyö',
   },
   ongelmatilannelomake: {
     en: 'Problem Report Form',
     sv: 'Trakasserianmälan',
-    fi: 'Ongelmatilannelomake'
-  }
-};
-
+    fi: 'Ongelmatilannelomake',
+  },
+}
