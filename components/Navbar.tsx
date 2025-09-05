@@ -92,14 +92,14 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
                       return (
                         <div
                           className={cn(
-                            "w-[400px] bg-white rounded-md border border-primary/20 ring-1 ring-primary/10 shadow-lg",
-                            many && "max-h-96 overflow-y-auto pr-2"
+                            'w-[400px] bg-white rounded-md border border-primary/20 ring-1 ring-primary/10 shadow-lg',
+                            many && 'max-h-96 overflow-y-auto pr-2'
                           )}
-                          style={{ scrollbarGutter: many ? "stable" : undefined }}
+                          style={{
+                            scrollbarGutter: many ? 'stable' : undefined,
+                          }}
                         >
-                          <ul className="grid gap-3 p-4">
-                            {listItems}
-                          </ul>
+                          <ul className="grid gap-3 p-4">{listItems}</ul>
                         </div>
                       )
                     })()}
@@ -110,11 +110,23 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
                   asChild
                   className="inline-flex h-9 w-max items-center justify-center rounded-md bg-tk-blue px-4 py-2 text-sm font-medium text-white hover:bg-tk-red transition-colors"
                 >
-                  <Link href={section.href}>
-                    {section.meta.translatedTitle?.[lang] ||
-                      section.meta.title ||
-                      section.slug}
-                  </Link>
+                  {section.href.startsWith('http') ? (
+                    <a
+                      href={section.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {section.meta.translatedTitle?.[lang] ||
+                        section.meta.title ||
+                        section.slug}
+                    </a>
+                  ) : (
+                    <Link href={section.href}>
+                      {section.meta.translatedTitle?.[lang] ||
+                        section.meta.title ||
+                        section.slug}
+                    </Link>
+                  )}
                 </NavigationMenuLink>
               )}
             </NavigationMenuItem>
