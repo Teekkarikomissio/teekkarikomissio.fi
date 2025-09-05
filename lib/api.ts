@@ -1,14 +1,35 @@
-import matter from 'gray-matter';
-import path from 'path';
-import fs from 'fs';
+import matter from 'gray-matter'
+import path from 'path'
+import fs from 'fs'
 import { type Locale } from '@/i18n-config'
-import { notFound } from 'next/navigation';
+import { notFound } from 'next/navigation'
 
 interface NavigationItem {
   title: string;
   path: string;
   items: NavigationItem[];
 }
+
+interface SubPage {
+  href: string
+  slug: string
+  parentSlug: string
+  meta: any
+  content: string
+}
+
+interface ContentFolder {
+  href: string
+  slug: string
+  meta: {
+    title: string
+    translatedTitle: any
+    [key: string]: any
+  }
+  content: string
+  subPages: SubPage[]
+}
+
 
 export default function getPageBySlug(pageName: string, locale: Locale) {
   const pagesDirectory = path.join(process.cwd(), '_content');
@@ -64,18 +85,18 @@ export function getFolderContents(folderPath: string, locale: Locale) {
   }
 }
 
-export function getNavigationByLocale(locale: Locale) {
-  const contentDirectory = path.join(process.cwd(), "_content");
+export function getNavigationByLocale(locale: Locale): ContentFolder[] {
+  const contentDirectory = path.join(process.cwd(), '_content')
   const sections = [
     'yhdistys',
     'fukseille',
     'kulttuuri',
     'tapahtumat',
     'yhteistyo',
-    'ongelmatilannelomake'
-  ];
-  
-  try {    
+    'ongelmatilannelomake',
+  ]
+
+  try {
     const pages = sections
       .map((section) => {
         const sectionPath = path.join(contentDirectory, section)
@@ -102,7 +123,7 @@ export function getNavigationByLocale(locale: Locale) {
 
         // Get subfolders and their contents
         const contents = fs.readdirSync(sectionPath)
-        const subPages = contents
+        const subPages: SubPage[] = contents
           .filter((item) => {
             const fullPath = path.join(sectionPath, item)
             return fs.statSync(fullPath).isDirectory()
@@ -135,7 +156,7 @@ export function getNavigationByLocale(locale: Locale) {
               return null
             }
           })
-          .filter(Boolean)
+          .filter((item): item is SubPage => item !== null)
 
         return mainContent || subPages.length > 0
           ? {
@@ -154,10 +175,10 @@ export function getNavigationByLocale(locale: Locale) {
             }
           : null
       })
-      .filter(Boolean)
+      .filter((item): item is ContentFolder => item !== null)
 
     // Append external Annual Ball XXV link as a top-level nav item (temporary)
-    const annualBallItem = {
+    const annualBallItem: ContentFolder = {
       href: 'https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla',
       slug: 'annual-ball-xxv',
       meta: {
@@ -169,13 +190,13 @@ export function getNavigationByLocale(locale: Locale) {
         },
       },
       content: '',
-      subPages: [] as any[],
+      subPages: [],
     }
 
-    return [...(pages as any[]), annualBallItem];
+    return [...pages, annualBallItem]
   } catch (error) {
-    console.error('Error in getNavigationByLocale:', error);
-    return [];
+    console.error('Error in getNavigationByLocale:', error)
+    return []
   }
 }
 
