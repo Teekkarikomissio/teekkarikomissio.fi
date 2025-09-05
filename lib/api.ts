@@ -78,72 +78,101 @@ export function getNavigationByLocale(locale: Locale) {
   try {    
     const pages = sections
       .map((section) => {
-        const sectionPath = path.join(contentDirectory, section);
-        
+        const sectionPath = path.join(contentDirectory, section)
+
         if (!fs.existsSync(sectionPath)) {
-          return null;
+          return null
         }
 
         // Get main content first
-        const mainContentPath = path.join(sectionPath, `${section}.${locale}.md`);
-        let mainContent;
-        
+        const mainContentPath = path.join(
+          sectionPath,
+          `${section}.${locale}.md`
+        )
+        let mainContent
+
         try {
           if (fs.existsSync(mainContentPath)) {
-            const fileContents = fs.readFileSync(mainContentPath, "utf8");
-            mainContent = matter(fileContents);
+            const fileContents = fs.readFileSync(mainContentPath, 'utf8')
+            mainContent = matter(fileContents)
           }
         } catch (error) {
-          console.error(`Error reading main content for ${section}:`, error);
+          console.error(`Error reading main content for ${section}:`, error)
         }
 
         // Get subfolders and their contents
-        const contents = fs.readdirSync(sectionPath);
+        const contents = fs.readdirSync(sectionPath)
         const subPages = contents
-          .filter(item => {
-            const fullPath = path.join(sectionPath, item);
-            return fs.statSync(fullPath).isDirectory();
+          .filter((item) => {
+            const fullPath = path.join(sectionPath, item)
+            return fs.statSync(fullPath).isDirectory()
           })
-          .map(folder => {
+          .map((folder) => {
             try {
-              const subPagePath = path.join(sectionPath, folder, `${folder}.${locale}.md`);
-              
+              const subPagePath = path.join(
+                sectionPath,
+                folder,
+                `${folder}.${locale}.md`
+              )
+
               if (!fs.existsSync(subPagePath)) {
-                return null;
+                return null
               }
-              
-              const subPageContents = fs.readFileSync(subPagePath, "utf8");
-              const { content: subContent, data: subData } = matter(subPageContents);
-              
+
+              const subPageContents = fs.readFileSync(subPagePath, 'utf8')
+              const { content: subContent, data: subData } =
+                matter(subPageContents)
+
               return {
                 href: `/${locale}/${section}/${folder}`,
                 slug: folder,
                 parentSlug: section,
                 meta: subData,
-                content: subContent
-              };
+                content: subContent,
+              }
             } catch (error) {
-              console.error(`Error reading subpage ${folder}:`, error);
-              return null;
+              console.error(`Error reading subpage ${folder}:`, error)
+              return null
             }
           })
-          .filter(Boolean);
+          .filter(Boolean)
 
-        return mainContent || subPages.length > 0 ? {
-          href: `/${locale}/${section}`,
-          slug: section,
-          meta: {
-            ...mainContent?.data || {},
-            title: section,
-            translatedTitle: sectionTranslations[section as keyof typeof sectionTranslations]
-          },
-          content: mainContent?.content || '',
-          subPages
-        } : null;
+        return mainContent || subPages.length > 0
+          ? {
+              href: `/${locale}/${section}`,
+              slug: section,
+              meta: {
+                ...(mainContent?.data || {}),
+                title: section,
+                translatedTitle:
+                  sectionTranslations[
+                    section as keyof typeof sectionTranslations
+                  ],
+              },
+              content: mainContent?.content || '',
+              subPages,
+            }
+          : null
       })
-      .filter(Boolean);
+      .filter(Boolean)
 
-    return pages;
+    // Append external Annual Ball XXV link as a top-level nav item (temporary)
+    const annualBallItem = {
+      href: 'https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla',
+      slug: 'annual-ball-xxv',
+      meta: {
+        title: 'Annual Ball XXV',
+        translatedTitle: {
+          fi: 'Vuosijuhlat XXV',
+          sv: 'Årsfest XXV',
+          en: 'Annual Ball XXV',
+        },
+      },
+      content: '',
+      subPages: [] as any[],
+    }
+
+    return [...(pages as any[]), annualBallItem];
   } catch (error) {
     console.error('Error in getNavigationByLocale:', error);
     return [];
