@@ -11,7 +11,7 @@ The teekkarikomissio.fi website is built using Next.js, a React framework that e
 To get started with development, follow these steps:
 
 1. Clone the repository:
-[https://github.com/Teekkarikomissio/teekkarikomissio.fi/tree/master]
+[https://github.com/Teekkarikomissio/teekkarikomissio.fi]
 
 2. Navigate to the project directory:
 
@@ -35,26 +35,24 @@ This will start the development server on [http://localhost:3000](http://localho
 
 `npm run build`
 
-This command builds the application for production usage but Netlify usually does it for us. You can still build it to check for errors by running:
+This command builds the application for production usage (Netlify usually builds on deploy). You can run the production server locally with:
 
 `npm start`
 
 ## Deploying to production
 
-Netlify hooks take care of this for the most part. If you push to `master` your code will show up in a minute under teekkarikomissio.fi domain.
+Netlify hooks take care of this for the most part. If you push to the repository's default branch, your code will show up shortly under the teekkarikomissio.fi domain.
 
-If you push your own branch netlify will create a preview version of the site so that you can show it to others. Usually merge from your own branch is the safest way.
+If you push your own branch, Netlify will create a preview version of the site so that you can show it to others. Usually merging from your own branch is the safest way.
 
 ## Adding a language
 
-If you want to add a new spoken language, you can add a new dictionary for texts under `/dictionaries/your-language.json`. Then do modifications to following files:
-- `i18n-config.ts`
-- `get-dictionary.ts`
+If you want to add a new spoken language, you can add a new dictionary for texts under `/dictionaries/your-language.json`. Then modify the following files:
 - `i18n-config.ts`
 - `Navbar.tsx`
 
 And to get full route translations working:
-- `next.config.js`
+- `next.config.ts`
 - `netlify.toml` (If you stick with Netlify)
 
 ## Contributing
@@ -67,7 +65,7 @@ To report bugs, please use the [issues](https://github.com/Teekkarikomissio/teek
 
 ## License
 
-The project is licensed under the MIT License. See the [LICENSE](https://github.com/Teekkarikomissio/teekkarikomissio.fi/blob/master/LICENSE) file for details.
+The project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Authors
 
