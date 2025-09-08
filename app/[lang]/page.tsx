@@ -16,18 +16,20 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params
-  
-  const title = lang === 'sv' ? 
-    'Teknologskap över universitetsgränserna' : 
-    lang === 'en' ? 
-    'Teekkari culture across university boundaries' : 
-    'Teekkariutta yli yliopistorajojen'
 
-  const description = lang === 'sv' ?
-    'Teknologkommissionen är ett sammanbindande kontaktforum för teknologföreningar i Åbo.' :
-    lang === 'en' ?
-    'The Teekkarikomissio is a unifying contact forum for teekkari associations operating in Turku.' :
-    'Teekkarikomissio on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille.'
+  const title =
+    lang === 'sv'
+      ? 'Teknologskap över universitetsgränserna'
+      : lang === 'en'
+        ? 'Teekkari culture across university boundaries'
+        : 'Teekkariutta yli yliopistorajojen'
+
+  const description =
+    lang === 'sv'
+      ? 'Teknologkommissionen är ett sammanbindande kontaktforum för teknologföreningar i Åbo.'
+      : lang === 'en'
+        ? 'The Teekkarikomissio is a unifying contact forum for teekkari associations operating in Turku.'
+        : 'Teekkarikomissio on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille.'
 
   return {
     title,
@@ -35,12 +37,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      images: [{
-        url: 'https://teekkarikomissio.fi/home-landing-2.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Teekkarikomissio'
-      }],
+      images: [
+        {
+          url: 'https://teekkarikomissio.fi/home-landing-2.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Teekkarikomissio',
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
@@ -54,59 +58,68 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const frontPageContent = {
   fi: {
     association: {
-      description: "Teekkarikomissio on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille.",
+      description:
+        'Teekkarikomissio on yhteensitova kontaktifoorumi Turussa toimiville teekkariyhdistyksille.',
     },
     culture: {
-      title: "Teekkarikulttuuria",
-      description: "Teekkarikomissio järjestää vuosittain paikalliset jäynäkilpailut, joiden kautta valitaan Turun edustaja valtakunnallisiin jäynäkilpailuihin."
+      title: 'Teekkarikulttuuria',
+      description:
+        'Teekkarikomissio järjestää vuosittain paikalliset jäynäkilpailut, joiden kautta valitaan Turun edustaja valtakunnallisiin jäynäkilpailuihin.',
     },
     influence: {
-      title: "Paikallista ja valtakunnallista vaikuttamista",
-      description: "Edustamme turkulaista teekkariutta sekä paikallisesti, että valtakunnallisesti. Yhteisön äänitorvena otamme kantaa ja ajamme yhteisölle tärkeitä asioita."
+      title: 'Paikallista ja valtakunnallista vaikuttamista',
+      description:
+        'Edustamme turkulaista teekkariutta sekä paikallisesti, että valtakunnallisesti. Yhteisön äänitorvena otamme kantaa ja ajamme yhteisölle tärkeitä asioita.',
     },
     headings: {
-      news: "Ajankohtaista",
-      partners: "Yhteistyössä",
-      calendar: "Tapahtumakalenteri"
-    }
+      news: 'Ajankohtaista',
+      partners: 'Yhteistyössä',
+      calendar: 'Tapahtumakalenteri',
+    },
   },
   sv: {
     association: {
-      description: "Teknologkommissionen är ett sammanbindande kontaktforum för teknologföreningar i Åbo.",
+      description:
+        'Teknologkommissionen är ett sammanbindande kontaktforum för teknologföreningar i Åbo.',
     },
     culture: {
-      title: "Teknologkultur",
-      description: "Teknologkommissionen ordnar årligen den lokala jäynätävlingen där även Åbos representant till den nationella tävlingen väljs."
+      title: 'Teknologkultur',
+      description:
+        'Teknologkommissionen ordnar årligen den lokala jäynätävlingen där även Åbos representant till den nationella tävlingen väljs.',
     },
     influence: {
-      title: "Inflytande på lokal och nationell nivå",
-      description: "Vi representerar teknologskap i Åbo både på lokal och på riksnivå. Som teknologsällskapets språkrör verkar vi för och tar ställning till för teknologer viktiga ärenden."
+      title: 'Inflytande på lokal och nationell nivå',
+      description:
+        'Vi representerar teknologskap i Åbo både på lokal och på riksnivå. Som teknologsällskapets språkrör verkar vi för och tar ställning till för teknologer viktiga ärenden.',
     },
     headings: {
-      news: "Aktuellt",
-      partners: "I samarbete",
-      calendar: "Evenemangskalender"
-    }
+      news: 'Aktuellt',
+      partners: 'I samarbete',
+      calendar: 'Evenemangskalender',
+    },
   },
   en: {
     association: {
-      description: "The Teekkarikomissio is a unifying contact forum for teekkari associations operating in Turku.",
+      description:
+        'The Teekkarikomissio is a unifying contact forum for teekkari associations operating in Turku.',
     },
     culture: {
-      title: "Teekkari Culture",
-      description: "The Teekkari Commission organizes annual local jäynä competitions, through which Turku's representative is selected for the national competitions."
+      title: 'Teekkari Culture',
+      description:
+        "The Teekkari Commission organizes annual local jäynä competitions, through which Turku's representative is selected for the national competitions.",
     },
     influence: {
-      title: "Local and National Influence",
-      description: "We represent Turku's tech students both locally and nationally. As the community's voice, we advocate for and drive important matters for our community."
+      title: 'Local and National Influence',
+      description:
+        "We represent Turku's tech students both locally and nationally. As the community's voice, we advocate for and drive important matters for our community.",
     },
     headings: {
-      news: "Latest News",
-      partners: "In Cooperation With",
-      calendar: "Event Calendar"
-    }
-  }
-};
+      news: 'Latest News',
+      partners: 'In Cooperation With',
+      calendar: 'Event Calendar',
+    },
+  },
+}
 
 export default async function IndexPage({
   params,
@@ -187,8 +200,12 @@ export default async function IndexPage({
               className="rounded-lg w-full lg:w-auto max-w-[300px]"
             />
             <div className="flex flex-col">
-              <h3 className="text-2xl font-bold mb-4 text-center lg:text-left">{frontPageContent[lang].culture.title}</h3>
-              <p className="text-lg text-center lg:text-left">{frontPageContent[lang].culture.description}</p>
+              <h3 className="text-2xl font-bold mb-4 text-center lg:text-left">
+                {frontPageContent[lang].culture.title}
+              </h3>
+              <p className="text-lg text-center lg:text-left">
+                {frontPageContent[lang].culture.description}
+              </p>
             </div>
           </div>
 
@@ -202,14 +219,24 @@ export default async function IndexPage({
               className="rounded-lg w-full lg:w-auto max-w-[300px]"
             />
             <div className="flex flex-col">
-              <h3 className="text-2xl font-bold mb-4 text-center lg:text-left">{frontPageContent[lang].influence.title}</h3>
-              <p className="text-lg text-center lg:text-left">{frontPageContent[lang].influence.description}</p>
+              <h3 className="text-2xl font-bold mb-4 text-center lg:text-left">
+                {frontPageContent[lang].influence.title}
+              </h3>
+              <p className="text-lg text-center lg:text-left">
+                {frontPageContent[lang].influence.description}
+              </p>
             </div>
           </div>
         </div>
       </div>
 
-      <InstagramFeedSection headingText={frontPageContent[lang].headings.news} />
+      {/* Instagram Feed Section */}
+      <InstagramFeedSection
+        headingText={frontPageContent[lang].headings.news}
+        strategy="intersection"
+        loadButtonLabel="Load Instagram feed"
+      />
+
 
       {/* Calendar */}
       <div className="w-full bg-gray-50">
@@ -238,7 +265,10 @@ export default async function IndexPage({
             </h2>
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-primary"></div>
           </div>
-          <article className={frontpageStyles['markdown']} dangerouslySetInnerHTML={{ __html: content }} />
+          <article
+            className={frontpageStyles['markdown']}
+            dangerouslySetInnerHTML={{ __html: content }}
+          />
         </div>
       </div>
     </>
