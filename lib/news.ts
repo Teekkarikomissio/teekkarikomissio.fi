@@ -9,6 +9,18 @@ export type NewsItem = {
   date: string
   summary?: string
   cover?: string
+  coverAlt?: string
+  author?: string
+  coverCredit?: string
+  coverCreditUrl?: string
+  postId?: string
+  category?: string
+  tags?: string[]
+  eventStart?: string
+  eventEnd?: string
+  location?: string
+  registrationUrl?: string
+  attachments?: Array<{ title: string; url: string }>
   content: string
 }
 
@@ -36,6 +48,21 @@ export function getAllNews(locale: Locale): NewsItem[] {
         date: iso,
         summary: data.summary as string | undefined,
         cover: data.cover as string | undefined,
+        coverAlt: (data.coverAlt as string) || undefined,
+        author: (data.author as string) || undefined,
+        coverCredit: (data.coverCredit as string) || undefined,
+        coverCreditUrl: (data.coverCreditUrl as string) || undefined,
+        postId: (data.postId as string) || undefined,
+        category: (data.category as string) || undefined,
+        tags: Array.isArray(data.tags) ? (data.tags as string[]) : undefined,
+        eventStart: data.eventStart
+          ? new Date((data.eventStart as string)).toISOString()
+          : undefined,
+        eventEnd: data.eventEnd
+          ? new Date((data.eventEnd as string)).toISOString()
+          : undefined,
+        location: (data.location as string) || undefined,
+        registrationUrl: (data.registrationUrl as string) || undefined,
         content,
       }
     })

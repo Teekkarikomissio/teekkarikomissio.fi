@@ -24,6 +24,9 @@ export default async function NewsIndex({ params }: Props) {
               <h2 className="text-xl font-semibold mt-1">
                 <Link href={`/${lang}/news/${encodeURIComponent(n.slug)}`}>{n.title}</Link>
               </h2>
+              {n.author && (
+                <p className="text-xs text-gray-500 mt-1">{n.author}</p>
+              )}
               {n.summary && <p className="text-gray-700 mt-2">{n.summary}</p>}
             </li>
           ))}
