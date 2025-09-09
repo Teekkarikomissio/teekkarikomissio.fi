@@ -1,5 +1,5 @@
 ---
-title: Tervetuloa uusiin sivuihin
+title: Tervetuloa uusille sivuille
 date: 2025-09-01
 summary: Uudistimme etusivua ja lisäsimme uutisosuuden.
 cover: /home-landing-2.jpg
