@@ -3,6 +3,10 @@ title: Welcome to the updated site
 date: 2025-09-01
 summary: We refreshed the homepage and added a News section.
 cover: /home-landing-2.jpg
+coverAlt: Teekkari culture in Turku
+author: Testi Teekkari
+coverCredit: "Photo: Juuso Korsimo"
+postId: welcome-2025
 ---
 
 This is a sample post.

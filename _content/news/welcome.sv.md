@@ -3,7 +3,13 @@ title: Välkommen till den nya webbsidan
 date: 2025-09-01
 summary: Vi förnyade hemsidan och lade till en nyhetssektion.
 cover: /home-landing-2.jpg
+coverAlt: Teknologliv i Åbo
+author: Testi Teekkari
+coverCredit: "Foto: Juuso Korsimo"
+postId: welcome-2025
 ---
+
+Detta är ett exempel.
 
 Detta är ett exempel.
 

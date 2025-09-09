@@ -96,3 +96,8 @@
 
 @utility animate-accordion-down { animation: accordion-down 0.2s ease-out }
 @utility animate-accordion-up { animation: accordion-up 0.2s ease-out }
+
+.prose p { margin-top: 0.75em; margin-bottom: 0.75em; }
+.prose ul, .prose ol { margin-top: 0.75em; margin-bottom: 0.75em; }
+.prose h1, .prose h2, .prose h3, .prose h4 { margin-top: 1.5em; margin-bottom: 0.75em; }
+.prose img { margin-top: 1rem; margin-bottom: 1rem; }

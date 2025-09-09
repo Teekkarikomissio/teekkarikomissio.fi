@@ -22,7 +22,27 @@ export default async function NewsArticle({ params }: Props) {
           {formatDateUTC(item.date, lang)}
         </time>
         <h1 className="text-3xl font-bold mt-2">{item.title}</h1>
+        {item.author && (
+          <p className="text-sm text-gray-600 mt-1">{item.author}</p>
+        )}
       </header>
+      {item.cover && (
+        <figure className="not-prose mb-6">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={item.cover} alt={item.coverAlt || ''} className="w-full rounded-md" />
+          {(item.coverCredit || item.coverCreditUrl) && (
+            <figcaption className="text-xs text-gray-500 mt-2">
+              {item.coverCreditUrl ? (
+                <a href={item.coverCreditUrl} target="_blank" rel="noreferrer noopener" className="underline">
+                  {item.coverCredit || item.coverCreditUrl}
+                </a>
+              ) : (
+                item.coverCredit
+              )}
+            </figcaption>
+          )}
+        </figure>
+      )}
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </article>
   )
