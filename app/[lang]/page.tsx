@@ -132,11 +132,7 @@ const frontPageContent = {
   },
 }
 
-export default async function IndexPage({
-                                          params,
-                                        }: {
-  params: Promise<{ lang: Locale }>
-}) {
+export default async function IndexPage({ params }: { params: Promise<{ lang: Locale }> }) {
   const { lang } = await params
 
   const homePage = getPageBySlug('home/home', lang)
