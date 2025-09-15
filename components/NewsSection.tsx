@@ -8,9 +8,15 @@ type Props = {
   lang: Locale
   heading: string
   viewAllLabel: string
+  readMoreLabel: string
 }
 
-export default function NewsSection({ lang, heading, viewAllLabel }: Props) {
+export default function NewsSection({
+  lang,
+  heading,
+  viewAllLabel,
+  readMoreLabel,
+}: Props) {
   const items = getLatestNews(lang, 4)
 
   if (items.length === 0) return null
@@ -27,7 +33,10 @@ export default function NewsSection({ lang, heading, viewAllLabel }: Props) {
 
         <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((n) => (
-            <li key={n.slug} className="bg-white rounded-md shadow-sm border overflow-hidden">
+            <li
+              key={n.slug}
+              className="bg-white rounded-md shadow-sm border overflow-hidden"
+            >
               {n.cover && (
                 <div className="relative h-40 w-full">
                   <Image src={n.cover} alt="" fill className="object-cover" />
@@ -39,13 +48,15 @@ export default function NewsSection({ lang, heading, viewAllLabel }: Props) {
                 </time>
                 <h3 className="mt-1 font-semibold line-clamp-2">{n.title}</h3>
                 {n.summary && (
-                  <p className="mt-2 text-sm text-gray-600 line-clamp-3">{n.summary}</p>
+                  <p className="mt-2 text-sm text-gray-600 line-clamp-3">
+                    {n.summary}
+                  </p>
                 )}
                 <Link
                   href={`/${lang}/news/${encodeURIComponent(n.slug)}`}
                   className="mt-3 inline-block text-sm text-primary hover:underline"
                 >
-                  Read more
+                  {readMoreLabel}
                 </Link>
               </div>
             </li>

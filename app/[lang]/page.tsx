@@ -77,6 +77,7 @@ const frontPageContent = {
       instaCta: 'Seuraa Instagramissa',
       partners: 'Yhteistyössä',
       calendar: 'Tapahtumakalenteri',
+      readMoreLabel: 'Lue lisää',
     },
   },
   sv: {
@@ -101,6 +102,7 @@ const frontPageContent = {
       instaCta: 'Följ på Instagram',
       partners: 'I samarbete',
       calendar: 'Evenemangskalender',
+      readMoreLabel: 'Läs mer',
     },
   },
   en: {
@@ -125,6 +127,7 @@ const frontPageContent = {
       instaCta: 'Follow on Instagram',
       partners: 'In Cooperation With',
       calendar: 'Event Calendar',
+      readMoreLabel: 'Read more',
     },
   },
 }
@@ -243,6 +246,7 @@ export default async function IndexPage({
         lang={lang}
         heading={frontPageContent[lang].headings.news}
         viewAllLabel={frontPageContent[lang].headings.viewAll}
+        readMoreLabel={frontPageContent[lang].headings.readMoreLabel}
       />
 
       {/* Lightweight Instagram strip (example) */}
@@ -251,13 +255,28 @@ export default async function IndexPage({
         ctaLabel={frontPageContent[lang].headings.instaCta}
         profileUrl="https://www.instagram.com/turunteekkari/"
         items={[
-          { href: 'https://www.instagram.com/turunteekkari/', src: '/event-sommar.jpg', alt: '' },
-          { href: 'https://www.instagram.com/turunteekkari/', src: '/event-jaynastartti.jpg', alt: '' },
-          { href: 'https://www.instagram.com/turunteekkari/', src: '/event-excu.jpg', alt: '' },
-          { href: 'https://www.instagram.com/turunteekkari/', src: '/event-sitz.jpg', alt: '' },
+          {
+            href: 'https://www.instagram.com/turunteekkari/',
+            src: '/event-sommar.jpg',
+            alt: '',
+          },
+          {
+            href: 'https://www.instagram.com/turunteekkari/',
+            src: '/event-jaynastartti.jpg',
+            alt: '',
+          },
+          {
+            href: 'https://www.instagram.com/turunteekkari/',
+            src: '/event-excu.jpg',
+            alt: '',
+          },
+          {
+            href: 'https://www.instagram.com/turunteekkari/',
+            src: '/event-sitz.jpg',
+            alt: '',
+          },
         ]}
       />
-
 
       {/* Calendar */}
       <div className="w-full bg-gray-50">
