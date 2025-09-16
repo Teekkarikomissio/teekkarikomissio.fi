@@ -2,7 +2,11 @@ import { NextResponse } from 'next/server'
 import { getAllEvents } from '@/lib/events'
 import { createEvent } from 'ics'
 
-export async function GET(_: Request, { params }: { params: { id: string } }) {
+export async function GET(
+  _: Request,
+  props: { params: Promise<{ id: string }> }
+) {
+  const params = await props.params
   const all = await getAllEvents()
   const e = all.find((x) => x.id === decodeURIComponent(params.id))
   if (!e) return new NextResponse('Not found', { status: 404 })

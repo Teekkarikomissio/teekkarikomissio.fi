@@ -17,21 +17,23 @@ export default async function HomeEventsSection({ lang }: Props) {
   const title = headings[lang] ?? headings.fi
 
   return (
-    <section className="container mx-auto px-4 py-10">
-      <div className="mb-6 flex items-baseline justify-between gap-4">
-        <h2 className="text-2xl font-bold">{title}</h2>
-        <Link
-          href={`/${lang}/events`}
-          className="text-primary underline hover:opacity-80"
-        >
-          {lang === 'sv'
-            ? 'Visa alla'
-            : lang === 'en'
-              ? 'View all'
-              : 'Näytä kaikki'}
-        </Link>
+    <section className="w-full bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="flex items-end justify-between mb-8">
+          <h2 className="text-3xl font-bold">{title}</h2>
+          <Link
+            href={`/${lang}/events`}
+            className="text-primary hover:underline"
+          >
+            {lang === 'sv'
+              ? 'Visa alla'
+              : lang === 'en'
+                ? 'View all'
+                : 'Näytä kaikki'}
+          </Link>
+        </div>
+        <EventList events={events} locale={lang} />
       </div>
-      <EventList events={events} locale={lang} />
     </section>
   )
 }

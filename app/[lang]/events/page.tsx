@@ -3,11 +3,10 @@ import EventList from '@/components/events/EventList'
 
 export const revalidate = 3600
 
-export default async function EventsPage({
-  params,
-}: {
-  params: { lang: string }
+export default async function EventsPage(props: {
+  params: Promise<{ lang: string }>
 }) {
+  const params = await props.params
   const events = await getUpcomingEvents()
   const locale = params.lang || 'fi'
 
