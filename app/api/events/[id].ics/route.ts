@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { getAllEvents } from '@/lib/events'
-import { createEvent } from 'ics'
+import { createEvent, type EventAttributes } from 'ics'
 
 export async function GET(
   _: Request,
@@ -11,7 +11,7 @@ export async function GET(
   const e = all.find((x) => x.id === decodeURIComponent(params.id))
   if (!e) return new NextResponse('Not found', { status: 404 })
 
-  const toTuple = (d: Date) => [
+  const toTuple = (d: Date): [number, number, number, number, number] => [
     d.getUTCFullYear(),
     d.getUTCMonth() + 1,
     d.getUTCDate(),
@@ -19,18 +19,28 @@ export async function GET(
     d.getUTCMinutes(),
   ]
 
-  const { error, value } = createEvent({
+  const start = toTuple(e.start)
+
+  const base = {
     title: e.title,
-    description: e.description,
-    location: e.location,
-    url: e.url,
-    startInputType: 'utc',
-    endInputType: 'utc',
-    start: toTuple(e.start),
-    ...(e.end ? { end: toTuple(e.end) } : {}),
-    status: 'CONFIRMED',
-    busyStatus: 'BUSY',
-  })
+    ...(e.description ? { description: e.description } : {}),
+    ...(e.location ? { location: e.location } : {}),
+    ...(e.url ? { url: e.url } : {}),
+    startInputType: 'utc' as const,
+    endInputType: 'utc' as const,
+    start,
+    status: 'CONFIRMED' as const,
+    busyStatus: 'BUSY' as const,
+  }
+
+  let attrs: EventAttributes
+  if (e.end) {
+    attrs = { ...base, end: toTuple(e.end) }
+  } else {
+    attrs = { ...base, duration: { hours: 1 } }
+  }
+
+  const { error, value } = createEvent(attrs)
   if (error || !value)
     return new NextResponse('Failed to generate ICS', { status: 500 })
 

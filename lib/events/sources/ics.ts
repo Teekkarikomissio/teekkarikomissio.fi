@@ -28,7 +28,7 @@ export async function fetchIcsEvents(icsUrl: string): Promise<Event[]> {
         title: item.summary || 'Untitled',
         description: item.description || '',
         location: item.location || '',
-        url: item.url || item.organizer || undefined,
+        url: item.url || undefined,
         start,
         end,
         allDay: !!item.datetype && item.datetype === 'date',

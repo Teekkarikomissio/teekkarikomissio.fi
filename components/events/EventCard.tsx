@@ -32,19 +32,27 @@ export default function EventCard({
       <div className="mt-3 flex gap-3">
         {event.url ? (
           <a
-            className="text-primary underline"
+            className="text-primary hover:underline"
             href={event.url}
             target="_blank"
             rel="noreferrer"
           >
-            More info
+            {locale === 'sv'
+              ? 'Mer information'
+              : locale === 'en'
+                ? 'More info'
+                : 'Lisätietoja'}
           </a>
         ) : null}
         <a
-          className="text-primary underline"
+          className="text-primary hover:underline"
           href={`/api/events/${encodeURIComponent(event.id)}.ics`}
         >
-          Add to calendar
+          {locale === 'sv'
+            ? 'Lägg till i kalendern'
+            : locale === 'en'
+              ? 'Add to calendar'
+              : 'Lisää kalenteriin'}
         </a>
       </div>
     </article>
