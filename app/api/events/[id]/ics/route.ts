@@ -3,13 +3,18 @@ import { getAllEvents } from '@/lib/events'
 import { createEvent, type EventAttributes } from 'ics'
 
 export async function GET(
-  _: Request,
-  props: { params: Promise<{ id: string }> }
+  request: Request,
+  { params }: { params: { id: string } }
 ) {
-  const params = await props.params
+  const { id } = params
+
+  const eventId = decodeURIComponent(id)
+
   const all = await getAllEvents()
-  const e = all.find((x) => x.id === decodeURIComponent(params.id))
-  if (!e) return new NextResponse('Not found', { status: 404 })
+  const e = all.find((x) => x.id === eventId)
+  if (!e) {
+    return new NextResponse('Not found', { status: 404 })
+  }
 
   const toTuple = (d: Date): [number, number, number, number, number] => [
     d.getUTCFullYear(),
@@ -41,13 +46,15 @@ export async function GET(
   }
 
   const { error, value } = createEvent(attrs)
-  if (error || !value)
+  if (error || !value) {
+    console.error('ICS Generation Error:', error) // Good practice to log the actual error
     return new NextResponse('Failed to generate ICS', { status: 500 })
+  }
 
   return new NextResponse(value, {
     headers: {
       'Content-Type': 'text/calendar; charset=utf-8',
-      'Content-Disposition': `attachment; filename="${encodeURIComponent(e.id)}.ics"`,
+      'Content-Disposition': `attachment; filename="${encodeURIComponent(id)}.ics"`,
     },
   })
 }

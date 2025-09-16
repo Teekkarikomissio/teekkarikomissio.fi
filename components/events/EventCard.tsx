@@ -46,7 +46,7 @@ export default function EventCard({
         ) : null}
         <a
           className="text-primary hover:underline"
-          href={`/api/events/${encodeURIComponent(event.id)}.ics`}
+          href={`/api/events/${encodeURIComponent(event.id)}/ics`}
         >
           {locale === 'sv'
             ? 'Lägg till i kalendern'
