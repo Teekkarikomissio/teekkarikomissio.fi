@@ -1,16 +1,17 @@
 import { getUpcomingEvents } from '@/lib/events'
 import EventList from '@/components/events/EventList'
+import { Locale } from '@/i18n-config'
 
 export const revalidate = 3600
 
 export default async function EventsPage(props: {
-  params: Promise<{ lang: string }>
+  params: Promise<{ lang: Locale }>
 }) {
   const params = await props.params
   const events = await getUpcomingEvents()
-  const locale = params.lang || 'fi'
+  const locale: Locale = params.lang ?? 'fi'
 
-  const headings: Record<string, string> = {
+  const headings: Record<Locale, string> = {
     fi: 'Tapahtumat',
     en: 'Events',
     sv: 'Evenemang',

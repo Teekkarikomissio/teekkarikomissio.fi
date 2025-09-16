@@ -4,9 +4,9 @@ import { createEvent, type EventAttributes } from 'ics'
 
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ) {
-  const { id } = params
+  const { id } = await context.params
 
   const eventId = decodeURIComponent(id)
 
