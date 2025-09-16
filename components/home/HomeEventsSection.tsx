@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import { getUpcomingEvents } from '@/lib/events'
 import EventList from '@/components/events/EventList'
+import type { Locale } from '@/i18n-config'
 
 type Props = {
-  lang: string
+  lang: Locale
 }
 
 const headings: Record<string, string> = {
