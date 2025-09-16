@@ -8,6 +8,7 @@ import getPageBySlug from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
 import NewsSection from '@/components/NewsSection'
 import InstagramStrip from '@/components/InstagramStrip'
+import HomeEventsSection from '@/components/home/HomeEventsSection'
 
 type Props = {
   params: Promise<{ lang: Locale }>
@@ -132,7 +133,11 @@ const frontPageContent = {
   },
 }
 
-export default async function IndexPage({ params }: { params: Promise<{ lang: Locale }> }) {
+export default async function IndexPage({
+  params,
+}: {
+  params: Promise<{ lang: Locale }>
+}) {
   const { lang } = await params
 
   const homePage = getPageBySlug('home/home', lang)
@@ -236,6 +241,9 @@ export default async function IndexPage({ params }: { params: Promise<{ lang: Lo
           </div>
         </div>
       </div>
+
+      {/* Event Section */}
+      <HomeEventsSection lang={lang} />
 
       {/* News Section */}
       <NewsSection
