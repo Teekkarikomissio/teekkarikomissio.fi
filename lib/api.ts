@@ -177,22 +177,22 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
       .filter((item): item is ContentFolder => item !== null)
 
     // Append external Annual Ball XXV link as a top-level nav item (temporary)
-    const annualBallItem: ContentFolder = {
-      href: 'https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla',
-      slug: 'annual-ball-xxv',
-      meta: {
-        title: 'Annual Ball XXV',
-        translatedTitle: {
-          fi: 'Vuosijuhlat XXV',
-          sv: 'Årsfest XXV',
-          en: 'Annual Ball XXV',
-        },
-      },
-      content: '',
-      subPages: [],
-    }
+    // const annualBallItem: ContentFolder = {
+    //   href: 'https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla',
+    //   slug: 'annual-ball-xxv',
+    //   meta: {
+    //     title: 'Annual Ball XXV',
+    //     translatedTitle: {
+    //       fi: 'Vuosijuhlat XXV',
+    //       sv: 'Årsfest XXV',
+    //       en: 'Annual Ball XXV',
+    //     },
+    //   },
+    //   content: '',
+    //   subPages: [],
+    // }
 
-    return [...pages, annualBallItem]
+    return [...pages]
   } catch (error) {
     console.error('Error in getNavigationByLocale:', error)
     return []
