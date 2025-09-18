@@ -1,6 +1,7 @@
 'use client'
 
 import { Event } from '@/lib/events/types'
+import Link from 'next/link'
 
 export default function EventCard({
   event,
@@ -30,20 +31,16 @@ export default function EventCard({
         <p className="mt-2 text-sm text-gray-700">{event.description}</p>
       ) : null}
       <div className="mt-3 flex gap-3">
-        {event.url ? (
-          <a
-            className="text-primary hover:underline"
-            href={event.url}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {locale === 'sv'
-              ? 'Mer information'
-              : locale === 'en'
-                ? 'More info'
-                : 'Lisätietoja'}
-          </a>
-        ) : null}
+        <Link
+          href={`/${locale}/events/${encodeURIComponent(event.id)}`}
+          className="text-primary hover:underline"
+        >
+          {locale === 'sv'
+            ? 'Läs mer'
+            : locale === 'en'
+              ? 'Read more'
+              : 'Lue lisää'}
+        </Link>
         <a
           className="text-primary hover:underline"
           href={`/api/events/${encodeURIComponent(event.id)}/ics`}
