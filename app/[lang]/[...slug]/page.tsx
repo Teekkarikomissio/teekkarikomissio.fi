@@ -1,12 +1,9 @@
 import React from 'react'
-import { Locale } from '../../../i18n-config'
+import { i18n, Locale } from '@/i18n-config'
 import MarkdownPage from '@/components/MarkdownPage'
 import { notFound, redirect } from 'next/navigation'
-import { getNavigationByLocale } from '@/lib/api'
-import { i18n } from '@/i18n-config'
+import getPageBySlug, { getNavigationByLocale } from '@/lib/api'
 import { Metadata } from 'next'
-
-import getPageBySlug from '@/lib/api'
 import dynamicPageStyles from './dynamic-page.module.css'
 
 interface Props {
@@ -43,10 +40,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = await params
   const slugPath = slug.join('/')
-  
+
   try {
     const page = getPageBySlug(`${slugPath}/${slug[slug.length - 1]}`, lang)
-    
+
     return {
       title: page.meta.title,
       description: page.meta.description || '',
@@ -70,7 +67,7 @@ export default async function DynamicPage({ params }: Props) {
   const slugPath = slug.join('/')
 
   const navigation = await getNavigationByLocale(lang)
-  const currentSection = navigation.find(section => section?.slug === slug[0])
+  const currentSection = navigation.find((section) => section?.slug === slug[0])
 
   if (!currentSection) {
     notFound()
