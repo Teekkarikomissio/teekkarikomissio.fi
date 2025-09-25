@@ -139,8 +139,8 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
   const ListItem = React.forwardRef<
     React.ElementRef<typeof NavigationMenuLink>,
     React.ComponentPropsWithoutRef<typeof NavigationMenuLink> & {
-      title: string
-    }
+    title: string
+  }
   >(({ className, title, children, ...props }, ref) => {
     return (
       <li>
@@ -169,10 +169,14 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
 
     return (
       <Sheet open={open} onOpenChange={setOpen}>
-        <SheetTrigger className="rounded-none capitalize pl-1">
-          <span className="lg:hidden inline-flex items-center px-3 py-2 border rounded text-secondary border-secondary hover:text-white hover:border-white">
+        <SheetTrigger asChild>
+          <button
+            type="button"
+            aria-label="Open navigation menu"
+            className="lg:hidden inline-flex items-center px-3 py-2 border rounded text-secondary border-secondary hover:text-white hover:border-white capitalize pl-1"
+          >
             <Menu size={24} />
-          </span>
+          </button>
         </SheetTrigger>
         <SheetContent
           side="left"

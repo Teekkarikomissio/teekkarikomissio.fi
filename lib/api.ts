@@ -90,7 +90,6 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
     'yhdistys',
     'fukseille',
     'kulttuuri',
-    'tapahtumat',
     'yhteistyo',
     'ongelmatilannelomake',
   ]
@@ -192,7 +191,42 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
     //   subPages: [],
     // }
 
-    return [...pages]
+    // Append special dynamic pages as top-level nav items
+    const newsItem: ContentFolder = {
+      href: `/${locale}/news`,
+      slug: 'news',
+      meta: {
+        title: 'News',
+        translatedTitle: {
+          fi: 'Uutiset',
+          sv: 'Nyheter',
+          en: 'News',
+        },
+      },
+      content: '',
+      subPages: [],
+    }
+
+    const eventsItem: ContentFolder = {
+      href: `/${locale}/events`,
+      slug: 'events',
+      meta: {
+        title: {
+          fi: 'Tapahtumat',
+          sv: 'Evenemang',
+          en: 'Events',
+        }[locale],
+        translatedTitle: {
+          fi: 'Tapahtumat',
+          sv: 'Evenemang',
+          en: 'Events',
+        },
+      },
+      content: '',
+      subPages: [],
+    }
+
+    return [newsItem, eventsItem, ...pages]
   } catch (error) {
     console.error('Error in getNavigationByLocale:', error)
     return []
@@ -214,11 +248,6 @@ const sectionTranslations = {
     en: 'Culture',
     sv: 'Kultur',
     fi: 'Kulttuuri',
-  },
-  tapahtumat: {
-    en: 'Events',
-    sv: 'Evenemang',
-    fi: 'Tapahtumat',
   },
   yhteistyo: {
     en: 'Cooperation',
