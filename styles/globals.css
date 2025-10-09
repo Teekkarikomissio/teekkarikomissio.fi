@@ -101,3 +101,15 @@
 .prose ul, .prose ol { margin-top: 0.75em; margin-bottom: 0.75em; }
 .prose h1, .prose h2, .prose h3, .prose h4 { margin-top: 1.5em; margin-bottom: 0.75em; }
 .prose img { margin-top: 1rem; margin-bottom: 1rem; }
+
+.markdown table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: auto;
+}
+
+.markdown th,
+.markdown td {
+    text-align: left;
+    padding: 12px;
+}

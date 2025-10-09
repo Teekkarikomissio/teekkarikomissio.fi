@@ -59,3 +59,15 @@
 .markdown img[src*="hannula-puhe.jpg"] {
     @apply mx-auto w-80 h-auto rounded-md;
 }
+
+.markdown table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: auto;
+}
+
+.markdown th,
+.markdown td {
+    text-align: left;
+    padding: 12px;
+}
