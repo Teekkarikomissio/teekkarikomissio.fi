@@ -11,7 +11,7 @@ export default function EventList({
 }) {
   if (!events?.length)
     return (
-      <p className="text-sm text-gray-600">
+      <p className="text-sm text-muted-foreground text-center">
         {locale === 'sv'
           ? 'Inga kommande evenemang.'
           : locale === 'en'
@@ -20,7 +20,7 @@ export default function EventList({
       </p>
     )
   return (
-    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {events.map((e) => (
         <EventCard key={e.id} event={e} locale={locale} />
       ))}

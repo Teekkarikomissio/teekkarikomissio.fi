@@ -18,11 +18,16 @@ export default async function EventsPage(props: {
   }
 
   return (
-    <main className="container mx-auto px-4 py-10">
-      <h1 className="mb-6 text-2xl font-bold">
-        {headings[locale] || headings.fi}
-      </h1>
-      <EventList events={events} locale={locale} />
+    <main className="w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+        <div className="relative pb-2 mb-8">
+          <h1 className="text-3xl font-bold text-center">
+            {headings[locale] || headings.fi}
+          </h1>
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-primary"></div>
+        </div>
+        <EventList events={events} locale={locale} />
+      </div>
     </main>
   )
 }

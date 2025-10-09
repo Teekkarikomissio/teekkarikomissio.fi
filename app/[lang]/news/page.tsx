@@ -2,6 +2,8 @@ import { Locale } from '@/i18n-config'
 import { getAllNews } from '@/lib/news'
 import { formatDateUTC } from '@/lib/date'
 import Link from 'next/link'
+import Image from 'next/image'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
 type Props = { params: Promise<{ lang: Locale }> }
 
@@ -23,32 +25,67 @@ export default async function NewsIndex({ params }: Props) {
   }
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-      <h1 className="text-3xl font-bold mb-8">
-        {headings[locale] || headings.fi}
-      </h1>
-      {items.length === 0 ? (
-        <p className="text-gray-600">{emptyList[locale] || headings.fi}</p>
-      ) : (
-        <ul className="space-y-6">
-          {items.map((n) => (
-            <li key={n.slug} className="border-b pb-6">
-              <time className="text-xs text-gray-500" dateTime={n.date}>
-                {formatDateUTC(n.date, lang)}
-              </time>
-              <h2 className="text-xl font-semibold mt-1">
-                <Link href={`/${lang}/news/${encodeURIComponent(n.slug)}`}>
-                  {n.title}
-                </Link>
-              </h2>
-              {n.author && (
-                <p className="text-xs text-gray-500 mt-1">{n.author}</p>
-              )}
-              {n.summary && <p className="text-gray-700 mt-2">{n.summary}</p>}
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
+    <main className="w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+        <div className="relative pb-2 mb-8">
+          <h1 className="text-3xl font-bold text-center">
+            {headings[locale] || headings.fi}
+          </h1>
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-primary"></div>
+        </div>
+        {items.length === 0 ? (
+          <p className="text-center text-muted-foreground">
+            {emptyList[locale] || headings.fi}
+          </p>
+        ) : (
+          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {items.map((n) => (
+              <li key={n.slug}>
+                <Card className="h-full overflow-hidden">
+                  {n.cover ? (
+                    <div className="relative h-40 w-full">
+                      <Image
+                        src={n.cover}
+                        alt={n.coverAlt || ''}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  ) : null}
+                  <CardHeader className="space-y-2">
+                    <time
+                      className="text-xs text-muted-foreground"
+                      dateTime={n.date}
+                    >
+                      {formatDateUTC(n.date, lang)}
+                    </time>
+                    <CardTitle className="text-xl leading-tight">
+                      <Link
+                        href={`/${lang}/news/${encodeURIComponent(n.slug)}`}
+                        className="hover:underline"
+                      >
+                        {n.title}
+                      </Link>
+                    </CardTitle>
+                    {n.author && (
+                      <p className="text-xs text-muted-foreground">
+                        {n.author}
+                      </p>
+                    )}
+                  </CardHeader>
+                  {n.summary ? (
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground line-clamp-4">
+                        {n.summary}
+                      </p>
+                    </CardContent>
+                  ) : null}
+                </Card>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </main>
   )
 }

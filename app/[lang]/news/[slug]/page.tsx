@@ -16,34 +16,55 @@ export default async function NewsArticle({ params }: Props) {
   const html = await markdownToHtml(item.content)
 
   return (
-    <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14 prose prose-neutral dark:prose-invert">
-      <header className="mb-6">
-        <time className="text-xs text-gray-500" dateTime={item.date}>
-          {formatDateUTC(item.date, lang)}
-        </time>
-        <h1 className="text-3xl font-bold mt-2">{item.title}</h1>
-        {item.author && (
-          <p className="text-sm text-gray-600 mt-1">{item.author}</p>
+    <main className="w-full">
+      <article className="max-w-prose mx-auto px-4 sm:px-6 lg:px-8 py-14 prose prose-neutral dark:prose-invert">
+        <header className="mb-6 not-prose">
+          <div className="relative pb-2 mb-4">
+            <h1 className="text-3xl font-bold text-center">{item.title}</h1>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-primary"></div>
+          </div>
+          <div className="text-center">
+            <time
+              className="text-xs text-muted-foreground"
+              dateTime={item.date}
+            >
+              {formatDateUTC(item.date, lang)}
+            </time>
+            {item.author && (
+              <p className="text-sm text-muted-foreground mt-1">
+                {item.author}
+              </p>
+            )}
+          </div>
+        </header>
+        {item.cover && (
+          <figure className="not-prose mb-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={item.cover}
+              alt={item.coverAlt || ''}
+              className="w-full rounded-md"
+            />
+            {(item.coverCredit || item.coverCreditUrl) && (
+              <figcaption className="text-xs text-muted-foreground mt-2 text-center">
+                {item.coverCreditUrl ? (
+                  <a
+                    href={item.coverCreditUrl}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="underline"
+                  >
+                    {item.coverCredit || item.coverCreditUrl}
+                  </a>
+                ) : (
+                  item.coverCredit
+                )}
+              </figcaption>
+            )}
+          </figure>
         )}
-      </header>
-      {item.cover && (
-        <figure className="not-prose mb-6">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={item.cover} alt={item.coverAlt || ''} className="w-full rounded-md" />
-          {(item.coverCredit || item.coverCreditUrl) && (
-            <figcaption className="text-xs text-gray-500 mt-2">
-              {item.coverCreditUrl ? (
-                <a href={item.coverCreditUrl} target="_blank" rel="noreferrer noopener" className="underline">
-                  {item.coverCredit || item.coverCreditUrl}
-                </a>
-              ) : (
-                item.coverCredit
-              )}
-            </figcaption>
-          )}
-        </figure>
-      )}
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-    </article>
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+      </article>
+    </main>
   )
 }
