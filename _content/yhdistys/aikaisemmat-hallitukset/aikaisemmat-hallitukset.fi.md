@@ -3,69 +3,69 @@ title: Aikaisemmat hallitukset
 ---
 ## 2024
 
-| Hallitusrooli | Nimi                |
-|---------------|---------------------|
-|               | Reetta Lindberg     |
-|               | Risto Ruohola       |
-|               | Ellen Ekblom        |
-|               | Arttu Jokinen       |
-|               | Tiitus Hannula      |
-|               | Roosa Varjonen      |
-|               | Kristoffer Lindholm |
-|               | Marianne Matinvuori |
-|               | Jani Norrby         |
-|               | Mikko Lehtosalo     |
+| Hallitusrooli                                  | Nimi                |
+|------------------------------------------------|---------------------|
+| Pääkomissaari                                  | Reetta Lindberg     |
+| Varapääkomissaari                              | Risto Ruohola       |
+| Viestintäkomissaari, yhdenvertaisuuskomissaari | Ellen Ekblom        |
+| Talouskomissaari                               | Arttu Jokinen       |
+| Ulkoasiainkomissaari                           | Tiitus Hannula      |
+| Kulttuurikomissaari                            | Roosa Varjonen      |
+| Sihteeri                                       | Kristoffer Lindholm |
+| Tapahtumakomissaari                            | Marianne Matinvuori |
+| Järjestökomissaari                             | Jani Norrby         |
+| Tapahtumakomissaari                            | Mikko Lehtosalo     |
 
 ## 2023
 
-| Hallitusrooli | Nimi             |
-|---------------|------------------|
-|               | Matti Loimaranta |
-|               | Niklas Sjöqvist  |
-|               | Niklas Lind      |
-|               | Juho Ollila      |
-|               | Reetta Lindberg  |
-|               | Max Andersson    |
-|               | Mikko Lehtosalo  |
-|               | Einar Helkkula   |
-|               | Sebastian Boman  |
+| Hallitusrooli        | Nimi             |
+|----------------------|------------------|
+| Pääkomissaari        | Matti Loimaranta |
+| Varapääkomissaari    | Niklas Sjöqvist  |
+|                      | Niklas Lind      |
+| Talouskomissaari     | Juho Ollila      |
+| Kulttuurikomissaari  | Reetta Lindberg  |
+| Ulkoasiainkomissaari | Max Andersson    |
+| Tapahtumakomissaari  | Mikko Lehtosalo  |
+| Sihteeri             | Einar Helkkula   |
+| Sihteeri             | Sebastian Boman  |
 
 ## 2022
 
-| Hallitusrooli | Nimi             |
-|---------------|------------------|
-|               | Robert Kantero   |
-|               | Maksim Laitinen  |
-|               | Jonatan Järvinen |
-|               | Niklas Sjöqvist  |
-|               | Matti Loimaranta |
-|               | Alex Nygård      |
-|               | Julia Pyysalo    |
-|               | Niklas Lind      |
+| Hallitusrooli       | Nimi             |
+|---------------------|------------------|
+| Pääkomissaari       | Robert Kantero   |
+| Varapääkomissaari   | Maksim Laitinen  |
+| Sihteeri            | Jonatan Järvinen |
+|                     | Niklas Sjöqvist  |
+| Kulttuurikomissaari | Matti Loimaranta |
+|                     | Alex Nygård      |
+|                     | Julia Pyysalo    |
+|                     | Niklas Lind      |
 
 ## 2021
 
-| Hallitusrooli | Nimi              |
-|---------------|-------------------|
-|               | Juhani Kalske     |
-|               | Casimir Ruohomaa  |
-|               | Ilona Kairinen    |
-|               | Niklas Luomala    |
-|               | Merimari Seppänen |
-|               | Robert Kantero    |
+| Hallitusrooli       | Nimi              |
+|---------------------|-------------------|
+| Pääkomissaari       | Juhani Kalske     |
+| Varapääkomissaari   | Casimir Ruohomaa  |
+|                     | Ilona Kairinen    |
+| Kulttuurikomissaari | Niklas Luomala    |
+|                     | Merimari Seppänen |
+|                     | Robert Kantero    |
 
 ## 2020
 
-| Hallitusrooli | Nimi             |
-|---------------|------------------|
-|               | Jeremi Nyyssönen |
-|               | Miika Peltotalo  |
-|               | Juhani Kalske    |
-|               | Hektor Dahlberg  |
-|               | William Lindroos |
-|               | Ilona Kairinen   |
-|               | Niklas Luomala   |
-|               | Casimir Ruohomaa |
+| Hallitusrooli     | Nimi             |
+|-------------------|------------------|
+| Pääkomissaari     | Jeremi Nyyssönen |
+| Varapääkomissaari | Miika Peltotalo  |
+|                   | Juhani Kalske    |
+|                   | Hektor Dahlberg  |
+|                   | William Lindroos |
+|                   | Ilona Kairinen   |
+|                   | Niklas Luomala   |
+|                   | Casimir Ruohomaa |
 
 ## 2019
 
@@ -249,8 +249,8 @@ title: Aikaisemmat hallitukset
 
 | Hallitusrooli                   | Nimi                |
 |---------------------------------|---------------------|
-| Puheenjohtaja                   | Lasse Gestranius    |
-| Varapuheenjohtaja               | Timo Kuusela        |
+| Pääkomissaari                   | Lasse Gestranius    |
+| Varapääkomissaari               | Timo Kuusela        |
 | Talouskomissaari                | Marjaana Sjölund    |
 | Sihteeri                        | Ann-Catrin Sundelin |
 | Tiedotusvastaava                | Niklas Doktar       |

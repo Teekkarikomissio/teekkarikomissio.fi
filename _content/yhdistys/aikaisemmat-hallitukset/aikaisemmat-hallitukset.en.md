@@ -3,56 +3,56 @@ title: Previous boards
 ---
 ## 2024
 
-| Post | Name                |
-|------|---------------------|
-|      | Reetta Lindberg     |
-|      | Risto Ruohola       |
-|      | Ellen Ekblom        |
-|      | Arttu Jokinen       |
-|      | Tiitus Hannula      |
-|      | Roosa Varjonen      |
-|      | Kristoffer Lindholm |
-|      | Marianne Matinvuori |
-|      | Jani Norrby         |
-|      | Mikko Lehtosalo     |
+| Post                                           | Name                |
+|------------------------------------------------|---------------------|
+| Pääkomissaari                                  | Reetta Lindberg     |
+| Varapääkomissaari                              | Risto Ruohola       |
+| Viestintäkomissaari, yhdenvertaisuuskomissaari | Ellen Ekblom        |
+| Talouskomissaari                               | Arttu Jokinen       |
+| Ulkoasiainkomissaari                           | Tiitus Hannula      |
+| Kulttuurikomissaari                            | Roosa Varjonen      |
+| Sihteeri                                       | Kristoffer Lindholm |
+| Tapahtumakomissaari                            | Marianne Matinvuori |
+| Järjestökomissaari                             | Jani Norrby         |
+| Tapahtumakomissaari                            | Mikko Lehtosalo     |
 
 ## 2023
 
-| Post | Name             |
-|------|------------------|
-|      | Matti Loimaranta |
-|      | Niklas Sjöqvist  |
-|      | Niklas Lind      |
-|      | Juho Ollila      |
-|      | Reetta Lindberg  |
-|      | Max Andersson    |
-|      | Mikko Lehtosalo  |
-|      | Einar Helkkula   |
-|      | Sebastian Boman  |
+| Post                 | Name             |
+|----------------------|------------------|
+| Pääkomissaari        | Matti Loimaranta |
+| Varapääkomissaari    | Niklas Sjöqvist  |
+|                      | Niklas Lind      |
+| Talouskomissaari     | Juho Ollila      |
+| Kulttuurikomissaari  | Reetta Lindberg  |
+| Ulkoasiainkomissaari | Max Andersson    |
+| Tapahtumakomissaari  | Mikko Lehtosalo  |
+| Sihteeri             | Einar Helkkula   |
+| Sihteeri             | Sebastian Boman  |
 
 ## 2022
 
-| Post | Name             |
-|------|------------------|
-|      | Robert Kantero   |
-|      | Maksim Laitinen  |
-|      | Jonatan Järvinen |
-|      | Niklas Sjöqvist  |
-|      | Matti Loimaranta |
-|      | Alex Nygård      |
-|      | Julia Pyysalo    |
-|      | Niklas Lind      |
+| Post                | Name             |
+|---------------------|------------------|
+| Pääkomissaari       | Robert Kantero   |
+| Varapääkomissaari   | Maksim Laitinen  |
+| Sihteeri            | Jonatan Järvinen |
+|                     | Niklas Sjöqvist  |
+| Kulttuurikomissaari | Matti Loimaranta |
+|                     | Alex Nygård      |
+|                     | Julia Pyysalo    |
+|                     | Niklas Lind      |
 
 ## 2021
 
-| Post | Name              |
-|------|-------------------|
-|      | Juhani Kalske     |
-|      | Casimir Ruohomaa  |
-|      | Ilona Kairinen    |
-|      | Niklas Luomala    |
-|      | Merimari Seppänen |
-|      | Robert Kantero    |
+| Post                | Name              |
+|---------------------|-------------------|
+| Pääkomissaari       | Juhani Kalske     |
+| Varapääkomissaari   | Casimir Ruohomaa  |
+|                     | Ilona Kairinen    |
+| Kulttuurikomissaari | Niklas Luomala    |
+|                     | Merimari Seppänen |
+|                     | Robert Kantero    |
 
 ## 2020
 
@@ -69,42 +69,42 @@ title: Previous boards
 
 ## 2019
 
-| Post | Name             |
-|------|------------------|
-|      | Oskari Lehtinen  |
-|      | Martin Ekman     |
-|      | Miika Peltotalo  |
-|      | Katariina Kilkku |
-|      | Andreas Sweins   |
-|      | Matias Meri      |
-|      | Jakob Nordman    |
-|      | Juhani Kalske    |
+| Post          | Name             |
+|---------------|------------------|
+| Pääkomissaari | Oskari Lehtinen  |
+|               | Martin Ekman     |
+|               | Miika Peltotalo  |
+|               | Katariina Kilkku |
+|               | Andreas Sweins   |
+|               | Matias Meri      |
+|               | Jakob Nordman    |
+|               | Juhani Kalske    |
 
 ## 2018
 
-| Post | Name            |
-|------|-----------------|
-|      | Asser Junnila   |
-|      | Peetu Seilonen  |
-|      | Joonatan Mäkelä |
-|      | Emmi Varjonen   |
-|      | Topias Mannisto |
-|      | Jimmy Fagerholm |
-|      | Oskari Lehtinen |
-|      | Miika Peltotalo |
+| Post          | Name            |
+|---------------|-----------------|
+| Pääkomissaari | Asser Junnila   |
+|               | Peetu Seilonen  |
+|               | Joonatan Mäkelä |
+|               | Emmi Varjonen   |
+|               | Topias Mannisto |
+|               | Jimmy Fagerholm |
+|               | Oskari Lehtinen |
+|               | Miika Peltotalo |
 
 ## 2017
 
-| Post | Name             |
-|------|------------------|
-|      | Robert Talling   |
-|      | Axel Johansson   |
-|      | Antti Nuutinen   |
-|      | Fredrik Nyholm   |
-|      | Mikael Lindberg  |
-|      | Asser Junnila    |
-|      | Martin Ekman     |
-|      | Jeremi Nyyssönen |
+| Post          | Name             |
+|---------------|------------------|
+| Pääkomissaari | Robert Talling   |
+|               | Axel Johansson   |
+|               | Antti Nuutinen   |
+|               | Fredrik Nyholm   |
+|               | Mikael Lindberg  |
+|               | Asser Junnila    |
+|               | Martin Ekman     |
+|               | Jeremi Nyyssönen |
 
 ## 2016
 
