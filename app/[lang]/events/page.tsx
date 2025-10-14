@@ -1,4 +1,4 @@
-import { getUpcomingEvents } from '@/lib/events'
+import { getUpcomingEventsByLocale } from '@/lib/events'
 import EventList from '@/components/events/EventList'
 import { Locale } from '@/i18n-config'
 
@@ -8,8 +8,8 @@ export default async function EventsPage(props: {
   params: Promise<{ lang: Locale }>
 }) {
   const params = await props.params
-  const events = await getUpcomingEvents()
   const locale: Locale = params.lang ?? 'fi'
+  const events = await getUpcomingEventsByLocale(locale)
 
   const headings: Record<Locale, string> = {
     fi: 'Tapahtumat',

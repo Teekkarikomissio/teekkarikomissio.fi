@@ -2,7 +2,7 @@ import React from 'react'
 import { i18n, type Locale } from '@/i18n-config'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { getAllEvents } from '@/lib/events'
+import { getAllEvents, getEventById } from '@/lib/events'
 
 export const revalidate = 3600
 
@@ -45,8 +45,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang, slug } = await params
   const id = decodeURIComponent(slug || '')
-  const events = await getAllEvents()
-  const e = events.find((x) => x.id === id)
+  const e = await getEventById(id, lang)
   if (!e) return {}
   const title = e.title
   const description = e.description?.slice(0, 160)
@@ -62,8 +61,7 @@ export default async function EventDetailPage({ params }: { params: Params }) {
   const { lang, slug } = await params
   const id = decodeURIComponent(slug || '')
 
-  const events = await getAllEvents()
-  const e = events.find((x) => x.id === id)
+  const e = await getEventById(id, lang)
   if (!e) {
     notFound()
   }

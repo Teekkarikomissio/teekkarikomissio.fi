@@ -35,20 +35,20 @@ collections:
     label: "Tapahtumat (Events)"
     folder: "_content/events"
     create: true
+    i18n: true
     slug: "{{id}}"
     identifier_field: "id"
     summary: "{{title}} - {{start}}"
     fields:
-      - { label: "Event ID", name: "id", widget: "string", hint: "Unique identifier (e.g., eldprowet-2026)" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Start Date/Time", name: "start", widget: "datetime", hint: "Event start date and time" }
-      - { label: "End Date/Time", name: "end", widget: "datetime", required: false, hint: "Event end date and time" }
-      - { label: "Location", name: "location", widget: "string", required: false }
-      - { label: "URL", name: "url", widget: "string", required: false, hint: "Link to event page or registration" }
-      - { label: "All Day Event", name: "allDay", widget: "boolean", required: false, default: false }
-      - { label: "Tags", name: "tags", widget: "list", required: false, hint: "Event categories/tags" }
-      - { label: "Language", name: "lang", widget: "select", options: [ "fi", "sv", "en" ], default: "fi" }
-      - { label: "Description", name: "body", widget: "markdown", required: false }
+      - { label: "Event ID", name: "id", widget: "string", i18n: "duplicate", hint: "Unique identifier (e.g., eldprowet-2027) - must be same for all languages" }
+      - { label: "Title", name: "title", widget: "string", i18n: true, hint: "Event title in current language" }
+      - { label: "Start Date/Time", name: "start", widget: "datetime", i18n: "duplicate", hint: "Event start date and time (same for all languages)" }
+      - { label: "End Date/Time", name: "end", widget: "datetime", required: false, i18n: "duplicate", hint: "Event end date and time" }
+      - { label: "Location", name: "location", widget: "string", required: false, i18n: true, hint: "Can be translated (e.g., Turku/Åbo)" }
+      - { label: "URL", name: "url", widget: "string", required: false, i18n: "duplicate", hint: "Link to event page or registration" }
+      - { label: "All Day Event", name: "allDay", widget: "boolean", required: false, default: false, i18n: "duplicate" }
+      - { label: "Tags", name: "tags", widget: "list", required: false, i18n: false, hint: "Event categories/tags (same for all languages)" }
+      - { label: "Description", name: "body", widget: "markdown", required: false, i18n: true, hint: "Event description in current language" }
   - name: "news"
     label: "Uutiset (News)"
     folder: "_content/news"
