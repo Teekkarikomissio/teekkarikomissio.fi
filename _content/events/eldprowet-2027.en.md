@@ -10,6 +10,5 @@ tags:
   - checkpoint rally
 ---
 
-Welcome to Eldprowet 2027! This is a historic event where thousands of engineering students gather in Turku to
-celebrate.
+Vittus mycket Beeriä!!!
 
