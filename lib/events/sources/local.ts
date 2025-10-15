@@ -15,8 +15,6 @@ export async function fetchLocalEvents(): Promise<Event[]> {
     return []
   }
 
-  console.log('[DEBUG] Event files found:', files)
-
   const events: Event[] = []
   for (const file of files) {
     if (
@@ -41,30 +39,23 @@ export async function fetchLocalEvents(): Promise<Event[]> {
       detectedLang = localeMatch[1]
     }
 
-    const event = normalizeEvent({
-      id: data.id,
-      title: data.title || path.parse(file).name,
-      description: data.description || content,
-      location: data.location,
-      url: data.url,
-      start,
-      end,
-      allDay: !!data.allDay,
-      tags: data.tags,
-      lang: detectedLang,
-      source: 'local',
-    })
-
-    console.log('[DEBUG] Loaded event:', {
-      file,
-      id: event.id,
-      lang: event.lang,
-      title: event.title,
-    })
-    events.push(event)
+    events.push(
+      normalizeEvent({
+        id: data.id,
+        title: data.title || path.parse(file).name,
+        description: data.description || content,
+        location: data.location,
+        url: data.url,
+        start,
+        end,
+        allDay: !!data.allDay,
+        tags: data.tags,
+        lang: detectedLang,
+        source: 'local',
+      })
+    )
   }
 
-  console.log('[DEBUG] Total events loaded:', events.length)
   return events
 }
 

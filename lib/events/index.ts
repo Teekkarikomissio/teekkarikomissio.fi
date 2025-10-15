@@ -36,18 +36,8 @@ export async function getUpcomingEventsByLocale(
   limit?: number
 ): Promise<Event[]> {
   const all = await getAllEvents()
-  console.log(
-    '[DEBUG] All events before locale filter:',
-    all.map((e) => ({ id: e.id, lang: e.lang, title: e.title }))
-  )
   const localeEvents = all.filter((event) => event.lang === locale)
-  console.log(
-    `[DEBUG] Events for locale '${locale}':`,
-    localeEvents.length,
-    localeEvents.map((e) => ({ id: e.id, lang: e.lang }))
-  )
   const upcoming = sortUpcoming(localeEvents)
-  console.log('[DEBUG] Upcoming events after date filter:', upcoming.length)
   return typeof limit === 'number' ? upcoming.slice(0, limit) : upcoming
 }
 

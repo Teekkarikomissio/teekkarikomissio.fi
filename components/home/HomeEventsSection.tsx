@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getUpcomingEvents } from '@/lib/events'
+import { getUpcomingEventsByLocale } from '@/lib/events'
 import EventList from '@/components/events/EventList'
 import type { Locale } from '@/i18n-config'
 
@@ -14,7 +14,7 @@ const headings: Record<string, string> = {
 }
 
 export default async function HomeEventsSection({ lang }: Props) {
-  const events = await getUpcomingEvents(3)
+  const events = await getUpcomingEventsByLocale(lang, 3)
   const title = headings[lang] ?? headings.fi
 
   return (
