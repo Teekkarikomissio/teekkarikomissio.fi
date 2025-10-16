@@ -137,7 +137,7 @@ Instagram: @optima.ry
 
 Sähköposti: [optima(at)utu.fi](mailto:optima@utu.fi)
 
-### **[Efficio ry](https://https://www.instagram.com/efficio.ry/)**
+### **[Efficio ry](https://www.efficio.fi/)**
 
 ![Efficio](/logos/efficion-logo-bw.png)
 

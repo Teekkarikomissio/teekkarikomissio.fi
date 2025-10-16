@@ -2,13 +2,12 @@ import React from 'react'
 import { Metadata } from 'next'
 import { Locale } from '@/i18n-config'
 import Image from 'next/image'
-
-import lander from '@/public/home-landing-2.jpg'
 import frontpageStyles from './frontpage-styles.module.css'
 
 import getPageBySlug from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
-import InstagramFeedSection from '@/components/InstagramFeedSection'
+import NewsSection from '@/components/NewsSection'
+import HomeEventsSection from '@/components/home/HomeEventsSection'
 
 type Props = {
   params: Promise<{ lang: Locale }>
@@ -73,8 +72,12 @@ const frontPageContent = {
     },
     headings: {
       news: 'Ajankohtaista',
+      viewAll: 'Näytä kaikki',
+      insta: 'Instagram',
+      instaCta: 'Seuraa Instagramissa',
       partners: 'Yhteistyössä',
       calendar: 'Tapahtumakalenteri',
+      readMoreLabel: 'Lue lisää',
     },
   },
   sv: {
@@ -94,8 +97,12 @@ const frontPageContent = {
     },
     headings: {
       news: 'Aktuellt',
+      viewAll: 'Visa alla',
+      insta: 'Instagram',
+      instaCta: 'Följ på Instagram',
       partners: 'I samarbete',
       calendar: 'Evenemangskalender',
+      readMoreLabel: 'Läs mer',
     },
   },
   en: {
@@ -115,8 +122,12 @@ const frontPageContent = {
     },
     headings: {
       news: 'Latest News',
+      viewAll: 'View all',
+      insta: 'Instagram',
+      instaCta: 'Follow on Instagram',
       partners: 'In Cooperation With',
       calendar: 'Event Calendar',
+      readMoreLabel: 'Read more',
     },
   },
 }
@@ -164,7 +175,7 @@ export default async function IndexPage({
             </div>
             <div className="relative h-[45vh] lg:h-auto pl-4 -mr-4 sm:-mr-6 lg:mx-0 lg:-right-32 lg:top-0 lg:-bottom-16">
               <Image
-                src={lander}
+                src={'/home-landing-2.jpg'}
                 alt="Tech student life at Turku"
                 fill
                 priority
@@ -230,31 +241,47 @@ export default async function IndexPage({
         </div>
       </div>
 
-      {/* Instagram Feed Section */}
-      <InstagramFeedSection
-        headingText={frontPageContent[lang].headings.news}
-        strategy="intersection"
-        loadButtonLabel="Load Instagram feed"
+      {/* Event Section */}
+      <HomeEventsSection lang={lang} />
+
+      {/* News Section */}
+      <NewsSection
+        lang={lang}
+        heading={frontPageContent[lang].headings.news}
+        viewAllLabel={frontPageContent[lang].headings.viewAll}
+        readMoreLabel={frontPageContent[lang].headings.readMoreLabel}
       />
 
+      {/*this is disabled for now, as we do not have access to the Facebook account to access Instagram Graph API*/}
 
-      {/* Calendar */}
-      <div className="w-full bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="relative pb-2 mb-8">
-            <h2 className="text-3xl font-bold text-center">
-              {frontPageContent[lang].headings.calendar}
-            </h2>
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-primary"></div>
-          </div>
-          <div className="w-full h-[600px] overflow-hidden">
-            <iframe
-              src="https://calendar.google.com/calendar/embed?src=uvuvvg8nh8dt26778tef67u0h8%40group.calendar.google.com&ctz=Europe%2FHelsinki"
-              className="w-full h-full"
-            />
-          </div>
-        </div>
-      </div>
+      {/*/!* Lightweight Instagram strip (example) *!/*/}
+      {/*<InstagramStrip*/}
+      {/*  heading={frontPageContent[lang].headings.insta}*/}
+      {/*  ctaLabel={frontPageContent[lang].headings.instaCta}*/}
+      {/*  profileUrl="https://www.instagram.com/turunteekkari/"*/}
+      {/*  items={[*/}
+      {/*    {*/}
+      {/*      href: 'https://www.instagram.com/turunteekkari/',*/}
+      {/*      src: '/event-sommar.jpg',*/}
+      {/*      alt: '',*/}
+      {/*    },*/}
+      {/*    {*/}
+      {/*      href: 'https://www.instagram.com/turunteekkari/',*/}
+      {/*      src: '/event-jaynastartti.jpg',*/}
+      {/*      alt: '',*/}
+      {/*    },*/}
+      {/*    {*/}
+      {/*      href: 'https://www.instagram.com/turunteekkari/',*/}
+      {/*      src: '/event-excu.jpg',*/}
+      {/*      alt: '',*/}
+      {/*    },*/}
+      {/*    {*/}
+      {/*      href: 'https://www.instagram.com/turunteekkari/',*/}
+      {/*      src: '/event-sitz.jpg',*/}
+      {/*      alt: '',*/}
+      {/*    },*/}
+      {/*  ]}*/}
+      {/*/>*/}
 
       {/* Partners Section */}
       <div className="w-full">

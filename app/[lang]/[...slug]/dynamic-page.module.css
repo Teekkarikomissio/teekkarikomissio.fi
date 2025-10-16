@@ -59,3 +59,33 @@
 .markdown img[src*="hannula-puhe.jpg"] {
     @apply mx-auto w-80 h-auto rounded-md;
 }
+
+.markdown table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.markdown th,
+.markdown td {
+    text-align: left;
+    padding: 12px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/*.markdown h2 {*/
+/*    @apply text-2xl lg:text-3xl mt-8 lg:mt-12 mb-4 lg:mb-6 text-center font-bold px-4;*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*}*/
+/*.markdown h2::after {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    border-bottom: 2px solid #991b1b;*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*}*/

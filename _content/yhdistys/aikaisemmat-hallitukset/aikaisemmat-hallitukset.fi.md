@@ -3,151 +3,177 @@ title: Aikaisemmat hallitukset
 ---
 ## 2024
 
-* Reetta Lindberg
-* Risto Ruohola
-* Ellen Ekblom
-* Arttu Jokinen
-* Tiitus Hannula
-* Roosa Varjonen
-* Kristoffer Lindholm
-* Marianne Matinvuori
-* Jani Norrby
-* Mikko Lehtosalo
+| Hallitusrooli                                  | Nimi                |
+|------------------------------------------------|---------------------|
+| Pääkomissaari                                  | Reetta Lindberg     |
+| Varapääkomissaari                              | Risto Ruohola       |
+| Viestintäkomissaari, yhdenvertaisuuskomissaari | Ellen Ekblom        |
+| Talouskomissaari                               | Arttu Jokinen       |
+| Ulkoasiainkomissaari                           | Tiitus Hannula      |
+| Kulttuurikomissaari                            | Roosa Varjonen      |
+| Sihteeri                                       | Kristoffer Lindholm |
+| Tapahtumakomissaari                            | Marianne Matinvuori |
+| Järjestökomissaari                             | Jani Norrby         |
+| Tapahtumakomissaari                            | Mikko Lehtosalo     |
 
 ## 2023
 
-* Matti Loimaranta
-* Niklas Sjöqvist
-* Niklas Lind
-* Juho Ollila
-* Reetta Lindberg
-* Max Andersson
-* Mikko Lehtosalo
-* Einar Helkkula
-* Sebastian Boman
+| Hallitusrooli        | Nimi             |
+|----------------------|------------------|
+| Pääkomissaari        | Matti Loimaranta |
+| Varapääkomissaari    | Niklas Sjöqvist  |
+|                      | Niklas Lind      |
+| Talouskomissaari     | Juho Ollila      |
+| Kulttuurikomissaari  | Reetta Lindberg  |
+| Ulkoasiainkomissaari | Max Andersson    |
+| Tapahtumakomissaari  | Mikko Lehtosalo  |
+| Sihteeri             | Einar Helkkula   |
+| Sihteeri             | Sebastian Boman  |
 
 ## 2022
 
-* Robert Kantero
-* Maksim Laitinen
-* Jonatan Järvinen
-* Niklas Sjöqvist
-* Matti Loimaranta
-* Alex Nygård
-* Julia Pyysalo
-* Niklas Lind
+| Hallitusrooli       | Nimi             |
+|---------------------|------------------|
+| Pääkomissaari       | Robert Kantero   |
+| Varapääkomissaari   | Maksim Laitinen  |
+| Sihteeri            | Jonatan Järvinen |
+|                     | Niklas Sjöqvist  |
+| Kulttuurikomissaari | Matti Loimaranta |
+|                     | Alex Nygård      |
+|                     | Julia Pyysalo    |
+|                     | Niklas Lind      |
 
 ## 2021
 
-* Juhani Kalske
-* Casimir Ruohomaa
-* Ilona Kairinen
-* Niklas Luomala
-* Merimari Seppänen
-* Robert Kantero
+| Hallitusrooli       | Nimi              |
+|---------------------|-------------------|
+| Pääkomissaari       | Juhani Kalske     |
+| Varapääkomissaari   | Casimir Ruohomaa  |
+|                     | Ilona Kairinen    |
+| Kulttuurikomissaari | Niklas Luomala    |
+|                     | Merimari Seppänen |
+|                     | Robert Kantero    |
 
 ## 2020
 
-* Jeremi Nyyssönen
-* Miika Peltotalo
-* Juhani Kalske
-* Hektor Dahlberg
-* William Lindroos
-* Ilona Kairinen
-* Niklas Luomala
-* Casimir Ruohomaa
+| Hallitusrooli     | Nimi             |
+|-------------------|------------------|
+| Pääkomissaari     | Jeremi Nyyssönen |
+| Varapääkomissaari | Miika Peltotalo  |
+|                   | Juhani Kalske    |
+|                   | Hektor Dahlberg  |
+|                   | William Lindroos |
+|                   | Ilona Kairinen   |
+|                   | Niklas Luomala   |
+|                   | Casimir Ruohomaa |
 
 ## 2019
 
-* Oskari Lehtinen
-* Martin Ekman
-* Miika Peltotalo
-* Katariina Kilkku
-* Andreas Sweins
-* Matias Meri
-* Jakob Nordman
-* Juhani Kalske
+| Hallitusrooli | Nimi             |
+|---------------|------------------|
+|               | Oskari Lehtinen  |
+|               | Martin Ekman     |
+|               | Miika Peltotalo  |
+|               | Katariina Kilkku |
+|               | Andreas Sweins   |
+|               | Matias Meri      |
+|               | Jakob Nordman    |
+|               | Juhani Kalske    |
 
 ## 2018
 
-* Asser Junnila
-* Peetu Seilonen
-* Joonatan Mäkelä
-* Emmi Varjonen
-* Topias Mannisto
-* Jimmy Fagerholm
-* Oskari Lehtinen
-* Miika Peltotalo
+| Hallitusrooli | Nimi            |
+|---------------|-----------------|
+|               | Asser Junnila   |
+|               | Peetu Seilonen  |
+|               | Joonatan Mäkelä |
+|               | Emmi Varjonen   |
+|               | Topias Mannisto |
+|               | Jimmy Fagerholm |
+|               | Oskari Lehtinen |
+|               | Miika Peltotalo |
 
 ## 2017
 
-* Robert Talling
-* Axel Johansson
-* Antti Nuutinen
-* Fredrik Nyholm
-* Mikael Lindberg
-* Asser Junnila
-* Martin Ekman
-* Jeremi Nyyssönen
+| Hallitusrooli | Nimi             |
+|---------------|------------------|
+|               | Robert Talling   |
+|               | Axel Johansson   |
+|               | Antti Nuutinen   |
+|               | Fredrik Nyholm   |
+|               | Mikael Lindberg  |
+|               | Asser Junnila    |
+|               | Martin Ekman     |
+|               | Jeremi Nyyssönen |
 
 ## 2016
 
-* Liina-Lotta Erkko
-* Pietari Lehtinen
-* Lina Fredriksson
-* Julius Rajala
-* Edvina Walsten
-* Jens Back
-* Lucas Backström
-* Robert Talling
-* Axel Johansson
+| Hallitusrooli | Nimi              |
+|---------------|-------------------|
+|               | Liina-Lotta Erkko |
+|               | Pietari Lehtinen  |
+|               | Lina Fredriksson  |
+|               | Julius Rajala     |
+|               | Edvina Walsten    |
+|               | Jens Back         |
+|               | Lucas Backström   |
+|               | Robert Talling    |
+|               | Axel Johansson    |
 
 ## 2015
 
-* Malte Gabrielsson
-* Matias Virta
-* Thomas Kurten
-* Alexander Karell
-* Liina-Lotta Erkko
-* Zandra Lundegård
-* Pietari Lehtinen
-* Lina Fredriksson
-* Julius Rajala
+| Hallitusrooli | Nimi              |
+|---------------|-------------------|
+|               | Malte Gabrielsson |
+|               | Matias Virta      |
+|               | Thomas Kurten     |
+|               | Alexander Karell  |
+|               | Liina-Lotta Erkko |
+|               | Zandra Lundegård  |
+|               | Pietari Lehtinen  |
+|               | Lina Fredriksson  |
+|               | Julius Rajala     |
 
 ## 2014
 
-* Matti Vähä-Heikkilä
-* Joni Kiikola
-* Minna Tuovinen
-* Jesse Grönlund
-* Malte Gabrielsson
-* Matias Virta
-* Thomas Kurten
-* Alexander Karell
-* Liina-Lotta Erkko
+| Hallitusrooli | Nimi                |
+|---------------|---------------------|
+|               | Matti Vähä-Heikkilä |
+|               | Joni Kiikola        |
+|               | Minna Tuovinen      |
+|               | Jesse Grönlund      |
+|               | Malte Gabrielsson   |
+|               | Matias Virta        |
+|               | Thomas Kurten       |
+|               | Alexander Karell    |
+|               | Liina-Lotta Erkko   |
 
 ## 2013
 
-* Joni Kiikola
-* Sami Siipola
-* Matti Vähä-Heikkilä
-* Axel Elfving
-* Björn Domars
-* Minna Tuovinen
-* Jesse Grönlund
-* Malte Gabrielsson
+| Hallitusrooli | Nimi                |
+|---------------|---------------------|
+|               | Joni Kiikola        |
+|               | Sami Siipola        |
+|               | Matti Vähä-Heikkilä |
+|               | Axel Elfving        |
+|               | Björn Domars        |
+|               | Minna Tuovinen      |
+|               | Jesse Grönlund      |
+|               | Malte Gabrielsson   |
 
 ## 2012
 
-* Jukka Koivisto
-* Desire Lindberg
-* Marlo Ekberg
-* Anna-Maija Lempainen
-* Fredrik Breitenstein
-* Stefan Virtanen
-* Joni Kiikola
-* Sami Siipola
-* Matti Vähä-Heikkilä
+| Hallitusrooli | Nimi                 |
+|---------------|----------------------|
+|               | Jukka Koivisto       |
+|               | Desire Lindberg      |
+|               | Marlo Ekberg         |
+|               | Anna-Maija Lempainen |
+|               | Fredrik Breitenstein |
+|               | Stefan Virtanen      |
+|               | Joni Kiikola         |
+|               | Sami Siipola         |
+|               | Matti Vähä-Heikkilä  |
 
 ## 2011
 
@@ -155,65 +181,104 @@ title: Aikaisemmat hallitukset
 
 ## 2009
 
-* Sari Viljanen
-* Petri Teräspuro
-* Petteri Karvinen
-* Henrik Bonn
-* Ville Kaataja
-* Johnny Bäcklund
-* Ville Manninen
-* Andreas Vuorinen
+| Hallitusrooli | Nimi             |
+|---------------|------------------|
+|               | Sari Viljanen    |
+|               | Petri Teräspuro  |
+|               | Petteri Karvinen |
+|               | Henrik Bonn      |
+|               | Ville Kaataja    |
+|               | Johnny Bäcklund  |
+|               | Ville Manninen   |
+|               | Andreas Vuorinen |
 
 ## 2008
 
-* Antti Hakkala
-* Olle Svanfeldt-Winter
-* Juval Nadav
-* Sophia von Haartman
-* Gabriel Nyman
-* Sari Viljanen
-* Petri Teräspuro
+| Hallitusrooli | Nimi                  |
+|---------------|-----------------------|
+|               | Antti Hakkala         |
+|               | Olle Svanfeldt-Winter |
+|               | Juval Nadav           |
+|               | Sophia von Haartman   |
+|               | Gabriel Nyman         |
+|               | Sari Viljanen         |
+|               | Petri Teräspuro       |
 
 ## 2007
-* Jon von Weymarn
+
+| Hallitusrooli | Nimi            |
+|---------------|-----------------|
+|               | Jon von Weymarn |
 
 ## 2006
-* Martin Fält
-* Joachim Sjöblom
-* Jon von Weymarn
-* Markus Nyman
-* Maria Rosenback
-* Antti Hakkala
-* Alina Tähkäpää
+
+| Hallitusrooli | Nimi            |
+|---------------|-----------------|
+|               | Martin Fält     |
+|               | Joachim Sjöblom |
+|               | Jon von Weymarn |
+|               | Markus Nyman    |
+|               | Maria Rosenback |
+|               | Antti Hakkala   |
+|               | Alina Tähkäpää  |
 
 ## 2005
-* Kari Jakobsson
-* Martin Fält
-* Antti Hakkala
-* Johan Abbors
-* Jonna Sirviö 
-* Jonas Elander
-* Anders Siggberg
-* Antti Levo
+
+| Hallitusrooli | Nimi            |
+|---------------|-----------------|
+|               | Kari Jakobsson  |
+|               | Martin Fält     |
+|               | Antti Hakkala   |
+|               | Johan Abbors    |
+|               | Jonna Sirviö    |
+|               | Jonas Elander   |
+|               | Anders Siggberg |
+|               | Antti Levo      |
 
 ## 2004
-* Kristian Engsjö
-* Johan Björkman
-* Kirsi-Maria Rytsälä
-* Joel Svanbäck
-* Kari Jakobsson
+
+| Hallitusrooli | Nimi                |
+|---------------|---------------------|
+|               | Kristian Engsjö     |
+|               | Johan Björkman      |
+|               | Kirsi-Maria Rytsälä |
+|               | Joel Svanbäck       |
+|               | Kari Jakobsson      |
 
 ## 2003
+
+| Hallitusrooli                   | Nimi                |
+|---------------------------------|---------------------|
+| Pääkomissaari                   | Lasse Gestranius    |
+| Varapääkomissaari               | Timo Kuusela        |
+| Talouskomissaari                | Marjaana Sjölund    |
+| Sihteeri                        | Ann-Catrin Sundelin |
+| Tiedotusvastaava                | Niklas Doktar       |
+| Korkeakoulupoliittinen vastaava | Kristian Engsjö     |
+| Kansainvälisyysvastaava (?)     | Fredrik Wiberg      |
 
 ## 2002
 
 ## 2001
 
+| Hallitusrooli     | Nimi            |
+|-------------------|-----------------|
+| Puheenjohtaja     | Kalle Jäykkä    |
+| Varapuheenjohtaja | Kaisa Aho       |
+| Sihteeri          | CaGe Wennström  |
+| Talouskomissaari  | Asmo Soinio     |
+| Kopo-vastaava     | Henrik Terävä   |
+| Jäsen             | Anne Granat     |
+| Jäsen             | Riku Salahetdin |
+
 ## 2000
-* Otto Långvik
-* Päivi Haapanen
-* Kalle Jäykkä
-* Emil Nyback
-* Tuomas Mäkilä
-* Timo Kuusela
+
+| Hallitusrooli | Nimi           |
+|---------------|----------------|
+|               | Otto Långvik   |
+|               | Päivi Haapanen |
+|               | Kalle Jäykkä   |
+|               | Emil Nyback    |
+|               | Tuomas Mäkilä  |
+|               | Timo Kuusela   |
 
