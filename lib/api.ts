@@ -88,6 +88,7 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
   const contentDirectory = path.join(process.cwd(), '_content')
   const sections = [
     'yhdistys',
+    'tapahtumat',
     'fukseille',
     'kulttuuri',
     'yhteistyo',
@@ -212,14 +213,14 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
       slug: 'events',
       meta: {
         title: {
-          fi: 'Tapahtumat',
-          sv: 'Evenemang',
-          en: 'Events',
+          fi: 'Tapahtumakalenteri',
+          sv: 'Evenemangskalender',
+          en: 'Event Calendar',
         }[locale],
         translatedTitle: {
-          fi: 'Tapahtumat',
-          sv: 'Evenemang',
-          en: 'Events',
+          fi: 'Tapahtumakalenteri',
+          sv: 'Evenemangskalender',
+          en: 'Event Calendar',
         },
       },
       content: '',
@@ -258,5 +259,15 @@ const sectionTranslations = {
     en: 'Problem Report Form',
     sv: 'Trakasserianmälan',
     fi: 'Ongelmatilannelomake',
+  },
+  tapahtumat: {
+    en: 'Events',
+    sv: 'Evenemang',
+    fi: 'Tapahtumat',
+  },
+  news: {
+    en: 'News',
+    sv: 'Nyheter',
+    fi: 'Uutiset',
   },
 }
