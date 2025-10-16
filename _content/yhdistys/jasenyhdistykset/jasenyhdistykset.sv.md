@@ -133,7 +133,7 @@ Medlemmar kan kännas igen på ljust grå gula halare med svarta tryck och ett l
 
 Tomatsitz har blivit ett traditionellt evenemang redan under de första verksamhetsåren.
 
-### **[Efficio ry](https://https://www.instagram.com/efficio.ry//)**
+### **[Efficio ry](https://www.efficio.fi/)**
 
 ![Efficio](/logos/efficion-logo-bw.png)
 
