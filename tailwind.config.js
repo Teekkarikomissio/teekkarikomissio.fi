@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindcss_animate from 'tailwindcss-animate'
+
 module.exports = {
   darkMode: ['class'],
   content: [
@@ -84,9 +86,9 @@ module.exports = {
       },
       container: {
         center: true,
-        maxWidth: "max-w-prose"
+        maxWidth: 'max-w-prose',
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [tailwindcss_animate],
 }
