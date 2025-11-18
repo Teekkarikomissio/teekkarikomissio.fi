@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server'
 import { i18n } from './i18n-config'
 
 function getLocale(request: NextRequest): string | undefined {
-  // Negotiator expects a plain object so we need to transform headers
+  // Negotiator expects a plain object, so we need to transform headers
   const negotiatorHeaders: Record<string, string> = {}
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
 
