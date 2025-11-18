@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-      <loc>https://teekkarikomissio.fi/en/events/eldprowet-2027</loc>
-      <lastmod>2025-10-16</lastmod>
-      <xhtml:link rel="alternate" hreflang="en" href="https://teekkarikomissio.fi/en/events/eldprowet-2027"/>
-      <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/events/eldprowet-2027"/>
-      <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/events/eldprowet-2027"/>
-  </url>
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://teekkarikomissio.fi/en/events/eldprowet-2027</loc>
+        <lastmod>2025-10-16</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://teekkarikomissio.fi/en/events/eldprowet-2027"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/events/eldprowet-2027"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/events/eldprowet-2027"/>
+    </url>
     <url>
         <loc>https://teekkarikomissio.fi/fi/events/eldprowet-2027</loc>
         <lastmod>2025-10-16</lastmod>
@@ -111,29 +111,29 @@
         <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv"/>
     </url>
     <url>
-    <loc>https://teekkarikomissio.fi/fi</loc>
+        <loc>https://teekkarikomissio.fi/fi</loc>
         <lastmod>2025-09-12</lastmod>
         <xhtml:link rel="alternate" hreflang="en" href="https://teekkarikomissio.fi/en"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv"/>
-  </url>
-  <url>
-    <loc>https://teekkarikomissio.fi/sv</loc>
-      <lastmod>2025-09-12</lastmod>
-      <xhtml:link rel="alternate" hreflang="en" href="https://teekkarikomissio.fi/en"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv"/>
-  </url>
-  <url>
-      <loc>https://teekkarikomissio.fi/en/kulttuuri/jaynakilpailut/jaynakilpailut</loc>
-      <lastmod>2025-09-15</lastmod>
-      <xhtml:link rel="alternate" hreflang="en"
-                  href="https://teekkarikomissio.fi/en/kulttuuri/jaynakilpailut/jaynakilpailut"/>
-      <xhtml:link rel="alternate" hreflang="fi"
-                  href="https://teekkarikomissio.fi/fi/kulttuuri/jaynakilpailut/jaynakilpailut"/>
-      <xhtml:link rel="alternate" hreflang="sv"
-                  href="https://teekkarikomissio.fi/sv/kulttuuri/jaynakilpailut/jaynakilpailut"/>
-  </url>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv"/>
+    </url>
+    <url>
+        <loc>https://teekkarikomissio.fi/sv</loc>
+        <lastmod>2025-09-12</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://teekkarikomissio.fi/en"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv"/>
+    </url>
+    <url>
+        <loc>https://teekkarikomissio.fi/en/kulttuuri/jaynakilpailut/jaynakilpailut</loc>
+        <lastmod>2025-09-15</lastmod>
+        <xhtml:link rel="alternate" hreflang="en"
+                    href="https://teekkarikomissio.fi/en/kulttuuri/jaynakilpailut/jaynakilpailut"/>
+        <xhtml:link rel="alternate" hreflang="fi"
+                    href="https://teekkarikomissio.fi/fi/kulttuuri/jaynakilpailut/jaynakilpailut"/>
+        <xhtml:link rel="alternate" hreflang="sv"
+                    href="https://teekkarikomissio.fi/sv/kulttuuri/jaynakilpailut/jaynakilpailut"/>
+    </url>
     <url>
         <loc>https://teekkarikomissio.fi/fi/kulttuuri/jaynakilpailut/jaynakilpailut</loc>
         <lastmod>2025-09-15</lastmod>
@@ -466,88 +466,97 @@
                     href="https://teekkarikomissio.fi/fi/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
         <xhtml:link rel="alternate" hreflang="sv"
                     href="https://teekkarikomissio.fi/sv/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
-  </url>
-  <url>
-      <loc>https://teekkarikomissio.fi/fi/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus</loc>
-      <lastmod>2025-09-15</lastmod>
-      <xhtml:link rel="alternate" hreflang="en"
-                  href="https://teekkarikomissio.fi/en/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
-      <xhtml:link rel="alternate" hreflang="fi"
-                  href="https://teekkarikomissio.fi/fi/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
-      <xhtml:link rel="alternate" hreflang="sv"
-                  href="https://teekkarikomissio.fi/sv/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
-  </url>
-  <url>
-      <loc>https://teekkarikomissio.fi/sv/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus</loc>
-      <lastmod>2025-09-15</lastmod>
-      <xhtml:link rel="alternate" hreflang="en"
-                  href="https://teekkarikomissio.fi/en/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
-      <xhtml:link rel="alternate" hreflang="fi"
-                  href="https://teekkarikomissio.fi/fi/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
-      <xhtml:link rel="alternate" hreflang="sv"
-                  href="https://teekkarikomissio.fi/sv/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
-  </url>
-  <url>
-      <loc>https://teekkarikomissio.fi/en/tapahtumat/pikkuwappu/pikkuwappu</loc>
-      <lastmod>2025-10-16</lastmod>
-      <xhtml:link rel="alternate" hreflang="en" href="https://teekkarikomissio.fi/en/tapahtumat/pikkuwappu/pikkuwappu"/>
-      <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/tapahtumat/pikkuwappu/pikkuwappu"/>
-      <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/tapahtumat/pikkuwappu/pikkuwappu"/>
-  </url>
-  <url>
-      <loc>https://teekkarikomissio.fi/fi/tapahtumat/pikkuwappu/pikkuwappu</loc>
-      <lastmod>2025-10-16</lastmod>
-      <xhtml:link rel="alternate" hreflang="en" href="https://teekkarikomissio.fi/en/tapahtumat/pikkuwappu/pikkuwappu"/>
-      <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/tapahtumat/pikkuwappu/pikkuwappu"/>
-      <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/tapahtumat/pikkuwappu/pikkuwappu"/>
-  </url>
-  <url>
-      <loc>https://teekkarikomissio.fi/sv/tapahtumat/pikkuwappu/pikkuwappu</loc>
-      <lastmod>2025-10-16</lastmod>
-      <xhtml:link rel="alternate" hreflang="en" href="https://teekkarikomissio.fi/en/tapahtumat/pikkuwappu/pikkuwappu"/>
-      <xhtml:link rel="alternate" hreflang="fi" href="https://teekkarikomissio.fi/fi/tapahtumat/pikkuwappu/pikkuwappu"/>
-      <xhtml:link rel="alternate" hreflang="sv" href="https://teekkarikomissio.fi/sv/tapahtumat/pikkuwappu/pikkuwappu"/>
-  </url>
-  <url>
-      <loc>https://teekkarikomissio.fi/en/tapahtumat/sommartraff/sommartraff</loc>
-      <lastmod>2025-09-12</lastmod>
-      <xhtml:link rel="alternate" hreflang="en"
-                  href="https://teekkarikomissio.fi/en/tapahtumat/sommartraff/sommartraff"/>
-      <xhtml:link rel="alternate" hreflang="fi"
-                  href="https://teekkarikomissio.fi/fi/tapahtumat/sommartraff/sommartraff"/>
-      <xhtml:link rel="alternate" hreflang="sv"
-                  href="https://teekkarikomissio.fi/sv/tapahtumat/sommartraff/sommartraff"/>
-  </url>
-  <url>
-      <loc>https://teekkarikomissio.fi/fi/tapahtumat/sommartraff/sommartraff</loc>
-      <lastmod>2025-09-12</lastmod>
-      <xhtml:link rel="alternate" hreflang="en"
-                  href="https://teekkarikomissio.fi/en/tapahtumat/sommartraff/sommartraff"/>
-      <xhtml:link rel="alternate" hreflang="fi"
-                  href="https://teekkarikomissio.fi/fi/tapahtumat/sommartraff/sommartraff"/>
-      <xhtml:link rel="alternate" hreflang="sv"
-                  href="https://teekkarikomissio.fi/sv/tapahtumat/sommartraff/sommartraff"/>
-  </url>
-  <url>
-      <loc>https://teekkarikomissio.fi/sv/tapahtumat/sommartraff/sommartraff</loc>
-      <lastmod>2025-09-12</lastmod>
-      <xhtml:link rel="alternate" hreflang="en"
-                  href="https://teekkarikomissio.fi/en/tapahtumat/sommartraff/sommartraff"/>
-      <xhtml:link rel="alternate" hreflang="fi"
-                  href="https://teekkarikomissio.fi/fi/tapahtumat/sommartraff/sommartraff"/>
-      <xhtml:link rel="alternate" hreflang="sv"
-                  href="https://teekkarikomissio.fi/sv/tapahtumat/sommartraff/sommartraff"/>
-  </url>
-  <url>
-      <loc>https://teekkarikomissio.fi/en/tapahtumat/teekkariexpo/teekkariexpo</loc>
-      <lastmod>2025-09-15</lastmod>
-      <xhtml:link rel="alternate" hreflang="en"
-                  href="https://teekkarikomissio.fi/en/tapahtumat/teekkariexpo/teekkariexpo"/>
-      <xhtml:link rel="alternate" hreflang="fi"
-                  href="https://teekkarikomissio.fi/fi/tapahtumat/teekkariexpo/teekkariexpo"/>
-      <xhtml:link rel="alternate" hreflang="sv"
-                  href="https://teekkarikomissio.fi/sv/tapahtumat/teekkariexpo/teekkariexpo"/>
-  </url>
+    </url>
+    <url>
+        <loc>https://teekkarikomissio.fi/fi/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus</loc>
+        <lastmod>2025-09-15</lastmod>
+        <xhtml:link rel="alternate" hreflang="en"
+                    href="https://teekkarikomissio.fi/en/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
+        <xhtml:link rel="alternate" hreflang="fi"
+                    href="https://teekkarikomissio.fi/fi/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
+        <xhtml:link rel="alternate" hreflang="sv"
+                    href="https://teekkarikomissio.fi/sv/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
+    </url>
+    <url>
+        <loc>https://teekkarikomissio.fi/sv/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus</loc>
+        <lastmod>2025-09-15</lastmod>
+        <xhtml:link rel="alternate" hreflang="en"
+                    href="https://teekkarikomissio.fi/en/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
+        <xhtml:link rel="alternate" hreflang="fi"
+                    href="https://teekkarikomissio.fi/fi/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
+        <xhtml:link rel="alternate" hreflang="sv"
+                    href="https://teekkarikomissio.fi/sv/tapahtumat/paavo-nurmen-patsaan-lakitus/paavo-nurmen-patsaan-lakitus"/>
+    </url>
+    <url>
+        <loc>https://teekkarikomissio.fi/en/tapahtumat/pikkuwappu/pikkuwappu</loc>
+        <lastmod>2025-10-16</lastmod>
+        <xhtml:link rel="alternate" hreflang="en"
+                    href="https://teekkarikomissio.fi/en/tapahtumat/pikkuwappu/pikkuwappu"/>
+        <xhtml:link rel="alternate" hreflang="fi"
+                    href="https://teekkarikomissio.fi/fi/tapahtumat/pikkuwappu/pikkuwappu"/>
+        <xhtml:link rel="alternate" hreflang="sv"
+                    href="https://teekkarikomissio.fi/sv/tapahtumat/pikkuwappu/pikkuwappu"/>
+    </url>
+    <url>
+        <loc>https://teekkarikomissio.fi/fi/tapahtumat/pikkuwappu/pikkuwappu</loc>
+        <lastmod>2025-10-16</lastmod>
+        <xhtml:link rel="alternate" hreflang="en"
+                    href="https://teekkarikomissio.fi/en/tapahtumat/pikkuwappu/pikkuwappu"/>
+        <xhtml:link rel="alternate" hreflang="fi"
+                    href="https://teekkarikomissio.fi/fi/tapahtumat/pikkuwappu/pikkuwappu"/>
+        <xhtml:link rel="alternate" hreflang="sv"
+                    href="https://teekkarikomissio.fi/sv/tapahtumat/pikkuwappu/pikkuwappu"/>
+    </url>
+    <url>
+        <loc>https://teekkarikomissio.fi/sv/tapahtumat/pikkuwappu/pikkuwappu</loc>
+        <lastmod>2025-10-16</lastmod>
+        <xhtml:link rel="alternate" hreflang="en"
+                    href="https://teekkarikomissio.fi/en/tapahtumat/pikkuwappu/pikkuwappu"/>
+        <xhtml:link rel="alternate" hreflang="fi"
+                    href="https://teekkarikomissio.fi/fi/tapahtumat/pikkuwappu/pikkuwappu"/>
+        <xhtml:link rel="alternate" hreflang="sv"
+                    href="https://teekkarikomissio.fi/sv/tapahtumat/pikkuwappu/pikkuwappu"/>
+    </url>
+    <url>
+        <loc>https://teekkarikomissio.fi/en/tapahtumat/sommartraff/sommartraff</loc>
+        <lastmod>2025-09-12</lastmod>
+        <xhtml:link rel="alternate" hreflang="en"
+                    href="https://teekkarikomissio.fi/en/tapahtumat/sommartraff/sommartraff"/>
+        <xhtml:link rel="alternate" hreflang="fi"
+                    href="https://teekkarikomissio.fi/fi/tapahtumat/sommartraff/sommartraff"/>
+        <xhtml:link rel="alternate" hreflang="sv"
+                    href="https://teekkarikomissio.fi/sv/tapahtumat/sommartraff/sommartraff"/>
+    </url>
+    <url>
+        <loc>https://teekkarikomissio.fi/fi/tapahtumat/sommartraff/sommartraff</loc>
+        <lastmod>2025-09-12</lastmod>
+        <xhtml:link rel="alternate" hreflang="en"
+                    href="https://teekkarikomissio.fi/en/tapahtumat/sommartraff/sommartraff"/>
+        <xhtml:link rel="alternate" hreflang="fi"
+                    href="https://teekkarikomissio.fi/fi/tapahtumat/sommartraff/sommartraff"/>
+        <xhtml:link rel="alternate" hreflang="sv"
+                    href="https://teekkarikomissio.fi/sv/tapahtumat/sommartraff/sommartraff"/>
+    </url>
+    <url>
+        <loc>https://teekkarikomissio.fi/sv/tapahtumat/sommartraff/sommartraff</loc>
+        <lastmod>2025-09-12</lastmod>
+        <xhtml:link rel="alternate" hreflang="en"
+                    href="https://teekkarikomissio.fi/en/tapahtumat/sommartraff/sommartraff"/>
+        <xhtml:link rel="alternate" hreflang="fi"
+                    href="https://teekkarikomissio.fi/fi/tapahtumat/sommartraff/sommartraff"/>
+        <xhtml:link rel="alternate" hreflang="sv"
+                    href="https://teekkarikomissio.fi/sv/tapahtumat/sommartraff/sommartraff"/>
+    </url>
+    <url>
+        <loc>https://teekkarikomissio.fi/en/tapahtumat/teekkariexpo/teekkariexpo</loc>
+        <lastmod>2025-09-15</lastmod>
+        <xhtml:link rel="alternate" hreflang="en"
+                    href="https://teekkarikomissio.fi/en/tapahtumat/teekkariexpo/teekkariexpo"/>
+        <xhtml:link rel="alternate" hreflang="fi"
+                    href="https://teekkarikomissio.fi/fi/tapahtumat/teekkariexpo/teekkariexpo"/>
+        <xhtml:link rel="alternate" hreflang="sv"
+                    href="https://teekkarikomissio.fi/sv/tapahtumat/teekkariexpo/teekkariexpo"/>
+    </url>
     <url>
         <loc>https://teekkarikomissio.fi/fi/tapahtumat/teekkariexpo/teekkariexpo</loc>
         <lastmod>2025-09-15</lastmod>
@@ -963,5 +972,5 @@
                     href="https://teekkarikomissio.fi/fi/yhteistyo/yrityksille/yrityksille"/>
         <xhtml:link rel="alternate" hreflang="sv"
                     href="https://teekkarikomissio.fi/sv/yhteistyo/yrityksille/yrityksille"/>
-  </url>
+    </url>
 </urlset>

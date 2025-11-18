@@ -25,8 +25,10 @@ export function middleware(request: NextRequest) {
       '/.netlify',
       '/.next',
       '#access_token',
+      '/sitemap.xml',
+      '/robots.txt',
     ].some((path) => pathname.startsWith(path)) ||
-    /\.(pdf|png|jpg|svg|ico|yml)$/.test(pathname)
+    /\.(pdf|png|jpg|svg|ico|yml|xml)$/.test(pathname)
   ) {
     return
   }
