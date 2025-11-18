@@ -1,19 +1,24 @@
-import { defineConfig } from 'eslint/config'
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
-import js from '@eslint/js'
+import { fileURLToPath } from 'url'
+import path from 'path'
 import { FlatCompat } from '@eslint/eslintrc'
+import eslintConfigPrettier from 'eslint-config-prettier'
+import ts from 'typescript-eslint'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+
 const compat = new FlatCompat({
   baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
-  allConfig: js.configs.all,
 })
 
-export default defineConfig([
+const eslintConfig = [
   {
-    extends: compat.extends('next/core-web-vitals', 'prettier'),
+    ignores: ['node_modules/', '.next/**/*', 'out/**/*', 'public/**/*'],
   },
-])
+  ...ts.configs.recommended,
+  ...compat.extends('next/core-web-vitals'),
+  // ...compat.extends('plugin:tailwindcss/recommended'),
+  eslintConfigPrettier,
+]
+
+export default eslintConfig
