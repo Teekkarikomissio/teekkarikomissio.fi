@@ -38,9 +38,7 @@ export const metadata: Metadata = {
     'teekkari',
     'turku',
   ],
-  authors: [
-    { name: 'Teekkarikomissio', url: 'https://teekkarikomissio.fi' }
-  ],
+  authors: [{ name: 'Teekkarikomissio', url: 'https://teekkarikomissio.fi' }],
   openGraph: {
     type: 'website',
     locale: 'fi_FI',
@@ -48,37 +46,39 @@ export const metadata: Metadata = {
     title: 'Teekkarikomissio - Teknologkommission',
     description: 'Teekkariutta yli yliopistorajojen',
     siteName: 'Teekkarikomissio',
-    images: [{
-      url: 'https://teekkarikomissio.fi/logos/tklogo-social.png',
-      width: 512,
-      height: 512,
-      alt: 'Teekkarikomissio Logo'
-    }],
+    images: [
+      {
+        url: 'https://teekkarikomissio.fi/logos/tklogo.svg',
+        width: 512,
+        height: 512,
+        alt: 'Teekkarikomissio Logo',
+      },
+    ],
   },
   twitter: {
     card: 'summary',
     title: 'Teekkarikomissio - Teknologkommission',
     description: 'Teekkariutta yli yliopistorajojen',
-    images: ['https://teekkarikomissio.fi/logos/tklogo-social.png'],
+    images: ['https://teekkarikomissio.fi/logos/tklogo.svg'],
   },
   icons: [
-      {
-          rel: 'icon',
-          url: '/favicon-light.svg',
-          media: '(prefers-color-scheme: light)',
-          type: 'image/svg+xml'
-      },
-      {
-          rel: 'icon',
-          url: '/favicon-dark.svg',
-          media: '(prefers-color-scheme: dark)',
-          type: 'image/svg+xml'
-      },
-      {
-          rel: 'icon',
-          url: '/favicon.ico'
-      }
-  ]
+    {
+      rel: 'icon',
+      url: '/favicon-light.svg',
+      media: '(prefers-color-scheme: light)',
+      type: 'image/svg+xml',
+    },
+    {
+      rel: 'icon',
+      url: '/favicon-dark.svg',
+      media: '(prefers-color-scheme: dark)',
+      type: 'image/svg+xml',
+    },
+    {
+      rel: 'icon',
+      url: '/favicon.ico',
+    },
+  ],
 }
 
 export default async function RootLayout({
