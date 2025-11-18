@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Allow: /
+
+# Canonical sitemap
+Sitemap: https://teekkarikomissio.fi/sitemap.xml
