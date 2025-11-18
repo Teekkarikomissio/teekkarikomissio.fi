@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: page.meta.description || '',
       },
     }
-  } catch (error) {
+  } catch {
     notFound()
   }
 }
@@ -87,7 +87,7 @@ export default async function DynamicPage({ params }: Props) {
         containerClassName="max-w-prose mx-auto"
       />
     )
-  } catch (error) {
+  } catch {
     notFound()
   }
 }

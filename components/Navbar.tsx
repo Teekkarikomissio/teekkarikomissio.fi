@@ -28,25 +28,24 @@ import tklogo from '../public/logos/tklogo.svg'
 import { Locale } from '@/i18n-config'
 import { cn } from '@/lib/utils'
 
+interface PageMeta {
+  title?: string
+  description?: string
+  translatedTitle?: Record<string, string>
+  [key: string]: unknown
+}
+
 interface NavigationBarProps {
   lang: Locale
   contentFolders: {
     href: string
     slug: string
-    meta: {
-      title?: string
-      description?: string
-      [key: string]: any
-    }
+    meta: PageMeta
     content: string
     subPages?: {
       href: string
       slug: string
-      meta: {
-        title?: string
-        description?: string
-        [key: string]: any
-      }
+      meta: PageMeta
       content: string
     }[]
   }[]
@@ -139,8 +138,8 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
   const ListItem = React.forwardRef<
     React.ElementRef<typeof NavigationMenuLink>,
     React.ComponentPropsWithoutRef<typeof NavigationMenuLink> & {
-    title: string
-  }
+      title: string
+    }
   >(({ className, title, children, ...props }, ref) => {
     return (
       <li>

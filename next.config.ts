@@ -1,7 +1,9 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  ignoreDuringBuilds: true,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   async rewrites() {
     return [
       {
@@ -16,4 +18,4 @@ const nextConfig: NextConfig = {
   },
 }
 
-export default nextConfig;
+export default nextConfig

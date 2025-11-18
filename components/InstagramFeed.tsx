@@ -12,22 +12,29 @@ interface InstagramFeedProps {
   loadButtonLabel?: string
 }
 
+interface NetworkInformation {
+  saveData?: boolean
+}
+
 declare global {
   interface Window {
     __ELFSIGHT_SCRIPT_LOADING?: boolean
     __ELFSIGHT_SCRIPT_LOADED?: boolean
   }
+  interface Navigator {
+    connection?: NetworkInformation
+  }
 }
 
 export default function InstagramFeed({
-                                        appId = '9136bd19-e490-4735-9500-89f3526dbb30',
-                                        strategy = 'intersection',
-                                        rootMargin = '200px',
-                                        idleFallbackMs = 20000,
-                                        enableFallbackTimeout = true,
-                                        respectSaveData = true,
-                                        loadButtonLabel = 'Load Instagram feed'
-                                      }: InstagramFeedProps) {
+  appId = '9136bd19-e490-4735-9500-89f3526dbb30',
+  strategy = 'intersection',
+  rootMargin = '200px',
+  idleFallbackMs = 20000,
+  enableFallbackTimeout = true,
+  respectSaveData = true,
+  loadButtonLabel = 'Load Instagram feed',
+}: InstagramFeedProps) {
   const [activated, setActivated] = useState(false)
   const [mountedAtLeastOnce, setMountedAtLeastOnce] = useState(false)
   const containerRef = useRef<HTMLDivElement | null>(null)
@@ -36,10 +43,11 @@ export default function InstagramFeed({
 
   const saveData =
     typeof navigator !== 'undefined' &&
-    typeof (navigator as any).connection !== 'undefined' &&
-    (navigator as any).connection?.saveData === true
+    typeof navigator.connection !== 'undefined' &&
+    navigator.connection?.saveData === true
 
-  const shouldAutoLoad = strategy === 'intersection' && !(respectSaveData && saveData)
+  const shouldAutoLoad =
+    strategy === 'intersection' && !(respectSaveData && saveData)
 
   const inject = useCallback(() => {
     if (activated) return
@@ -51,7 +59,9 @@ export default function InstagramFeed({
 
     observerRef.current?.disconnect()
 
-    let feedDiv = containerRef.current?.querySelector('.elfsight-feed-injected') as HTMLDivElement | null
+    let feedDiv = containerRef.current?.querySelector(
+      '.elfsight-feed-injected'
+    ) as HTMLDivElement | null
     if (!feedDiv) {
       feedDiv = document.createElement('div')
       feedDiv.className = `elfsight-app-${appId} elfsight-feed-injected`
@@ -80,8 +90,8 @@ export default function InstagramFeed({
     if (!shouldAutoLoad || !containerRef.current || activated) return
 
     observerRef.current = new IntersectionObserver(
-      entries => {
-        entries.forEach(e => {
+      (entries) => {
+        entries.forEach((e) => {
           if (e.isIntersecting) {
             inject()
           }
@@ -109,7 +119,14 @@ export default function InstagramFeed({
     return () => {
       if (timeoutRef.current) window.clearTimeout(timeoutRef.current)
     }
-  }, [activated, enableFallbackTimeout, idleFallbackMs, inject, strategy, shouldAutoLoad])
+  }, [
+    activated,
+    enableFallbackTimeout,
+    idleFallbackMs,
+    inject,
+    strategy,
+    shouldAutoLoad,
+  ])
 
   useEffect(() => {
     setMountedAtLeastOnce(true)
@@ -146,14 +163,12 @@ export default function InstagramFeed({
 
           {strategy === 'intersection' && !(respectSaveData && saveData) && (
             <span className="text-xs text-gray-400" aria-hidden="true">
-                Will load on scroll…
-              </span>
+              Will load on scroll…
+            </span>
           )}
 
           {mountedAtLeastOnce && (
-            <noscript>
-              Enable JavaScript to view the Instagram feed.
-            </noscript>
+            <noscript>Enable JavaScript to view the Instagram feed.</noscript>
           )}
         </div>
       )}

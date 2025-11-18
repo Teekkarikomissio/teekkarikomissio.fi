@@ -37,7 +37,7 @@ async function buildMap() {
   try {
     await fs.access(CONTENT_DIR)
   } catch (e) {
-    console.error('No _content directory found; exiting.')
+    console.error('No _content directory found; exiting.', e.message || e)
     return map
   }
 

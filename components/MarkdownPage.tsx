@@ -1,5 +1,5 @@
 import React from 'react'
-import { Locale } from '../i18n-config'
+import { Locale } from '@/i18n-config'
 import getPageBySlug from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
 import { notFound } from 'next/navigation'
@@ -40,6 +40,7 @@ export default async function MarkdownPage({
       </div>
     )
   } catch (error) {
+    console.error('Error fetching or rendering Markdown page:', error)
     notFound()
   }
 }

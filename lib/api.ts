@@ -4,6 +4,12 @@ import fs from 'fs'
 import { type Locale } from '@/i18n-config'
 import { notFound } from 'next/navigation'
 
+interface PageMeta {
+  title?: string
+  translatedTitle?: Record<string, string>
+  [key: string]: unknown
+}
+
 interface NavigationItem {
   title: string
   path: string
@@ -14,18 +20,14 @@ interface SubPage {
   href: string
   slug: string
   parentSlug: string
-  meta: any
+  meta: PageMeta
   content: string
 }
 
 interface ContentFolder {
   href: string
   slug: string
-  meta: {
-    title: string
-    translatedTitle: any
-    [key: string]: any
-  }
+  meta: PageMeta
   content: string
   subPages: SubPage[]
 }
@@ -37,15 +39,16 @@ export default function getPageBySlug(pageName: string, locale: Locale) {
   try {
     const fileContents = fs.readFileSync(fullPath, 'utf8')
     const { content, data } = matter(fileContents)
-    return { href: `/${locale}/${pageName}`, meta: data, content }
+    return { href: `/${locale}/${pageName}`, meta: data as PageMeta, content }
   } catch (error) {
+    console.error(`Error reading page ${pageName}:`, error)
     notFound()
   }
 }
 
 export function getFolderContents(folderPath: string, locale: Locale) {
   try {
-    // Check if directory exists first
+    // Check if the directory exists first
     if (!fs.existsSync(folderPath)) {
       return []
     }
