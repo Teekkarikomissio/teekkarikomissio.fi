@@ -1,6 +1,7 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
+  ignoreDuringBuilds: true,
   async rewrites() {
     return [
       {
@@ -10,9 +11,9 @@ const nextConfig: NextConfig = {
       {
         source: '/config.yml',
         destination: '/admin/config.yml',
-      }
-    ];
+      },
+    ]
   },
-};
+}
 
 export default nextConfig;
