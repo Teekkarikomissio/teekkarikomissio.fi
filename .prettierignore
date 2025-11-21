@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build Outputs (React/Vite/Webpack/Next.js)
+dist/
+build/
+out/
+.next/
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Package Manager Lock Files
+# (It is generally best to let the package manager handle the formatting of these)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Testing and Coverage
+coverage/
+
+# System and Editor Files
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Public assets (Optional)
+# Uncomment if you have huge assets or third-party scripts you don't want formatted
+# public/assets/
+# public/libs/
