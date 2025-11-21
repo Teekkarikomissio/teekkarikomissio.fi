@@ -11,7 +11,8 @@ The teekkarikomissio.fi website is built using Next.js, a React framework that e
 To get started with development, follow these steps:
 
 1. Clone the repository:
-   [https://github.com/Teekkarikomissio/teekkarikomissio.fi]
+
+`git clone https://github.com/Teekkarikomissio/teekkarikomissio.fi.git`
 
 2. Navigate to the project directory:
 
@@ -72,6 +73,7 @@ The project is licensed under the MIT License. See the [LICENSE](LICENSE) file f
 ## Authors
 
 - [Miika Peltotalo](https://github.com/miipel) - Initial work
+- [Jani Norrby](https://github.com/jtnorr/) - Maintainer, major updates 2024--2025
 
 ## Acknowledgments
 
