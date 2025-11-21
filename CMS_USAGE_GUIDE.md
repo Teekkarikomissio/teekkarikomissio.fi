@@ -40,16 +40,15 @@ Events are stored in `_content/events/` as single markdown files (one file per e
 
 ```yaml
 ---
-id: "eldprowet-2026"
-title: "Eldprowet 2026"
-start: "2026-04-30T11:00:00+03:00"
-end: "2026-04-30T23:00:00+03:00"
-location: "Turku, Åbo"
-url: "https://teekkarikomissio.fi/events/eldprowet-2026"
-tags: [ "rastikierros" ]
-lang: "fi"
+id: 'eldprowet-2026'
+title: 'Eldprowet 2026'
+start: '2026-04-30T11:00:00+03:00'
+end: '2026-04-30T23:00:00+03:00'
+location: 'Turku, Åbo'
+url: 'https://teekkarikomissio.fi/events/eldprowet-2026'
+tags: [ 'rastikierros' ]
+lang: 'fi'
 ---
-
 Tervetuloa Helvettiin!!!
 ```
 
@@ -106,10 +105,9 @@ summary: Uudistimme etusivua ja lisäsimme uutisosuuden.
 cover: /home-landing-2.jpg
 coverAlt: Teekkarielämää Turussa
 author: Testi Teekkari
-coverCredit: "Kuva: Juuso Korsimo"
+coverCredit: 'Kuva: Juuso Korsimo'
 postId: welcome-2025
 ---
-
 Tämä on esimerkkijulkaisu...
 ```
 
@@ -123,10 +121,9 @@ summary: We refreshed the homepage and added a News section.
 cover: /home-landing-2.jpg
 coverAlt: Teekkari culture in Turku
 author: Testi Teekkari
-coverCredit: "Photo: Juuso Korsimo"
+coverCredit: 'Photo: Juuso Korsimo'
 postId: welcome-2025
 ---
-
 This is a sample post...
 ```
 
@@ -160,7 +157,7 @@ Both Events and News support full Markdown syntax:
 ## Heading 2
 
 **Bold text**
-*Italic text*
+_Italic text_
 
 - List item 1
 - List item 2

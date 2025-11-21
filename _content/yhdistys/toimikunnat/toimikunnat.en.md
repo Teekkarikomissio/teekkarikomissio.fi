@@ -1,6 +1,7 @@
 ---
 title: Committees
 ---
+
 ## Dipping committee
 
 The dipping committee is in charge of organizing the Teekkari dipping in Turku on Wappu Day 1.5.
@@ -13,7 +14,8 @@ The annual ball committee is in charge of the 25th annual ball of Teekkarikomiss
 
 ![vujutmk](/images/vujutmk.jpg)
 
-### Committee members 
+### Committee members
+
 Chair Roosa Varjonen  
 Reetta Lindberg  
 Marianne Matinvuori  
@@ -22,4 +24,4 @@ Mikko Lehtosalo
 Matti Loimaranta  
 Jeremi Nyyssönen  
 Lauri Orava  
-Shashika Harshani  
+Shashika Harshani

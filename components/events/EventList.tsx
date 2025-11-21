@@ -1,13 +1,13 @@
-import EventCard from './EventCard'
-import { Event } from '@/lib/events/types'
-import { Locale } from '@/i18n-config'
+import EventCard from './EventCard';
+import { Event } from '@/lib/events/types';
+import { Locale } from '@/i18n-config';
 
 export default function EventList({
   events,
   locale = 'fi',
 }: {
-  events: Event[]
-  locale?: Locale
+  events: Event[];
+  locale?: Locale;
 }) {
   if (!events?.length)
     return (
@@ -18,12 +18,12 @@ export default function EventList({
             ? 'No upcoming events.'
             : 'Ei tulevia tapahtumia.'}
       </p>
-    )
+    );
   return (
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {events.map((e) => (
         <EventCard key={`${e.id}-${e.lang}`} event={e} locale={locale} />
       ))}
     </div>
-  )
+  );
 }

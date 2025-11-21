@@ -1,6 +1,7 @@
 ---
 title: Member associations
 ---
+
 ## Member associations
 
 Teekkarikomissio has ten members – The Technical Student Associations in Turku. Every member of Digit ry, Nucleus ry, Adamas ry, Machina ry, Asklepio ry, Optima ry, Efficio ry, Fermentus ry, Datateknologerna vid Åbo Akademi rf or Kemistklubben vid Åbo Akademi rf with voting rights is therefore automatically entitled to participate in the TK activities!
@@ -119,7 +120,7 @@ Website: [Asklepio](https://www.asklepio.fi/)
 
 Instagram: @asklepio.ry
 
-Email: asklepio(at)utu.fi 
+Email: asklepio(at)utu.fi
 
 ### **[Optima ry](https://optimary.fi/)**
 

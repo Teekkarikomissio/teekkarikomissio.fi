@@ -1,6 +1,7 @@
 ---
 title: Orientation week
 ---
+
 ## Orientation week
 
 Orientation week, also called fresher week, is aimed for freshers before the actual studies begin. The first year engineering students are introduced to university studies and student association activities by tutors and tutor captains. The main idea is to help the new students to feel like home in the new environment.

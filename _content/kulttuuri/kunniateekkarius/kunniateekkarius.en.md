@@ -1,6 +1,7 @@
 ---
 title: Honorary Teekkari Status
 ---
+
 ## Honorary Teekkari Status
 
 A person can be named an Honorary Teekkari in Turku by a decision of the Teekkarikomissio's board if they have significantly promoted teekkari culture and have been a local and national influencer in the Turku teekkari community. To date, there are Honorary Teekkaris who have been granted the cap under a so-called special permit. The use of the cap is thus permitted for them in accordance with the [rules](/en/yhdistys/dokumentit). Listed below are the current Honorary Teekkaris and the reasons why these particular individuals were chosen to be named Honorary Teekkaris in Turku. Additionally, at the bottom of this page, you will find the speech given by the Vice Rector Emeritus of the University of Turku Mika Hannula on the steps of Turku Cathedral on April 30, 2025, upon receiving his cap.
@@ -19,7 +20,7 @@ Ann-Louise Hakalax has served as the chairperson of Kemistklubben, was involved 
 
 The Teekkarikomissio's board decided to grant Hakalax Honorary Teekkari status for her selfless work for teekkaris. In addition, the board has justified its decision with, for example, Hakalax's teekkari spirit and the significance of her actions. Furthermore, Hakalax was awarded the Teekkarikomissio's Medal of Honour in 2024 in connection with Kemistklubben's annual ball.
 
-- - -
+---
 
 ![Mika Hannula's speech after receiving his cap.](/images/hannula-puhe.jpg)
 
@@ -39,9 +40,12 @@ Jag fick min första teknologmössa i Tammerfors under Wappen år 1989. Då kund
 
 Ja vaikka tamperelaiset ystäväni tämän kuulevatkin, ja saatan tästä vielä myöhemmin kuulla, on pakko todeta, että tämä turkulainen teekkarilakki istuu jotenkin... ehkä ryhdikkäämmin. Ehkä se johtuu siitä, että juuri täällä lakin alle mahtuu myös ripaus Suomen, suomalaisuuden ja Turun Tuomiokirkon historiaa – sitä samaa suomalaisuuden ja kansallisen heräämisen tarinaa. Onhan tämä kirkkokin ollut todistamassa myös suomalaisen yliopistolaitoksen syntyä.
 
-Puheenvuoroni loppuun haluan vielä esittää toiveen teille, rakkaat fuksit, jotka nyt saatte lakkinne: Muistakaa, että hyvässä teekkarissa yhdistyy vastuullisuuden ja uteliaisuuden lisäksi myös rohkeus ja ripaus itsepäisyyttä. Ongelmien ratkaisu ja tekemisen meininki ovat ne, jotka vievät teitä eteenpäin. 
+Puheenvuoroni loppuun haluan vielä esittää toiveen teille, rakkaat fuksit, jotka nyt saatte lakkinne: Muistakaa, että
+hyvässä teekkarissa yhdistyy vastuullisuuden ja uteliaisuuden lisäksi myös rohkeus ja ripaus itsepäisyyttä. Ongelmien
+ratkaisu ja tekemisen meininki ovat ne, jotka vievät teitä eteenpäin.
 
-Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given. Den är mer än bara en mössa - Den är alltid en del av er, och följer med er, vart livet än för er! 
+Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given. Den är mer än bara en mössa - Den är alltid
+en del av er, och följer med er, vart livet än för er!
 Kiitos vielä kerran Teekkarikomissiolle tästä suuresta kunniasta!
 
 Ett stort tack ännu en gång till Teknologkommissionen för denna stora ära - och glada Wappen till alla!

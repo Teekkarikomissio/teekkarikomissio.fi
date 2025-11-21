@@ -1,6 +1,7 @@
 ---
 title: Hedersteknologskap
 ---
+
 ## Hedersteknologskap
 
 En person kan utses till hedersteknolog i Åbo genom beslut av Teknologkommissionens styrelse om personen på ett betydande sätt har främjat teknologkulturen samt varit en lokal och nationell påverkare inom teknologgemenskapen i Åbo. Hittills finns det två hedersteknologer som har beviljats mössan med så kallat undantagstillstånd. Användningen av mössan är därmed tillåten för dem i enlighet med [stadgarna](/sv/yhdistys/dokumentit). Nedan listas de nuvarande hedersteknologerna samt motiveringarna till varför just dessa personer har utsetts till hedersteknologer i Åbo. Längst ner på denna sida hittar du dessutom talet som Åbo universitets vicerektor emeritus Mika Hannula höll på Åbo domkyrkas trappa den 30 april 2025 då han mottog sin mössa.
@@ -19,7 +20,7 @@ Ann-Louise Hakalax har varit tidigare ordförande för Kemistklubben, varit med 
 
 Teknologkommissionens styrelse beslutade att bevilja Hakalax hedersteknologstatus för hennes osjälviska arbete för teknologerna. Dessutom har styrelsen motiverat sitt beslut med exempelvis Hakalax teknologanda samt betydelsen av hennes insatser. Hakalax tilldelades även Teknologkommissionens hederstecken år 2024 i samband med Kemistklubbens årsfest.
 
-- - -
+---
 
 ![Mika Hannulas tal efter han fick sin mössan 30.4.2025](/images/hannula-puhe.jpg)
 
@@ -39,9 +40,12 @@ Jag fick min första teknologmössa i Tammerfors under Wappen år 1989. Då kund
 
 Ja vaikka tamperelaiset ystäväni tämän kuulevatkin, ja saatan tästä vielä myöhemmin kuulla, on pakko todeta, että tämä turkulainen teekkarilakki istuu jotenkin... ehkä ryhdikkäämmin. Ehkä se johtuu siitä, että juuri täällä lakin alle mahtuu myös ripaus Suomen, suomalaisuuden ja Turun Tuomiokirkon historiaa – sitä samaa suomalaisuuden ja kansallisen heräämisen tarinaa. Onhan tämä kirkkokin ollut todistamassa myös suomalaisen yliopistolaitoksen syntyä.
 
-Puheenvuoroni loppuun haluan vielä esittää toiveen teille, rakkaat fuksit, jotka nyt saatte lakkinne: Muistakaa, että hyvässä teekkarissa yhdistyy vastuullisuuden ja uteliaisuuden lisäksi myös rohkeus ja ripaus itsepäisyyttä. Ongelmien ratkaisu ja tekemisen meininki ovat ne, jotka vievät teitä eteenpäin. 
+Puheenvuoroni loppuun haluan vielä esittää toiveen teille, rakkaat fuksit, jotka nyt saatte lakkinne: Muistakaa, että
+hyvässä teekkarissa yhdistyy vastuullisuuden ja uteliaisuuden lisäksi myös rohkeus ja ripaus itsepäisyyttä. Ongelmien
+ratkaisu ja tekemisen meininki ovat ne, jotka vievät teitä eteenpäin.
 
-Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given. Den är mer än bara en mössa - Den är alltid en del av er, och följer med er, vart livet än för er! 
+Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given. Den är mer än bara en mössa - Den är alltid
+en del av er, och följer med er, vart livet än för er!
 Kiitos vielä kerran Teekkarikomissiolle tästä suuresta kunniasta!
 
 Ett stort tack ännu en gång till Teknologkommissionen för denna stora ära - och glada Wappen till alla!

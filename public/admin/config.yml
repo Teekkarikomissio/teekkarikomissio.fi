@@ -12,8 +12,8 @@ backend:
   extension: md
   squash_merges: true
 
-media_folder: "public/images"
-public_folder: "/images"
+media_folder: 'public/images'
+public_folder: '/images'
 
 i18n:
   structure: multiple_files
@@ -21,121 +21,271 @@ i18n:
   default_locale: fi
 
 collections:
-  - name: "home"
-    label: "Kotisivu"
-    slug: "home"
+  - name: 'home'
+    label: 'Kotisivu'
+    slug: 'home'
     i18n: true
-    folder: "_content/home"
+    folder: '_content/home'
     create: false
     fields:
-      - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Body", name: "body", widget: "markdown", i18n: true }
-      - { label: "iframe", name: "iframe", widget: "string", required: false }
-  - name: "events"
-    label: "Tapahtumat (Events)"
-    folder: "_content/events"
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      - { label: 'iframe', name: 'iframe', widget: 'string', required: false }
+  - name: 'events'
+    label: 'Tapahtumat (Events)'
+    folder: '_content/events'
     create: true
     i18n: true
-    slug: "{{id}}"
-    identifier_field: "id"
-    summary: "{{title}} - {{start}}"
+    slug: '{{id}}'
+    identifier_field: 'id'
+    summary: '{{title}} - {{start}}'
     fields:
-      - { label: "Event ID", name: "id", widget: "string", i18n: "duplicate", hint: "Unique identifier (e.g., eldprowet-2027) - must be same for all languages" }
-      - { label: "Title", name: "title", widget: "string", i18n: true, hint: "Event title in current language" }
-      - { label: "Start Date/Time", name: "start", widget: "datetime", i18n: "duplicate", hint: "Event start date and time (same for all languages)" }
-      - { label: "End Date/Time", name: "end", widget: "datetime", required: false, i18n: "duplicate", hint: "Event end date and time" }
-      - { label: "Location", name: "location", widget: "string", required: false, i18n: true, hint: "Can be translated (e.g., Turku/Åbo)" }
-      - { label: "URL", name: "url", widget: "string", required: false, i18n: "duplicate", hint: "Link to event page or registration" }
-      - { label: "All Day Event", name: "allDay", widget: "boolean", required: false, default: false, i18n: "duplicate" }
-      - { label: "Tags", name: "tags", widget: "list", required: false, i18n: false, hint: "Event categories/tags (same for all languages)" }
-      - { label: "Description", name: "body", widget: "markdown", required: false, i18n: true, hint: "Event description in current language" }
-  - name: "news"
-    label: "Uutiset (News)"
-    folder: "_content/news"
+      - {
+        label: 'Event ID',
+        name: 'id',
+        widget: 'string',
+        i18n: 'duplicate',
+        hint: 'Unique identifier (e.g., eldprowet-2027) - must be same for all languages',
+      }
+      - {
+        label: 'Title',
+        name: 'title',
+        widget: 'string',
+        i18n: true,
+        hint: 'Event title in current language',
+      }
+      - {
+        label: 'Start Date/Time',
+        name: 'start',
+        widget: 'datetime',
+        i18n: 'duplicate',
+        hint: 'Event start date and time (same for all languages)',
+      }
+      - {
+        label: 'End Date/Time',
+        name: 'end',
+        widget: 'datetime',
+        required: false,
+        i18n: 'duplicate',
+        hint: 'Event end date and time',
+      }
+      - {
+        label: 'Location',
+        name: 'location',
+        widget: 'string',
+        required: false,
+        i18n: true,
+        hint: 'Can be translated (e.g., Turku/Åbo)',
+      }
+      - {
+        label: 'URL',
+        name: 'url',
+        widget: 'string',
+        required: false,
+        i18n: 'duplicate',
+        hint: 'Link to event page or registration',
+      }
+      - {
+        label: 'All Day Event',
+        name: 'allDay',
+        widget: 'boolean',
+        required: false,
+        default: false,
+        i18n: 'duplicate',
+      }
+      - {
+        label: 'Tags',
+        name: 'tags',
+        widget: 'list',
+        required: false,
+        i18n: false,
+        hint: 'Event categories/tags (same for all languages)',
+      }
+      - {
+        label: 'Description',
+        name: 'body',
+        widget: 'markdown',
+        required: false,
+        i18n: true,
+        hint: 'Event description in current language',
+      }
+  - name: 'news'
+    label: 'Uutiset (News)'
+    folder: '_content/news'
     create: true
     i18n: true
-    slug: "{{postId}}"
-    identifier_field: "postId"
-    summary: "{{title}} - {{date}}"
+    slug: '{{postId}}'
+    identifier_field: 'postId'
+    summary: '{{title}} - {{date}}'
     fields:
-      - { label: "Post ID", name: "postId", widget: "string", i18n: "duplicate", hint: "Unique identifier (same for all languages)" }
-      - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Date", name: "date", widget: "datetime", i18n: "duplicate", hint: "Publication date" }
-      - { label: "Summary", name: "summary", widget: "text", required: false, i18n: true, hint: "Short description for preview" }
-      - { label: "Cover Image", name: "cover", widget: "image", required: false, i18n: "duplicate", hint: "Cover image path" }
-      - { label: "Cover Alt Text", name: "coverAlt", widget: "string", required: false, i18n: true }
-      - { label: "Author", name: "author", widget: "string", required: false, i18n: "duplicate" }
-      - { label: "Cover Credit", name: "coverCredit", widget: "string", required: false, i18n: "duplicate", hint: "Photo credit text" }
-      - { label: "Cover Credit URL", name: "coverCreditUrl", widget: "string", required: false, i18n: "duplicate", hint: "Link to photographer/source" }
-      - { label: "Category", name: "category", widget: "string", required: false, i18n: "duplicate" }
-      - { label: "Tags", name: "tags", widget: "list", required: false, i18n: false, hint: "Tags (same for all languages)" }
-      - { label: "Event Start", name: "eventStart", widget: "datetime", required: false, i18n: "duplicate", hint: "If news is about an event" }
-      - { label: "Event End", name: "eventEnd", widget: "datetime", required: false, i18n: "duplicate" }
-      - { label: "Event Location", name: "location", widget: "string", required: false, i18n: "duplicate" }
-      - { label: "Registration URL", name: "registrationUrl", widget: "string", required: false, i18n: "duplicate" }
-      - { label: "Body", name: "body", widget: "markdown", i18n: true }
-  - name: "yhdistys"
-    label: "Yhdistys"
-    folder: "_content/yhdistys"
-    path: "{{slug}}/{{slug}}"
-    summary: "{{slug}}"
+      - {
+        label: 'Post ID',
+        name: 'postId',
+        widget: 'string',
+        i18n: 'duplicate',
+        hint: 'Unique identifier (same for all languages)',
+      }
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - {
+        label: 'Date',
+        name: 'date',
+        widget: 'datetime',
+        i18n: 'duplicate',
+        hint: 'Publication date',
+      }
+      - {
+        label: 'Summary',
+        name: 'summary',
+        widget: 'text',
+        required: false,
+        i18n: true,
+        hint: 'Short description for preview',
+      }
+      - {
+        label: 'Cover Image',
+        name: 'cover',
+        widget: 'image',
+        required: false,
+        i18n: 'duplicate',
+        hint: 'Cover image path',
+      }
+      - {
+        label: 'Cover Alt Text',
+        name: 'coverAlt',
+        widget: 'string',
+        required: false,
+        i18n: true,
+      }
+      - {
+        label: 'Author',
+        name: 'author',
+        widget: 'string',
+        required: false,
+        i18n: 'duplicate',
+      }
+      - {
+        label: 'Cover Credit',
+        name: 'coverCredit',
+        widget: 'string',
+        required: false,
+        i18n: 'duplicate',
+        hint: 'Photo credit text',
+      }
+      - {
+        label: 'Cover Credit URL',
+        name: 'coverCreditUrl',
+        widget: 'string',
+        required: false,
+        i18n: 'duplicate',
+        hint: 'Link to photographer/source',
+      }
+      - {
+        label: 'Category',
+        name: 'category',
+        widget: 'string',
+        required: false,
+        i18n: 'duplicate',
+      }
+      - {
+        label: 'Tags',
+        name: 'tags',
+        widget: 'list',
+        required: false,
+        i18n: false,
+        hint: 'Tags (same for all languages)',
+      }
+      - {
+        label: 'Event Start',
+        name: 'eventStart',
+        widget: 'datetime',
+        required: false,
+        i18n: 'duplicate',
+        hint: 'If news is about an event',
+      }
+      - {
+        label: 'Event End',
+        name: 'eventEnd',
+        widget: 'datetime',
+        required: false,
+        i18n: 'duplicate',
+      }
+      - {
+        label: 'Event Location',
+        name: 'location',
+        widget: 'string',
+        required: false,
+        i18n: 'duplicate',
+      }
+      - {
+        label: 'Registration URL',
+        name: 'registrationUrl',
+        widget: 'string',
+        required: false,
+        i18n: 'duplicate',
+      }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+  - name: 'yhdistys'
+    label: 'Yhdistys'
+    folder: '_content/yhdistys'
+    path: '{{slug}}/{{slug}}'
+    summary: '{{slug}}'
     create: true
     i18n: true
     fields:
-      - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Body", name: "body", widget: "markdown", i18n: true }
-      - { label: "iframe", name: "iframe", widget: "string", required: false }
-  - name: "fukseille"
-    label: "Fukseille"
-    folder: "_content/fukseille"
-    path: "{{slug}}/{{slug}}"
-    summary: "{{slug}}"
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      - { label: 'iframe', name: 'iframe', widget: 'string', required: false }
+  - name: 'fukseille'
+    label: 'Fukseille'
+    folder: '_content/fukseille'
+    path: '{{slug}}/{{slug}}'
+    summary: '{{slug}}'
     create: true
     i18n: true
     fields:
-      - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Body", name: "body", widget: "markdown", i18n: true }
-      - { label: "iframe", name: "iframe", widget: "string", required: false }
-  - name: "kulttuuri"
-    label: "Kulttuuri"
-    folder: "_content/kulttuuri"
-    path: "{{slug}}/{{slug}}"
-    summary: "{{slug}}"
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      - { label: 'iframe', name: 'iframe', widget: 'string', required: false }
+  - name: 'kulttuuri'
+    label: 'Kulttuuri'
+    folder: '_content/kulttuuri'
+    path: '{{slug}}/{{slug}}'
+    summary: '{{slug}}'
     create: true
     i18n: true
     fields:
-      - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Body", name: "body", widget: "markdown", i18n: true }
-      - { label: "iframe", name: "iframe", widget: "string", required: false }
-  - name: "tapahtumat"
-    label: "Tapahtumat"
-    folder: "_content/tapahtumat"
-    path: "{{slug}}/{{slug}}"
-    summary: "{{slug}}"
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      - { label: 'iframe', name: 'iframe', widget: 'string', required: false }
+  - name: 'tapahtumat'
+    label: 'Tapahtumat'
+    folder: '_content/tapahtumat'
+    path: '{{slug}}/{{slug}}'
+    summary: '{{slug}}'
     create: true
     i18n: true
     fields:
-      - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Body", name: "body", widget: "markdown", i18n: true }
-      - { label: "iframe", name: "iframe", widget: "string", required: false }
-  - name: "yhteistyo"
-    label: "Yhteistyö"
-    folder: "_content/yhteistyo"
-    path: "{{slug}}/{{slug}}"
-    summary: "{{slug}}"
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      - { label: 'iframe', name: 'iframe', widget: 'string', required: false }
+  - name: 'yhteistyo'
+    label: 'Yhteistyö'
+    folder: '_content/yhteistyo'
+    path: '{{slug}}/{{slug}}'
+    summary: '{{slug}}'
     create: true
     i18n: true
     fields:
-      - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Body", name: "body", widget: "markdown", i18n: true }
-      - { label: "iframe", name: "iframe", widget: "string", required: false }
-  - name: "ongelmatilannelomake"
-    label: "Ongelmatilannelomake"
-    slug: "ongelmatilannelomake"
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      - { label: 'iframe', name: 'iframe', widget: 'string', required: false }
+  - name: 'ongelmatilannelomake'
+    label: 'Ongelmatilannelomake'
+    slug: 'ongelmatilannelomake'
     i18n: true
-    folder: "_content/ongelmatilannelomake"
+    folder: '_content/ongelmatilannelomake'
     create: false
     fields:
-      - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Body", name: "body", widget: "markdown", i18n: true }
-      - { label: "iframe", name: "iframe", widget: "string", required: false }
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      - { label: 'iframe', name: 'iframe', widget: 'string', required: false }

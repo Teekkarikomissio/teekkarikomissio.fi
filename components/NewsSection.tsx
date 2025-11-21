@@ -1,15 +1,15 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { getLatestNews } from '@/lib/news'
-import { Locale } from '@/i18n-config'
-import { formatDateUTC } from '@/lib/date'
+import Image from 'next/image';
+import Link from 'next/link';
+import { getLatestNews } from '@/lib/news';
+import { Locale } from '@/i18n-config';
+import { formatDateUTC } from '@/lib/date';
 
 type Props = {
-  lang: Locale
-  heading: string
-  viewAllLabel: string
-  readMoreLabel: string
-}
+  lang: Locale;
+  heading: string;
+  viewAllLabel: string;
+  readMoreLabel: string;
+};
 
 export default function NewsSection({
   lang,
@@ -17,9 +17,9 @@ export default function NewsSection({
   viewAllLabel,
   readMoreLabel,
 }: Props) {
-  const items = getLatestNews(lang, 4)
+  const items = getLatestNews(lang, 4);
 
-  if (items.length === 0) return null
+  if (items.length === 0) return null;
 
   return (
     <section className="w-full">
@@ -64,5 +64,5 @@ export default function NewsSection({
         </ul>
       </div>
     </section>
-  )
+  );
 }

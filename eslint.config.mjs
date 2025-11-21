@@ -1,15 +1,15 @@
-import { fileURLToPath } from 'url'
-import path from 'path'
-import { FlatCompat } from '@eslint/eslintrc'
-import eslintConfigPrettier from 'eslint-config-prettier'
-import ts from 'typescript-eslint'
+import { fileURLToPath } from 'url';
+import path from 'path';
+import { FlatCompat } from '@eslint/eslintrc';
+import eslintConfigPrettier from 'eslint-config-prettier';
+import ts from 'typescript-eslint';
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const compat = new FlatCompat({
   baseDirectory: __dirname,
-})
+});
 
 const eslintConfig = [
   {
@@ -25,6 +25,6 @@ const eslintConfig = [
   ...compat.extends('next/core-web-vitals'),
   // ...compat.extends('plugin:tailwindcss/recommended'),
   eslintConfigPrettier,
-]
+];
 
-export default eslintConfig
+export default eslintConfig;

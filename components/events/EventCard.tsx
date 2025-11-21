@@ -1,24 +1,24 @@
-'use client'
+'use client';
 
-import { Event } from '@/lib/events/types'
-import Link from 'next/link'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Event } from '@/lib/events/types';
+import Link from 'next/link';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function EventCard({
   event,
   locale = 'fi',
 }: {
-  event: Event
-  locale?: string
+  event: Event;
+  locale?: string;
 }) {
   const startFmt = new Intl.DateTimeFormat(locale, {
     dateStyle: 'medium',
     timeStyle: event.allDay ? undefined : 'short',
-  })
+  });
   const endFmt = new Intl.DateTimeFormat(locale, {
     dateStyle: 'medium',
     timeStyle: event.allDay ? undefined : 'short',
-  })
+  });
 
   return (
     <Card className="h-full">
@@ -67,5 +67,5 @@ export default function EventCard({
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }

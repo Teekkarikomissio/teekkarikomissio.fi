@@ -1,19 +1,19 @@
-import { NextResponse } from 'next/server'
-import { getAllEvents } from '@/lib/events'
-import { createEvent, type EventAttributes } from 'ics'
+import { NextResponse } from 'next/server';
+import { getAllEvents } from '@/lib/events';
+import { createEvent, type EventAttributes } from 'ics';
 
 export async function GET(
   request: Request,
-  context: { params: Promise<{ id: string }> }
+  context: { params: Promise<{ id: string }> },
 ) {
-  const { id } = await context.params
+  const { id } = await context.params;
 
-  const eventId = decodeURIComponent(id)
+  const eventId = decodeURIComponent(id);
 
-  const all = await getAllEvents()
-  const e = all.find((x) => x.id === eventId)
+  const all = await getAllEvents();
+  const e = all.find((x) => x.id === eventId);
   if (!e) {
-    return new NextResponse('Not found', { status: 404 })
+    return new NextResponse('Not found', { status: 404 });
   }
 
   const toTuple = (d: Date): [number, number, number, number, number] => [
@@ -22,9 +22,9 @@ export async function GET(
     d.getUTCDate(),
     d.getUTCHours(),
     d.getUTCMinutes(),
-  ]
+  ];
 
-  const start = toTuple(e.start)
+  const start = toTuple(e.start);
 
   const base = {
     title: e.title,
@@ -36,19 +36,19 @@ export async function GET(
     start,
     status: 'CONFIRMED' as const,
     busyStatus: 'BUSY' as const,
-  }
+  };
 
-  let attrs: EventAttributes
+  let attrs: EventAttributes;
   if (e.end) {
-    attrs = { ...base, end: toTuple(e.end) }
+    attrs = { ...base, end: toTuple(e.end) };
   } else {
-    attrs = { ...base, duration: { hours: 1 } }
+    attrs = { ...base, duration: { hours: 1 } };
   }
 
-  const { error, value } = createEvent(attrs)
+  const { error, value } = createEvent(attrs);
   if (error || !value) {
-    console.error('ICS Generation Error:', error) // Good practice to log the actual error
-    return new NextResponse('Failed to generate ICS', { status: 500 })
+    console.error('ICS Generation Error:', error); // Good practice to log the actual error
+    return new NextResponse('Failed to generate ICS', { status: 500 });
   }
 
   return new NextResponse(value, {
@@ -56,5 +56,5 @@ export async function GET(
       'Content-Type': 'text/calendar; charset=utf-8',
       'Content-Disposition': `attachment; filename="${encodeURIComponent(id)}.ics"`,
     },
-  })
+  });
 }

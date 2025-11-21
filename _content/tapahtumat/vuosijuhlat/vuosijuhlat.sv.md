@@ -1,6 +1,7 @@
 ---
 title: Årsfest
 ---
+
 ## Årsfest
 
 Årsfester är de värdigaste högtider i teknologkulturen. Meningen är att inbjuda medlemmar och gäster ihop för att fira föreningen som fyller år. Enligt sitt namn firas årsfester högst en gång per år. Dock kan man ersätta årsfesten med en årsfestsitz vilken är finare än vanlig sitz. Årsfester består vanligtvis av cocktail, bankett och efterfest. Klädkoden är en högtidsdräkt med akademiska ordnar.
@@ -13,6 +14,6 @@ På följande dag brukar man klä halare på sig och koppla av på sillisfrukost
 
 Teknologkommissionen har brukat ha årsfest var femte år. Nästa gång ska årsfest gå av stapeln i **september 2025**.
 
-*Anmälningen är öppet 27.08.2025 kl 12:00 - 10.09.2025 kl 23:59.*
+_Anmälningen är öppet 27.08.2025 kl 12:00 - 10.09.2025 kl 23:59._
 
-*Mer information och anmälningen: https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla.*
+_Mer information och anmälningen: https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla._

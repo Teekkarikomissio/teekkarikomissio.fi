@@ -1,6 +1,7 @@
 ---
 title: TK-FIA
 ---
+
 ## TK-FIA
 
 In the depths of Borgen was FIA once invented. Played by Kemistklubben for decades, it has held its place as an iconic game for the Åbo Akademi teekkaris. Fortunately for everyone studying in the University of Turku, has Kemistklubben given us the opportunity to organise our own version of said game for all of the teekkaris under Teekkarikomissio.

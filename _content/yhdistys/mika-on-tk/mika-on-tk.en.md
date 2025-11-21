@@ -1,11 +1,10 @@
 ---
 title: What is TK?
 ---
+
 ![TK logo](logo-musta.svg)
 
 ![](logo-musta.svg)
-
-
 
 Teekkarikomissio (TK) is a coordinating contact forum for the teekkari associations in Turku. TK is a bilingual association. The members of the Teekkarikomission are Kemistklubben, DaTe, Digit, Nucleus, Adamas, Machina, Asklepio, Optima and Efficio.
 

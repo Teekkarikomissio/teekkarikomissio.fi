@@ -1,6 +1,7 @@
 ---
 title: Turun paikalliset jäynäkilpailut
 ---
+
 ## Jäynäkulttuuri
 
 Jäynäkilpailun tarkoituksena on vaalia jäynäperinteitä, edistää teekkarikulttuuria, kohottaa teekkarihenkeä ja edistää teekkaribrändin näkyvyyttä Turussa sekä tuottaa hyvää mieltä jäynän kaikilla vaikutusalueilla.

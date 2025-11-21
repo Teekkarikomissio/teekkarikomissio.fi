@@ -5,7 +5,7 @@ summary: We refreshed the homepage and added a News section.
 cover: /home-landing-2.jpg
 coverAlt: Teekkari culture in Turku
 author: Testi Teekkari
-coverCredit: "Photo: Juuso Korsimo"
+coverCredit: 'Photo: Juuso Korsimo'
 postId: welcome-2025
 ---
 
@@ -43,4 +43,4 @@ sed felis. Etiam elementum luctus tortor, eu maximus libero faucibus et. Fusce f
 nunc augue efficitur lectus, sit amet interdum diam leo vitae diam. Aliquam aliquet lacus vel sapien varius dictum. Nunc
 in nisi volutpat turpis finibus accumsan et eu ipsum. Fusce lacinia id diam sed fringilla. Nunc tempor est a enim
 lacinia, nec faucibus leo rhoncus. Phasellus cursus feugiat sem, id mollis mi tristique ut. Vestibulum vitae luctus
-sapien. 
+sapien.

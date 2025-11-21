@@ -1,17 +1,17 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
 type InstagramItem = {
-  href: string
-  src: string
-  alt?: string
-}
+  href: string;
+  src: string;
+  alt?: string;
+};
 
 type Props = {
-  heading: string
-  ctaLabel: string
-  profileUrl: string
-  items: InstagramItem[]
-}
+  heading: string;
+  ctaLabel: string;
+  profileUrl: string;
+  items: InstagramItem[];
+};
 
 export default function InstagramStrip({
   heading,
@@ -19,7 +19,7 @@ export default function InstagramStrip({
   profileUrl,
   items,
 }: Props) {
-  if (!items || items.length === 0) return null
+  if (!items || items.length === 0) return null;
 
   return (
     <section className="w-full bg-gray-50">
@@ -61,5 +61,5 @@ export default function InstagramStrip({
         </ul>
       </div>
     </section>
-  )
+  );
 }

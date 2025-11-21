@@ -1,6 +1,7 @@
 ---
 title: Aikaisemmat hallitukset
 ---
+
 ## 2024
 
 | Hallitusrooli                                  | Nimi                |
@@ -281,4 +282,3 @@ title: Aikaisemmat hallitukset
 |               | Emil Nyback    |
 |               | Tuomas Mäkilä  |
 |               | Timo Kuusela   |
-

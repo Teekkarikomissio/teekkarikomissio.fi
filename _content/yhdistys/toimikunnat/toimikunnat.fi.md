@@ -1,6 +1,7 @@
 ---
 title: Toimikunnat
 ---
+
 ## Kastetoimikunta
 
 Kastetoimikunta vastaa Teekkarikasteen järjestämisestä Wappupäivänä 1.5.
@@ -23,4 +24,4 @@ Mikko Lehtosalo
 Matti Loimaranta  
 Jeremi Nyyssönen  
 Lauri Orava  
-Shashika Harshani  
+Shashika Harshani

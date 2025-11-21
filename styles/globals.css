@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* Theme design tokens (HSL values) */
 :root {
@@ -46,12 +46,9 @@
     --ring: 0 72.2% 50.6%;
 }
 
-
 @theme {
-
     --font-sans: var(--font-inter);
     --font-mono: var(--font-roboto-mono);
-
 
     --color-background: hsl(var(--background));
     --color-foreground: hsl(var(--foreground));
@@ -82,25 +79,54 @@
     --color-ring: hsl(var(--ring));
 }
 
-
 @keyframes accordion-down {
-    from { height: 0 }
-    to { height: var(--radix-accordion-content-height) }
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--radix-accordion-content-height);
+    }
 }
 
 @keyframes accordion-up {
-    from { height: var(--radix-accordion-content-height) }
-    to { height: 0 }
+    from {
+        height: var(--radix-accordion-content-height);
+    }
+    to {
+        height: 0;
+    }
 }
 
+@utility animate-accordion-down {
+    animation: accordion-down 0.2s ease-out;
+}
+@utility animate-accordion-up {
+    animation: accordion-up 0.2s ease-out;
+}
 
-@utility animate-accordion-down { animation: accordion-down 0.2s ease-out }
-@utility animate-accordion-up { animation: accordion-up 0.2s ease-out }
+.prose p {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
 
-.prose p { margin-top: 0.75em; margin-bottom: 0.75em; }
-.prose ul, .prose ol { margin-top: 0.75em; margin-bottom: 0.75em; }
-.prose h1, .prose h2, .prose h3, .prose h4 { margin-top: 1.5em; margin-bottom: 0.75em; }
-.prose img { margin-top: 1rem; margin-bottom: 1rem; }
+.prose ul,
+.prose ol {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+}
+
+.prose img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 .markdown table {
     margin: 0 auto;

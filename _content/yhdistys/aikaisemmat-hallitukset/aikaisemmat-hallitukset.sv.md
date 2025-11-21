@@ -1,6 +1,7 @@
 ---
 title: Tidigare styrelser
 ---
+
 ## 2024
 
 | Styrelsepost | Namn                |

@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import tailwindcss_animate from 'tailwindcss-animate'
+import tailwindcss_animate from 'tailwindcss-animate';
 
 module.exports = {
   darkMode: ['class'],
@@ -91,4 +91,4 @@ module.exports = {
     },
   },
   plugins: [tailwindcss_animate],
-}
+};

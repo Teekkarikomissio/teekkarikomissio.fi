@@ -1,6 +1,7 @@
 ---
 title: Vuosijuhlat
 ---
+
 ## Vuosijuhlat
 
 Vuosijuhlat ovat teekkarikulttuurin arvokkaimpia juhlia. Tarkoitus on kutsua yhdistyksen jäsenet ja kutsuvieraat juhlimaan yhdistystä sen täyttäessä vuosia. “Vujut” pidetäänkin nimensä mukaisesti enintään kerran vuodessa. Viiden vuoden välein sanotaan vietettävän puolipyöreitä vuosijuhlia ja kymmenen vuoden välein pyöreitä. Näillä on tapana olla tavallista juhlavammat.
@@ -15,4 +16,5 @@ Seuraavana päivänä rentoudutaan haalarit yllä sillisaamiaisen merkeissä.
 
 Teekkarikomissiolla on ollut tapana järjestää vuosijuhlat viiden vuoden välein. Seuraavan kerran vuosijuhlat järjestetään **syyskuussa 2025**.
 
-*Ilmoittautuminen on auki 27.08.2025 klo 12:00 - 10.09.2025 klo 23:59 osoitteessa https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla.*
+_Ilmoittautuminen on auki 27.08.2025 klo 12:00 - 10.09.2025 klo 23:59
+osoitteessa https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla._

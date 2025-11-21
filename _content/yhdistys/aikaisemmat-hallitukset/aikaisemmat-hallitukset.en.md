@@ -1,6 +1,7 @@
 ---
 title: Previous boards
 ---
+
 ## 2024
 
 | Post                                           | Name                |
@@ -203,7 +204,6 @@ title: Previous boards
 |      | Gabriel Nyman         |
 |      | Sari Viljanen         |
 |      | Petri Teräspuro       |
-
 
 ## 2007
 

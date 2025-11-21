@@ -1,6 +1,7 @@
 ---
 title: Jäsenyhdistykset
 ---
+
 ## Jäsenyhdistykset
 
 Teekkarikomissiolla on kymmenen jäsentä - Turussa toimivat teekkariyhdistykset. Jokainen Digit ry:n, Nucleus ry:n, Adamas ry:n, Machina ry:n, Asklepio ry:n, Optima ry:n, Efficio ry:n, Fermentus ry:n, Datateknologerna vid Åbo Akademi rf:n tai Kemistklubben vid Åbo Akademi rf:n äänioikeutettu jäsen on siis automaagisesti oikeutettu osallistumaan TK:n toimintaan!
@@ -73,7 +74,7 @@ Kotisivut: [Nucleus ry](https://nucleus.fi/)
 
 Instagram: @nucleus_ry
 
-Sähköposti: nucleus(at)utu.fi 
+Sähköposti: nucleus(at)utu.fi
 
 ### **[Adamas ry](https://adamas.fi/)**
 
@@ -119,7 +120,7 @@ Kotisivut: [Asklepio](https://www.asklepio.fi/)
 
 Instagram: @asklepio.ry
 
-Sähköposti: asklepio(at)utu.fi  
+Sähköposti: asklepio(at)utu.fi
 
 ### **[Optima ry](https://optimary.fi/)**
 

@@ -11,13 +11,13 @@ The teekkarikomissio.fi website is built using Next.js, a React framework that e
 To get started with development, follow these steps:
 
 1. Clone the repository:
-[https://github.com/Teekkarikomissio/teekkarikomissio.fi]
+   [https://github.com/Teekkarikomissio/teekkarikomissio.fi]
 
 2. Navigate to the project directory:
 
 `cd teekkarikomissio.fi`
 
-3. Check that you have a recent enough Node version by running 
+3. Check that you have a recent enough Node version by running
 
 `nvm use`
 
@@ -48,10 +48,12 @@ If you push your own branch, Netlify will create a preview version of the site s
 ## Adding a language
 
 If you want to add a new spoken language, you can add a new dictionary for texts under `/dictionaries/your-language.json`. Then modify the following files:
+
 - `i18n-config.ts`
 - `Navbar.tsx`
 
 And to get full route translations working:
+
 - `next.config.ts`
 - `netlify.toml` (If you stick with Netlify)
 

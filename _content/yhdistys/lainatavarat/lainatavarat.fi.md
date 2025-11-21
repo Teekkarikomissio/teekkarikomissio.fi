@@ -17,4 +17,3 @@ seuraavat tavarat lainattavissa:
 ### Jäsenjärjestöjen lainatavarat
 
 #### **Digit ry**
-

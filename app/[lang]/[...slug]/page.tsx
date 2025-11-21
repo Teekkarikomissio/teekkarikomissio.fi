@@ -1,48 +1,48 @@
-import React from 'react'
-import { i18n, Locale } from '@/i18n-config'
-import MarkdownPage from '@/components/MarkdownPage'
-import { notFound, redirect } from 'next/navigation'
-import getPageBySlug, { getNavigationByLocale } from '@/lib/api'
-import { Metadata } from 'next'
-import dynamicPageStyles from './dynamic-page.module.css'
+import React from 'react';
+import { i18n, Locale } from '@/i18n-config';
+import MarkdownPage from '@/components/MarkdownPage';
+import { notFound, redirect } from 'next/navigation';
+import getPageBySlug, { getNavigationByLocale } from '@/lib/api';
+import { Metadata } from 'next';
+import dynamicPageStyles from './dynamic-page.module.css';
 
 interface Props {
   params: Promise<{
-    lang: Locale
-    slug: string[]
-  }>
+    lang: Locale;
+    slug: string[];
+  }>;
 }
 
 export async function generateStaticParams() {
-  const paths: { lang: Locale; slug: string[] }[] = []
+  const paths: { lang: Locale; slug: string[] }[] = [];
 
   for (const locale of i18n.locales) {
-    const contentFolders = await getNavigationByLocale(locale)
+    const contentFolders = await getNavigationByLocale(locale);
 
     contentFolders.forEach((folder) => {
       paths.push({
         lang: locale as Locale,
         slug: [folder!.slug],
-      })
+      });
 
       folder?.subPages?.forEach((subPage) => {
         paths.push({
           lang: locale as Locale,
           slug: [folder.slug, subPage!.slug],
-        })
-      })
-    })
+        });
+      });
+    });
   }
 
-  return paths
+  return paths;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { lang, slug } = await params
-  const slugPath = slug.join('/')
+  const { lang, slug } = await params;
+  const slugPath = slug.join('/');
 
   try {
-    const page = getPageBySlug(`${slugPath}/${slug[slug.length - 1]}`, lang)
+    const page = getPageBySlug(`${slugPath}/${slug[slug.length - 1]}`, lang);
 
     return {
       title: page.meta.title,
@@ -56,26 +56,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: page.meta.title,
         description: page.meta.description || '',
       },
-    }
+    };
   } catch {
-    notFound()
+    notFound();
   }
 }
 
 export default async function DynamicPage({ params }: Props) {
-  const { lang, slug } = await params
-  const slugPath = slug.join('/')
+  const { lang, slug } = await params;
+  const slugPath = slug.join('/');
 
-  const navigation = await getNavigationByLocale(lang)
-  const currentSection = navigation.find((section) => section?.slug === slug[0])
+  const navigation = await getNavigationByLocale(lang);
+  const currentSection = navigation.find(
+    (section) => section?.slug === slug[0],
+  );
 
   if (!currentSection) {
-    notFound()
+    notFound();
   }
 
   if (slug.length === 1 && currentSection.subPages?.length > 0) {
-    const firstSubPage = currentSection.subPages[0]
-    redirect(`/${lang}/${currentSection.slug}/${firstSubPage?.slug}`)
+    const firstSubPage = currentSection.subPages[0];
+    redirect(`/${lang}/${currentSection.slug}/${firstSubPage?.slug}`);
   }
 
   try {
@@ -86,8 +88,8 @@ export default async function DynamicPage({ params }: Props) {
         className={dynamicPageStyles['markdown']}
         containerClassName="max-w-prose mx-auto"
       />
-    )
+    );
   } catch {
-    notFound()
+    notFound();
   }
 }

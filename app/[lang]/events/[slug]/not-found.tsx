@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function NotFound() {
   return (
@@ -6,5 +6,5 @@ export default function NotFound() {
       <h1 className="mb-4 text-2xl font-bold">Event not found</h1>
       <p className="text-gray-700">The requested event could not be found.</p>
     </main>
-  )
+  );
 }

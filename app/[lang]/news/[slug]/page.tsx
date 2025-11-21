@@ -1,19 +1,19 @@
-import { Locale } from '@/i18n-config'
-import { getAllNews } from '@/lib/news'
-import markdownToHtml from '@/lib/markdownToHtml'
-import { formatDateUTC } from '@/lib/date'
+import { Locale } from '@/i18n-config';
+import { getAllNews } from '@/lib/news';
+import markdownToHtml from '@/lib/markdownToHtml';
+import { formatDateUTC } from '@/lib/date';
 
-type Props = { params: Promise<{ lang: Locale; slug: string }> }
+type Props = { params: Promise<{ lang: Locale; slug: string }> };
 
 export default async function NewsArticle({ params }: Props) {
-  const { lang, slug } = await params
-  const item = getAllNews(lang).find((n) => n.slug === slug)
+  const { lang, slug } = await params;
+  const item = getAllNews(lang).find((n) => n.slug === slug);
 
   if (!item) {
-    return null
+    return null;
   }
 
-  const html = await markdownToHtml(item.content)
+  const html = await markdownToHtml(item.content);
 
   return (
     <main className="w-full">
@@ -66,5 +66,5 @@ export default async function NewsArticle({ params }: Props) {
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </article>
     </main>
-  )
+  );
 }

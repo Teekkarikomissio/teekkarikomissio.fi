@@ -1,7 +1,8 @@
 ---
 title: Teekkari Cap
 ---
-![](<>)
+
+![]()
 
 ![](teekkarihattu.jpg)
 

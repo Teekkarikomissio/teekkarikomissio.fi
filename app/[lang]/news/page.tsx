@@ -1,28 +1,28 @@
-import { Locale } from '@/i18n-config'
-import { getAllNews } from '@/lib/news'
-import { formatDateUTC } from '@/lib/date'
-import Link from 'next/link'
-import Image from 'next/image'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Locale } from '@/i18n-config';
+import { getAllNews } from '@/lib/news';
+import { formatDateUTC } from '@/lib/date';
+import Link from 'next/link';
+import Image from 'next/image';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-type Props = { params: Promise<{ lang: Locale }> }
+type Props = { params: Promise<{ lang: Locale }> };
 
 export default async function NewsIndex({ params }: Props) {
-  const { lang } = await params
-  const locale: Locale = lang
-  const items = getAllNews(lang)
+  const { lang } = await params;
+  const locale: Locale = lang;
+  const items = getAllNews(lang);
 
   const headings: Record<Locale, string> = {
     fi: 'Uutiset',
     en: 'News',
     sv: 'Nyheter',
-  }
+  };
 
   const emptyList: Record<Locale, string> = {
     fi: 'Ei uutisia',
     en: 'No news yet',
     sv: 'Inga nyheter',
-  }
+  };
 
   return (
     <main className="w-full">
@@ -87,5 +87,5 @@ export default async function NewsIndex({ params }: Props) {
         )}
       </div>
     </main>
-  )
+  );
 }

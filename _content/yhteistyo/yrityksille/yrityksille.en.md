@@ -1,6 +1,7 @@
 ---
 title: For companies
 ---
+
 ![](yrityksille-paavo.jpg)
 
 ## For companies
@@ -9,15 +10,15 @@ Teekkarikomissio aims to build long lasting collaborations with many kinds of co
 
 We are able to offer visibility for example at:
 
-* Social media platforms
-* Web page
-* Events
+- Social media platforms
+- Web page
+- Events
+    - Teekkari Cap Ceremony
+    - Paavo Nurmi Cap Ceremony
+    - Teekkari Dipping
+    - TeekkariExpo
 
-  * Teekkari Cap Ceremony
-  * Paavo Nurmi Cap Ceremony
-  * Teekkari Dipping
-  * TeekkariExpo
-* Board’s representation overall
+- Board’s representation overall
 
 The best visibility can be reached at our big events near May Day. These Wappu events (Teekkari Cap Ceremony, Paavo Nurmi Cap Ceremony, and Teekkari Dipping) are the best place for your company to gain visibility among students, as well as bypassers. Being arranged every autumn, TeekkariExpo is an excellent chance to meet students and recruit. One of our strengths is an open mind and flexibility, so feel free to propose even new ideas!
 

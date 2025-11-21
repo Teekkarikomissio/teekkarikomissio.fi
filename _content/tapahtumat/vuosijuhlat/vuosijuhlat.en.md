@@ -1,6 +1,7 @@
 ---
 title: Annual ball
 ---
+
 ## Annual ball
 
 Annual balls are the fanciest academic parties. The meaning is to invite members and special guests together and celebrate the association that has become older. As its name reveals, the annual ball takes place once a year or even more seldom.
@@ -13,6 +14,6 @@ Cocktail is followed by a dinner party that differs clearly from sitz parties. A
 
 Teekkarikomissio is used to have an annual ball every fifth year. The next time is going to be **September 2025**.
 
-*Registration is open 27.08.2025 kl 12:00 - 10.09.2025 kl 23:59.*
+_Registration is open 27.08.2025 kl 12:00 - 10.09.2025 kl 23:59._
 
-*More information and the registration: https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla.*
+_More information and the registration: https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla._

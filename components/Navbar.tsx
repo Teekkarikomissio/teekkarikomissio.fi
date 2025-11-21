@@ -1,10 +1,10 @@
-'use client'
+'use client';
 
-import React, { useState } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+import React, { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
-import { Menu } from 'lucide-react'
+import { Menu } from 'lucide-react';
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -12,54 +12,54 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from '@/components/ui/navigation-menu'
+} from '@/components/ui/navigation-menu';
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from '@/components/ui/sheet'
-import { ScrollArea } from '@/components/ui/scroll-area'
+} from '@/components/ui/sheet';
+import { ScrollArea } from '@/components/ui/scroll-area';
 
-import LocaleSwitcher from './locale-switcher'
+import LocaleSwitcher from './locale-switcher';
 
-import tklogo from '../public/logos/tklogo.svg'
-import { Locale } from '@/i18n-config'
-import { cn } from '@/lib/utils'
+import tklogo from '../public/logos/tklogo.svg';
+import { Locale } from '@/i18n-config';
+import { cn } from '@/lib/utils';
 
 interface PageMeta {
-  title?: string
-  description?: string
-  translatedTitle?: Record<string, string>
-  [key: string]: unknown
+  title?: string;
+  description?: string;
+  translatedTitle?: Record<string, string>;
+  [key: string]: unknown;
 }
 
 interface NavigationBarProps {
-  lang: Locale
+  lang: Locale;
   contentFolders: {
-    href: string
-    slug: string
-    meta: PageMeta
-    content: string
+    href: string;
+    slug: string;
+    meta: PageMeta;
+    content: string;
     subPages?: {
-      href: string
-      slug: string
-      meta: PageMeta
-      content: string
-    }[]
-  }[]
+      href: string;
+      slug: string;
+      meta: PageMeta;
+      content: string;
+    }[];
+  }[];
 }
 
 export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
-  const [isOpen] = useState(false)
+  const [isOpen] = useState(false);
 
   const NavbarBrand = () => (
     <div className="flex items-center justify-center text-white">
       <Image className="fill-current h-8 w-8 mr-2" src={tklogo} alt="TK logo" />
       <Link href={`/${lang}/`}>Teekkarikomissio</Link>
     </div>
-  )
+  );
 
   const NavigationMenuDesktop = () => {
     return (
@@ -76,7 +76,7 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
                     {(() => {
-                      const many = section.subPages.length > 8
+                      const many = section.subPages.length > 8;
 
                       const listItems = section.subPages.map((subPage) => (
                         <ListItem
@@ -86,13 +86,13 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
                         >
                           {subPage.meta.description || ''}
                         </ListItem>
-                      ))
+                      ));
 
                       return (
                         <div
                           className={cn(
                             'w-[400px] bg-white rounded-md border border-primary/20 ring-1 ring-primary/10 shadow-lg',
-                            many && 'max-h-96 overflow-y-auto pr-2'
+                            many && 'max-h-96 overflow-y-auto pr-2',
                           )}
                           style={{
                             scrollbarGutter: many ? 'stable' : undefined,
@@ -100,7 +100,7 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
                         >
                           <ul className="grid gap-3 p-4">{listItems}</ul>
                         </div>
-                      )
+                      );
                     })()}
                   </NavigationMenuContent>
                 </>
@@ -132,13 +132,13 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
           ))}
         </NavigationMenuList>
       </NavigationMenu>
-    )
-  }
+    );
+  };
 
   const ListItem = React.forwardRef<
     React.ElementRef<typeof NavigationMenuLink>,
     React.ComponentPropsWithoutRef<typeof NavigationMenuLink> & {
-      title: string
+      title: string;
     }
   >(({ className, title, children, ...props }, ref) => {
     return (
@@ -147,7 +147,7 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
           ref={ref}
           className={cn(
             'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:text-primary',
-            className
+            className,
           )}
           {...props}
         >
@@ -159,12 +159,12 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
           </p>
         </NavigationMenuLink>
       </li>
-    )
-  })
-  ListItem.displayName = 'ListItem'
+    );
+  });
+  ListItem.displayName = 'ListItem';
 
   const NavigationMenuMobile = () => {
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false);
 
     return (
       <Sheet open={open} onOpenChange={setOpen}>
@@ -238,8 +238,8 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
           </div>
         </SheetContent>
       </Sheet>
-    )
-  }
+    );
+  };
 
   return (
     <nav className="sticky top-0 z-10 bg-primary p-4">
@@ -260,5 +260,5 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
         </div>
       </div>
     </nav>
-  )
+  );
 }

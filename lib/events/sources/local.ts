@@ -1,21 +1,21 @@
-import fs from 'fs/promises'
-import path from 'path'
-import matter from 'gray-matter'
-import { normalizeEvent } from '../normalise'
-import { Event } from '../types'
-import { Locale } from '@/i18n-config'
+import fs from 'fs/promises';
+import path from 'path';
+import matter from 'gray-matter';
+import { normalizeEvent } from '../normalise';
+import { Event } from '../types';
+import { Locale } from '@/i18n-config';
 
-const EVENTS_DIR = path.join(process.cwd(), '_content', 'events')
+const EVENTS_DIR = path.join(process.cwd(), '_content', 'events');
 
 export async function fetchLocalEvents(): Promise<Event[]> {
-  let files: string[] = []
+  let files: string[] = [];
   try {
-    files = await fs.readdir(EVENTS_DIR)
+    files = await fs.readdir(EVENTS_DIR);
   } catch {
-    return []
+    return [];
   }
 
-  const events: Event[] = []
+  const events: Event[] = [];
   for (const file of files) {
     if (
       !file.endsWith('.md') &&
@@ -23,20 +23,20 @@ export async function fetchLocalEvents(): Promise<Event[]> {
       !file.endsWith('.yml') &&
       !file.endsWith('.yaml')
     )
-      continue
-    const full = path.join(EVENTS_DIR, file)
-    const raw = await fs.readFile(full, 'utf8')
-    const { data, content } = matter(raw)
+      continue;
+    const full = path.join(EVENTS_DIR, file);
+    const raw = await fs.readFile(full, 'utf8');
+    const { data, content } = matter(raw);
 
-    const start = data.start ? new Date(data.start) : undefined
-    if (!start) continue
+    const start = data.start ? new Date(data.start) : undefined;
+    if (!start) continue;
 
-    const end = data.end ? new Date(data.end) : undefined
+    const end = data.end ? new Date(data.end) : undefined;
 
-    let detectedLang = data.lang
-    const localeMatch = file.match(/\.(fi|sv|en)\.md$/)
+    let detectedLang = data.lang;
+    const localeMatch = file.match(/\.(fi|sv|en)\.md$/);
     if (localeMatch) {
-      detectedLang = localeMatch[1]
+      detectedLang = localeMatch[1];
     }
 
     events.push(
@@ -52,42 +52,42 @@ export async function fetchLocalEvents(): Promise<Event[]> {
         tags: data.tags,
         lang: detectedLang,
         source: 'local',
-      })
-    )
+      }),
+    );
   }
 
-  return events
+  return events;
 }
 
 export async function fetchLocalEventsByLocale(
-  locale: Locale
+  locale: Locale,
 ): Promise<Event[]> {
-  const allEvents = await fetchLocalEvents()
-  return allEvents.filter((event) => event.lang === locale)
+  const allEvents = await fetchLocalEvents();
+  return allEvents.filter((event) => event.lang === locale);
 }
 
 export async function fetchLocalEventById(
   eventId: string,
-  locale?: Locale
+  locale?: Locale,
 ): Promise<Event | null> {
-  let files: string[] = []
+  let files: string[] = [];
   try {
-    files = await fs.readdir(EVENTS_DIR)
+    files = await fs.readdir(EVENTS_DIR);
   } catch {
-    return null
+    return null;
   }
 
   if (locale) {
-    const localeFile = `${eventId}.${locale}.md`
+    const localeFile = `${eventId}.${locale}.md`;
     if (files.includes(localeFile)) {
-      const full = path.join(EVENTS_DIR, localeFile)
-      const raw = await fs.readFile(full, 'utf8')
-      const { data, content } = matter(raw)
+      const full = path.join(EVENTS_DIR, localeFile);
+      const raw = await fs.readFile(full, 'utf8');
+      const { data, content } = matter(raw);
 
-      const start = data.start ? new Date(data.start) : undefined
-      if (!start) return null
+      const start = data.start ? new Date(data.start) : undefined;
+      if (!start) return null;
 
-      const end = data.end ? new Date(data.end) : undefined
+      const end = data.end ? new Date(data.end) : undefined;
 
       return normalizeEvent({
         id: data.id || eventId,
@@ -101,23 +101,23 @@ export async function fetchLocalEventById(
         tags: data.tags,
         lang: locale,
         source: 'local',
-      })
+      });
     }
   }
 
   // Fallback: find any file matching the event ID
   for (const file of files) {
-    if (!file.endsWith('.md')) continue
+    if (!file.endsWith('.md')) continue;
 
-    const full = path.join(EVENTS_DIR, file)
-    const raw = await fs.readFile(full, 'utf8')
-    const { data, content } = matter(raw)
+    const full = path.join(EVENTS_DIR, file);
+    const raw = await fs.readFile(full, 'utf8');
+    const { data, content } = matter(raw);
 
     if (data.id === eventId) {
-      const start = data.start ? new Date(data.start) : undefined
-      if (!start) continue
+      const start = data.start ? new Date(data.start) : undefined;
+      if (!start) continue;
 
-      const end = data.end ? new Date(data.end) : undefined
+      const end = data.end ? new Date(data.end) : undefined;
 
       return normalizeEvent({
         id: data.id,
@@ -131,9 +131,9 @@ export async function fetchLocalEventById(
         tags: data.tags,
         lang: data.lang,
         source: 'local',
-      })
+      });
     }
   }
 
-  return null
+  return null;
 }

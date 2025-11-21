@@ -1,48 +1,48 @@
-import matter from 'gray-matter'
-import path from 'path'
-import fs from 'fs'
-import { type Locale } from '@/i18n-config'
-import { notFound } from 'next/navigation'
+import matter from 'gray-matter';
+import path from 'path';
+import fs from 'fs';
+import { type Locale } from '@/i18n-config';
+import { notFound } from 'next/navigation';
 
 interface PageMeta {
-  title?: string
-  translatedTitle?: Record<string, string>
-  [key: string]: unknown
+  title?: string;
+  translatedTitle?: Record<string, string>;
+  [key: string]: unknown;
 }
 
 interface NavigationItem {
-  title: string
-  path: string
-  items: NavigationItem[]
+  title: string;
+  path: string;
+  items: NavigationItem[];
 }
 
 interface SubPage {
-  href: string
-  slug: string
-  parentSlug: string
-  meta: PageMeta
-  content: string
+  href: string;
+  slug: string;
+  parentSlug: string;
+  meta: PageMeta;
+  content: string;
 }
 
 interface ContentFolder {
-  href: string
-  slug: string
-  meta: PageMeta
-  content: string
-  subPages: SubPage[]
+  href: string;
+  slug: string;
+  meta: PageMeta;
+  content: string;
+  subPages: SubPage[];
 }
 
 export default function getPageBySlug(pageName: string, locale: Locale) {
-  const pagesDirectory = path.join(process.cwd(), '_content')
-  const fullPath = path.join(pagesDirectory, `${pageName}.${locale}.md`)
+  const pagesDirectory = path.join(process.cwd(), '_content');
+  const fullPath = path.join(pagesDirectory, `${pageName}.${locale}.md`);
 
   try {
-    const fileContents = fs.readFileSync(fullPath, 'utf8')
-    const { content, data } = matter(fileContents)
-    return { href: `/${locale}/${pageName}`, meta: data as PageMeta, content }
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const { content, data } = matter(fileContents);
+    return { href: `/${locale}/${pageName}`, meta: data as PageMeta, content };
   } catch (error) {
-    console.error(`Error reading page ${pageName}:`, error)
-    notFound()
+    console.error(`Error reading page ${pageName}:`, error);
+    notFound();
   }
 }
 
@@ -50,45 +50,45 @@ export function getFolderContents(folderPath: string, locale: Locale) {
   try {
     // Check if the directory exists first
     if (!fs.existsSync(folderPath)) {
-      return []
+      return [];
     }
 
-    const contents = fs.readdirSync(folderPath)
+    const contents = fs.readdirSync(folderPath);
 
     return contents.reduce((acc: NavigationItem[], item: string) => {
-      const fullPath = path.join(folderPath, item)
-      const stats = fs.statSync(fullPath)
+      const fullPath = path.join(folderPath, item);
+      const stats = fs.statSync(fullPath);
 
       if (stats.isDirectory()) {
         // Handle directory
-        const subItems = getFolderContents(fullPath, locale)
+        const subItems = getFolderContents(fullPath, locale);
         if (subItems.length > 0) {
           acc.push({
             title: item,
             path: fullPath.split('_content/')[1],
             items: subItems,
-          })
+          });
         }
       } else if (stats.isFile() && item.endsWith(`.${locale}.md`)) {
         // Handle markdown file
-        const title = path.basename(item, `.${locale}.md`)
+        const title = path.basename(item, `.${locale}.md`);
         acc.push({
           title,
           path: fullPath.split('_content/')[1].replace(`.${locale}.md`, ''),
           items: [],
-        })
+        });
       }
 
-      return acc
-    }, [])
+      return acc;
+    }, []);
   } catch (error) {
-    console.error(`Error processing folder ${folderPath}:`, error)
-    return []
+    console.error(`Error processing folder ${folderPath}:`, error);
+    return [];
   }
 }
 
 export function getNavigationByLocale(locale: Locale): ContentFolder[] {
-  const contentDirectory = path.join(process.cwd(), '_content')
+  const contentDirectory = path.join(process.cwd(), '_content');
   const sections = [
     'yhdistys',
     'tapahtumat',
@@ -96,55 +96,55 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
     'kulttuuri',
     'yhteistyo',
     'ongelmatilannelomake',
-  ]
+  ];
 
   try {
     const pages = sections
       .map((section) => {
-        const sectionPath = path.join(contentDirectory, section)
+        const sectionPath = path.join(contentDirectory, section);
 
         if (!fs.existsSync(sectionPath)) {
-          return null
+          return null;
         }
 
         // Get main content first
         const mainContentPath = path.join(
           sectionPath,
-          `${section}.${locale}.md`
-        )
-        let mainContent
+          `${section}.${locale}.md`,
+        );
+        let mainContent;
 
         try {
           if (fs.existsSync(mainContentPath)) {
-            const fileContents = fs.readFileSync(mainContentPath, 'utf8')
-            mainContent = matter(fileContents)
+            const fileContents = fs.readFileSync(mainContentPath, 'utf8');
+            mainContent = matter(fileContents);
           }
         } catch (error) {
-          console.error(`Error reading main content for ${section}:`, error)
+          console.error(`Error reading main content for ${section}:`, error);
         }
 
         // Get subfolders and their contents
-        const contents = fs.readdirSync(sectionPath)
+        const contents = fs.readdirSync(sectionPath);
         const subPages: SubPage[] = contents
           .filter((item) => {
-            const fullPath = path.join(sectionPath, item)
-            return fs.statSync(fullPath).isDirectory()
+            const fullPath = path.join(sectionPath, item);
+            return fs.statSync(fullPath).isDirectory();
           })
           .map((folder) => {
             try {
               const subPagePath = path.join(
                 sectionPath,
                 folder,
-                `${folder}.${locale}.md`
-              )
+                `${folder}.${locale}.md`,
+              );
 
               if (!fs.existsSync(subPagePath)) {
-                return null
+                return null;
               }
 
-              const subPageContents = fs.readFileSync(subPagePath, 'utf8')
+              const subPageContents = fs.readFileSync(subPagePath, 'utf8');
               const { content: subContent, data: subData } =
-                matter(subPageContents)
+                matter(subPageContents);
 
               return {
                 href: `/${locale}/${section}/${folder}`,
@@ -152,13 +152,13 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
                 parentSlug: section,
                 meta: subData,
                 content: subContent,
-              }
+              };
             } catch (error) {
-              console.error(`Error reading subpage ${folder}:`, error)
-              return null
+              console.error(`Error reading subpage ${folder}:`, error);
+              return null;
             }
           })
-          .filter((item): item is SubPage => item !== null)
+          .filter((item): item is SubPage => item !== null);
 
         return mainContent || subPages.length > 0
           ? {
@@ -175,9 +175,9 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
               content: mainContent?.content || '',
               subPages,
             }
-          : null
+          : null;
       })
-      .filter((item): item is ContentFolder => item !== null)
+      .filter((item): item is ContentFolder => item !== null);
 
     // Append external Annual Ball XXV link as a top-level nav item (temporary)
     // const annualBallItem: ContentFolder = {
@@ -209,7 +209,7 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
       },
       content: '',
       subPages: [],
-    }
+    };
 
     const eventsItem: ContentFolder = {
       href: `/${locale}/events`,
@@ -228,12 +228,12 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
       },
       content: '',
       subPages: [],
-    }
+    };
 
-    return [newsItem, eventsItem, ...pages]
+    return [newsItem, eventsItem, ...pages];
   } catch (error) {
-    console.error('Error in getNavigationByLocale:', error)
-    return []
+    console.error('Error in getNavigationByLocale:', error);
+    return [];
   }
 }
 
@@ -273,4 +273,4 @@ const sectionTranslations = {
     sv: 'Nyheter',
     fi: 'Uutiset',
   },
-}
+};

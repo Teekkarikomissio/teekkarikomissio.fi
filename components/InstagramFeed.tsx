@@ -1,28 +1,28 @@
-'use client'
+'use client';
 
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 interface InstagramFeedProps {
-  appId?: string
-  strategy?: 'intersection' | 'click'
-  rootMargin?: string
-  idleFallbackMs?: number
-  enableFallbackTimeout?: boolean
-  respectSaveData?: boolean
-  loadButtonLabel?: string
+  appId?: string;
+  strategy?: 'intersection' | 'click';
+  rootMargin?: string;
+  idleFallbackMs?: number;
+  enableFallbackTimeout?: boolean;
+  respectSaveData?: boolean;
+  loadButtonLabel?: string;
 }
 
 interface NetworkInformation {
-  saveData?: boolean
+  saveData?: boolean;
 }
 
 declare global {
   interface Window {
-    __ELFSIGHT_SCRIPT_LOADING?: boolean
-    __ELFSIGHT_SCRIPT_LOADED?: boolean
+    __ELFSIGHT_SCRIPT_LOADING?: boolean;
+    __ELFSIGHT_SCRIPT_LOADED?: boolean;
   }
   interface Navigator {
-    connection?: NetworkInformation
+    connection?: NetworkInformation;
   }
 }
 
@@ -35,75 +35,75 @@ export default function InstagramFeed({
   respectSaveData = true,
   loadButtonLabel = 'Load Instagram feed',
 }: InstagramFeedProps) {
-  const [activated, setActivated] = useState(false)
-  const [mountedAtLeastOnce, setMountedAtLeastOnce] = useState(false)
-  const containerRef = useRef<HTMLDivElement | null>(null)
-  const observerRef = useRef<IntersectionObserver | null>(null)
-  const timeoutRef = useRef<number | null>(null)
+  const [activated, setActivated] = useState(false);
+  const [mountedAtLeastOnce, setMountedAtLeastOnce] = useState(false);
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const observerRef = useRef<IntersectionObserver | null>(null);
+  const timeoutRef = useRef<number | null>(null);
 
   const saveData =
     typeof navigator !== 'undefined' &&
     typeof navigator.connection !== 'undefined' &&
-    navigator.connection?.saveData === true
+    navigator.connection?.saveData === true;
 
   const shouldAutoLoad =
-    strategy === 'intersection' && !(respectSaveData && saveData)
+    strategy === 'intersection' && !(respectSaveData && saveData);
 
   const inject = useCallback(() => {
-    if (activated) return
-    setActivated(true)
-  }, [activated])
+    if (activated) return;
+    setActivated(true);
+  }, [activated]);
 
   useEffect(() => {
-    if (!activated) return
+    if (!activated) return;
 
-    observerRef.current?.disconnect()
+    observerRef.current?.disconnect();
 
     let feedDiv = containerRef.current?.querySelector(
-      '.elfsight-feed-injected'
-    ) as HTMLDivElement | null
+      '.elfsight-feed-injected',
+    ) as HTMLDivElement | null;
     if (!feedDiv) {
-      feedDiv = document.createElement('div')
-      feedDiv.className = `elfsight-app-${appId} elfsight-feed-injected`
-      feedDiv.setAttribute('data-elfsight-app-lazy', '')
-      containerRef.current?.appendChild(feedDiv)
+      feedDiv = document.createElement('div');
+      feedDiv.className = `elfsight-app-${appId} elfsight-feed-injected`;
+      feedDiv.setAttribute('data-elfsight-app-lazy', '');
+      containerRef.current?.appendChild(feedDiv);
     }
 
     if (window.__ELFSIGHT_SCRIPT_LOADED) {
-      return
+      return;
     }
 
     if (!window.__ELFSIGHT_SCRIPT_LOADING) {
-      window.__ELFSIGHT_SCRIPT_LOADING = true
-      const s = document.createElement('script')
-      s.src = 'https://static.elfsight.com/platform/platform.js'
-      s.async = true
-      s.dataset.useServiceCore = ''
+      window.__ELFSIGHT_SCRIPT_LOADING = true;
+      const s = document.createElement('script');
+      s.src = 'https://static.elfsight.com/platform/platform.js';
+      s.async = true;
+      s.dataset.useServiceCore = '';
       s.onload = () => {
-        window.__ELFSIGHT_SCRIPT_LOADED = true
-      }
-      document.head.appendChild(s)
+        window.__ELFSIGHT_SCRIPT_LOADED = true;
+      };
+      document.head.appendChild(s);
     }
-  }, [activated, appId])
+  }, [activated, appId]);
 
   useEffect(() => {
-    if (!shouldAutoLoad || !containerRef.current || activated) return
+    if (!shouldAutoLoad || !containerRef.current || activated) return;
 
     observerRef.current = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
           if (e.isIntersecting) {
-            inject()
+            inject();
           }
-        })
+        });
       },
-      { rootMargin }
-    )
+      { rootMargin },
+    );
 
-    observerRef.current.observe(containerRef.current)
+    observerRef.current.observe(containerRef.current);
 
-    return () => observerRef.current?.disconnect()
-  }, [shouldAutoLoad, inject, activated, rootMargin])
+    return () => observerRef.current?.disconnect();
+  }, [shouldAutoLoad, inject, activated, rootMargin]);
 
   useEffect(() => {
     if (
@@ -112,13 +112,13 @@ export default function InstagramFeed({
       strategy === 'click' || // avoid fallback for explicit click strategy
       !shouldAutoLoad
     )
-      return
+      return;
     timeoutRef.current = window.setTimeout(() => {
-      if (!activated) inject()
-    }, idleFallbackMs)
+      if (!activated) inject();
+    }, idleFallbackMs);
     return () => {
-      if (timeoutRef.current) window.clearTimeout(timeoutRef.current)
-    }
+      if (timeoutRef.current) window.clearTimeout(timeoutRef.current);
+    };
   }, [
     activated,
     enableFallbackTimeout,
@@ -126,15 +126,15 @@ export default function InstagramFeed({
     inject,
     strategy,
     shouldAutoLoad,
-  ])
+  ]);
 
   useEffect(() => {
-    setMountedAtLeastOnce(true)
-  }, [])
+    setMountedAtLeastOnce(true);
+  }, []);
 
   const handleClick = () => {
-    inject()
-  }
+    inject();
+  };
 
   return (
     <div
@@ -174,5 +174,5 @@ export default function InstagramFeed({
       )}
       {/* The real Elfsight div is appended dynamically when activated */}
     </div>
-  )
+  );
 }

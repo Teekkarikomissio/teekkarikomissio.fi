@@ -1,6 +1,7 @@
 ---
 title: Kunniateekkarius
 ---
+
 ## Kunniateekkarius
 
 Turkulaiseksi kunniateekkariksi voi Teekkarikomission hallituksen päätöksellä nimetä henkilön, joka on merkittävästi edistänyt teekkarikulttuuria sekä ollut paikallinen ja kansallinen vaikuttaja turkulaisessa teekkariyhteisössä. Tähän mennessä kunniateekkareita, joille lakki on myönnetty niin sanotulla poikkeusluvalla, on kaksi kappaletta. Lakin käyttö on näin ollen heille sallittu [ohjesäännön](/fi/yhdistys/dokumentit) mukaisesti. Alla on lueteltu tämänhetkiset kunniateekkarit sekä perustelut, miksi nämä kyseiset henkilöt on päätetty nimetä turkulaisiksi kunniateekkareiksi. Lisäksi tämän sivun alalaidasta löydät Turun yliopiston vararehtori emerituksen Mika Hannulan puheen, jonka hän piti Turun Tuomiokirkon portailla 30.4.2025 saadessaan lakkinsa.
@@ -19,7 +20,7 @@ Ann-Louise Hakalax on toiminut Kemistklubbenin puheenjohtajana, ollut toteuttama
 
 Teekkarikomission hallitus päätti myöntää Hakalaxille kunniateekkariuden pyyteettömästä työstä teekkarien eteen. Lisäksi hallitus on perustellut päätöstään esimerkiksi Hakalaxin teekkarihenkisyydellä sekä hänen toimiensa merkityksellisyydellä. Lisäksi Hakalax palkittiin Teekkarikomission kunniamerkillä vuonna 2024 Kemistklubbenin vuosijuhlien yhteydessä.
 
-------
+---
 
 ![Mika Hannulan puhe Turun Tuomiokirkon portailla 30.4.2025](/images/hannula-puhe.jpg)
 
@@ -39,9 +40,12 @@ Jag fick min första teknologmössa i Tammerfors under Wappen år 1989. Då kund
 
 Ja vaikka tamperelaiset ystäväni tämän kuulevatkin, ja saatan tästä vielä myöhemmin kuulla, on pakko todeta, että tämä turkulainen teekkarilakki istuu jotenkin... ehkä ryhdikkäämmin. Ehkä se johtuu siitä, että juuri täällä lakin alle mahtuu myös ripaus Suomen, suomalaisuuden ja Turun Tuomiokirkon historiaa – sitä samaa suomalaisuuden ja kansallisen heräämisen tarinaa. Onhan tämä kirkkokin ollut todistamassa myös suomalaisen yliopistolaitoksen syntyä.
 
-Puheenvuoroni loppuun haluan vielä esittää toiveen teille, rakkaat fuksit, jotka nyt saatte lakkinne: Muistakaa, että hyvässä teekkarissa yhdistyy vastuullisuuden ja uteliaisuuden lisäksi myös rohkeus ja ripaus itsepäisyyttä. Ongelmien ratkaisu ja tekemisen meininki ovat ne, jotka vievät teitä eteenpäin. 
+Puheenvuoroni loppuun haluan vielä esittää toiveen teille, rakkaat fuksit, jotka nyt saatte lakkinne: Muistakaa, että
+hyvässä teekkarissa yhdistyy vastuullisuuden ja uteliaisuuden lisäksi myös rohkeus ja ripaus itsepäisyyttä. Ongelmien
+ratkaisu ja tekemisen meininki ovat ne, jotka vievät teitä eteenpäin.
 
-Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given. Den är mer än bara en mössa - Den är alltid en del av er, och följer med er, vart livet än för er! 
+Kom ihåg att visa respekt för er teknologmössa, och ta den aldrig för given. Den är mer än bara en mössa - Den är alltid
+en del av er, och följer med er, vart livet än för er!
 Kiitos vielä kerran Teekkarikomissiolle tästä suuresta kunniasta!
 
 Ett stort tack ännu en gång till Teknologkommissionen för denna stora ära - och glada Wappen till alla!

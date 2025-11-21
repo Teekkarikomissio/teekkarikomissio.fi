@@ -1,21 +1,21 @@
-import Link from 'next/link'
-import { getUpcomingEventsByLocale } from '@/lib/events'
-import EventList from '@/components/events/EventList'
-import type { Locale } from '@/i18n-config'
+import Link from 'next/link';
+import { getUpcomingEventsByLocale } from '@/lib/events';
+import EventList from '@/components/events/EventList';
+import type { Locale } from '@/i18n-config';
 
 type Props = {
-  lang: Locale
-}
+  lang: Locale;
+};
 
 const headings: Record<string, string> = {
   fi: 'Tapahtumakalenteri',
   en: 'Events calendar',
   sv: 'Evenemangskalender',
-}
+};
 
 export default async function HomeEventsSection({ lang }: Props) {
-  const events = await getUpcomingEventsByLocale(lang, 3)
-  const title = headings[lang] ?? headings.fi
+  const events = await getUpcomingEventsByLocale(lang, 3);
+  const title = headings[lang] ?? headings.fi;
 
   return (
     <section className="w-full bg-gray-50">
@@ -36,5 +36,5 @@ export default async function HomeEventsSection({ lang }: Props) {
         <EventList events={events} locale={lang} />
       </div>
     </section>
-  )
+  );
 }

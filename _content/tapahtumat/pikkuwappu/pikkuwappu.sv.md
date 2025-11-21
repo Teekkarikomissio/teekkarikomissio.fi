@@ -1,14 +1,15 @@
 ---
 title: Lilla Wappen
 ---
+
 ## Lilla Wappen
 
 Lilla Wappen är en fest för att fira slutet av sommarsäsongen när man får bära teknologmössan. Evenemanget äger alltid rum den 30 september. Evenemangets koncept varierar möjligtvis årligen men det innebär traditionsenligt åtminstone mössvård där tofsen förångas, spetsen doppas i pusch och slås in i tidning för vinterförvaring. Lilla Wappen liknar eventuellt en sitz. Även annat program, såsom tal angående teknologskap, utlysning av Kilometertävlingens vinnare och trevlig samvaro, hör till Lilla Wappen. Vid midnatt sjungs Ikuisen teekkarin laulu och mössorna sätts på axlar för vintervila.
 
 ### Lilla Wappen 2025
 
-**Tisdagen den 30.9.** samlas vi vid Q-talo och dess omgivning. 
-Under evenemanget offentliggörs vinnaren av Kilometertävlingen och 
+**Tisdagen den 30.9.** samlas vi vid Q-talo och dess omgivning.
+Under evenemanget offentliggörs vinnaren av Kilometertävlingen och
 belönas med vandringspriset.
 
 **Program:**

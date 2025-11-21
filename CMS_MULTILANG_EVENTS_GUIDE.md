@@ -88,7 +88,7 @@ All Day: Yes
 Tags: eldprowet, rastikierros
 Description:
 ---
-Tervetuloa Eldprowetiin 2027! Tämä on historiallinen tapahtuma, 
+Tervetuloa Eldprowetiin 2027! Tämä on historiallinen tapahtuma,
 jossa tuhannet teekkarit kokoontuvat Turkuun juhlimaan.
 ```
 
@@ -104,7 +104,7 @@ All Day: (auto-filled)
 Tags: (auto-filled)
 Description:
 ---
-Välkommen till Eldprowet 2027! Detta är ett historiskt evenemang 
+Välkommen till Eldprowet 2027! Detta är ett historiskt evenemang
 där tusentals teknologer samlas i Åbo för att fira.
 ```
 
@@ -120,7 +120,7 @@ All Day: (auto-filled)
 Tags: (auto-filled)
 Description:
 ---
-Welcome to Eldprowet 2027! This is a historic event where 
+Welcome to Eldprowet 2027! This is a historic event where
 thousands of engineering students gather in Turku to celebrate.
 ```
 
@@ -198,4 +198,3 @@ Each event detail page automatically shows the correct language version based on
 
 - Report issues: Contact the web team
 - Questions: Check the main [CMS Usage Guide](CMS_USAGE_GUIDE.md)
-

@@ -1,6 +1,7 @@
 ---
 title: Yrityksille
 ---
+
 ![Yrityksille](/yrityksille-paavo.jpg)
 
 ## Yrityksille
@@ -11,15 +12,15 @@ Näkyvyys on yhtä tärkeää niin opiskelijoille kuin yrityksillekin, sillä op
 
 Pystymme tarjoamaan näkyvyyttä mm. seuraavissa kohteissa:
 
-* Sosiaalinen media
-* Verkkosivut
-* Tapahtumat
+- Sosiaalinen media
+- Verkkosivut
+- Tapahtumat
+    - Yhteislakitus
+    - Paavo Nurmen patsaan lakitus
+    - Teekkarikaste
+    - TeekkariExpo
 
-  * Yhteislakitus
-  * Paavo Nurmen patsaan lakitus
-  * Teekkarikaste
-  * TeekkariExpo
-* Hallituksen edustushaalarit
+- Hallituksen edustushaalarit
 
 Parhaan näkyvyyden yrityksille tuottaa wapputapahtumamme, joita ovat teekkarifuksien Yhteislakitus, Teekkarikaste ja Paavo Nurmen patsaan lakitus. Syksyisin järjestettävä messutapahtuma TeekkariExpo on erinomainen tilaisuus tavata opiskelijoita ja rekrytoida. Vahvuuksiimme kuuluu avoin mieli ja joustavuus, joten myös muita ideoita saa tuoda pöytään vapaasti, ja pyritään toteuttamaan ne mahdollisimman nopeasti ja laadukkaasti.
 

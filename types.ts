@@ -1,4 +1,4 @@
-import { StaticImageData } from "next/image";
+import { StaticImageData } from 'next/image';
 
 export type NavigationLabels = Record<string, string>;
 
@@ -33,4 +33,4 @@ export type BoardCard = {
   responsibilities?: string;
   contact: string;
   contact2?: string;
-}
+};

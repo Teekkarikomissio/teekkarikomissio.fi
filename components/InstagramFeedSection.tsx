@@ -1,15 +1,15 @@
-'use client'
+'use client';
 
-import dynamic from 'next/dynamic'
+import dynamic from 'next/dynamic';
 
 const InstagramFeed = dynamic(() => import('./InstagramFeed'), {
   ssr: false,
-})
+});
 
 interface InstagramFeedSectionProps {
-  headingText: string
-  strategy?: 'intersection' | 'click'
-  loadButtonLabel?: string
+  headingText: string;
+  strategy?: 'intersection' | 'click';
+  loadButtonLabel?: string;
 }
 
 export default function InstagramFeedSection({
@@ -43,5 +43,5 @@ export default function InstagramFeedSection({
         />
       </div>
     </section>
-  )
+  );
 }

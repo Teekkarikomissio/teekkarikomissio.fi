@@ -1,6 +1,7 @@
 ---
 title: Medlemsföreningar
 ---
+
 ## Medlemsföreningar
 
 Teknologkommissionen har tio medlemmar, nämligen de teknologföreningar som har sin verksamhet i Åbo. Varje röstberättigad medlem av Digit ry, Nucleus ry, Adamas ry, Machina ry, Asklepio ry, Optima ry, Efficio ry, Fermentus ry, Datateknologerna vid Åbo Akademi rf och Kemistklubben vid Åbo Akademi rf är alltså automatiskt berättigad att delta i TK:s verksamhet!
@@ -39,13 +40,11 @@ Hemsidor: [Datateknologerna](https://datateknologerna.org/)
 
 Instagram: @datateknologerna 
 
-E-post: [date(at)abo.fi](mailto:date@abo.fi) 
+E-post: [date(at)abo.fi](mailto:date@abo.fi)
 
 ### **[Digit ry](https://digit.fi/)**
 
 ![Digit](/logos/logo-digit.png)
-
-
 
 Digit ry är en ämnesförening för datateknikstuderande vid Åbo universitet och den första teknologföreningen vid Åbo universitet. Digit grundades 1999. I antalet medlemmar är Digit den största teknologföreningen i Åbo.
 
@@ -143,8 +142,7 @@ Medlemmar kan kännas igen på sina mörkgröna halare med vita tryck.
 
 Hemsidor: [efficio ry](https://www.efficio.fi/) 
 
-Instagram: @efficio.ry 
-E-post: [hallitus(at)efficio.fi](mailto:hallitus@efficio.fi) 
+Instagram: @efficio.ry E-post: [hallitus(at)efficio.fi](mailto:hallitus@efficio.fi)
 
 ### **[Fermentus ry](https://www.instagram.com/fermentus.ry/)**
 

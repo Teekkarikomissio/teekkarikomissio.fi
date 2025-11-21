@@ -1,6 +1,7 @@
 ---
 title: Orienteringsveckan
 ---
+
 ## Orienteringsveckan
 
 Orienteringsveckan, som kallas också gulisveckan, är ämnad för gulnäbbar innan egentliga studier startar. Första årets studerande får en introduktion till både universitetsstudier och studentföreningsverksamhet av tutorer samt tutor- och gulisansvariga. Huvudsaken med gulisveckan är att nya studerande börjar känna sig som hemma i den nya omgivningen.

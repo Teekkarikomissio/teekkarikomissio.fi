@@ -1,21 +1,21 @@
-import { getUpcomingEventsByLocale } from '@/lib/events'
-import EventList from '@/components/events/EventList'
-import { Locale } from '@/i18n-config'
+import { getUpcomingEventsByLocale } from '@/lib/events';
+import EventList from '@/components/events/EventList';
+import { Locale } from '@/i18n-config';
 
-export const revalidate = 3600
+export const revalidate = 3600;
 
 export default async function EventsPage(props: {
-  params: Promise<{ lang: Locale }>
+  params: Promise<{ lang: Locale }>;
 }) {
-  const params = await props.params
-  const locale: Locale = params.lang ?? 'fi'
-  const events = await getUpcomingEventsByLocale(locale)
+  const params = await props.params;
+  const locale: Locale = params.lang ?? 'fi';
+  const events = await getUpcomingEventsByLocale(locale);
 
   const headings: Record<Locale, string> = {
     fi: 'Tapahtumat',
     en: 'Events',
     sv: 'Evenemang',
-  }
+  };
 
   return (
     <main className="w-full">
@@ -29,5 +29,5 @@ export default async function EventsPage(props: {
         <EventList events={events} locale={locale} />
       </div>
     </main>
-  )
+  );
 }

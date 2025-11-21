@@ -1,6 +1,7 @@
 ---
 title: Teknologmössa
 ---
+
 ![Teekkarilakki](/teekkarihattu.jpg)
 
 ## Teknologmössa
@@ -17,16 +18,16 @@ Den åboländska teknologmössan (senare mössan) är kännetecknet för en Åbo
 
 Följande personer har rätt att bära mössan:
 
-* Från Åbo Akademi eller Åbo Universitet utexaminerade diplomingenjörer
-* Teknologie studerande vid Åbo Akademi eller Åbo Universitet som har beviljats rättigheten att bära mössan
-* Dem som mössan redan en gång beviljats är berättigade att bära mössan.
+- Från Åbo Akademi eller Åbo Universitet utexaminerade diplomingenjörer
+- Teknologie studerande vid Åbo Akademi eller Åbo Universitet som har beviljats rättigheten att bära mössan
+- Dem som mössan redan en gång beviljats är berättigade att bära mössan.
 
 #### §3 Beviljande av mössa
 
 Teknologkommissionen beviljar användningsrätten till mössan och mössan kan beviljas tidigast på valborgsmässoafton på ens första studieår. Varje förening överlåter mössan tidigast 30.4. enligt egna kriterier:
 
-* Fyllt på föreningens gulispass enligt föreningens kriterier
-* Deltagit i Eldprowet
+- Fyllt på föreningens gulispass enligt föreningens kriterier
+- Deltagit i Eldprowet
 
 Annars beviljas teknologmössan av Teknologkomissionen senast när en utexaminerar sig och blir en diplomingenjör.
 
@@ -48,22 +49,20 @@ Utexaminerade diplomingenjörer från Turun Yliopisto eller Åbo Akademi har rä
 
 Permanent mössanvändningsrätt beviljas för följande tillfällen:
 
-* Automaatioteekkaripäivät
-* Åt gulisarna under deras mössprvovningar
-* Kemiat kohtaa
-* Kirkastusjuhlat
-* Kör- och orkesteruppträdanden där teknolog- eller studentmössa hör till accessoarer
-* Fantåg där teknolog- eller studentmössa hör till accessoarer
-* Presentationer för gymnasieelever samt annat teknologmarknadsföring arrangerad av universitet
-* RekomBIOnaatio
-* Tietoteekkarien taistot
-* Den nationella jäynätävlingen och andra TEKs evenemang, där teknologmössan hör till accessoarer
-* Det officiella Wappulehti-tidningens försäljningsevenemang
-* Åt Pönkeli-utskott för publiceringsevenemang av wapptidning
+- Automaatioteekkaripäivät
+- Åt gulisarna under deras mössprvovningar
+- Kemiat kohtaa
+- Kirkastusjuhlat
+- Kör- och orkesteruppträdanden där teknolog- eller studentmössa hör till accessoarer
+- Fantåg där teknolog- eller studentmössa hör till accessoarer
+- Presentationer för gymnasieelever samt annat teknologmarknadsföring arrangerad av universitet
+- RekomBIOnaatio
+- Tietoteekkarien taistot
+- Den nationella jäynätävlingen och andra TEKs evenemang, där teknologmössan hör till accessoarer
+- Det officiella Wappulehti-tidningens försäljningsevenemang
+- Åt Pönkeli-utskott för publiceringsevenemang av wapptidning
 
 I tillägg beviljas permanent personlig mössanvändningsrätt åt utexaminerade diplomingenjörer från Turun Yliopisto eller Åbo Akademi under deras egen examensdag och -fest samt dimission.
-
-
 
 ### Historia
 
@@ -74,8 +73,6 @@ Ursprungligen började man bära mössa som var en av Tekniska Högskolans model
 Åbo universitets teknologföreningar började använda samma modell med vissa skillnader. Fodret är av olika färger och mönster. Som kokard använder de Åbo universitets studentkårs kokard.
 
 Teknologkommissionen tog över varumärket av åboländsk teknologmössa på 2020-talet.
-
-
 
 Referenser
 

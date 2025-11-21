@@ -1,6 +1,7 @@
 ---
 title: Åbos regionala jäynätävlingar
 ---
+
 ## Jäynäkultur
 
 Syftet med jäynätävlingen är att värna om jäynätraditioner, befrämja teknologkulturen, förhöja teknologandan, göra teknologskapet mer synligt i Åbo och att sprida gott humör.

@@ -1,81 +1,81 @@
-import React from 'react'
-import { i18n, type Locale } from '@/i18n-config'
-import { notFound } from 'next/navigation'
-import type { Metadata } from 'next'
-import { getAllEvents, getEventById } from '@/lib/events'
+import React from 'react';
+import { i18n, type Locale } from '@/i18n-config';
+import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
+import { getAllEvents, getEventById } from '@/lib/events';
 
-export const revalidate = 3600
+export const revalidate = 3600;
 
 type Params = Promise<{
-  lang: Locale
-  slug: string
-}>
+  lang: Locale;
+  slug: string;
+}>;
 
 function formatRange(
   locale: string,
   start: Date,
   end?: Date,
-  allDay?: boolean
+  allDay?: boolean,
 ) {
   const fmt = new Intl.DateTimeFormat(locale, {
     dateStyle: 'medium',
     timeStyle: allDay ? undefined : 'short',
-  })
-  const a = fmt.format(start)
-  const b = end ? fmt.format(end) : undefined
-  return b ? `${a} – ${b}` : a
+  });
+  const a = fmt.format(start);
+  const b = end ? fmt.format(end) : undefined;
+  return b ? `${a} – ${b}` : a;
 }
 
 export async function generateStaticParams() {
-  const events = await getAllEvents()
-  const paths: { lang: Locale; slug: string }[] = []
+  const events = await getAllEvents();
+  const paths: { lang: Locale; slug: string }[] = [];
   for (const lang of i18n.locales) {
     for (const e of events) {
       // Use a single segment path by default with the event id
-      paths.push({ lang: lang as Locale, slug: e.id })
+      paths.push({ lang: lang as Locale, slug: e.id });
     }
   }
-  return paths
+  return paths;
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Params
+  params: Params;
 }): Promise<Metadata> {
-  const { lang, slug } = await params
-  const id = decodeURIComponent(slug || '')
-  const e = await getEventById(id, lang)
-  if (!e) return {}
-  const title = e.title
-  const description = e.description?.slice(0, 160)
+  const { lang, slug } = await params;
+  const id = decodeURIComponent(slug || '');
+  const e = await getEventById(id, lang);
+  if (!e) return {};
+  const title = e.title;
+  const description = e.description?.slice(0, 160);
   return {
     title,
     description,
     openGraph: { title, description },
     twitter: { card: 'summary', title, description },
-  }
+  };
 }
 
 export default async function EventDetailPage({ params }: { params: Params }) {
-  const { lang, slug } = await params
-  const id = decodeURIComponent(slug || '')
+  const { lang, slug } = await params;
+  const id = decodeURIComponent(slug || '');
 
-  const e = await getEventById(id, lang)
+  const e = await getEventById(id, lang);
   if (!e) {
-    notFound()
+    notFound();
   }
 
-  const locale = lang || 'fi'
+  const locale = lang || 'fi';
 
   const labels: Record<
     string,
     {
-      back: string
-      addToCal: string
-      moreInfo: string
-      where: string
-      when: string
+      back: string;
+      addToCal: string;
+      moreInfo: string;
+      where: string;
+      when: string;
     }
   > = {
     fi: {
@@ -99,8 +99,8 @@ export default async function EventDetailPage({ params }: { params: Params }) {
       where: 'Plats',
       when: 'Tid',
     },
-  }
-  const t = labels[locale] || labels.fi
+  };
+  const t = labels[locale] || labels.fi;
 
   return (
     <main className="container mx-auto px-4 py-10">
@@ -144,5 +144,5 @@ export default async function EventDetailPage({ params }: { params: Params }) {
         </div>
       </article>
     </main>
-  )
+  );
 }

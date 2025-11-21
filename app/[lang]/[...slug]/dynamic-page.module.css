@@ -52,11 +52,11 @@
   @apply my-6 pl-4 border-l-4 border-gray-300 italic;
 }
 
-.markdown img[src*="tklogo-musta.svg"] {
+.markdown img[src*='tklogo-musta.svg'] {
   @apply mx-auto w-52 h-auto;
 }
 
-.markdown img[src*="hannula-puhe.jpg"] {
+.markdown img[src*='hannula-puhe.jpg'] {
     @apply mx-auto w-80 h-auto rounded-md;
 }
 

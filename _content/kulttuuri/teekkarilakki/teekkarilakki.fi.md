@@ -1,6 +1,7 @@
 ---
 title: Teekkarilakki
 ---
+
 ![Teekkarilakki](/images/teekkarihattu.jpg)
 
 ## Teekkarilakki
@@ -17,16 +18,16 @@ Turun yliopiston ja Åbo Akademin teekkarilakki on tupsulakki, jossa on valkoine
 
 Lakkia ovat oikeutettuja käyttämään seuraavat henkilöt:
 
-* Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuneet henkilöt
-* Turun yliopistossa tai Åbo Akademissa opiskelevat tekniikan ylioppilaat, joille lakki on kertaalleen myönnetty
-* Ne, joille lakki on kertaalleen myönnetty
+- Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuneet henkilöt
+- Turun yliopistossa tai Åbo Akademissa opiskelevat tekniikan ylioppilaat, joille lakki on kertaalleen myönnetty
+- Ne, joille lakki on kertaalleen myönnetty
 
 #### §3 Lakin myöntäminen
 
 Teekkarikomissio myöntää lakinkäyttöoikeuden ja lakki voidaan myöntää aikaisintaan ensimmäisen opiskeluvuoden vappuaattona. Jokainen kilta luovuttaa lakin aikaisintaan 30.4. seuraavat kriteerit täyttäville henkilöille:
 
-* Täyttänyt kiltansa fuksipassin killan kriteerien mukaisesti
-* Osallistunut Eldprowetiin
+- Täyttänyt kiltansa fuksipassin killan kriteerien mukaisesti
+- Osallistunut Eldprowetiin
 
 Muutoin teekkarilakki myönnetään Teekkarikomission toimesta viimeistään diplomi-insinööriksi valmistuneelle henkilölle.
 
@@ -48,22 +49,20 @@ Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuneet henki
 
 Myönnetään pysyvä lakinkäyttöoikeus seuraaviin tilaisuuksiin:
 
-* Automaatioteekkaripäivät
-* Fuksien lakkisovituksiin fukseille
-* Kemiat kohtaa
-* Kirkastusjuhlat
-* Kuoro- ja orkesteriesiintymiset, joihin kaikille kuuluu asusteena ylioppilaslakki
-* Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki
-* Lukioesittelyt tai muu yliopistojen järjestämä teekkarimarkkinointi
-* RekomBIOnaatio
-* Tietoteekkarien taistot
-* Valtakunnallinen jäynäkilpailu ja muut TEKin tapahtumat, joissa asusteeseen kuuluu teekkarilakki
-* Virallinen Wappulehden myyntitapahtuma
-* Wappulehden julkaisutilaisuuteen Pönkelitoimikunnalle
+- Automaatioteekkaripäivät
+- Fuksien lakkisovituksiin fukseille
+- Kemiat kohtaa
+- Kirkastusjuhlat
+- Kuoro- ja orkesteriesiintymiset, joihin kaikille kuuluu asusteena ylioppilaslakki
+- Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki
+- Lukioesittelyt tai muu yliopistojen järjestämä teekkarimarkkinointi
+- RekomBIOnaatio
+- Tietoteekkarien taistot
+- Valtakunnallinen jäynäkilpailu ja muut TEKin tapahtumat, joissa asusteeseen kuuluu teekkarilakki
+- Virallinen Wappulehden myyntitapahtuma
+- Wappulehden julkaisutilaisuuteen Pönkelitoimikunnalle
 
 Lisäksi myönnetään pysyvä henkilökohtainen lakinkäyttöoikeus Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuvalle omiin valmistujaispäiviin ja -juhliin.
-
-
 
 ### Historia
 
@@ -74,8 +73,6 @@ Alunperin alettiin kantamaan erästä Teknillisen Korkeakoulun teekkarilakkia, j
 Myös muut Turun teekkarikillat alkoivat perustamisensa jälkeen käyttää samaa teekkarilakkimallia. Turun yliopiston lakeissa erona on vuori, jossa on eri värit ja erilainen kuvio. Kokardina he käyttävät Turun yliopiston ylioppilaskunnan kokardia.
 
 Turkulaisen teekkarilakin hallinta siirtyi Kemistklubbenilta Teekkarikomissiolle 2020-luvulla.
-
-
 
 Lähteet
 

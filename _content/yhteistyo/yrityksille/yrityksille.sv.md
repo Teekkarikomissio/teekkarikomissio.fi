@@ -1,6 +1,7 @@
 ---
 title: Till företag
 ---
+
 ![Till företag](/yrityksille-paavo.jpg)
 
 ## Till företag
@@ -9,15 +10,15 @@ Teknologkommissionen vill bygga upp ett långvarigt samarbete med företag. Tekn
 
 Vi kan erbjuda synlighet bland annat vid följande sammanhang:
 
-* Sociala medier
-* Nätsidor
-* Evenemang
+- Sociala medier
+- Nätsidor
+- Evenemang
+    - Teknologmössutdelning
+    - Paavo Nurmi-statyns mösspåläggning
+    - Teknologdop
+    - TeknologExpo
 
-  * Teknologmössutdelning
-  * Paavo Nurmi-statyns mösspåläggning
-  * Teknologdop
-  * TeknologExpo
-* Styrelsehalare
+- Styrelsehalare
 
 Den bästa synligheten för företag skapas av våra wappevenemang som är Teknologmössutdelning, Teknologdop och Paavo Nurmi-statyns mösspåläggning. TeknologExpo, som arrangeras på höstarna, är ett ypperligt tillfälle för att träffa studenter och rekrytera. Öppet sinne och flexibilitet hör till våra styrkor så även andra idéer får tas upp och dem försöker vi förverkliga så snabbt och högklassigt som möjligt.
 

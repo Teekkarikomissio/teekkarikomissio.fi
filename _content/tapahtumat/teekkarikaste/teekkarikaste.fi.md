@@ -1,6 +1,7 @@
 ---
 title: Teekkarikaste
 ---
+
 ## Teekkarikaste
 
 Wappuna 1966 järjestettiin Tampereella Suomen ensimmäinen teekkarikaste Tammerkoskessa. Perinteestä on sittemmin tullut tärkeä osa teekkarikulttuuria ja se on levinnyt lukuisiin muihinkin teekkarikaupunkeihin, kuten Turkuun. Turussa ensimmäinen teekkarikaste toteutettiin Aurajoessa 1.5.2022 osoitteessa Itäinen Rantakatu 48. 

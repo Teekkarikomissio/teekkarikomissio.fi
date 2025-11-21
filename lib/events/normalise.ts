@@ -1,9 +1,9 @@
-import { Event } from './types'
+import { Event } from './types';
 
 export function normalizeEvent(
-  e: Partial<Event> & Pick<Event, 'title' | 'start'>
+  e: Partial<Event> & Pick<Event, 'title' | 'start'>,
 ): Event {
-  const id = e.id ?? `${e.title}-${e.start.toISOString()}`
+  const id = e.id ?? `${e.title}-${e.start.toISOString()}`;
   return {
     id,
     title: e.title,
@@ -16,11 +16,11 @@ export function normalizeEvent(
     tags: e.tags || [],
     lang: e.lang,
     source: e.source,
-  }
+  };
 }
 
 export function sortUpcoming(events: Event[], now = new Date()): Event[] {
   return events
     .filter((e) => (e.end ? e.end >= now : e.start >= now))
-    .sort((a, b) => a.start.getTime() - b.start.getTime())
+    .sort((a, b) => a.start.getTime() - b.start.getTime());
 }
