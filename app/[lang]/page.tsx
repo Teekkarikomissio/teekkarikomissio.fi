@@ -204,7 +204,7 @@ export default async function IndexPage({
           {/* Culture Section */}
           <div className="flex flex-col lg:flex-row items-center gap-8">
             <Image
-              src="/index-jaynamerkki.jpg"
+              src="/index-jaynamerkki.svg"
               alt="Paavo Nurmi"
               width={300}
               height={200}
