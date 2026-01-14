@@ -11,8 +11,4 @@ The cocktail party is meant for greetings and gifts. Especially the invited gues
 
 Cocktail is followed by a dinner party that differs clearly from sitz parties. A three course dinner is accompanied by singing, speeches and giving badges of honour to distinguished actors. Popular afterparty activities are for example dancing, live music or singing karaoke. 
 
-Teekkarikomissio is used to have an annual ball every fifth year. The next time is going to be **September 2025**.
-
-*Registration is open 27.08.2025 kl 12:00 - 10.09.2025 kl 23:59.*
-
-*More information and the registration: https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla.*
+Teekkarikomissio is used to have an annual ball every fifth year.
