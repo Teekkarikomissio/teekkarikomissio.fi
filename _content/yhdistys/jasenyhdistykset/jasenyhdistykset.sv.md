@@ -57,7 +57,7 @@ Hemsidor: [Digit ry](https://digit.fi/) 
 
 Instagram: @digiteekkari 
 
-E-post: [digit(at)utu.fi](mailto:digit@utu.fi) 
+E-post: [digit(at)utu.fi](mailto:hallitus@digit.fi) 
 
 ### **[Nucleus ry](https://nucleus.fi/)**
 
