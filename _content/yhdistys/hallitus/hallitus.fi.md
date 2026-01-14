@@ -1,113 +1,118 @@
 ---
 title: Hallitus
 ---
-## Vuoden 2025 hallitus
+## Vuoden 2026 hallitus
 
-### Risto Ruohola
+### Otto Rissa
 
-![Risto]()
+![]()
 
 * Pääkomissaari
 * Vastuualueet: Paavo Nurmen patsaan lakitus, yhdenvertaisuus
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @ristoruohola
+* TG: @ottorissa
 
 Pääkomissaari kutsuu komission hallituksen ja yhdistyksen kokoukset koolle. Hän johtaa hallituksen yhdenvertaisuustyötä ja kokouksia sekä valvoo hallituksen toimintaa. Hän vastaa Paavo Nurmen lakituksen järjestämisestä yhdessä varapääkomissaarin kanssa.
 
-### Arttu Saarinen
+### Mikael Kivioja
 
-![Arttu]()
+![]()
 
 * Varapääkomissaari
 * Vastuualueet: Paavo Nurmen patsaan lakitus
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @saarinearttu
+* TG: @
 
 Hoitaa pääkomissaarin tehtäviä tämän ollessa estynyt. Hän vastaa Paavo Nurmen lakituksen järjestämisestä yhdessä pääkomissaarin kanssa. Hän avustaa muita hallituksen jäseniä tarvittaessa.
 
-### Andreas Lindholm
+### Alice Adolfsson
 
-![Andreas]()
+![]()
 
 * Viestintäkomissaari
 * Vastuualueet: Nettisivut
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @Andreas_Lindholm
+* TG: @
 
 Viestintäkomissaari vastaa yhdistyksen viestinnästä tiedottamalla toiminnasta jäsenkilloille, ylläpitämällä nettisivuja ja kehittämällä viestinnän eri osa-alueita. Hän huolehtii tiedotuksen kolmikielisyydestä.
 
-### Annastiina Manninen
+### Matilda Laurila
 
-![Annastiina]()
+![]()
 
 * Ulkoasiainkomissaari
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @annastiinasm
+* TG: @
 
 Ulkoasiainkomissaari vastaa yhdistyksen yrityssuhteiden kehittämisestä ja ylläpitämisestä. Hän vastaa myös TeekkariExpon järjestämisestä.
 
-### Freja Tollander
+### Aura Backström
 
-![Freja]()
+![]()
 
 * Talouskomissaari
+* Vastuualueet: Yhdenvertaisuuskomissaari
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @Freja_Tollander
+* TG: @
 
 Talouskomissaari huolehtii yhdistyksen taloudesta ja kirjanpidosta sekä tarkkailee yhdistyksen taloudellista tilannetta ja pitää hallituksen siitä ajan tasalla. Talouskomissaarilla on oikeus yhdistyksen pankkitiliin. Hän valmistelee hallituksen talousarvioesityksen ja tilinpäätöksen.
 
-### Jani Norrby
+Yhdenvertaisuuskomissaari vastaa yhdistyksen yhdenvertaisuustyöstä ja -suunnitelmasta
 
-![Jani](/board/2024/jani-norrby-min.jpg)
+### Veikka Nurmio
+
+![]()
 
 * Järjestökomissaari
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @jani_norppa
+* TG: @
 
 Järjestökomissaari toimii pääasiallisena yhteyshenkilönä yhdistyksen hallituksen ja jäsenkiltojen välillä. Hän ylläpitää ja edistää kiltojen keskenäistä, sekä kiltojen ja Teekkarikomission hallituksen välistä yhteistyötä, esimerkiksi sektoritapaamisten muodossa.
 
-### Lauri Koivusalo
+### Ellen Vainio
 
-![Lauri]()
+![]()
 
 * Kulttuurikomissaari
 * Vastuualueet: Fuksiasiat
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @Laurikoivusalo
+* TG: @
 
 Kulttuurikomissaari kehittää ja ylläpitää teekkarikulttuuria Turussa. Hän huolehtii mm. jäsenkiltojen teekkarilakkien tilaamisesta ja on ensisijainen tuomari TEKin järjestämissä valtakunnallisissa jäynäkisoissa. Lisäksi hän vastaa fuksi- ja tuutorikasvatuksesta.
 
-### Miko Toivonen
+### Konsta Valta
 
 ![Miko]()
 
 * Tapahtumakomissaari
 * Vastuualueet: Teekkarikaste
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @Monnionkala
+* TG: @
 
 Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. He vastaavat Teekkarikomission tapahtumien kehittämisestä ja järjestämisestä. He pitävät yhteyttä jäsenkiltoihin koko turkulaista teekkariyhteisöä koskevien tapahtumien järjestämisessä. Toinen tapahtumakomissaareista voi toimia Kastetoimikunnan puheenjohtajana.
 
-### Katriina Mc Cormick
+### Eeva Heinämäki
 
-![Katriina]()
+![]()
 
 * Sihteeri
 * Vastuualueet: Yhdenvertaisuuskomissaari
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @kultakatriiina
+* TG: @
 
 Sihteeri toimii hallituksen kokousten sihteerinä ja huolehtii pöytäkirjojen ja muiden dokumenttien arkistoinnista. Hän lähettää hallituksen kokousten pöytäkirjat tai päätösluettelot killoille.
 
 Yhdenvertaisuuskomissaari vastaa yhdistyksen yhdenvertaisuustyöstä ja -suunnitelmasta.
 
-### Oskar Karlsson
+### Kristian Suominen
 
-![Oskar]()
+![]()
 
-* Tapahtumakomissaari
+* Tapahtumakomissaari ja Kulttuurikomissaari
 * Vastuualueet: Eldprowet
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @karlssonoskar
+* TG: @
 
 Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. He vastaavat Teekkarikomission tapahtumien kehittämisestä ja järjestämisestä. He pitävät yhteyttä jäsenkiltoihin koko turkulaista teekkariyhteisöä koskevien tapahtumien järjestämisessä. Toinen tapahtumakomissaareista voi toimia Kastetoimikunnan puheenjohtajana.
+
+Kulttuurikomissaari kehittää ja ylläpitää teekkarikulttuuria Turussa. Hän huolehtii mm. jäsenkiltojen teekkarilakkien tilaamisesta ja on ensisijainen tuomari TEKin järjestämissä valtakunnallisissa jäynäkisoissa. Lisäksi hän vastaa fuksi- ja tuutorikasvatuksesta.
