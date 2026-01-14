@@ -1,6 +1,19 @@
 ---
 title: Aikaisemmat hallitukset
 ---
+
+## 2025
+
+* Risto Ruohola
+* Arttu Saarinen
+* Andreas Lindholm
+* Annastiina Manninen
+* Freja Tollander
+* Jani Norrby
+* Lauri Koivusalo
+* Miko Toivonen
+* Katriina McCormick 
+
 ## 2024
 
 * Reetta Lindberg
