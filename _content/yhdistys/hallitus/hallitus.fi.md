@@ -21,7 +21,7 @@ Pääkomissaari kutsuu komission hallituksen ja yhdistyksen kokoukset koolle. H�
 * Varapääkomissaari
 * Vastuualueet: Paavo Nurmen patsaan lakitus
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @
+* TG: @jmkivioja
 
 Hoitaa pääkomissaarin tehtäviä tämän ollessa estynyt. Hän vastaa Paavo Nurmen lakituksen järjestämisestä yhdessä pääkomissaarin kanssa. Hän avustaa muita hallituksen jäseniä tarvittaessa.
 
@@ -42,7 +42,7 @@ Viestintäkomissaari vastaa yhdistyksen viestinnästä tiedottamalla toiminnasta
 
 * Ulkoasiainkomissaari
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @
+* TG: @matskuuuw
 
 Ulkoasiainkomissaari vastaa yhdistyksen yrityssuhteiden kehittämisestä ja ylläpitämisestä. Hän vastaa myös TeekkariExpon järjestämisestä.
 
@@ -53,7 +53,7 @@ Ulkoasiainkomissaari vastaa yhdistyksen yrityssuhteiden kehittämisestä ja yll�
 * Talouskomissaari
 * Vastuualueet: Yhdenvertaisuuskomissaari
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @
+* TG: @aurabackstrom
 
 Talouskomissaari huolehtii yhdistyksen taloudesta ja kirjanpidosta sekä tarkkailee yhdistyksen taloudellista tilannetta ja pitää hallituksen siitä ajan tasalla. Talouskomissaarilla on oikeus yhdistyksen pankkitiliin. Hän valmistelee hallituksen talousarvioesityksen ja tilinpäätöksen.
 
@@ -65,7 +65,7 @@ Yhdenvertaisuuskomissaari vastaa yhdistyksen yhdenvertaisuustyöstä ja -suunnit
 
 * Järjestökomissaari
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @
+* TG: @veikkaaja
 
 Järjestökomissaari toimii pääasiallisena yhteyshenkilönä yhdistyksen hallituksen ja jäsenkiltojen välillä. Hän ylläpitää ja edistää kiltojen keskenäistä, sekä kiltojen ja Teekkarikomission hallituksen välistä yhteistyötä, esimerkiksi sektoritapaamisten muodossa.
 
@@ -76,18 +76,18 @@ Järjestökomissaari toimii pääasiallisena yhteyshenkilönä yhdistyksen halli
 * Kulttuurikomissaari
 * Vastuualueet: Fuksiasiat
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @
+* TG: @cllcnv
 
 Kulttuurikomissaari kehittää ja ylläpitää teekkarikulttuuria Turussa. Hän huolehtii mm. jäsenkiltojen teekkarilakkien tilaamisesta ja on ensisijainen tuomari TEKin järjestämissä valtakunnallisissa jäynäkisoissa. Lisäksi hän vastaa fuksi- ja tuutorikasvatuksesta.
 
 ### Konsta Valta
 
-![Miko]()
+![]()
 
 * Tapahtumakomissaari
-* Vastuualueet: Teekkarikaste
+* Vastuualueet: Eldprowet
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @
+* TG: @KonstValta
 
 Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. He vastaavat Teekkarikomission tapahtumien kehittämisestä ja järjestämisestä. He pitävät yhteyttä jäsenkiltoihin koko turkulaista teekkariyhteisöä koskevien tapahtumien järjestämisessä. Toinen tapahtumakomissaareista voi toimia Kastetoimikunnan puheenjohtajana.
 
@@ -98,7 +98,7 @@ Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. H
 * Sihteeri
 * Vastuualueet: Yhdenvertaisuuskomissaari
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @
+* TG: @eevahei
 
 Sihteeri toimii hallituksen kokousten sihteerinä ja huolehtii pöytäkirjojen ja muiden dokumenttien arkistoinnista. Hän lähettää hallituksen kokousten pöytäkirjat tai päätösluettelot killoille.
 
@@ -109,9 +109,9 @@ Yhdenvertaisuuskomissaari vastaa yhdistyksen yhdenvertaisuustyöstä ja -suunnit
 ![]()
 
 * Tapahtumakomissaari ja Kulttuurikomissaari
-* Vastuualueet: Eldprowet
+* Vastuualueet: Teekkarikaste ja teekkarijäynät
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @
+* TG: @Abbrassion
 
 Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. He vastaavat Teekkarikomission tapahtumien kehittämisestä ja järjestämisestä. He pitävät yhteyttä jäsenkiltoihin koko turkulaista teekkariyhteisöä koskevien tapahtumien järjestämisessä. Toinen tapahtumakomissaareista voi toimia Kastetoimikunnan puheenjohtajana.
 
