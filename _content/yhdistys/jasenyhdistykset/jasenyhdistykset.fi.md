@@ -55,7 +55,7 @@ Kotisivut: [Digit ry](https://digit.fi/) 
 
 Instagram: @digiteekkari 
 
-Sähköposti: [digit(at)utu.fi](mailto:digit@utu.fi) 
+Sähköposti: [digit(at)utu.fi](mailto:hallitus@digit.fi) 
 
 ### **[Nucleus ry](https://nucleus.fi/)**
 
@@ -141,15 +141,15 @@ Sähköposti: [optima(at)utu.fi](mailto:optima@utu.fi)
 
 ![Efficio](/logos/efficion-logo-bw.png)
 
-Efficio, Turun yliopiston tuotantotalouden opiskelijoiden kilta Efficio ry by its official name, is a student association for industrial engineering students at University of Turku. Efficio was founded in autumn 2024.
+Efficio, Turun yliopiston tuotantotalouden opiskelijoiden kilta Efficio ry viralliselta nimeltään, on Turun yliopisto tuotantotalouden opiskelijoiden kilta. Efficio perustettiin syksyllä 2024.
 
-Members can be identified by their dark green overalls with white printings.
+Efficion jäsenet tunnistaa tumman vihreistä haalareista valkoisilla painatuksilla.
 
-Website: [efficio ry](https://www.efficio.fi/) 
+Kotisivut: [efficio ry](https://www.efficio.fi/) 
 
 Instagram: @efficio.ry 
 
-Email: [hallitus(at)efficio.fi](mailto:hallitus@efficio.fi)
+Sähköposti: [hallitus(at)efficio.fi](mailto:hallitus@efficio.fi)
 
 ### **[Fermentus ry](https://www.instagram.com/fermentus.ry/)**
 

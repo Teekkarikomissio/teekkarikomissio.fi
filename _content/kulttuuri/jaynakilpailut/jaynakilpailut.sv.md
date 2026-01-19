@@ -9,6 +9,8 @@ Jäynändet har för avsikt att skapa glädje i all välmening för en själv, f
 
 En jäynä ska inte förolämpa, förlöjliga, förstöra, stjäla eller skada. En jäynä ska inte förorsaka ekonomiska, juridiska, mentala eller fysiska svårigheter. En jäynä får under inga omständigheter vara riktad mot polis- eller räddningsmyndigheter eller jurymedlemmar.
 
+
+<!--
 ## Åbos regionala jäynätävlingar är i gång 13.02.-13.04.2025!
 
 ## Jäynämanifest 2025
@@ -106,3 +108,4 @@ Teknologkommissionens styrelse tolkar dessa regler.
 Teknologkommissionens styrelse kan med ett enigt beslut ändra på reglerna. Ändringar på reglerna måste göras kända för medlemsföreningarna i god tid, ifall ändringarna i fråga inte sker under tävlingstiden. I så fall, ska ändringarna meddelas så fort som möjligt.
 
 Medlemsföreningarna har möjlighet att överklaga regeländringar. I såna fall behandlas överklagelsen på föreningens möte. Där kan reglerna ändras med minst en 3⁄4 majoritetsröst.
+-->

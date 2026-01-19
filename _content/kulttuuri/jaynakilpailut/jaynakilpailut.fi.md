@@ -9,6 +9,7 @@ Jäynän tarkoituksena on tuottaa hyväntahtoisesti riemua itselle, jäynän koh
 
 Jäynä ei solvaa, rienaa, turmele, varasta tai tuhoa. Jäynä ei aiheuta kenellekään taloudellisia, henkisiä tai fyysisiä vaikeuksia. Jäynä ei saa kohdistua millään muotoa poliisi- tai pelastusviranomaisiin eikä tuomariston jäseneen.
 
+<!--
 ## Turun paikalliset jäynäkilpailut ovat käynnissä 13.02.-14.04.2025!
 
 ## Jäynäjulistus 2025
@@ -106,3 +107,4 @@ Näitä sääntöjä tulkitsee Teekkarikomission hallitus.
 Teekkarikomission hallitus voi yksimielisellä päätöksellä muuttaa sääntöjä. Sääntöjen muuttaminen tulee saattaa jäsenjärjestöjen tietouteen hyvissä ajoin, ellei kyseessä ole kesken kisojen tehtävä sääntömuutos, jolloin sääntömuutoksesta tulee ilmoittaa pikimmiten.
 
 Jäsenyhdistyksellä on oikeus riitauttaa tehdyt sääntömuutokset. Riitatilanteessa sääntömuutos käsitellään yhdistyksen kokouksessa. Sääntöjä voi tällöin muuttaa vähintään 3⁄4 enemmistöllä annetuista äänistä.
+-->

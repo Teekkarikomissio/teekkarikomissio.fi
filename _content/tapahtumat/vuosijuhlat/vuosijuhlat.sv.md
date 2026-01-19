@@ -11,8 +11,4 @@ Sedan börjar årsfestbanketten, som avvisar sig märkligt från sitzetikett. Un
 
 På följande dag brukar man klä halare på sig och koppla av på sillisfrukosten.
 
-Teknologkommissionen har brukat ha årsfest var femte år. Nästa gång ska årsfest gå av stapeln i **september 2025**.
-
-*Anmälningen är öppet 27.08.2025 kl 12:00 - 10.09.2025 kl 23:59.*
-
-*Mer information och anmälningen: https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla.*
+Teknologkommissionen har brukat ha årsfest var femte år.

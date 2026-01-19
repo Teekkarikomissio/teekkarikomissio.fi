@@ -55,7 +55,7 @@ Website: [Digit ry](https://digit.fi/) 
 
 Instagram: @digiteekkari 
 
-Email: [digit(at)utu.fi](mailto:digit@utu.fi) 
+Email: [digit(at)utu.fi](mailto:hallitus@digit.fi) 
 
 ### **[Nucleus ry](https://nucleus.fi/)**
 

@@ -13,6 +13,4 @@ Cocktailia seuraa pääjuhla eli juhlaillallinen, joka poikkeaa etiketiltään s
 
 Seuraavana päivänä rentoudutaan haalarit yllä sillisaamiaisen merkeissä.
 
-Teekkarikomissiolla on ollut tapana järjestää vuosijuhlat viiden vuoden välein. Seuraavan kerran vuosijuhlat järjestetään **syyskuussa 2025**.
-
-*Ilmoittautuminen on auki 27.08.2025 klo 12:00 - 10.09.2025 klo 23:59 osoitteessa https://digit.fi/ilmo/teekkarikomissioyhdistys-ry-n-25-vuosijuhla.*
+Teekkarikomissiolla on ollut tapana järjestää vuosijuhlat viiden vuoden välein.
