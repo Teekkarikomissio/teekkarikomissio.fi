@@ -3,12 +3,13 @@ import { Metadata } from 'next'
 import { Locale } from '@/i18n-config'
 import Image from 'next/image'
 
-import lander from '@/public/home-landing-2.jpg'
 import frontpageStyles from './frontpage-styles.module.css'
 
 import getPageBySlug from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
-import InstagramFeedSection from '@/components/InstagramFeedSection'
+import { EventsSection } from '@/components/EventsSection';
+import { NewsSection } from '@/components/NewsSection';
+import { InstagramSection } from '@/components/InstagramSection';
 
 type Props = {
   params: Promise<{ lang: Locale }>
@@ -164,7 +165,7 @@ export default async function IndexPage({
             </div>
             <div className="relative h-[45vh] lg:h-auto pl-4 -mr-4 sm:-mr-6 lg:mx-0 lg:-right-32 lg:top-0 lg:-bottom-16">
               <Image
-                src={lander}
+                src="/home-landing-2.jpg"
                 alt="Tech student life at Turku"
                 fill
                 priority
@@ -230,31 +231,14 @@ export default async function IndexPage({
         </div>
       </div>
 
+      {/* News Section */}
+      <NewsSection />
+      {/* Events Section */}
+      <EventsSection />
       {/* Instagram Feed Section */}
-      <InstagramFeedSection
-        headingText={frontPageContent[lang].headings.news}
-        strategy="intersection"
-        loadButtonLabel="Load Instagram feed"
+      <InstagramSection
       />
 
-
-      {/* Calendar */}
-      <div className="w-full bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="relative pb-2 mb-8">
-            <h2 className="text-3xl font-bold text-center">
-              {frontPageContent[lang].headings.calendar}
-            </h2>
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-primary"></div>
-          </div>
-          <div className="w-full h-[600px] overflow-hidden">
-            <iframe
-              src="https://calendar.google.com/calendar/embed?src=uvuvvg8nh8dt26778tef67u0h8%40group.calendar.google.com&ctz=Europe%2FHelsinki"
-              className="w-full h-full"
-            />
-          </div>
-        </div>
-      </div>
 
       {/* Partners Section */}
       <div className="w-full">
