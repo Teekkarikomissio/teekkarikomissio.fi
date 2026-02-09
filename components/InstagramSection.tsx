@@ -10,7 +10,7 @@ export function InstagramSection() {
         </div>
         <div className="text-center">
           <p className="text-lg mb-6">
-            Pysy ajan tasalla tapahtumista ja kulissien takaisista hetkistä!
+            Pysy ajan tasalla tapahtumistamme!
           </p>
           <a
             href="https://instagram.com/turunteekkari"
