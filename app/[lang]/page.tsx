@@ -74,9 +74,13 @@ const frontPageContent = {
     },
     headings: {
       news: 'Ajankohtaista',
+      events: 'Tulevat tapahtumat',
+      instagram: 'Seuraa meitä Instagramissa',
+      instagramDescription: 'Pysy ajan tasalla tapahtumistamme!',
       partners: 'Yhteistyössä',
       calendar: 'Tapahtumakalenteri',
     },
+    allNews: 'Kaikki uutiset →',
   },
   sv: {
     association: {
@@ -95,9 +99,13 @@ const frontPageContent = {
     },
     headings: {
       news: 'Aktuellt',
+      events: 'Kommande evenemang',
+      instagram: 'Följ oss på Instagram',
+      instagramDescription: 'Håll dig uppdaterad med våra evenemang!',
       partners: 'I samarbete',
       calendar: 'Evenemangskalender',
     },
+    allNews: 'Alla nyheter →',
   },
   en: {
     association: {
@@ -116,9 +124,13 @@ const frontPageContent = {
     },
     headings: {
       news: 'Latest News',
+      events: 'Upcoming Events',
+      instagram: 'Follow us on Instagram',
+      instagramDescription: 'Stay updated with our events!',
       partners: 'In Cooperation With',
       calendar: 'Event Calendar',
     },
+    allNews: 'All news →',
   },
 }
 
@@ -234,7 +246,7 @@ export default async function IndexPage({
       {/* News Section */}
       <NewsSection lang={lang} />
       {/* Events Section */}
-      <EventsSection />
+      <EventsSection lang={lang} />
       {/* Calendar */}
       <div className="w-full bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -253,7 +265,7 @@ export default async function IndexPage({
         </div>
       </div>
       {/* Instagram Feed Section */}
-      <InstagramSection
+      <InstagramSection lang={lang}
       />
 
 

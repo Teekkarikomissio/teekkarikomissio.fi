@@ -43,6 +43,24 @@ async function getAllNews(): Promise<NewsItem[]> {
   return news
 }
 
+const translations = {
+  fi: {
+    heading: 'Ajankohtaista',
+    subtitle: 'Teekkarikomissiosta ja sen toiminnasta',
+    noNews: 'Uutisia ei vielä saatavilla.',
+  },
+  sv: {
+    heading: 'Aktuellt',
+    subtitle: 'Från Teknologkommissionen och dess verksamhet',
+    noNews: 'Nyheter är inte tillgängliga ännu.',
+  },
+  en: {
+    heading: 'Latest News',
+    subtitle: 'From Teekkarikomissio and its activities',
+    noNews: 'No news available yet.',
+  },
+};
+
 export const metadata: Metadata = {
   title: 'Ajankohtaista',
   description: 'Uusimmat uutiset Teekkarikomissiosta',
@@ -55,6 +73,7 @@ export default async function NewsPage({
 }) {
   const { lang } = await params
   const news = await getAllNews()
+  const t = translations[lang as keyof typeof translations] || translations.fi
 
   return (
     <div className="min-h-screen bg-white">
@@ -62,10 +81,10 @@ export default async function NewsPage({
       <div className="bg-primary w-full py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
-            Ajankohtaista
+            {t.heading}
           </h1>
           <p className="text-yellow-100 text-lg mt-2">
-            Teekkarikomissiosta ja sen toiminnasta
+            {t.subtitle}
           </p>
         </div>
       </div>
@@ -75,7 +94,7 @@ export default async function NewsPage({
         {news.length === 0 ? (
           <div className="text-center py-12">
             <p className="text-gray-600 text-lg">
-              Uutisia ei vielä saatavilla.
+              {t.noNews}
             </p>
           </div>
         ) : (
