@@ -3,12 +3,13 @@ import { Metadata } from 'next'
 import { Locale } from '@/i18n-config'
 import Image from 'next/image'
 
-import lander from '@/public/home-landing-2.jpg'
 import frontpageStyles from './frontpage-styles.module.css'
 
 import getPageBySlug from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
-import InstagramFeedSection from '@/components/InstagramFeedSection'
+import { EventsSection } from '@/components/EventsSection';
+import { NewsSection } from '@/components/NewsSection';
+import { InstagramSection } from '@/components/InstagramSection';
 
 type Props = {
   params: Promise<{ lang: Locale }>
@@ -73,9 +74,13 @@ const frontPageContent = {
     },
     headings: {
       news: 'Ajankohtaista',
+      events: 'Tulevat tapahtumat',
+      instagram: 'Seuraa meitä Instagramissa',
+      instagramDescription: 'Pysy ajan tasalla tapahtumistamme!',
       partners: 'Yhteistyössä',
       calendar: 'Tapahtumakalenteri',
     },
+    allNews: 'Kaikki uutiset →',
   },
   sv: {
     association: {
@@ -94,9 +99,13 @@ const frontPageContent = {
     },
     headings: {
       news: 'Aktuellt',
+      events: 'Kommande evenemang',
+      instagram: 'Följ oss på Instagram',
+      instagramDescription: 'Håll dig uppdaterad med våra evenemang!',
       partners: 'I samarbete',
       calendar: 'Evenemangskalender',
     },
+    allNews: 'Alla nyheter →',
   },
   en: {
     association: {
@@ -115,9 +124,13 @@ const frontPageContent = {
     },
     headings: {
       news: 'Latest News',
+      events: 'Upcoming Events',
+      instagram: 'Follow us on Instagram',
+      instagramDescription: 'Stay updated with our events!',
       partners: 'In Cooperation With',
       calendar: 'Event Calendar',
     },
+    allNews: 'All news →',
   },
 }
 
@@ -164,7 +177,7 @@ export default async function IndexPage({
             </div>
             <div className="relative h-[45vh] lg:h-auto pl-4 -mr-4 sm:-mr-6 lg:mx-0 lg:-right-32 lg:top-0 lg:-bottom-16">
               <Image
-                src={lander}
+                src="/home-landing-2.jpg"
                 alt="Tech student life at Turku"
                 fill
                 priority
@@ -230,14 +243,10 @@ export default async function IndexPage({
         </div>
       </div>
 
-      {/* Instagram Feed Section */}
-      <InstagramFeedSection
-        headingText={frontPageContent[lang].headings.news}
-        strategy="intersection"
-        loadButtonLabel="Load Instagram feed"
-      />
-
-
+      {/* News Section */}
+      <NewsSection lang={lang} />
+      {/* Events Section */}
+      <EventsSection lang={lang} />
       {/* Calendar */}
       <div className="w-full bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -255,6 +264,10 @@ export default async function IndexPage({
           </div>
         </div>
       </div>
+      {/* Instagram Feed Section */}
+      <InstagramSection lang={lang}
+      />
+
 
       {/* Partners Section */}
       <div className="w-full">
