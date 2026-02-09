@@ -25,14 +25,21 @@ function getAllNewsSlugs(): string[] {
   }
 
   const filenames = fs.readdirSync(newsDirectory)
-  return filenames
-    .filter(filename => filename.endsWith('.md'))
-    .map(filename => filename.replace('.md', ''))
+  const slugs = new Set<string>()
+
+  filenames.forEach(filename => {
+    const match = filename.match(/^(.+)\.(fi|sv|en)\.md$/)
+    if (match) {
+      slugs.add(match[1])
+    }
+  })
+
+  return Array.from(slugs)
 }
 
-function getNewsBySlug(slug: string): NewsItem | null {
+function getNewsBySlug(slug: string, lang: Locale): NewsItem | null {
   const newsDirectory = path.join(process.cwd(), 'content/news')
-  const filePath = path.join(newsDirectory, `${slug}.md`)
+  const filePath = path.join(newsDirectory, `${slug}.${lang}.md`)
 
   if (!fs.existsSync(filePath)) {
     return null
@@ -56,8 +63,8 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string; lang: Locale }>
 }): Promise<Metadata> {
-  const { slug } = await params
-  const news = getNewsBySlug(slug)
+  const { slug, lang } = await params
+  const news = getNewsBySlug(slug, lang)
 
   if (!news) {
     return {
@@ -88,7 +95,7 @@ export default async function NewsArticlePage({
   params: Promise<{ slug: string; lang: Locale }>
 }) {
   const { slug, lang } = await params
-  const news = getNewsBySlug(slug)
+  const news = getNewsBySlug(slug, lang)
 
   if (!news) {
     notFound()

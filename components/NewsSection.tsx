@@ -35,7 +35,7 @@ export function NewsSection({ lang = 'fi' }: { lang?: string }) {
   const t = translations[lang as keyof typeof translations] || translations.fi;
 
   useEffect(() => {
-    fetch('/api/news')
+    fetch(`/api/news?lang=${lang}`)
       .then(res => res.json())
       .then((data: NewsItem[]) => {
         setNews(data.slice(0, 3));
@@ -45,7 +45,7 @@ export function NewsSection({ lang = 'fi' }: { lang?: string }) {
         console.error('Error fetching news:', error);
         setLoading(false);
       });
-  }, []);
+  }, [lang]);
 
   if (loading) return <div className="text-center py-12">{t.loading}</div>;
 

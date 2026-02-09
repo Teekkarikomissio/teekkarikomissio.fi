@@ -14,7 +14,7 @@ interface NewsItem {
   content: string
 }
 
-async function getAllNews(): Promise<NewsItem[]> {
+async function getAllNews(lang: Locale): Promise<NewsItem[]> {
   const newsDirectory = path.join(process.cwd(), 'content/news')
 
   if (!fs.existsSync(newsDirectory)) {
@@ -23,14 +23,14 @@ async function getAllNews(): Promise<NewsItem[]> {
 
   const filenames = fs.readdirSync(newsDirectory)
   const news = filenames
-    .filter(filename => filename.endsWith('.md'))
+    .filter(filename => filename.endsWith(`.${lang}.md`))
     .map(filename => {
       const filePath = path.join(newsDirectory, filename)
       const fileContents = fs.readFileSync(filePath, 'utf8')
       const { data, content } = matter(fileContents)
 
       return {
-        slug: filename.replace('.md', ''),
+        slug: filename.replace(`.${lang}.md`, ''),
         title: data.title,
         date: data.date,
         author: data.author,
@@ -72,7 +72,7 @@ export default async function NewsPage({
   params: Promise<{ lang: Locale }>
 }) {
   const { lang } = await params
-  const news = await getAllNews()
+  const news = await getAllNews(lang)
   const t = translations[lang as keyof typeof translations] || translations.fi
 
   return (
