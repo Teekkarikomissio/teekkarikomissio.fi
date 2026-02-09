@@ -232,7 +232,7 @@ export default async function IndexPage({
       </div>
 
       {/* News Section */}
-      <NewsSection />
+      <NewsSection lang={lang} />
       {/* Events Section */}
       <EventsSection />
       {/* Instagram Feed Section */}

@@ -11,7 +11,7 @@ interface NewsItem {
   author: string;
 }
 
-export function NewsSection() {
+export function NewsSection({ lang = 'fi' }: { lang?: string }) {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -41,11 +41,11 @@ export function NewsSection() {
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {news.map(item => (
-            <NewsCard key={item.slug} news={item} />
+            <NewsCard key={item.slug} news={item} lang={lang} />
           ))}
         </div>
         <div className="text-center mt-8">
-          <a href="/news" className="text-primary font-semibold hover:underline">
+          <a href={`/${lang}/news`} className="text-primary font-semibold hover:underline">
             Kaikki uutiset →
           </a>
         </div>
