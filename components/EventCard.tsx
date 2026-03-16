@@ -7,8 +7,16 @@ interface Event {
   location?: string;
 }
 
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
 export function EventCard({ event }: { event: Event }) {
   const startDate = new Date(event.start);
+  const plainDescription = event.description ? stripHtml(event.description) : undefined;
+  const shortDescription = plainDescription && plainDescription.length > 120
+    ? plainDescription.slice(0, 120).trimEnd() + '…'
+    : plainDescription;
   
   return (
     <div className="border rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
@@ -34,8 +42,8 @@ export function EventCard({ event }: { event: Event }) {
           {event.location && (
             <p className="text-gray-500 text-sm">{event.location}</p>
           )}
-          {event.description && (
-            <p className="text-gray-700 mt-3">{event.description}</p>
+          {shortDescription && (
+            <p className="text-gray-700 mt-3 text-sm">{shortDescription}</p>
           )}
         </div>
       </div>
