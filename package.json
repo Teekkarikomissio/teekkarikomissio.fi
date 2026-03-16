@@ -30,7 +30,9 @@
     "@types/negotiator": "^0.6.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "googleapis": "^171.4.0",
     "gray-matter": "^4.0.3",
+    "ical": "^0.8.0",
     "lucide": "^0.561.0",
     "lucide-react": "^0.552.0",
     "negotiator": "^1.0.0",
@@ -48,19 +50,20 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.16",
+    "@types/ical": "^0.8.3",
     "@types/node": "24.10.0",
     "@types/react": "^19.1.15",
     "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.23",
-    "eslint": "^9.39.2",
-    "eslint-config-next": "^16.0.10",
-    "eslint-config-prettier": "^10.1.8",
+    "eslint": "^10.0.0",
+    "eslint-config-next": "^0.2.4",
+    "eslint-config-prettier": "^6.15.0",
     "husky": "^9.0.6",
     "lint-staged": "^16.2.7",
     "postcss": "^8.4.33",
     "prettier": "^3.7.4",
     "tailwindcss": "^4.1.18",
-    "@tailwindcss/postcss": "^4.1.16",
     "typescript": "^5.9.3"
   }
 }
