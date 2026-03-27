@@ -17,7 +17,7 @@ Send your team's jäynä to the Board by 19.4.2026 at 23:59: <hallitus@teekkarik
 
 Teekkarikomissio Organises a Jäynä Competition!
 
-Almost every year, Tekniikan Akateemiset TEK organises a national jäynä competition for Finnish technology students (teekkari). Each city with a teekkari community may participate in the competition with one team. Therefore, Teekkarikomissio organises the Turku qualification round, the winner of which will represent Turku in the national competition. The winner of the Turku qualification round will be announced during the Turku Teekkari Wappu.
+Almost every year, Academic Engineers and Architects in Finland TEK organises a national jäynä competition for Finnish technology students (teekkari). Each city with a teekkari community may participate in the competition with one team. Therefore, Teekkarikomissio organises the Turku qualification round, the winner of which will represent Turku in the national competition. The winner of the Turku qualification round will be announced during the Turku Teekkari Wappu.
 
 The winning team of the General Series will represent Turku in the 2026 National Jäynä Competition and will also receive great prizes, fame, and honour.
 

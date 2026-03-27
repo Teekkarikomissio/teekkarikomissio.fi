@@ -17,7 +17,7 @@ Skicka in lagets jäynä till styrelsen senast 19.4.2026 kl. 23.59: <hallitus@te
 
 Teknologkommissionen ordnar en jäynätävling!
 
-Nästan varje år ordnar Tekniikan Akateemiset TEK en nationell jäynätävling för finländska teknologer. Alla teknologstäder får delta i tävlingen med ett lag. Teknologkommissionen ordnar Åbos kvaltävling, vars vinnare får representera Åbo i den nationella tävlingen. Vinnaren av Åbos kvaltävling tillkännages under Åbos teknologwapp.
+Nästan varje år ordnar Teknikens Akademiker TEK en nationell jäynätävling för finländska teknologer. Alla teknologstäder får delta i tävlingen med ett lag. Teknologkommissionen ordnar Åbos kvaltävling, vars vinnare får representera Åbo i den nationella tävlingen. Vinnaren av Åbos kvaltävling tillkännages under Åbos teknologwapp.
 
 Vinnarlaget i allmänna serien får representera Åbo i den nationella jäynätävlingen för år 2026, och får dessutom fina priser, ära och berömmelse.
 
