@@ -9,6 +9,103 @@ Jäynän tarkoituksena on tuottaa hyväntahtoisesti riemua itselle, jäynän koh
 
 Jäynä ei solvaa, rienaa, turmele, varasta tai tuhoa. Jäynä ei aiheuta kenellekään taloudellisia, henkisiä tai fyysisiä vaikeuksia. Jäynä ei saa kohdistua millään muotoa poliisi- tai pelastusviranomaisiin eikä tuomariston jäseneen.
 
+## Turun paikalliset jäynäkilpailut ovat käynnissä!
+
+Lähettäkää joukkueenne jäynä viimeistään 19.4.2026 klo 23.59 mennessä hallitukselle: <hallitus@teekkarikomissio.fi>.
+
+## Jäynäjulistus 2026
+
+Teekkarikomissio järjestää jäynäkilpailun!
+
+Lähes joka vuosi Tekniikan Akateemiset TEK järjestää kansallisen jäynäkilpailun suomalaisille teekkareille. Kaikki teekkarikaupungit saavat osallistua kilpailuun yhdellä joukkueella. Teekkarikomissio järjestääkin Turun karsinnat, joiden voittaja pääsee edustamaan Turkua kansallisiin kilpailuihin. Turun karsintojen voittaja julistetaan Turun teekkariwapun aikana.
+
+Yleisen sarjan voittajajoukkue pääsee edustamaan Turkua vuoden 2026 valtakunnallisiin jäynäkilpailuihin, sekä saa hienoja palkintoja, mainetta ja kunniaa.
+
+Kilpailun voittajan lisäksi paras fuksijoukkue pääsee kiltansa kanssa ensimmäisenä Aurajokeen teekkarikasteessa. Jokainen fuksijoukkue saa kiitokseksi osallistumisesta TEKin sponsoroimia palkintoja. Fuksijoukkueen kokoonpano on määritelty kilpailun säännöissä.
+Kaikki jäynääjät palkitaan hyväksytystä osallistumisesta myös Virallisella jäynäkisahaalarimerkillä.
+
+Kiltasarjassa jokaista osallistuvaa kiltaa edustaa yksi (1) joukkue, jonka kaikkien jäsenten tulee olla edustamansa killan jäseniä ja heistä vähintään puolet killan edustaman alan pääaineopiskelijoita. Kiltasarjassa edustavan joukkueen ilmoittautumisesta huolehtii kyseisen killan hallitus. Ole siis yhteydessä kiltasi hallitukseen!
+
+Kiltasarja tuomaroidaan ja palkitaan erikseen yleisestä sarjasta, johon myös kiltasarjan joukkueet tai joukkueiden jäsenet saavat osallistua (toki eri jäynällä). Kiltasarjan palkintona toimii silmiä hivelevä Jäynäpölkky, joka pääsee koristamaan voittajakillan kiltahuoneen/toimiston hyllyjä, kun taas jäynäämättä jättävien kiltasarjaan osallistuvien kiltojen seiniä koristaa jäynäkilpailuiden häpeädiplomi.  Muutoin kiltasarjaa koskevat samat säännöt kuin yleistäkin sarjaa.
+Millainen jäynän tulee olla?
+
+- Jäynä ei saa tuhota kenenkään omaisuutta
+- jäynään ei saa kuulua varkautta.
+- Itse jäynään saa käyttää rahaa, mutta jäynä ei saa aiheuttaa rahallisia kustannuksia kolmansille osapuolille.
+- Jäynän tulee olla hyvän maun mukainen ja naurattaa tekijöitä, opiskelijoita sekä ulkopuolisia ihmisiä.
+- Jäynä ei saa ottaa kantaa uskontoihin tai politiikkaan.
+- Mitä enemmän ”teknistä osaamista” sitä korkealuokkaisempi jäynä.
+
+## SÄÄNNÖT
+
+### 1 § Jäynäkilpailun tarkoitus
+
+Jäynäkilpailun tarkoituksena on vaalia jäynäperinteitä, edistää teekkarikulttuuria, kohottaa teekkarihenkeä, edistää teekkariuden näkyvyyttä Turussa ja tuottaa hyvää mieltä sekä jäynän tekijöille, että muille jäynään liittyville tahoille.
+
+### 2 § Osallistujat
+
+Jäynäkisaan voi osallistua joukkueita turkulaisista teekkarikilloista. Yleisessä sarjassa tai fuksisarjassa osallistuvien joukkueiden määrää ei ole rajoitettu. 
+
+Kiltasarjassa kukin kilta voi osallistua yhden joukkueen voimin kilpailuun. Kukin yhdistys ja joukkue olkoot tietoisia siitä, että joukkue edustaa jäynäkilpailussa paitsi itseään, myös edustamaansa yhdistystä, Teekkarikomissiota ja teekkareita yleisesti.
+
+### 3 § Jäynän määritelmä
+
+Jäynän tarkoituksena on tuottaa hyväntahtoisesti riemua itselle, jäynän kohteelle ja suurelle yleisölle. Jäynä ei tosimielellä ota kantaa uskontoon tai politiikkaan. Se on luonteeltaan yllätyksellinen, tekniikan keinoja hyväksikäyttävä ja epäsovinnainen. Jäynä voi olla kestoltaan lyhyt tai pitkä.
+Jäynä ei solvaa, rienaa, turmele, varasta tai tuhoa. Jäynä ei aiheuta kenellekään taloudellisia, henkisiä tai fyysisiä vaikeuksia. Jäynä ei saa kohdistua millään muotoa poliisi- tai pelastusviranomaisiin eikä tuomariston jäseneen.
+
+### 4 § Toteuttamisvastuu
+
+Osallistujat vastaavat itse kaikesta toiminnastaan kilpailun aikana.
+
+### 5 § Jäynäjoukkue
+
+Jäynäjoukkueen koko on kolmesta kahdeksaan (3–8) jäynääjää, joista vähintään puolien täytyy olla teekkareita tai teekkarifukseja. Joukkueen tulee nimetä itselleen kapteeni, joka vastaa joukkueen viestinnästä tuomaristolle. Joukkueen kapteenin tulee olla teekkari.
+Fuksijoukkue koostuu kolmesta kahdeksaan (3–8) jäynääjästä, joista enintään yksi teekkari ja muut teekkarifukseja. Fuksijoukkueessa joukkueen kapteeni voi olla teekkarifuksi.
+Kiltasarjan joukkueen koko on kolmesta kahdeksaan (3-8) jäynääjää, joista kaikkien tulee olla edustamansa killan jäseniä ja heistä vähintään puolet killan edustaman alan pääaineopiskelijoita. Kiltasarjan jäynän toteutus on joukkueen edustaman killan hallituksen vastuulla.
+Säännöistä poikkeavaa joukkueen kokoonpanoa voi anoa hyväksyttäväksi Teekkarikomission hallitukselta.
+
+### 6 § Tuomaristo
+
+Tuomaristona toimii Teekkarikomission hallitus, joka kilpailuajan umpeuduttua päättää kokouksessaan voittajan. Kilpailun päätuomarina toimii istuva kulttuurikomissaari. Tuomariston tehtävänä on ohjata ja valvoa kilpailun kulkua. Lisäksi jokainen tuomariston jäsen on velvoitettu ohjeistamaan oman yhdistyksensä joukkueita sekä lisäämään jäynäkulttuuria ja -tietoisuutta yhdistyksessään kisojen jatkuvuuden takaamiseksi. Tuomariston jäsenet eivät ole mukana arvioimassa itse edustamansa killan jäynää.
+
+### 7 § Jäynäjulistus, kilpailuaika ja -paikka
+
+Jäynäkilpailun aikataulun, kilpailuajan ja muut yksityiskohdat määrittelee Teekkarikomission hallitus jäynäjulistuksessa.
+Kilpailuajan umpeutuessa jäynädokumentaatio on oltava toimitettuna Teekkarikomission hallitukselle. Kilpailuaikana joukkueet tekevät yhden (1) mahdollisimman hauskan, ajankohtaisen, huomiota herättävän, teekkariperinteitä vaalivan sekä teekkarikulttuuria myönteisessä mielessä esiin tuovan jäynän. Kilpailussa toteuttamaansa jäynää joukkue ei ole saanut käyttää aikaisemmin.
+Kilpailualueena on Telluksen maa-, ilma ja vesialueet. Avaruudessa tehtäviä jäyniä varten pitää hakea erityislupa Teekkarikomissiolta.
+
+### 8 § Muuta huomioitavaa
+
+Näiden sääntöjen lisäksi on noudatettava EU:n lainsäädäntöä, Suomen lakia, suorituspaikkakunnalla voimassa olevaa järjestyssääntöä, hyviä tapoja sekä muita ennalta mainitsemattomia säädöksiä, joita jäynää suorittaessa tulee soveltaa.
+
+### 9 § Arvosteluperiaatteet
+
+Kilpailun arvostelussa kiinnitetään huomiota erityisesti kohdassa kolme (3) mainittuihin seikkoihin. Joukkueiden tulee kiinnittää erityistä huomiota tekemiensä jäynien todennettavuuteen. Tämä voi tapahtua joko suullisesti, kirjallisesti, monumentaalisesti, visuaalisesti, magneettisesti tai muutoin saattamalla tehdyt jäynät Teekkarikomission tietoisuuteen arvostelua varten. Mieluiten jäynä tulee dokumentoida videoimalla. Teekkarikomission hallituksen jäsenen voi myös tarvittaessa pyytää todentamaan jäynän toteutuksen paikan päälle.
+
+### 10 § Voittajan julkistaminen ja palkitseminen
+
+Teekkarikomissio julkistaa kilpailun tulokset erikseen ilmoitettuna ajankohtana, erikseen ilmoitetussa paikassa. Kunkin sarjan voittajajoukkueen jäsenet ovat oikeutettuja kantamaan Teekkarikomission määrittelemää punakeltaista jäynätupsua teekkarilakkiinsa kiinnitettynä. Fuksisarjan voittajien edustama kilta on oikeutettu olemaan kastejärjestyksessä ensimmäisenä. Kiltasarjan voittajille luovutetaan kiertopalkinto ja yleisen sarjan voittajat pääsevät edustamaan Turkua TEKin valtakunnalliseen teekkarijäynäkilpailuun. Tämän lisäksi voittajat saavat mittaamattomasti mainetta ja kunniaa.
+
+### 11 § Sääntöjen tulkitseminen ja muuttaminen
+
+Näitä sääntöjä tulkitsee Teekkarikomission hallitus.
+Teekkarikomission hallitus voi yksimielisellä päätöksellä muuttaa sääntöjä. Sääntöjen muuttaminen tulee saattaa jäsenjärjestöjen tietouteen hyvissä ajoin, ellei kyseessä ole kesken kisojen tehtävä sääntömuutos, jolloin sääntömuutoksesta tulee ilmoittaa pikimmiten. 
+Jäsenyhdistyksellä on oikeus riitauttaa tehdyt sääntömuutokset. Riitatilanteessa sääntömuutos käsitellään yhdistyksen kokouksessa. Sääntöjä voi tällöin muuttaa vähintään 3/4 enemmistöllä annetuista äänistä.
+
+## Osallistuminen
+
+Kaikkien joukkueiden tulee toimittaa jäynädokumentaationsa Teekkarikomission hallitukselle 19.4.2024 klo 23.59 mennessä esimerkiksi kuva-, video- ja/tai kirjallisena materiaalina osoitteeseen: <hallitus@teekkarikomissio.fi>.
+
+Haluamme sinut edustamaan Turkua jäynäfinaaliin, joten perusta joukkue ja ala miettiä hyvää jäynää! Lisää infoa Teekkarikomission tapahtuma- ja kulttuurikomissaarilta:
+
+Kristian Suominen [FI / EN]
+<kristian.suominen@teekkarikomissio.fi>
+Telegram: @abbrassion
++358 50 917 0930
+
+Teekkarikomissio toivottaa iloa jäyniin ja riemuisaa Wapun odotusta kaikille!
+
+
 <!--
 ## Turun paikalliset jäynäkilpailut ovat käynnissä 13.02.-14.04.2025!
 
@@ -108,3 +205,15 @@ Teekkarikomission hallitus voi yksimielisellä päätöksellä muuttaa sääntö
 
 Jäsenyhdistyksellä on oikeus riitauttaa tehdyt sääntömuutokset. Riitatilanteessa sääntömuutos käsitellään yhdistyksen kokouksessa. Sääntöjä voi tällöin muuttaa vähintään 3⁄4 enemmistöllä annetuista äänistä.
 -->
+
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+	<iframe
+		src="https://www.youtube.com/embed/nJR9wQFJwtI"
+		title="YouTube video player"
+		frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		referrerpolicy="strict-origin-when-cross-origin"
+		allowfullscreen
+		style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+	></iframe>
+</div>
