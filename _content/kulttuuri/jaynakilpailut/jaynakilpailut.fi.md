@@ -9,7 +9,7 @@ Jäynän tarkoituksena on tuottaa hyväntahtoisesti riemua itselle, jäynän koh
 
 Jäynä ei solvaa, rienaa, turmele, varasta tai tuhoa. Jäynä ei aiheuta kenellekään taloudellisia, henkisiä tai fyysisiä vaikeuksia. Jäynä ei saa kohdistua millään muotoa poliisi- tai pelastusviranomaisiin eikä tuomariston jäseneen.
 
-## Turun paikalliset jäynäkilpailut ovat käynnissä!
+## Turun paikalliset jäynäkilpailut ovat käynnissä
 
 Lähettäkää joukkueenne jäynä viimeistään 19.4.2026 klo 23.59 mennessä hallitukselle: <hallitus@teekkarikomissio.fi>.
 
@@ -27,7 +27,8 @@ Kaikki jäynääjät palkitaan hyväksytystä osallistumisesta myös Virallisell
 Kiltasarjassa jokaista osallistuvaa kiltaa edustaa yksi (1) joukkue, jonka kaikkien jäsenten tulee olla edustamansa killan jäseniä ja heistä vähintään puolet killan edustaman alan pääaineopiskelijoita. Kiltasarjassa edustavan joukkueen ilmoittautumisesta huolehtii kyseisen killan hallitus. Ole siis yhteydessä kiltasi hallitukseen!
 
 Kiltasarja tuomaroidaan ja palkitaan erikseen yleisestä sarjasta, johon myös kiltasarjan joukkueet tai joukkueiden jäsenet saavat osallistua (toki eri jäynällä). Kiltasarjan palkintona toimii silmiä hivelevä Jäynäpölkky, joka pääsee koristamaan voittajakillan kiltahuoneen/toimiston hyllyjä, kun taas jäynäämättä jättävien kiltasarjaan osallistuvien kiltojen seiniä koristaa jäynäkilpailuiden häpeädiplomi.  Muutoin kiltasarjaa koskevat samat säännöt kuin yleistäkin sarjaa.
-Millainen jäynän tulee olla?
+
+### Millainen jäynän tulee olla?
 
 - Jäynä ei saa tuhota kenenkään omaisuutta
 - jäynään ei saa kuulua varkautta.
@@ -44,7 +45,7 @@ Jäynäkilpailun tarkoituksena on vaalia jäynäperinteitä, edistää teekkarik
 
 ### 2 § Osallistujat
 
-Jäynäkisaan voi osallistua joukkueita turkulaisista teekkarikilloista. Yleisessä sarjassa tai fuksisarjassa osallistuvien joukkueiden määrää ei ole rajoitettu. 
+Jäynäkisaan voi osallistua joukkueita turkulaisista teekkarikilloista. Yleisessä sarjassa tai fuksisarjassa osallistuvien joukkueiden määrää ei ole rajoitettu.
 
 Kiltasarjassa kukin kilta voi osallistua yhden joukkueen voimin kilpailuun. Kukin yhdistys ja joukkue olkoot tietoisia siitä, että joukkue edustaa jäynäkilpailussa paitsi itseään, myös edustamaansa yhdistystä, Teekkarikomissiota ja teekkareita yleisesti.
 
@@ -89,7 +90,7 @@ Teekkarikomissio julkistaa kilpailun tulokset erikseen ilmoitettuna ajankohtana,
 ### 11 § Sääntöjen tulkitseminen ja muuttaminen
 
 Näitä sääntöjä tulkitsee Teekkarikomission hallitus.
-Teekkarikomission hallitus voi yksimielisellä päätöksellä muuttaa sääntöjä. Sääntöjen muuttaminen tulee saattaa jäsenjärjestöjen tietouteen hyvissä ajoin, ellei kyseessä ole kesken kisojen tehtävä sääntömuutos, jolloin sääntömuutoksesta tulee ilmoittaa pikimmiten. 
+Teekkarikomission hallitus voi yksimielisellä päätöksellä muuttaa sääntöjä. Sääntöjen muuttaminen tulee saattaa jäsenjärjestöjen tietouteen hyvissä ajoin, ellei kyseessä ole kesken kisojen tehtävä sääntömuutos, jolloin sääntömuutoksesta tulee ilmoittaa pikimmiten.
 Jäsenyhdistyksellä on oikeus riitauttaa tehdyt sääntömuutokset. Riitatilanteessa sääntömuutos käsitellään yhdistyksen kokouksessa. Sääntöjä voi tällöin muuttaa vähintään 3/4 enemmistöllä annetuista äänistä.
 
 ## Osallistuminen
@@ -104,7 +105,6 @@ Telegram: @abbrassion
 +358 50 917 0930
 
 Teekkarikomissio toivottaa iloa jäyniin ja riemuisaa Wapun odotusta kaikille!
-
 
 <!--
 ## Turun paikalliset jäynäkilpailut ovat käynnissä 13.02.-14.04.2025!
@@ -207,13 +207,13 @@ Jäsenyhdistyksellä on oikeus riitauttaa tehdyt sääntömuutokset. Riitatilant
 -->
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-	<iframe
-		src="https://www.youtube.com/embed/nJR9wQFJwtI"
-		title="YouTube video player"
-		frameborder="0"
-		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-		referrerpolicy="strict-origin-when-cross-origin"
-		allowfullscreen
-		style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-	></iframe>
+ <iframe
+  src="https://www.youtube.com/embed/nJR9wQFJwtI"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+ ></iframe>
 </div>
