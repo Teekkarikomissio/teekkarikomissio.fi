@@ -5,7 +5,7 @@ title: The Board
 
 ### Otto Rissa
 
-![]()
+![Otto](/board/2026/Otto.jpg)
 
 * Chair of the Board
 * Areas of responsibility: Paavo Nurmi Cap Ceremony, equality 
@@ -16,7 +16,7 @@ The Chair summons the meetings of the TK Board and the Association. They lead th
 
 ### Mikael Kivioja
 
-![]()
+![Mikael](/board/2026/Mikael.jpg)
 
 * Vice Chair of the Board
 * Areas of responsibility: Paavo Nurmi Cap Ceremony
@@ -27,18 +27,18 @@ Carries out the duties of the Chair in his absence. Together with the Chair, he 
 
 ### Alice Adolfsson
 
-![]()
+![Alice](/board/2026/Alice.jpg)
 
 * Communications Officer
 * Areas of responsibility: Webb pages
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @
+* TG: @aliceadolfsson
 
 The Communications Officer is responsible for the association's communications by informing member guilds about its activities, maintaining a website and developing various aspects of communications. He or she is responsible for trilingual communication.
 
 ### Matilda Laurila
 
-![]()
+![Matilda](/board/2026/Matilda.jpg)
 
 * External Relations Officer
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
@@ -48,7 +48,7 @@ The External Relations Officer is responsible for developing and maintaining the
 
 ### Aura Backström
 
-![]()
+![Aura](/board/2026/Aura.jpg)
 
 * Financial Officer
 * Areas of responsibility: Equality Officer
@@ -61,7 +61,7 @@ The Equality Officer is responsible for the Association's equality work and plan
 
 ### Veikka Nurmio
 
-![]()
+![Veikka]()
 
 * Liaison Officer
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
@@ -71,7 +71,7 @@ The Liaison Officer acts as the main contact between the Association's Board and
 
 ### Ellen Vainio
 
-![]()
+![Ellen](/board/2026/Ellen.jpg)
 
 * Teekkari Culture Officer
 * Areas of responsibility: Freshers 
@@ -82,7 +82,7 @@ The Culture Officer develops and maintains the teekkari culture in Turku. She is
 
 ### Konsta Valta
 
-![]()
+![Konsta](/board/2026/Konsta.jpg)
 
 * Events Officer
 * Areas of responsibility: Eldprowet
@@ -93,7 +93,7 @@ There can be one or two Event Officers on the Board of TK. They are responsible 
 
 ### Eeva Heinämäki
 
-![]()
+![Eeva](/board/2026/Eeva.jpg)
 
 * Secretary
 * Areas of responsibility: Equality Officer
@@ -106,7 +106,7 @@ The Equality Officer is responsible for the Association's equality work and plan
 
 ### Kristian Suominen
 
-![]()
+![Kristian](/board/2026/Kristian.jpg)
 
 * Events Officer and Culture Officer
 * Areas of responsibility: Teekkari Dipping and Jäynäs

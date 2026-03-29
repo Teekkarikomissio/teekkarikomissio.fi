@@ -5,7 +5,7 @@ title: Hallitus
 
 ### Otto Rissa
 
-![]()
+![Otto](/board/2026/Otto.jpg)
 
 * Pääkomissaari
 * Vastuualueet: Paavo Nurmen patsaan lakitus, yhdenvertaisuus
@@ -16,7 +16,7 @@ Pääkomissaari kutsuu komission hallituksen ja yhdistyksen kokoukset koolle. H�
 
 ### Mikael Kivioja
 
-![]()
+![Mikael](/board/2026/Mikael.jpg)
 
 * Varapääkomissaari
 * Vastuualueet: Paavo Nurmen patsaan lakitus
@@ -27,18 +27,18 @@ Hoitaa pääkomissaarin tehtäviä tämän ollessa estynyt. Hän vastaa Paavo Nu
 
 ### Alice Adolfsson
 
-![]()
+![Alice](/board/2026/Alice.jpg)
 
 * Viestintäkomissaari
 * Vastuualueet: Nettisivut
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @
+* TG: @aliceadolfsson
 
 Viestintäkomissaari vastaa yhdistyksen viestinnästä tiedottamalla toiminnasta jäsenkilloille, ylläpitämällä nettisivuja ja kehittämällä viestinnän eri osa-alueita. Hän huolehtii tiedotuksen kolmikielisyydestä.
 
 ### Matilda Laurila
 
-![]()
+![Matilda](/board/2026/Matilda.jpg)
 
 * Ulkoasiainkomissaari
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
@@ -48,7 +48,7 @@ Ulkoasiainkomissaari vastaa yhdistyksen yrityssuhteiden kehittämisestä ja yll�
 
 ### Aura Backström
 
-![]()
+![Aura](/board/2026/Aura.jpg)
 
 * Talouskomissaari
 * Vastuualueet: Yhdenvertaisuuskomissaari
@@ -61,7 +61,7 @@ Yhdenvertaisuuskomissaari vastaa yhdistyksen yhdenvertaisuustyöstä ja -suunnit
 
 ### Veikka Nurmio
 
-![]()
+![Veikka]()
 
 * Järjestökomissaari
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
@@ -71,7 +71,7 @@ Järjestökomissaari toimii pääasiallisena yhteyshenkilönä yhdistyksen halli
 
 ### Ellen Vainio
 
-![]()
+![Ellen](/board/2026/Ellen.jpg)
 
 * Kulttuurikomissaari
 * Vastuualueet: Fuksiasiat
@@ -82,7 +82,7 @@ Kulttuurikomissaari kehittää ja ylläpitää teekkarikulttuuria Turussa. Hän 
 
 ### Konsta Valta
 
-![]()
+![Konsta](/board/2026/Konsta.jpg)
 
 * Tapahtumakomissaari
 * Vastuualueet: Eldprowet
@@ -93,7 +93,7 @@ Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. H
 
 ### Eeva Heinämäki
 
-![]()
+![Eeva](/board/2026/Eeva.jpg)
 
 * Sihteeri
 * Vastuualueet: Yhdenvertaisuuskomissaari
@@ -106,7 +106,7 @@ Yhdenvertaisuuskomissaari vastaa yhdistyksen yhdenvertaisuustyöstä ja -suunnit
 
 ### Kristian Suominen
 
-![]()
+![Kristian](/board/2026/Kristian.jpg)
 
 * Tapahtumakomissaari ja Kulttuurikomissaari
 * Vastuualueet: Teekkarikaste ja teekkarijäynät
