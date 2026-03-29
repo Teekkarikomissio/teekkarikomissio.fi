@@ -5,7 +5,7 @@ title: Styrelsen
 
 ### Otto Rissa
 
-![]()
+![Otto](/board/2026/Otto.jpg)
 
 * Huvudkommissarie
 * Övriga ansvar: Paavo Nurmi-statyns mösspåläggning, jämställdhet
@@ -16,7 +16,7 @@ Huvudkommissarien sammankallar mötena för styrelsen och föreningen. Hen leder
 
 ### Mikael Kivioja
 
-![]()
+![Mikael](/board/2026/Mikael.jpg)
 
 * Vice huvudkommissarie
 * Övriga ansvar: Paavo Nurmi-statyns mösspåläggning
@@ -27,18 +27,18 @@ Utför huvudkommissariens uppgifter i hens frånvaro. Tillsammans med huvudkommi
 
 ### Alice Adolfsson
 
-![]()
+![Alice](/board/2026/Alice.jpg)
 
 * Kommunikationskommissarie
 * Övriga ansvar: Webbsida
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @
+* TG: @aliceadolfsson
 
 Kommunikationskommissarien ansvarar för föreningens kommunikation genom att informera medlemsföreningarna om föreningens verksamhet, upprätthålla hemsidan och utveckla olika aspekter av kommunikationen. Hen ansvarar för den trespråkiga kommunikationen.
 
 ### Matilda Laurila
 
-![]()
+![Matilda](/board/2026/Matilda.jpg)
 
 * Utrikeskommissarie
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
@@ -48,7 +48,7 @@ Utrikeskommissarien ansvarar för att utveckla och upprätthålla föreningens f
 
 ### Aura Backström
 
-![]()
+![Aura](/board/2026/Aura.jpg)
 
 * Ekonomiekommissarie
 * Övriga ansvar: Jämställdhetskommisarie
@@ -61,7 +61,7 @@ Jämställdhetskommissarien ansvarar för föreningens jämställdhetsarbete och
 
 ### Veikka Nurmio
 
-![]()
+![Veikka]()
 
 * Föreningskommissarie
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
@@ -71,7 +71,7 @@ Föreningskommissarie fungerar som den viktigaste förbindelsen mellan förening
 
 ### Ellen Vainio
 
-![]()
+![Ellen](/board/2026/Ellen.jpg)
 
 * Kulturkommissarie
 * Övriga ansvar: Gulisärenden
@@ -82,7 +82,7 @@ Kulturkommissarien utvecklar och upprätthåller teknologkulturen i Åbo. Hen sk
 
 ### Konsta Valta
 
-![]()
+![Konsta](/board/2026/Konsta.jpg)
 
 * Evenemangskommissarie
 * Övriga ansvar: Eldprowet
@@ -93,7 +93,7 @@ Det kan finnas en eller två evenemangskommissarier i Teknologkommissionens styr
 
 ### Eeva Heinämäki
 
-![]()
+![Eeva](/board/2026/Eeva.jpg)
 
 * Sekreterare
 * Övriga ansvar: Jämställdhetskommisarie
@@ -106,7 +106,7 @@ Jämställdhetskommissarien ansvarar för föreningens jämställdhetsarbete och
 
 ### Kristian Suominen
 
-![]()
+![Kristian](/board/2026/Kristian.jpg)
 
 * Evenemangskommissarie och Kulturkommissarie
 * Övriga ansvar: Teknologdop och Jäynä
