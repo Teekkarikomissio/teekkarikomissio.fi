@@ -87,7 +87,7 @@ Kulttuurikomissaari kehittää ja ylläpitää teekkarikulttuuria Turussa. Hän 
 * Tapahtumakomissaari
 * Vastuualueet: Eldprowet
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @KonstValta
+* TG: @KonstaValta
 
 Tapahtumakomissaareja voi olla Teekkarikomission hallituksessa yksi tai kaksi. He vastaavat Teekkarikomission tapahtumien kehittämisestä ja järjestämisestä. He pitävät yhteyttä jäsenkiltoihin koko turkulaista teekkariyhteisöä koskevien tapahtumien järjestämisessä. Toinen tapahtumakomissaareista voi toimia Kastetoimikunnan puheenjohtajana.
 

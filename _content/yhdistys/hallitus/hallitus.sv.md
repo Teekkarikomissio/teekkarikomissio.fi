@@ -87,7 +87,7 @@ Kulturkommissarien utvecklar och upprätthåller teknologkulturen i Åbo. Hen sk
 * Evenemangskommissarie
 * Övriga ansvar: Eldprowet
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @KonstValta
+* TG: @KonstaValta
 
 Det kan finnas en eller två evenemangskommissarier i Teknologkommissionens styrelse. De ansvarar för utvecklingen och organiseringen av TKs evenemang. De samarbetar med medlemsgillena för att ordna evenemang för hela teknologgemenskapen i Åbo. En av evenemangskommissionärerna kan vara ordförande för Doputskottet.
 

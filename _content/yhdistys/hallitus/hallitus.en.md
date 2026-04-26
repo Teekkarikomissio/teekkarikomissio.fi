@@ -87,7 +87,7 @@ The Culture Officer develops and maintains the teekkari culture in Turku. She is
 * Events Officer
 * Areas of responsibility: Eldprowet
 * E-mail: etunimi.sukunimi@teekkarikomissio.fi
-* TG: @KonstValta
+* TG: @KonstaValta
 
 There can be one or two Event Officers on the Board of TK. They are responsible for the development and organisation of the Teekkarikomissio's events. They are in contact with the member guilds to organise events for the whole Teekkari community in Turku. One of the event commissioners may chair the Teekkari Dipping.
 
