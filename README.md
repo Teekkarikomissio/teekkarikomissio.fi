@@ -35,6 +35,12 @@ This will start the development server on [http://localhost:3000](http://localho
 
 `npm run build`
 
+7. Use oxlint to check for errors:
+
+`npm run lint`
+`npm run format`
+(More commands can be found in the package.json)
+
 This command builds the application for production usage (Netlify usually builds on deploy). You can run the production server locally with:
 
 `npm start`
@@ -70,6 +76,8 @@ The project is licensed under the MIT License. See the [LICENSE](LICENSE) file f
 ## Authors
 
 - [Miika Peltotalo](https://github.com/miipel) - Initial work
+- [Kalle Sova](https://github.com/klsova) - Updating the news system and general bugfixes
+- [Jani Norrby](https://github.com/jtnorr) - Updating the website design and bugfixes
 
 ## Acknowledgments
 

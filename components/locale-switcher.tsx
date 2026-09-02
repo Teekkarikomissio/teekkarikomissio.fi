@@ -1,9 +1,9 @@
-"use client";
+'use client'
 
-import { usePathname } from "next/navigation";
-import { i18n, type Locale } from "../i18n-config";
-import { useRouter } from "next/navigation";
-import { Languages } from "lucide-react";
+import { usePathname } from 'next/navigation'
+import { i18n, type Locale } from '../i18n-config'
+import { useRouter } from 'next/navigation'
+import { Languages } from 'lucide-react'
 
 import {
   Select,
@@ -12,38 +12,38 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "./ui/select";
+} from './ui/select'
 
 export default function LocaleSwitcher({ lang }: { lang: Locale }) {
-  const pathName = usePathname();
-  const router = useRouter();
+  const pathName = usePathname()
+  const router = useRouter()
 
   const redirectedPathName = (locale: Locale) => {
-    if (!pathName) return "/";
-    const segments = pathName.split("/");
+    if (!pathName) return '/'
+    const segments = pathName.split('/')
 
     if (segments.length >= 2) {
-      segments[1] = locale;
-      return `/${segments.filter(Boolean).join("/")}`;
+      segments[1] = locale
+      return `/${segments.filter(Boolean).join('/')}`
     }
 
-    return `/${locale}/`;
-  };
+    return `/${locale}/`
+  }
 
   const handleSelect = (value: Locale) => {
-    const url = redirectedPathName(value);
-    router.push(url);
-  };
+    const url = redirectedPathName(value)
+    router.push(url)
+  }
 
   const languageNames: Record<Locale, string> = {
-    fi: "Suomi",
-    sv: "Svenska",
-    en: "English"
-  };
+    fi: 'Suomi',
+    sv: 'Svenska',
+    en: 'English',
+  }
 
   const resolveLanguageName = (lang: Locale) => {
-    return languageNames[lang] || "Select a language"; // Provide a default placeholder if lang is not found
-  };
+    return languageNames[lang] || 'Select a language' // Provide a default placeholder if lang is not found
+  }
 
   return (
     <Select onValueChange={handleSelect}>
@@ -61,5 +61,5 @@ export default function LocaleSwitcher({ lang }: { lang: Locale }) {
         </SelectGroup>
       </SelectContent>
     </Select>
-  );
+  )
 }

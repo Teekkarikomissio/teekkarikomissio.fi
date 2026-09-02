@@ -43,10 +43,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = await params
   const slugPath = slug.join('/')
-  
+
   try {
     const page = getPageBySlug(`${slugPath}/${slug[slug.length - 1]}`, lang)
-    
+
     return {
       title: page.meta.title,
       description: page.meta.description || '',
@@ -70,7 +70,7 @@ export default async function DynamicPage({ params }: Props) {
   const slugPath = slug.join('/')
 
   const navigation = await getNavigationByLocale(lang)
-  const currentSection = navigation.find(section => section?.slug === slug[0])
+  const currentSection = navigation.find((section) => section?.slug === slug[0])
 
   if (!currentSection) {
     notFound()

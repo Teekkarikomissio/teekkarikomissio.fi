@@ -4,6 +4,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { Locale } from '@/i18n-config'
+import { getNewsExcerpt } from '@/lib/news'
 
 interface NewsItem {
   slug: string
@@ -22,9 +23,10 @@ async function getAllNews(lang: Locale): Promise<NewsItem[]> {
   }
 
   const filenames = fs.readdirSync(newsDirectory)
-  const news = filenames
-    .filter(filename => filename.endsWith(`.${lang}.md`))
-    .map(filename => {
+
+  return filenames
+    .filter((filename) => filename.endsWith(`.${lang}.md`))
+    .map((filename) => {
       const filePath = path.join(newsDirectory, filename)
       const fileContents = fs.readFileSync(filePath, 'utf8')
       const { data, content } = matter(fileContents)
@@ -34,13 +36,11 @@ async function getAllNews(lang: Locale): Promise<NewsItem[]> {
         title: data.title,
         date: data.date,
         author: data.author,
-        excerpt: data.excerpt,
+        excerpt: getNewsExcerpt(content, data.excerpt),
         content,
       }
     })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-
-  return news
 }
 
 const translations = {
@@ -59,18 +59,14 @@ const translations = {
     subtitle: 'From Teekkarikomissio and its activities',
     noNews: 'No news available yet.',
   },
-};
+}
 
 export const metadata: Metadata = {
   title: 'Ajankohtaista',
   description: 'Uusimmat uutiset Teekkarikomissiosta',
 }
 
-export default async function NewsPage({
-  params,
-}: {
-  params: Promise<{ lang: Locale }>
-}) {
+export default async function NewsPage({ params }: { params: Promise<{ lang: Locale }> }) {
   const { lang } = await params
   const news = await getAllNews(lang)
   const t = translations[lang as keyof typeof translations] || translations.fi
@@ -80,12 +76,8 @@ export default async function NewsPage({
       {/* Header */}
       <div className="bg-primary w-full py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-white">
-            {t.heading}
-          </h1>
-          <p className="text-yellow-100 text-lg mt-2">
-            {t.subtitle}
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold text-white">{t.heading}</h1>
+          <p className="text-yellow-100 text-lg mt-2">{t.subtitle}</p>
         </div>
       </div>
 
@@ -93,13 +85,11 @@ export default async function NewsPage({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {news.length === 0 ? (
           <div className="text-center py-12">
-            <p className="text-gray-600 text-lg">
-              {t.noNews}
-            </p>
+            <p className="text-gray-600 text-lg">{t.noNews}</p>
           </div>
         ) : (
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {news.map(item => (
+            {news.map((item) => (
               <NewsCard key={item.slug} news={item} lang={lang} />
             ))}
           </div>

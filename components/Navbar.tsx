@@ -13,13 +13,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from '@/components/ui/navigation-menu'
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from '@/components/ui/sheet'
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { ScrollArea } from '@/components/ui/scroll-area'
 
 import LocaleSwitcher from './locale-switcher'
@@ -57,7 +51,7 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
 
   const NavbarBrand = () => (
     <div className="flex items-center justify-center text-white">
-      <Image className="fill-current h-8 w-8 mr-2" src={tklogo} alt="TK logo" />
+      <Image className="fill-current h-8 w-8 mr-2" src={tklogo} alt="TK logo" loading="eager" />
       <Link href={`/${lang}/`}>Teekkarikomissio</Link>
     </div>
   )
@@ -71,9 +65,7 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
               {section.subPages && section.subPages.length > 0 ? (
                 <>
                   <NavigationMenuTrigger className="bg-tk-blue text-white hover:bg-tk-red transition-colors">
-                    {section.meta.translatedTitle?.[lang] ||
-                      section.meta.title ||
-                      section.slug}
+                    {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
                     {(() => {
@@ -111,20 +103,12 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
                   className="inline-flex h-9 w-max items-center justify-center rounded-md bg-tk-blue px-4 py-2 text-sm font-medium text-white hover:bg-tk-red transition-colors"
                 >
                   {section.href.startsWith('http') ? (
-                    <a
-                      href={section.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {section.meta.translatedTitle?.[lang] ||
-                        section.meta.title ||
-                        section.slug}
+                    <a href={section.href} target="_blank" rel="noopener noreferrer">
+                      {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
                     </a>
                   ) : (
                     <Link href={section.href}>
-                      {section.meta.translatedTitle?.[lang] ||
-                        section.meta.title ||
-                        section.slug}
+                      {section.meta.translatedTitle?.[lang] || section.meta.title || section.slug}
                     </Link>
                   )}
                 </NavigationMenuLink>
@@ -152,9 +136,7 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
           )}
           {...props}
         >
-          <div className="text-sm font-medium leading-none hover:text-primary">
-            {title}
-          </div>
+          <div className="text-sm font-medium leading-none hover:text-primary">{title}</div>
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground hover:text-primary">
             {children}
           </p>
@@ -174,14 +156,9 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
             <Menu size={24} />
           </span>
         </SheetTrigger>
-        <SheetContent
-          side="left"
-          className="w-[300px] bg-tk-red border-r-0 p-0"
-        >
+        <SheetContent side="left" className="w-[300px] bg-tk-red border-r-0 p-0">
           <SheetHeader className="p-4">
-            <SheetTitle className="text-white sr-only">
-              Navigation Menu
-            </SheetTitle>
+            <SheetTitle className="text-white sr-only">Navigation Menu</SheetTitle>
           </SheetHeader>
           <div className="flex flex-col space-y-4">
             <div className="p-4">

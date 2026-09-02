@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2022": true
+  },
+  "plugins": ["typescript", "react", "nextjs"],
+  "categories": {
+    "correctness": "error"
+  },
+  "rules": {
+    "typescript/no-explicit-any": "warn",
+    "react/jsx-no-target-blank": "error",
+    "nextjs/no-html-link-for-pages": "off"
+  },
+  "ignorePatterns": [".next", "node_modules", "public/admin"]
+}

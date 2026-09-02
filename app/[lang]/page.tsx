@@ -7,9 +7,9 @@ import frontpageStyles from './frontpage-styles.module.css'
 
 import getPageBySlug from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
-import { EventsSection } from '@/components/EventsSection';
-import { NewsSection } from '@/components/NewsSection';
-import { InstagramSection } from '@/components/InstagramSection';
+import { EventsSection } from '@/components/EventsSection'
+import { NewsSection } from '@/components/NewsSection'
+import { InstagramSection } from '@/components/InstagramSection'
 
 type Props = {
   params: Promise<{ lang: Locale }>
@@ -134,11 +134,7 @@ const frontPageContent = {
   },
 }
 
-export default async function IndexPage({
-  params,
-}: {
-  params: Promise<{ lang: Locale }>
-}) {
+export default async function IndexPage({ params }: { params: Promise<{ lang: Locale }> }) {
   const { lang } = await params
 
   const homePage = getPageBySlug('home/home', lang)
@@ -181,6 +177,7 @@ export default async function IndexPage({
                 alt="Tech student life at Turku"
                 fill
                 priority
+                sizes="(max-width: 1023px) 100vw, 50vw"
                 className="object-cover brightness-90 shadow-2xl"
               />
             </div>
@@ -210,6 +207,7 @@ export default async function IndexPage({
               alt="Paavo Nurmi"
               width={300}
               height={200}
+              sizes="(max-width: 1023px) 100vw, 300px"
               className="rounded-lg w-full lg:w-auto max-w-[300px]"
             />
             <div className="flex flex-col">
@@ -224,13 +222,15 @@ export default async function IndexPage({
 
           {/* Influence Section */}
           <div className="flex flex-col lg:flex-row items-center gap-8">
-            <Image
-              src="/paavon-lakitus.jpg"
-              alt="Paavon lakitus"
-              width={300}
-              height={200}
-              className="rounded-lg w-full lg:w-auto max-w-[300px]"
-            />
+            <div className="relative aspect-[3/2] w-full max-w-[300px]">
+              <Image
+                src="/paavon-lakitus.jpg"
+                alt="Paavon lakitus"
+                fill
+                sizes="(max-width: 1023px) 100vw, 300px"
+                className="rounded-lg object-cover"
+              />
+            </div>
             <div className="flex flex-col">
               <h3 className="text-2xl font-bold mb-4 text-center lg:text-left">
                 {frontPageContent[lang].influence.title}
@@ -265,9 +265,7 @@ export default async function IndexPage({
         </div>
       </div>
       {/* Instagram Feed Section */}
-      <InstagramSection lang={lang}
-      />
-
+      <InstagramSection lang={lang} />
 
       {/* Partners Section */}
       <div className="w-full">

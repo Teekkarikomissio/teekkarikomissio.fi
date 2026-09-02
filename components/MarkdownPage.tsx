@@ -33,10 +33,7 @@ export default async function MarkdownPage({
 
     return (
       <div className={containerClassName}>
-        <div
-          className={className}
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
+        <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
       </div>
     )
   } catch (error) {

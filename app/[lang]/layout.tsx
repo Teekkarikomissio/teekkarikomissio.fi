@@ -31,16 +31,8 @@ export const metadata: Metadata = {
     default: 'Teekkarikomissio - Teknologkommission',
   },
   description: 'Teekkariutta yli yliopistorajojen',
-  keywords: [
-    'teekkarikomissio',
-    'komissio',
-    'teknologkommissionen',
-    'teekkari',
-    'turku',
-  ],
-  authors: [
-    { name: 'Teekkarikomissio', url: 'https://teekkarikomissio.fi' }
-  ],
+  keywords: ['teekkarikomissio', 'komissio', 'teknologkommissionen', 'teekkari', 'turku'],
+  authors: [{ name: 'Teekkarikomissio', url: 'https://teekkarikomissio.fi' }],
   openGraph: {
     type: 'website',
     locale: 'fi_FI',
@@ -48,12 +40,14 @@ export const metadata: Metadata = {
     title: 'Teekkarikomissio - Teknologkommission',
     description: 'Teekkariutta yli yliopistorajojen',
     siteName: 'Teekkarikomissio',
-    images: [{
-      url: 'https://teekkarikomissio.fi/logos/tklogo-social.png',
-      width: 512,
-      height: 512,
-      alt: 'Teekkarikomissio Logo'
-    }],
+    images: [
+      {
+        url: 'https://teekkarikomissio.fi/logos/tklogo-social.png',
+        width: 512,
+        height: 512,
+        alt: 'Teekkarikomissio Logo',
+      },
+    ],
   },
   twitter: {
     card: 'summary',
@@ -62,23 +56,23 @@ export const metadata: Metadata = {
     images: ['https://teekkarikomissio.fi/logos/tklogo-social.png'],
   },
   icons: [
-      {
-          rel: 'icon',
-          url: '/favicon-light.svg',
-          media: '(prefers-color-scheme: light)',
-          type: 'image/svg+xml'
-      },
-      {
-          rel: 'icon',
-          url: '/favicon-dark.svg',
-          media: '(prefers-color-scheme: dark)',
-          type: 'image/svg+xml'
-      },
-      {
-          rel: 'icon',
-          url: '/favicon.ico'
-      }
-  ]
+    {
+      rel: 'icon',
+      url: '/favicon-light.svg',
+      media: '(prefers-color-scheme: light)',
+      type: 'image/svg+xml',
+    },
+    {
+      rel: 'icon',
+      url: '/favicon-dark.svg',
+      media: '(prefers-color-scheme: dark)',
+      type: 'image/svg+xml',
+    },
+    {
+      rel: 'icon',
+      url: '/favicon.ico',
+    },
+  ],
 }
 
 export default async function RootLayout({
@@ -88,9 +82,9 @@ export default async function RootLayout({
   children: React.ReactNode
   params: Promise<{ lang: string }>
 }) {
-  const { lang: langString } = await params;
-  const lang = langString as Locale;
-  const contentFolders = await getNavigationByLocale(lang);
+  const { lang: langString } = await params
+  const lang = langString as Locale
+  const contentFolders = await getNavigationByLocale(lang)
 
   return (
     <html
@@ -105,16 +99,19 @@ export default async function RootLayout({
       <body className="min-h-screen flex flex-col">
         <Navbar
           lang={lang}
-          contentFolders={contentFolders
-            ?.filter((folder): folder is NonNullable<typeof folder> => folder !== null)
-            .map(folder => ({
-              ...folder,
-              subPages: folder.subPages?.filter((subPage): subPage is NonNullable<typeof subPage> => subPage !== null) || []
-            })) ?? []}
+          contentFolders={
+            contentFolders
+              ?.filter((folder): folder is NonNullable<typeof folder> => folder !== null)
+              .map((folder) => ({
+                ...folder,
+                subPages:
+                  folder.subPages?.filter(
+                    (subPage): subPage is NonNullable<typeof subPage> => subPage !== null
+                  ) || [],
+              })) ?? []
+          }
         />
-        <div className="flex-1 flex flex-col items-center">
-          {children}
-        </div>
+        <div className="flex-1 flex flex-col items-center">{children}</div>
         <Footer />
       </body>
     </html>

@@ -105,10 +105,7 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
         }
 
         // Get main content first
-        const mainContentPath = path.join(
-          sectionPath,
-          `${section}.${locale}.md`
-        )
+        const mainContentPath = path.join(sectionPath, `${section}.${locale}.md`)
         let mainContent
 
         try {
@@ -129,19 +126,14 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
           })
           .map((folder) => {
             try {
-              const subPagePath = path.join(
-                sectionPath,
-                folder,
-                `${folder}.${locale}.md`
-              )
+              const subPagePath = path.join(sectionPath, folder, `${folder}.${locale}.md`)
 
               if (!fs.existsSync(subPagePath)) {
                 return null
               }
 
               const subPageContents = fs.readFileSync(subPagePath, 'utf8')
-              const { content: subContent, data: subData } =
-                matter(subPageContents)
+              const { content: subContent, data: subData } = matter(subPageContents)
 
               return {
                 href: `/${locale}/${section}/${folder}`,
@@ -164,10 +156,7 @@ export function getNavigationByLocale(locale: Locale): ContentFolder[] {
               meta: {
                 ...(mainContent?.data || {}),
                 title: section,
-                translatedTitle:
-                  sectionTranslations[
-                    section as keyof typeof sectionTranslations
-                  ],
+                translatedTitle: sectionTranslations[section as keyof typeof sectionTranslations],
               },
               content: mainContent?.content || '',
               subPages,

@@ -3,7 +3,7 @@ import remarkGfm from 'remark-gfm'
 import rehypeSanitize from 'rehype-sanitize'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
-import {unified} from 'unified'
+import { unified } from 'unified'
 
 export default async function markdownToHtml(markdown: string) {
   const result = await unified()
@@ -12,6 +12,6 @@ export default async function markdownToHtml(markdown: string) {
     .use(remarkRehype)
     .use(rehypeSanitize)
     .use(rehypeStringify)
-    .process(markdown);
-  return result.toString();
+    .process(markdown)
+  return result.toString()
 }
