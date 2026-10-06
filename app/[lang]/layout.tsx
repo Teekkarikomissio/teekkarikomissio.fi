@@ -111,7 +111,7 @@ export default async function RootLayout({
               })) ?? []
           }
         />
-        <div className="flex-1 flex flex-col items-center">{children}</div>
+        <main className="flex-1 flex flex-col items-center">{children}</main>
         <Footer />
       </body>
     </html>

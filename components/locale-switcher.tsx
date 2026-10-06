@@ -40,15 +40,20 @@ export default function LocaleSwitcher({ lang }: { lang: Locale }) {
     sv: 'Svenska',
     en: 'English',
   }
+  const languageLabel = {
+    fi: 'Valitse kieli',
+    sv: 'Välj språk',
+    en: 'Select language',
+  }[lang]
 
   const resolveLanguageName = (lang: Locale) => {
     return languageNames[lang] || 'Select a language' // Provide a default placeholder if lang is not found
   }
 
   return (
-    <Select onValueChange={handleSelect}>
-      <SelectTrigger className="w-[120px]">
-        <Languages />
+    <Select value={lang} onValueChange={handleSelect}>
+      <SelectTrigger className="w-[120px]" aria-label={languageLabel}>
+        <Languages aria-hidden="true" />
         <SelectValue placeholder={resolveLanguageName(lang)} />
       </SelectTrigger>
       <SelectContent>
