@@ -138,7 +138,9 @@ export default async function IndexPage({ params }: { params: Promise<{ lang: Lo
   const { lang } = await params
 
   const homePage = getPageBySlug('home/home', lang)
-  const content = await markdownToHtml(homePage.content || '')
+  const content = await markdownToHtml(homePage.content || '', {
+    imageSizes: '(max-width: 351px) calc(100vw - 96px), (max-width: 768px) 256px, 384px',
+  })
 
   return (
     <>
@@ -177,6 +179,7 @@ export default async function IndexPage({ params }: { params: Promise<{ lang: Lo
                 alt="Tech student life at Turku"
                 fill
                 preload
+                fetchPriority="high"
                 sizes="(max-width: 639px) calc(100vw - 16px), (max-width: 1023px) calc(100vw - 24px), (max-width: 1279px) calc(50vw - 32px), 608px"
                 className="object-cover brightness-90 shadow-2xl"
               />

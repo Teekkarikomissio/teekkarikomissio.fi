@@ -25,7 +25,7 @@ export function EventCard({ event }: { event: Event }) {
   return (
     <div className="border rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
       <div className="flex gap-4">
-        <div className="flex flex-col items-center justify-center bg-blue-500 text-white rounded-lg p-3 min-w-[70px]">
+        <div className="flex flex-col items-center justify-center bg-blue-700 text-white rounded-lg p-3 min-w-[70px]">
           <span className="text-2xl font-bold">{startDate.getDate()}</span>
           <span className="text-sm uppercase">
             {startDate.toLocaleString('fi-FI', { month: 'short' })}
