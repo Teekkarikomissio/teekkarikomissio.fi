@@ -48,6 +48,11 @@ interface NavigationBarProps {
 
 export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
   const [isOpen] = useState(false)
+  const menuLabel = {
+    fi: 'Avaa navigointivalikko',
+    sv: 'Öppna navigeringsmenyn',
+    en: 'Open navigation menu',
+  }[lang]
 
   const NavbarBrand = () => (
     <div className="flex items-center justify-center text-white">
@@ -151,9 +156,9 @@ export default function Navbar({ lang, contentFolders }: NavigationBarProps) {
 
     return (
       <Sheet open={open} onOpenChange={setOpen}>
-        <SheetTrigger className="rounded-none capitalize pl-1">
+        <SheetTrigger className="lg:hidden rounded-none capitalize pl-1" aria-label={menuLabel}>
           <span className="lg:hidden inline-flex items-center px-3 py-2 border rounded text-secondary border-secondary hover:text-white hover:border-white">
-            <Menu size={24} />
+            <Menu size={24} aria-hidden="true" />
           </span>
         </SheetTrigger>
         <SheetContent side="left" className="w-[300px] bg-tk-red border-r-0 p-0">

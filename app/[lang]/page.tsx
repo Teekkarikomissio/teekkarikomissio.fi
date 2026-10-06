@@ -176,8 +176,8 @@ export default async function IndexPage({ params }: { params: Promise<{ lang: Lo
                 src="/home-landing-2.jpg"
                 alt="Tech student life at Turku"
                 fill
-                priority
-                sizes="(max-width: 1023px) 100vw, 50vw"
+                preload
+                sizes="(max-width: 639px) calc(100vw - 16px), (max-width: 1023px) calc(100vw - 24px), (max-width: 1279px) calc(50vw - 32px), 608px"
                 className="object-cover brightness-90 shadow-2xl"
               />
             </div>
@@ -207,7 +207,8 @@ export default async function IndexPage({ params }: { params: Promise<{ lang: Lo
               alt="Paavo Nurmi"
               width={300}
               height={200}
-              sizes="(max-width: 1023px) 100vw, 300px"
+              sizes="(max-width: 331px) calc(100vw - 32px), 300px"
+              loading="lazy"
               className="rounded-lg w-full lg:w-auto max-w-[300px]"
             />
             <div className="flex flex-col">
@@ -227,7 +228,8 @@ export default async function IndexPage({ params }: { params: Promise<{ lang: Lo
                 src="/paavon-lakitus.jpg"
                 alt="Paavon lakitus"
                 fill
-                sizes="(max-width: 1023px) 100vw, 300px"
+                sizes="(max-width: 331px) calc(100vw - 32px), 300px"
+                loading="lazy"
                 className="rounded-lg object-cover"
               />
             </div>
@@ -259,6 +261,8 @@ export default async function IndexPage({ params }: { params: Promise<{ lang: Lo
           <div className="w-full h-[600px] overflow-hidden">
             <iframe
               src="https://calendar.google.com/calendar/embed?src=uvuvvg8nh8dt26778tef67u0h8%40group.calendar.google.com&ctz=Europe%2FHelsinki"
+              title={frontPageContent[lang].headings.calendar}
+              loading="lazy"
               className="w-full h-full"
             />
           </div>
