@@ -9,4 +9,4 @@ title: Dokument
 * Arbetsordning: [På Finska](/sub-rules-fi.pdf) [På Svenska](/sub-rules-sv.pdf)  
 * Strategi: [På Finska](/strategia-fi.pdf) [På Svenska](/strategia-sv.pdf)  
 * Teknologhymnen: [Noter](/teekkarihymni_teknologhymn_notes.pdf) [Ord](/teekkarihymni_teknologhymn_words.pdf)  
-* Jämställdhetsplan: [På Finska](/values-fi.pdf) Väntar på översättning
+* Jämställdhetsplan: [På Finska](/values-fi.pdf) [På Svenska](/values-sv.pdf)
