@@ -29,7 +29,7 @@ Email: [kk(at)abo.fi](mailto:kk@abo.fi) 
 
 DaTe, Datateknologerna vid Åbo Akademi rf by its official name, is a student association for computer engineering students at Åbo Akademi University. DaTe was founded in 1999.
 
-Members can be identified by their black overalls with white prints and a white logo on back representing their mascot Albin. DaTes guild room can be found in Agoras basement where the mascot Albin can be seen. According to rumours, the name comes from the words “all binary”.
+Members can be identified by their black overalls with white prints and a white logo on back representing their mascot Albin. DaTes guild room can be found in the third floor of Arken where the mascot Albin can be seen. According to rumours, the name comes from the words “all binary”.
 
 There are various committees within DaTe, including DaTörer, which are responsible for the websites of DaTe and other guilds as well. Albins Angels is a club for female IT students who get together every month for a variety of non-alcoholic events, such as a movie or crafts. The sports club is called Date Idrotts Klubb DIK. The favourite game is called bus driver and the favourite song is Stronger by Stonebank.
 

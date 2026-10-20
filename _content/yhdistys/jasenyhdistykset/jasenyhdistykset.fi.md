@@ -29,7 +29,7 @@ Sähköposti: [kk(at)abo.fi](mailto:kk@abo.fi) 
 
 Viralliselta nimeltään Datateknologerna vid Åbo Akademi rf on Åbo Akademin tietotekniikan opiskelijoiden ainejärjestö, joka on perustettu vuonna 1999.
 
-DaTen jäsenet tunnistaa mustista haalareista valkoisilla painatuksilla ja selässä olevasta logosta, joka esittää maskotti Albinia. DaTen kiltahuone löytyy Agoran kellarista, jossa saattaa myös törmätä edellä mainittuun maskottiin. Nimen huhutaan olevan peräisin sanoista “all binary”.
+DaTen jäsenet tunnistaa mustista haalareista valkoisilla painatuksilla ja selässä olevasta logosta, joka esittää maskotti Albinia. DaTen kiltahuone löytyy Arkenin kolmannesta kerroksesta, jossa saattaa myös törmätä edellä mainittuun maskottiin. Nimen huhutaan olevan peräisin sanoista “all binary”.
 
 Killalla on eri toimikuntia, kuten DaTörer, jotka ylläpitävät omien lisäksi muidenkin järjestöjen verkkosivuja. Albins Angels puolestaan on naisopiskelijoille tarkoitettu kerho joka kokoontuu kuukausittain yhteen erilaisten alkoholittomien tapahtumien yhteydessä, esimerkiksi leffailtaan tai käsitöiden ääreen. DaTen liikuntakerho on nimeltään Date Idrotts Klubb DIK. DaTen suosikkipeli on bussikuski ja lempibiisi Stonebankin Stronger.
 

@@ -29,7 +29,7 @@ E-post: [kk(at)abo.fi](mailto:kk@abo.fi)
 
 Datateknologerna vid Åbo Akademi rf är en ämnesförening för datateknikstuderande vid Åbo Akademi och grundades 1999.
 
-Medlemmar kan kännas igen på sina svarta halare med vita tryck och vitt logo på deras maskot Albin på ryggen. DaTes föreningskansli hittas i Agoras källare där man kan träffa maskoten Albin. Enligt rykten härleds namnet från orden “all binary”. 
+Medlemmar kan kännas igen på sina svarta halare med vita tryck och vitt logo på deras maskot Albin på ryggen. DaTes föreningskansli hittas på tredje våningen i Arken där man kan träffa maskoten Albin. Enligt rykten härleds namnet från orden “all binary”. 
 
 Föreningen har olika utskott, såsom DaTörer som upprätthåller andra föreningars hemsidor förutom sina egna. Albins Angels är en klubb ämnad för kvinnliga IT-studerande som samlas en gång i månaden för alkoholfria evenemang såsom filmkvällar eller hantverk. DaTes motionsklubb heter Date Idrotts Klubb DIK. DaTes favoritspel är busskusk och favoritlåt Stronger av Stonebank.
 
