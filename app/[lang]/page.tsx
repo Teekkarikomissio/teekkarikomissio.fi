@@ -180,7 +180,9 @@ export default async function IndexPage({ params }: { params: Promise<{ lang: Lo
                 fill
                 preload
                 fetchPriority="high"
-                sizes="(max-width: 639px) calc(100vw - 16px), (max-width: 1023px) calc(100vw - 24px), (max-width: 1279px) calc(50vw - 32px), 608px"
+                // object-cover scales this 4:3 photo to the box height, so the drawn width is
+                // max(box width, box height * 4/3). Box height is 45vh on mobile and ~55vh on desktop.
+                sizes="(max-width: 639px) max(calc(100vw - 16px), 60vh), (max-width: 1023px) max(calc(100vw - 24px), 60vh), (max-width: 1279px) max(calc(50vw - 32px), 80vh), max(608px, 80vh)"
                 className="object-cover brightness-90 shadow-2xl"
               />
             </div>
