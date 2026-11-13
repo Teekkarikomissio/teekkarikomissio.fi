@@ -28,6 +28,8 @@ Teekkarikomissio myöntää lakinkäyttöoikeuden ja lakki voidaan myöntää ai
 * Täyttänyt kiltansa fuksipassin killan kriteerien mukaisesti
 * Osallistunut Eldprowetiin
 
+Turun yliopiston tai Åbo Akademin opiskelijat, joiden tutkinto sijoittuu pääsääntöisesti muualle kuin Turun kampukselle ovat oikeutettuja saamaan lakin oman kiltansa teekkaritoiminnan kriteerien mukaisesti. Mikäli tutkinnon pääsääntöisellä opiskelupaikkakunnalla ei järjestetä Turun yliopiston tai Åbo Akademin alaista kiltatoimintaa, myönnetään lakinkäyttöoikeus ensimmäisen opiskeluvuoden vappuaattona.
+
 Muutoin teekkarilakki myönnetään Teekkarikomission toimesta viimeistään diplomi-insinööriksi valmistuneelle henkilölle.
 
 Teekkarikomissio voi erityistapauksissa poiketa näistä kriteereistä. Tällöin tarvitaan Teekkarikomission hallituksen 3/4 enemmistön kannatus.
@@ -55,13 +57,16 @@ Myönnetään pysyvä lakinkäyttöoikeus seuraaviin tilaisuuksiin:
 * Kuoro- ja orkesteriesiintymiset, joihin kaikille kuuluu asusteena ylioppilaslakki
 * Lippuairueessa toimiville ja kulkueissa, joissa kaikille kuuluu asusteeksi teekkari- tai ylioppilaslakki
 * Lukioesittelyt tai muu yliopistojen järjestämä teekkarimarkkinointi
+* MateriaMittelöt
 * RekomBIOnaatio
+* TEKin opiskelijavaikuttajaseminaari
 * Tietoteekkarien taistot
+* TuTa-päivät
 * Valtakunnallinen jäynäkilpailu ja muut TEKin tapahtumat, joissa asusteeseen kuuluu teekkarilakki
 * Virallinen Wappulehden myyntitapahtuma
-* Wappulehden julkaisutilaisuuteen Pönkelitoimikunnalle
+* Wappulehti Pönkelin toimitukselle lehden myynti- ja markkinointitapahtumiin sekä lehden mediakuvauksiin
 
-Lisäksi myönnetään pysyvä henkilökohtainen lakinkäyttöoikeus Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuvalle omiin valmistujaispäiviin ja -juhliin.
+Lisäksi myönnetään pysyvä henkilökohtainen lakinkäyttöoikeus Turun yliopistosta tai Åbo Akademista diplomi-insinööriksi valmistuvalle omiin valmistujaispäiviin ja -juhliin sekä publiikkiin.
 
 
 

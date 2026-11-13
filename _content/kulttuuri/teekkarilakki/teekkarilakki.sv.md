@@ -15,53 +15,58 @@ Den åboländska teknologmössan (senare mössan) är kännetecknet för en Åbo
 
 #### §2 Användningsrätt
 
-Följande personer har rätt att bära mössan:
+Följande personer är berättigade att använda mössan:
 
-* Från Åbo Akademi eller Åbo Universitet utexaminerade diplomingenjörer
-* Teknologie studerande vid Åbo Akademi eller Åbo Universitet som har beviljats rättigheten att bära mössan
-* Dem som mössan redan en gång beviljats är berättigade att bära mössan.
+* Personer som utexaminerats som diplomingenjörer vid Åbo Universitet eller Åbo Akademi
+* Teknologstudenter vid Åbo Universitet eller Åbo Akademi som beviljats mössan
+* De som beviljats mössan tidigare
 
 #### §3 Beviljande av mössa
 
-Teknologkommissionen beviljar användningsrätten till mössan och mössan kan beviljas tidigast på valborgsmässoafton på ens första studieår. Varje förening överlåter mössan tidigast 30.4. enligt egna kriterier:
+Teknologkommissionen beviljar användningsrätten till mössan och mössan kan beviljas tidigast på valborgsmässoafton på ens första studieår. Varje förening överlåter mössan tidigast 30.4. till personer som fyllt följande kriterier:
 
-* Fyllt på föreningens gulispass enligt föreningens kriterier
+* Fyllt sin förenings gulispass enligt föreningens kriterier
 * Deltagit i Eldprowet
 
-Annars beviljas teknologmössan av Teknologkomissionen senast när en utexaminerar sig och blir en diplomingenjör.
+Studerande vid Åbo universitet eller Åbo Akademi, vars examen huvudsakligen är förlagd till en annan plats än Åbo campus, har rätt att få sin teknologmössa enligt kriterierna för sin egen ämnesförening. I fall det inte arrangeras någon föreningsverksamhet av Åbo universitet eller Åbo Akademi på den studerandes huvudsakliga studieort beviljas rätten att bära teknologmössan under första studieårets wappafton.
 
-I särskilda fall kan Teknologkommissionen avvika från dessa kriterier. I detta fall krävs stöd av 3/4 majoritet av Teknologkommissiones styrelse.
+Annars beviljar Teknologkommissionen teknologmössan till personer senast vid utexaminering till diplomingenjör.
+
+Teknologkommissionen kan vid undantagsfall avvika från dessa kriterier. Då krävs ¾ majoritet av Teknologkommissionens styrelse.
 
 #### §4 Användning av mössa
 
 Mössan får inte överlåtas till en som inte har rätt att bära åboteknologernas mössa.
 
-Mellan den 30 april kl 18 och den 30 september kl 23.59 får mössan användas fritt. Utanför detta tidsintervall kan Teknologkommissionens styrelse bevilja ett tillstånd att använda mössan, eller kan mässan bäras enligt de permanenta mössanvändningsrätterna. Användningsrätten till mössan ansöks skriftligt. Styrelsen protokollför de godkända och icke godkända ansökningarna.
+Mellan den 30 april kl 18 och den 30 september kl 23.59 får mössan användas fritt. Utanför detta tidsintervall kan Teknologkommissionens styrelse bevilja ett tillstånd att använda mössan, eller så kan styrelsen införa en permanent stadga för årliga evenemang. Användningsrätten till mössan ansöks skriftligt. Styrelsen protokollför de godkända och icke godkända ansökningarna.
 
 Klädseln och beteendet ska respektera värdet av mössan. I andra fall ska mössan gömmas för att bevara dess rykte.
 
 #### §5 Föreningspins
 
-Utexaminerade diplomingenjörer från Turun Yliopisto eller Åbo Akademi har rätten att använda sin ämnesförenings pins ovanför tofsens fäste, fäst i den vita sammeten.
+Utexaminerade diplomingenjörer från Åbo Universitet eller Åbo Akademi har rätten att använda sin ämnesförenings pins ovanför tofsens fäste, fäst i den vita sammeten.
 
 #### §6 Permanenta stadganden
 
 Permanent mössanvändningsrätt beviljas för följande tillfällen:
 
 * Automaatioteekkaripäivät
-* Åt gulisarna under deras mössprvovningar
+* Åt gulisarna under deras mössprovningar
 * Kemiat kohtaa
 * Kirkastusjuhlat
 * Kör- och orkesteruppträdanden där teknolog- eller studentmössa hör till accessoarer
 * Fantåg där teknolog- eller studentmössa hör till accessoarer
 * Presentationer för gymnasieelever samt annat teknologmarknadsföring arrangerad av universitet
+* MateriaMittelöt
 * RekomBIOnaatio
+* TEK:s opiskelijavaikuttajaseminaari
 * Tietoteekkarien taistot
+* TuTa-päivät
 * Den nationella jäynätävlingen och andra TEKs evenemang, där teknologmössan hör till accessoarer
-* Det officiella Wappulehti-tidningens försäljningsevenemang
-* Åt Pönkeli-utskott för publiceringsevenemang av wapptidning
+* Wapptidningens officiella försäljningsevenemang
+* Till Wapptidning Pönkelis redaktion för tidningens försäljnings- och marknadsföringsevenemang samt mediafotograferingar
 
-I tillägg beviljas permanent personlig mössanvändningsrätt åt utexaminerade diplomingenjörer från Turun Yliopisto eller Åbo Akademi under deras egen examensdag och -fest samt dimission.
+I tillägg beviljas permanent personlig mössanvändningsrätt åt utexaminerade diplomingenjörer från Åbo Universitet eller Åbo Akademi under deras egen examensdag och -fest samt dimission.
 
 
 
