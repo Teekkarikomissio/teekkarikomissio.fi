@@ -21,7 +21,7 @@ export function NewsCard({ news, lang = 'fi' }: { news: NewsItem; lang?: Locale 
         {new Date(news.date).toLocaleDateString('fi-FI')}
       </time>
       <h3 className="text-xl font-semibold mt-2 mb-3">{news.title}</h3>
-      <p className="text-gray-700 mb-4">{news.excerpt}</p>
+      <p className="text-gray-700 mb-4 max-w-3xl">{news.excerpt}</p>
       <a href={`/${lang}/news/${news.slug}`} className="text-primary hover:underline font-medium">
         {translations[lang]}
       </a>
