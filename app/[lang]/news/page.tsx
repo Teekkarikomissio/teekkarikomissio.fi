@@ -72,7 +72,7 @@ export default async function NewsPage({ params }: { params: Promise<{ lang: Loc
   const t = translations[lang as keyof typeof translations] || translations.fi
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="w-full min-h-screen bg-white">
       {/* Header */}
       <div className="bg-primary w-full py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -88,7 +88,7 @@ export default async function NewsPage({ params }: { params: Promise<{ lang: Loc
             <p className="text-gray-600 text-lg">{t.noNews}</p>
           </div>
         ) : (
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="flex flex-col gap-6">
             {news.map((item) => (
               <NewsCard key={item.slug} news={item} lang={lang} />
             ))}

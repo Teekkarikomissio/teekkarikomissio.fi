@@ -57,7 +57,7 @@ export function NewsSection({ lang = 'fi' }: { lang?: Locale }) {
           <h2 className="text-3xl font-bold text-center">{t.heading}</h2>
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-primary"></div>
         </div>
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 justify-center grid-cols-[repeat(auto-fit,minmax(min(100%,18rem),24rem))]">
           {news.map((item) => (
             <NewsCard key={item.slug} news={item} lang={lang} />
           ))}

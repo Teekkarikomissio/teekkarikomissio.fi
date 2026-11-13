@@ -105,7 +105,7 @@ export default async function NewsArticlePage({
   const htmlContent = await markdownToHtml(news.content)
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="w-full min-h-screen bg-white">
       {/* Header */}
       <div className="bg-primary w-full py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
